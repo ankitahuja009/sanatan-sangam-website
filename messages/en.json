@@ -1,0 +1,90 @@
+{
+    "app": {
+        "title": "Sanatan Sangam",
+        "tagline": "Where Sanatan Meets You",
+        "description": "Experience divine darshan, devotional music, AI-powered spiritual art, personalized blessings & ancient wisdom — all in one sacred app.",
+        "launchBadge": "Launching Soon on Play Store & App Store",
+        "getApp": "Get the App",
+        "downloadApp": "Download App",
+        "exploreFeatures": "Explore Features"
+    },
+    "nav": {
+        "home": "Home",
+        "darshan": "Darshan",
+        "art": "Art",
+        "wish": "Wish",
+        "music": "Music",
+        "uphar": "Uphar",
+        "astro": "Astro",
+        "sangrah": "Sangrah"
+    },
+    "hero": {
+        "title": "Where {highlight} Meets You",
+        "highlight": "Sanatan",
+        "subtitle": "Experience divine darshan, devotional music, AI-powered spiritual art, personalized blessings & ancient wisdom — all in one sacred app.",
+        "languages": "Available in: Hindi • English • Tamil • Telugu • Kannada • Bengali • Malayalam • Marathi • Odia • Punjabi • Gujarati"
+    },
+    "features": {
+        "sectionLabel": "App Features",
+        "title": "One App for Your Complete Spiritual Journey",
+        "subtitle": "From live temple darshan to AI-powered art — everything you need to deepen your connection with the divine.",
+        "darshan": {
+            "title": "Live Darshan",
+            "desc": "50+ temple live streams from across India — darshan anytime, anywhere"
+        },
+        "divyaChhavi": {
+            "title": "Divya Chhavi",
+            "desc": "AI-powered divine portraits with your favorite deities & gurus"
+        },
+        "music": {
+            "title": "Devotional Music",
+            "desc": "200+ ad-free bhajans, aarti, mantras & chalisas for every mood"
+        },
+        "wishmate": {
+            "title": "Wishmate",
+            "desc": "Personalized AI blessings for birthdays, festivals & special occasions"
+        },
+        "astro": {
+            "title": "Astro & Panchang",
+            "desc": "Daily horoscope, Panchang, Kundli & zodiac predictions"
+        },
+        "tunemate": {
+            "title": "Tunemate",
+            "desc": "Compose your own devotional bhajans with AI — your voice, your bhajan!"
+        }
+    },
+    "sangrah": {
+        "sectionLabel": "Sangrah — Sacred Library",
+        "title": "Timeless Wisdom at Your Fingertips",
+        "subtitle": "Explore our curated collection of aartis, chalisas, mantras, festival guides, and Ayurvedic wisdom."
+    },
+    "stats": {
+        "templeStreams": "Temple Streams",
+        "devotionalSongs": "Devotional Songs",
+        "deitiesGurus": "Deities & Gurus",
+        "indianLanguages": "Indian Languages"
+    },
+    "download": {
+        "title": "Begin Your Sacred Journey Today",
+        "subtitle": "Join thousands of devotees experiencing the divine through Sanatan Sangam. Available in 11 Indian languages.",
+        "comingSoon": "COMING SOON ON",
+        "googlePlay": "Google Play",
+        "appStore": "App Store"
+    },
+    "social": {
+        "sectionLabel": "Join Our Community",
+        "title": "Stay Connected with Sanatan Sangam",
+        "subtitle": "Follow us for daily spiritual content, updates, and bhajans.",
+        "follow": "Follow",
+        "subscribe": "Subscribe"
+    },
+    "footer": {
+        "brand": "Your complete spiritual companion — live darshan, devotional music, AI sacred art, blessings & more in 11 Indian languages.",
+        "explore": "Explore",
+        "content": "Content",
+        "connect": "Connect",
+        "copyright": "© {year} Sanatan Sangam. All rights reserved.",
+        "sanskritQuote": "वसुधैव कुटुम्बकम्",
+        "quoteTranslation": "The World is One Family"
+    }
+}

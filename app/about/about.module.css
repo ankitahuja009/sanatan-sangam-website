@@ -1,0 +1,242 @@
+.hero {
+    background: var(--gradient-hero);
+    padding: var(--space-4xl) 0;
+    text-align: center;
+}
+
+.heroContent {
+    position: relative;
+    z-index: 2;
+}
+
+.badge {
+    display: inline-block;
+    padding: 6px 16px;
+    background: rgba(255, 215, 0, 0.1);
+    border: 1px solid rgba(255, 215, 0, 0.2);
+    border-radius: 100px;
+    color: var(--gold);
+    font-size: 0.8rem;
+    margin-bottom: var(--space-md);
+}
+
+.hero h1 {
+    font-size: clamp(2.5rem, 6vw, 4rem);
+    color: var(--cream);
+    margin-bottom: var(--space-sm);
+}
+
+.tagline {
+    font-size: 1.2rem;
+    color: var(--gold);
+    font-family: var(--font-display);
+    font-weight: 600;
+    margin-bottom: var(--space-md);
+}
+
+.heroDesc {
+    color: rgba(255, 248, 240, 0.7);
+    font-size: 1.1rem;
+}
+
+.mission {
+    background: var(--cream);
+}
+
+.missionContent {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-md);
+}
+
+.missionContent p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+.featuresSection {
+    background: var(--white);
+}
+
+.featuresGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--space-lg);
+}
+
+.featureCard {
+    padding: var(--space-xl);
+    background: var(--cream);
+    border-radius: var(--radius-lg);
+    text-align: center;
+    transition: all var(--transition-base);
+}
+
+.featureCard:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-md);
+}
+
+.featureIcon {
+    font-size: 2.5rem;
+    display: block;
+    margin-bottom: var(--space-sm);
+}
+
+.featureCard h4 {
+    font-family: var(--font-display);
+    margin-bottom: 6px;
+}
+
+.featureCard p {
+    font-size: 0.9rem;
+    color: var(--brown-light);
+}
+
+.vision {
+    background: var(--gradient-temple);
+}
+
+.visionCard {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    padding: var(--space-2xl);
+    background: var(--white);
+    border-radius: var(--radius-xl);
+    box-shadow: var(--shadow-md);
+}
+
+.visionQuote {
+    font-family: var(--font-display);
+    font-size: 1.3rem;
+    font-style: italic;
+    color: var(--maroon);
+    line-height: 1.8;
+    margin-top: var(--space-md);
+}
+
+.valuesSection {
+    background: var(--cream);
+}
+
+.valuesGrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: var(--space-lg);
+}
+
+.valueCard {
+    text-align: center;
+    padding: var(--space-xl);
+    background: var(--white);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-sm);
+    transition: all var(--transition-base);
+}
+
+.valueCard:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-md);
+}
+
+.valueIcon {
+    font-size: 2rem;
+    display: block;
+    margin-bottom: var(--space-sm);
+}
+
+.valueCard h4 {
+    font-family: var(--font-display);
+    margin-bottom: 6px;
+}
+
+.valueCard p {
+    font-size: 0.85rem;
+    color: var(--brown-light);
+    line-height: 1.6;
+}
+
+.contact {
+    background: var(--white);
+}
+
+.contactInfo {
+    display: flex;
+    justify-content: center;
+    gap: var(--space-lg);
+    flex-wrap: wrap;
+}
+
+.contactCard {
+    display: flex;
+    align-items: center;
+    gap: var(--space-sm);
+    padding: var(--space-md) var(--space-xl);
+    background: var(--cream);
+    border-radius: var(--radius-md);
+    text-decoration: none;
+    transition: all var(--transition-base);
+    border: 1px solid var(--gray-200);
+}
+
+.contactCard:hover {
+    border-color: var(--saffron);
+    transform: translateY(-2px);
+}
+
+.contactCard span {
+    font-size: 1.5rem;
+}
+
+.contactCard strong {
+    font-size: 0.9rem;
+    color: var(--brown-mid);
+}
+
+.footerQuote {
+    background: var(--maroon);
+    padding: var(--space-2xl) 0;
+    text-align: center;
+}
+
+.sanskrit {
+    font-family: var(--font-sanskrit);
+    font-size: 1.8rem;
+    color: var(--gold);
+    font-style: italic;
+}
+
+.meaning {
+    color: rgba(255, 248, 240, 0.7);
+    font-size: 1rem;
+    margin-top: var(--space-sm);
+}
+
+@media (max-width: 768px) {
+    .featuresGrid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .valuesGrid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .featuresGrid {
+        grid-template-columns: 1fr;
+    }
+
+    .valuesGrid {
+        grid-template-columns: 1fr;
+    }
+
+    .contactInfo {
+        flex-direction: column;
+        align-items: center;
+    }
+}

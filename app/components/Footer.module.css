@@ -1,0 +1,214 @@
+.footer {
+    background: var(--brown-rich);
+    color: var(--cream);
+    position: relative;
+    overflow: hidden;
+}
+
+.topBorder {
+    height: 3px;
+    background: var(--gradient-saffron);
+}
+
+.footerInner {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr 1.2fr;
+    gap: var(--space-2xl);
+    padding: var(--space-3xl) var(--space-lg);
+}
+
+/* Brand Column */
+.brandCol {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-lg);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: var(--space-sm);
+}
+
+.logoIcon {
+    font-size: 2rem;
+}
+
+.logoTitle {
+    font-family: var(--font-display);
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: var(--gold);
+    display: block;
+    line-height: 1.2;
+}
+
+.logoTagline {
+    font-size: 0.65rem;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: rgba(255, 248, 240, 0.5);
+    display: block;
+}
+
+.brandDesc {
+    font-size: 0.9rem;
+    line-height: 1.7;
+    color: rgba(255, 248, 240, 0.7);
+}
+
+/* Social Links */
+.socialLinks {
+    display: flex;
+    gap: var(--space-sm);
+}
+
+.socialLink {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: var(--radius-full);
+    background: rgba(255, 255, 255, 0.08);
+    color: var(--cream);
+    transition: all var(--transition-base);
+}
+
+.socialLink:hover {
+    background: var(--saffron);
+    color: var(--white);
+    transform: translateY(-3px);
+    box-shadow: 0 4px 15px rgba(255, 107, 53, 0.4);
+}
+
+/* Link Columns */
+.linkCol {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-md);
+}
+
+.colTitle {
+    font-family: var(--font-display);
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--gold);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.linkList {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-sm);
+}
+
+.footerLink {
+    font-size: 0.9rem;
+    color: rgba(255, 248, 240, 0.65);
+    transition: all var(--transition-fast);
+    display: inline-block;
+}
+
+.footerLink:hover {
+    color: var(--saffron-light);
+    transform: translateX(4px);
+}
+
+/* Store Badges */
+.storeBadges {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-sm);
+    margin-top: var(--space-sm);
+}
+
+.storeBadge {
+    display: flex;
+    align-items: center;
+    gap: var(--space-sm);
+    padding: 8px 14px;
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: var(--radius-sm);
+    transition: all var(--transition-base);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.storeBadge:hover {
+    background: rgba(255, 255, 255, 0.15);
+    border-color: var(--saffron);
+}
+
+.badgeIcon {
+    font-size: 1.2rem;
+}
+
+.badgeSmall {
+    display: block;
+    font-size: 0.6rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: rgba(255, 248, 240, 0.6);
+}
+
+.badgeBig {
+    display: block;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--cream);
+}
+
+/* Bottom Bar */
+.bottomBar {
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    padding: var(--space-lg) 0;
+}
+
+.bottomInner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: var(--space-sm);
+}
+
+.sanskrit {
+    font-family: var(--font-sanskrit);
+    font-size: 0.95rem;
+    color: var(--gold);
+    font-style: italic;
+}
+
+.copyright {
+    font-size: 0.8rem;
+    color: rgba(255, 248, 240, 0.4);
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+    .footerInner {
+        grid-template-columns: 1fr 1fr;
+        gap: var(--space-xl);
+    }
+}
+
+@media (max-width: 640px) {
+    .footerInner {
+        grid-template-columns: 1fr;
+        gap: var(--space-xl);
+        padding: var(--space-2xl) var(--space-md);
+    }
+
+    .bottomInner {
+        flex-direction: column;
+        text-align: center;
+        gap: var(--space-sm);
+    }
+
+    .storeBadges {
+        flex-direction: row;
+    }
+}
