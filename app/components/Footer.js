@@ -1,34 +1,41 @@
+'use client';
 import Link from 'next/link';
+import { useTranslations } from 'next-intl';
 import styles from './Footer.module.css';
 
-const quickLinks = [
-    { label: 'Home', href: '/' },
-    { label: 'Darshan', href: '/darshan' },
-    { label: 'Art', href: '/art' },
-    { label: 'Wish', href: '/wish' },
-    { label: 'Music', href: '/music' },
-    { label: 'Uphar', href: '/uphar' },
-    { label: 'Astro', href: '/astro' },
-    { label: 'About', href: '/about' },
-];
-
-const contentLinks = [
-    { label: 'Aarti Collection', href: '/sangrah/aarti' },
-    { label: 'Chalisa Collection', href: '/sangrah/chalisa' },
-    { label: 'Mantra Collection', href: '/sangrah/mantra' },
-    { label: 'Festival Guide', href: '/sangrah/festivals' },
-    { label: 'Deity Encyclopedia', href: '/sangrah/deities' },
-    { label: 'Ayurvedic Remedies', href: '/sangrah/ayurveda' },
-    { label: 'Blog', href: '/blog' },
-];
-
-const legalLinks = [
-    { label: 'Privacy Policy', href: '/privacy-policy' },
-    { label: 'Terms of Use', href: '/terms-of-use' },
-    { label: 'Disclaimer', href: '/disclaimer' },
-];
-
 export default function Footer() {
+    const t = useTranslations('nav');
+    const common = useTranslations('app');
+    const footerT = useTranslations('footer');
+    const downloadT = useTranslations('download');
+
+    const quickLinks = [
+        { label: t('home'), href: '/' },
+        { label: t('darshan'), href: '/darshan' },
+        { label: t('art'), href: '/art' },
+        { label: t('wish'), href: '/wish' },
+        { label: t('music'), href: '/music' },
+        { label: t('uphar'), href: '/uphar' },
+        { label: t('astro'), href: '/astro' },
+        { label: footerT('explore'), href: '/about' },
+    ];
+
+    const contentLinks = [
+        { label: 'Aarti Collection', href: '/sangrah/aarti' },
+        { label: 'Chalisa Collection', href: '/sangrah/chalisa' },
+        { label: 'Mantra Collection', href: '/sangrah/mantra' },
+        { label: 'Festival Guide', href: '/sangrah/festivals' },
+        { label: 'Deity Encyclopedia', href: '/sangrah/deities' },
+        { label: 'Ayurvedic Remedies', href: '/sangrah/ayurveda' },
+        { label: 'Blog', href: '/blog' },
+    ];
+
+    const legalLinks = [
+        { label: 'Privacy Policy', href: '/privacy-policy' },
+        { label: 'Terms of Use', href: '/terms-of-use' },
+        { label: 'Disclaimer', href: '/disclaimer' },
+    ];
+
     return (
         <footer className={styles.footer}>
             {/* Decorative Top Border */}
@@ -38,16 +45,10 @@ export default function Footer() {
                 {/* Brand Column */}
                 <div className={styles.brandCol}>
                     <div className={styles.logo}>
-                        <span className={styles.logoIcon}>🕉️</span>
-                        <div>
-                            <span className={styles.logoTitle}>Sanatan Sangam</span>
-                            <span className={styles.logoTagline}>Where Sanatan Meets You</span>
-                        </div>
+                        <img src="/logo.png" alt="Sanatan Sangam Logo" className={styles.footerLogoImg} />
                     </div>
                     <p className={styles.brandDesc}>
-                        Bridging ancient spiritual traditions with modern technology.
-                        Experience divine darshan, devotional music, AI-powered spiritual art,
-                        and personalized blessings — all in one app.
+                        {footerT('brand')}
                     </p>
 
                     {/* Social Links */}
@@ -93,7 +94,7 @@ export default function Footer() {
 
                 {/* Quick Links */}
                 <div className={styles.linkCol}>
-                    <h4 className={styles.colTitle}>Explore</h4>
+                    <h4 className={styles.colTitle}>{footerT('explore')}</h4>
                     <ul className={styles.linkList}>
                         {quickLinks.map((link) => (
                             <li key={link.href}>
@@ -105,7 +106,7 @@ export default function Footer() {
 
                 {/* Content Links */}
                 <div className={styles.linkCol}>
-                    <h4 className={styles.colTitle}>Sangrah</h4>
+                    <h4 className={styles.colTitle}>{t('sangrah')}</h4>
                     <ul className={styles.linkList}>
                         {contentLinks.map((link) => (
                             <li key={link.href}>
@@ -117,13 +118,8 @@ export default function Footer() {
 
                 {/* Contact & Download */}
                 <div className={styles.linkCol}>
-                    <h4 className={styles.colTitle}>Connect</h4>
+                    <h4 className={styles.colTitle}>{footerT('connect')}</h4>
                     <ul className={styles.linkList}>
-                        <li>
-                            <a href="mailto:hi@askyourguide.ai" className={styles.footerLink}>
-                                📧 hi@askyourguide.ai
-                            </a>
-                        </li>
                         {legalLinks.map((link) => (
                             <li key={link.href}>
                                 <Link href={link.href} className={styles.footerLink}>{link.label}</Link>
@@ -132,19 +128,11 @@ export default function Footer() {
                     </ul>
                     {/* App Store Badges */}
                     <div className={styles.storeBadges}>
-                        <a href="#download" className={styles.storeBadge}>
-                            <span className={styles.badgeIcon}>▶</span>
-                            <div>
-                                <span className={styles.badgeSmall}>GET IT ON</span>
-                                <span className={styles.badgeBig}>Google Play</span>
-                            </div>
+                        <a href="#download" className={styles.storeBadgeWrap}>
+                            <img src="/google-play-badge.svg" alt="Get it on Google Play" className={styles.storeBadgeImg} />
                         </a>
-                        <a href="#download" className={styles.storeBadge}>
-                            <span className={styles.badgeIcon}>🍎</span>
-                            <div>
-                                <span className={styles.badgeSmall}>Download on the</span>
-                                <span className={styles.badgeBig}>App Store</span>
-                            </div>
+                        <a href="#download" className={styles.storeBadgeWrap}>
+                            <img src="/app-store-badge.svg" alt="Download on the App Store" className={styles.storeBadgeImg} />
                         </a>
                     </div>
                 </div>
@@ -154,10 +142,10 @@ export default function Footer() {
             <div className={styles.bottomBar}>
                 <div className={`container ${styles.bottomInner}`}>
                     <p className={styles.sanskrit}>
-                        &#x201C;वसुधैव कुटुम्बकम्&#x201D; — The World is One Family
+                        &#x201C;{footerT('sanskritQuote')}&#x201D; — {footerT('quoteTranslation')}
                     </p>
                     <p className={styles.copyright}>
-                        © {new Date().getFullYear()} Sanatan Sangam. All rights reserved.
+                        {footerT('copyright', { year: new Date().getFullYear() })}
                     </p>
                 </div>
             </div>

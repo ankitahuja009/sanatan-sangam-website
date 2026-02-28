@@ -1,0 +1,474 @@
+/* ── HERO ── */
+.hero {
+    position: relative;
+    min-height: 460px;
+    display: flex;
+    align-items: center;
+    background: radial-gradient(ellipse at 30% 40%, #2D0B00 0%, #120500 60%, #050200 100%);
+    overflow: hidden;
+    padding: 120px 0 64px;
+}
+
+.heroGlow {
+    position: absolute;
+    top: -100px;
+    left: -100px;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(255, 111, 0, 0.12) 0%, transparent 70%);
+    pointer-events: none;
+}
+
+.heroContent {
+    position: relative;
+    z-index: 2;
+    max-width: 720px;
+}
+
+.badge {
+    display: inline-block;
+    padding: 6px 16px;
+    background: rgba(255, 111, 0, 0.15);
+    border: 1px solid rgba(255, 111, 0, 0.35);
+    border-radius: 50px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #FF8F00;
+    letter-spacing: 0.05em;
+    margin-bottom: 20px;
+}
+
+.heroTitle {
+    font-family: var(--font-display);
+    font-size: clamp(2.2rem, 5vw, 3.8rem);
+    font-weight: 700;
+    color: #fff;
+    line-height: 1.15;
+    margin-bottom: 20px;
+}
+
+.heroHighlight {
+    color: #FF8F00;
+}
+
+.heroDesc {
+    font-size: 1.05rem;
+    line-height: 1.7;
+    color: rgba(255, 255, 255, 0.65);
+    margin-bottom: 28px;
+    max-width: 580px;
+}
+
+.heroStats {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 32px;
+}
+
+.stat {
+    padding: 8px 18px;
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 50px;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 0.85rem;
+}
+
+.stat span {
+    font-weight: 700;
+    color: #FF8F00;
+    margin-right: 4px;
+}
+
+.backBtn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 22px;
+    background: rgba(255, 255, 255, 0.07);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 8px;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 0.9rem;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+
+.backBtn:hover {
+    background: rgba(255, 255, 255, 0.14);
+    color: #fff;
+}
+
+/* ── FILTER BAR ── */
+.filterBar {
+    background: #0C0400;
+    border-bottom: 1px solid rgba(255, 111, 0, 0.15);
+    padding: 16px 0;
+    position: sticky;
+    top: var(--header-height, 70px);
+    z-index: 10;
+    backdrop-filter: blur(10px);
+}
+
+.filters {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 8px;
+}
+
+.filterBtn {
+    padding: 8px 18px;
+    border-radius: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    background: transparent;
+    color: rgba(255, 255, 255, 0.55);
+    font-size: 0.83rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.filterBtn:hover {
+    border-color: rgba(255, 143, 0, 0.4);
+    color: #FF8F00;
+}
+
+.filterBtnSm {
+    padding: 5px 12px;
+    border-radius: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: transparent;
+    color: rgba(255, 255, 255, 0.45);
+    font-size: 0.75rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.filterBtnSm:hover {
+    border-color: rgba(255, 143, 0, 0.4);
+    color: #FF8F00;
+}
+
+.filterRow {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 8px;
+}
+
+.filterActive {
+    background: rgba(255, 143, 0, 0.15);
+    border-color: rgba(255, 143, 0, 0.5);
+    color: #FF8F00;
+    font-weight: 600;
+}
+
+.filterCount {
+    font-size: 0.78rem;
+    color: rgba(255, 255, 255, 0.35);
+    margin: 0;
+}
+
+/* ── FESTIVAL SECTION ── */
+.festivalSection {
+    padding: 56px 0 80px;
+    background: #080300;
+}
+
+.festivalGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+    gap: 24px;
+}
+
+@media (max-width: 600px) {
+    .festivalGrid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* ── FESTIVAL CARD ── */
+.festivalCard {
+    background: #140800;
+    border: 1px solid rgba(255, 255, 255, 0.07);
+    border-top: 3px solid;
+    border-radius: 16px;
+    overflow: hidden;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.festivalCard:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 16px 48px rgba(0, 0, 0, 0.5);
+}
+
+.cardTopBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 16px;
+}
+
+.cardSeason {
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.cardRegion {
+    font-size: 0.72rem;
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.cardHeader {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 16px 20px 8px;
+}
+
+.cardIcon {
+    font-size: 2.4rem;
+    flex-shrink: 0;
+    line-height: 1;
+}
+
+.cardTitles {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.cardName {
+    font-family: var(--font-display);
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #fff;
+    margin: 0;
+}
+
+.cardHindi {
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.45);
+}
+
+.cardTiming {
+    font-size: 0.8rem;
+    font-weight: 600;
+    padding: 0 20px 10px;
+    letter-spacing: 0.02em;
+}
+
+.cardDesc {
+    font-size: 0.87rem;
+    color: rgba(255, 255, 255, 0.6);
+    line-height: 1.65;
+    padding: 0 20px 14px;
+    margin: 0;
+}
+
+.mantraBox {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    margin: 0 20px 14px;
+    padding: 10px 14px;
+    background: rgba(255, 255, 255, 0.04);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.07);
+}
+
+.mantraLabel {
+    font-size: 0.7rem;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.35);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    flex-shrink: 0;
+}
+
+.mantraText {
+    font-size: 0.9rem;
+    color: rgba(255, 200, 100, 0.85);
+    font-style: italic;
+    line-height: 1.5;
+}
+
+.expandBtn {
+    display: block;
+    width: calc(100% - 40px);
+    margin: 0 20px 16px;
+    padding: 9px;
+    background: transparent;
+    border: 1px solid;
+    border-radius: 10px;
+    font-size: 0.82rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s;
+    text-align: center;
+    letter-spacing: 0.04em;
+}
+
+.expandBtn:hover {
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.ritualsList {
+    padding: 0 20px 20px;
+    animation: slideDown 0.25s ease;
+}
+
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-8px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.ritualsLabel {
+    font-size: 0.78rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.35);
+    margin-bottom: 10px;
+}
+
+.ritualsList ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.ritualItem {
+    display: flex;
+    gap: 10px;
+    font-size: 0.84rem;
+    color: rgba(255, 255, 255, 0.65);
+    line-height: 1.55;
+}
+
+/* ── CALENDAR STRIP ── */
+.calendarSection {
+    padding: 80px 0;
+    background: #0C0400;
+}
+
+.sectionHeader {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.sectionLabel {
+    display: inline-block;
+    font-size: 0.78rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #FF8F00;
+    margin-bottom: 12px;
+}
+
+.sectionHeader h2 {
+    font-family: var(--font-display);
+    font-size: clamp(1.6rem, 3vw, 2.4rem);
+    color: #fff;
+    margin: 0;
+}
+
+.monthGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 16px;
+}
+
+.monthCard {
+    background: #140800;
+    border: 1px solid rgba(255, 111, 0, 0.12);
+    border-radius: 14px;
+    padding: 18px 16px;
+    transition: border-color 0.2s;
+}
+
+.monthCard:hover {
+    border-color: rgba(255, 111, 0, 0.35);
+}
+
+.monthName {
+    font-weight: 700;
+    font-size: 0.95rem;
+    color: #FF8F00;
+    margin-bottom: 10px;
+    letter-spacing: 0.04em;
+}
+
+.monthFestivals {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.monthFestivals li {
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.55);
+    padding-left: 12px;
+    position: relative;
+    line-height: 1.5;
+}
+
+.monthFestivals li::before {
+    content: '•';
+    position: absolute;
+    left: 0;
+    color: rgba(255, 143, 0, 0.5);
+}
+
+/* ── CTA ── */
+.ctaSection {
+    padding: 80px 0;
+    background: radial-gradient(ellipse at center, #2D1200 0%, #0C0400 60%, #030100 100%);
+    text-align: center;
+}
+
+.ctaInner {
+    max-width: 520px;
+    margin: 0 auto;
+}
+
+.ctaEmoji {
+    display: block;
+    font-size: 3rem;
+    margin-bottom: 16px;
+}
+
+.ctaInner h2 {
+    font-family: var(--font-display);
+    font-size: clamp(1.6rem, 3vw, 2.4rem);
+    color: #fff;
+    margin-bottom: 14px;
+}
+
+.ctaInner p {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 1rem;
+    line-height: 1.65;
+    margin-bottom: 28px;
+}

@@ -1,90 +1,481 @@
-﻿{
-  "app": {
-    "title": "সনাতন সঙ্গম",
-    "tagline": "যেখানে সনাতন আপনার সাথে দেখা করে",
-    "description": "দিব্য দর্শন, ভক্তি সঙ্গীত, AI আধ্যাত্মিক শিল্পকলা, ব্যক্তিগত আশীর্বাদ এবং প্রাচীন জ্ঞান — সব এক পবিত্র অ্যাপে।",
-    "launchBadge": "শীঘ্রই Play Store এবং App Store-এ আসছে",
-    "getApp": "অ্যাপ পান",
-    "downloadApp": "অ্যাপ ডাউনলোড করুন",
-    "exploreFeatures": "ফিচারগুলি দেখুন"
-  },
-  "nav": {
-    "home": "হোম",
-    "darshan": "দর্শন",
-    "art": "শিল্প",
-    "wish": "আশীর্বাদ",
-    "music": "সঙ্গীত",
-    "uphar": "উপহার",
-    "astro": "জ্যোতিষ",
-    "sangrah": "সংগ্রহ"
-  },
-  "hero": {
-    "title": "যেখানে {highlight} আপনার সাথে দেখা করে",
-    "highlight": "সনাতন",
-    "subtitle": "দিব্য দর্শন, ভক্তি সঙ্গীত, AI আধ্যাত্মিক শিল্পকলা, ব্যক্তিগত আশীর্বাদ এবং প্রাচীন জ্ঞান — সব এক পবিত্র অ্যাপে।",
-    "languages": "উপলব্ধ: হিন্দি • ইংরেজি • তামিল • তেলুগু • কন্নড় • বাংলা • মালায়ালাম • মারাঠি • ওড়িয়া • পাঞ্জাবি • গুজরাটি"
-  },
-  "features": {
-    "sectionLabel": "অ্যাপ ফিচার",
-    "title": "আপনার সম্পূর্ণ আধ্যাত্মিক যাত্রার জন্য এক অ্যাপ",
-    "subtitle": "লাইভ মন্দির দর্শন থেকে AI শিল্প পর্যন্ত — ঈশ্বরের সাথে আপনার সংযোগ গভীর করতে সবকিছু।",
-    "darshan": {
-      "title": "লাইভ দর্শন",
-      "desc": "ভারতজুড়ে ৫০+ মন্দিরের লাইভ স্ট্রিমিং — যেকোনো সময়, যেকোনো জায়গা থেকে দর্শন"
+{
+    "app": {
+        "title": "সনাতন সঙ্গম",
+        "tagline": "যেখানে সনাতন আপনার সাথে দেখা করে",
+        "description": "দিব্য দর্শন, ভক্তি সঙ্গীত, ডিজিটাল আধ্যাত্মিক শিল্পকলা, ব্যক্তিগত আশীর্বাদ এবং প্রাচীন জ্ঞান — সব এক পবিত্র অ্যাপে।",
+        "launchBadge": "শীঘ্রই Play Store এবং App Store-এ আসছে",
+        "getApp": "অ্যাপ পান",
+        "downloadApp": "অ্যাপ ডাউনলোড করুন",
+        "exploreFeatures": "ফিচারগুলি দেখুন"
     },
-    "divyaChhavi": {
-      "title": "দিব্য ছবি",
-      "desc": "আপনার প্রিয় দেবদেবী ও গুরুদের সাথে AI দিব্য প্রতিকৃতি"
+    "nav": {
+        "home": "হোম",
+        "darshan": "দর্শন",
+        "art": "শিল্প",
+        "wish": "আশীর্বাদ",
+        "music": "সঙ্গীত",
+        "uphar": "উপহার",
+        "astro": "জ্যোতিষ",
+        "sangrah": "সংগ্রহ"
     },
-    "music": {
-      "title": "ভক্তি সঙ্গীত",
-      "desc": "প্রতিটি মেজাজের জন্য ২০০+ বিজ্ঞাপনমুক্ত ভজন, আরতি, মন্ত্র ও চালিসা"
+    "hero": {
+        "title": "যেখানে {highlight} আপনার সাথে দেখা করে",
+        "highlight": "সনাতন",
+        "subtitle": "দিব্য দর্শন, ভক্তি সঙ্গীত, ডিজিটাল আধ্যাত্মিক শিল্পকলা, ব্যক্তিগত আশীর্বাদ এবং প্রাচীন জ্ঞান — সব এক পবিত্র অ্যাপে।",
+        "languages": "পাওয়া যায়: হিন্দি • ইংরেজি • তামিল • তেলুগু • কন্নড় • বাংলা • মালায়ালাম • মারাঠি • ওড়িয়া • পাঞ্জাবি • গুজরাটি"
     },
-    "wishmate": {
-      "title": "উইশমেট",
-      "desc": "জন্মদিন, উৎসব ও বিশেষ উপলক্ষের জন্য AI আশীর্বাদ"
+    "features": {
+        "sectionLabel": "অ্যাপ ফিচার",
+        "title": "আপনার সম্পূর্ণ আধ্যাত্মিক যাত্রার জন্য এক অ্যাপ",
+        "subtitle": "লাইভ মন্দির দর্শন থেকে ডিজিটাল শিল্প পর্যন্ত — ঈশ্বরের সাথে আপনার সংযোগ গভীর করার জন্য সব কিছু।",
+        "darshan": {
+            "title": "লাইভ দর্শন",
+            "desc": "ভারত জুড়ে ৫০+ মন্দিরের লাইভ স্ট্রিমিং — যেকোনো সময়, যেকোনো জায়গা থেকে দর্শন"
+        },
+        "divyaChhavi": {
+            "title": "দিব্য ছবি",
+            "desc": "আপনার প্রিয় দেবতা ও গুরুদের সাথে ডিজিটাল দিব্য প্রতিকৃতি"
+        },
+        "music": {
+            "title": "ভক্তি সঙ্গীত",
+            "desc": "প্রতিটি মুডের জন্য ২০০+ বিজ্ঞাপনমুক্ত ভজন, আরতি, মন্ত্র ও চালিসা"
+        },
+        "wishmate": {
+            "title": "উইশমেট",
+            "desc": "জন্মদিন, উৎসব এবং বিশেষ অনুষ্ঠানের জন্য ডিজিটাল আশীর্বাদ"
+        },
+        "astro": {
+            "title": "জ্যোতিষ ও পঞ্চাং",
+            "desc": "দৈনিক রাশিফল, পঞ্চাং, কুণ্ডলী ও রাশি ভবিষ্যদ্বাণী"
+        },
+        "tunemate": {
+            "title": "টিউনমেট",
+            "desc": "ডিজিটাল দিয়ে নিজের ভক্তি ভজন তৈরি করুন — আপনার কণ্ঠ, আপনার ভজন!"
+        }
     },
-    "astro": {
-      "title": "জ্যোতিষ ও পঞ্চাঙ্গ",
-      "desc": "দৈনিক রাশিফল, পঞ্চাঙ্গ, কুণ্ডলী ও রাশি ভবিষ্যৎবাণী"
+    "sangrah": {
+        "sectionLabel": "সংগ্রহ — পবিত্র গ্রন্থাগার",
+        "title": "চিরন্তন জ্ঞান আপনার আঙুলের ডগায়",
+        "subtitle": "আরতি, চালিসা, মন্ত্র, উৎসব গাইড এবং আয়ুর্বেদিক জ্ঞানের আমাদের সংগ্রহ দেখুন।"
     },
-    "tunemate": {
-      "title": "টিউনমেট",
-      "desc": "AI-এর সাহায্যে নিজের ভক্তি ভজন রচনা করুন — আপনার কণ্ঠ, আপনার ভজন!"
+    "sangrahPage": {
+        "badge": "📚 সংগ্রহ — পবিত্র গ্রন্থাগার",
+        "title": "চিরন্তন জ্ঞান আপনার আঙুলের ডগায়",
+        "desc": "আরতি, চালিসা, মন্ত্র, উৎসব গাইড, আয়ুর্বেদিক প্রতিকার এবং দেবতার জ্ঞান — ১১টি ভারতীয় ভাষায়।",
+        "explore": "দেখুন →",
+        "aarti": {
+            "title": "আরতি সংগ্রহ",
+            "desc": "সম্পূর্ণ গান, অডিও, অর্থ এবং তাৎপর্যসহ পবিত্র আরতির সম্পূর্ণ সংগ্রহ।"
+        },
+        "chalisa": {
+            "title": "চালিসা সংগ্রহ",
+            "desc": "অডিও, অনুবাদ এবং আধ্যাত্মিক তাৎপর্যসহ সমস্ত জনপ্রিয় চালিসার পূর্ণ পাঠ।"
+        },
+        "mantra": {
+            "title": "মন্ত্র সংগ্রহ",
+            "desc": "শান্তি, সমৃদ্ধি এবং আধ্যাত্মিক উন্নতির জন্য শক্তিশালী মন্ত্র।"
+        },
+        "ayurveda": {
+            "title": "আয়ুর্বেদ ও ঘরোয়া প্রতিকার",
+            "desc": "আধুনিক স্বাস্থ্যের জন্য প্রাচীন আয়ুর্বেদিক জ্ঞান — প্রাকৃতিক প্রতিকার এবং জীবনধারা নির্দেশনা।"
+        },
+        "festivals": {
+            "title": "উৎসব গাইড",
+            "desc": "হিন্দু উৎসবের সম্পূর্ণ গাইড — ২০২৬ তারিখ, আচার-অনুষ্ঠান এবং পূজা বিধি।"
+        },
+        "deities": {
+            "title": "দেবতা বিশ্বকোষ",
+            "desc": "৩০+ দেবতা ও আধ্যাত্মিক গুরুদের কথা, মন্ত্র এবং মন্দির।"
+        }
+    },
+    "stats": {
+        "templeStreams": "মন্দির স্ট্রিম",
+        "devotionalSongs": "ভক্তি গান",
+        "deitiesGurus": "দেবতা ও গুরু",
+        "indianLanguages": "ভারতীয় ভাষা"
+    },
+    "download": {
+        "title": "আজই আপনার পবিত্র যাত্রা শুরু করুন",
+        "subtitle": "সনাতন সঙ্গমের মাধ্যমে দিব্য অভিজ্ঞতা লাভকারী হাজার হাজার ভক্তের সাথে যোগ দিন। ১১টি ভারতীয় ভাষায় পাওয়া যায়।",
+        "comingSoon": "শীঘ্রই আসছে",
+        "googlePlay": "গুগল প্লে",
+        "appStore": "অ্যাপ স্টোর"
+    },
+    "social": {
+        "sectionLabel": "আমাদের সম্প্রদায়ে যোগ দিন",
+        "title": "সনাতন সঙ্গমের সাথে যুক্ত থাকুন",
+        "subtitle": "প্রতিদিনের আধ্যাত্মিক বিষয়বস্তু, আপডেট এবং ভজনের জন্য অনুসরণ করুন।",
+        "follow": "অনুসরণ করুন",
+        "subscribe": "সাবস্ক্রাইব করুন"
+    },
+    "footer": {
+        "brand": "আপনার সম্পূর্ণ আধ্যাত্মিক সঙ্গী — লাইভ দর্শন, ভক্তি সঙ্গীত, ডিজিটাল পবিত্র শিল্প, আশীর্বাদ এবং ১১টি ভারতীয় ভাষায় আরও অনেক কিছু।",
+        "explore": "অন্বেষণ করুন",
+        "content": "বিষয়বস্তু",
+        "connect": "যোগাযোগ",
+        "copyright": "© {year} সনাতন সঙ্গম। সমস্ত অধিকার সংরক্ষিত।",
+        "sanskritQuote": "বসুধৈব কুটুম্বকম্",
+        "quoteTranslation": "সমগ্র বিশ্ব একটি পরিবার"
+    },
+    "darshanPage": {
+        "liveNow": "🔴 এখন লাইভ",
+        "heroTitle": "পবিত্র মন্দির থেকে দিব্য দর্শন",
+        "heroDesc": "ভারত জুড়ে {count}+ মন্দির থেকে লাইভ দর্শন — জ্যোতির্লিঙ্গ, চার ধাম, শক্তিপীঠ, গুরুদ্বার এবং আরও অনেক কিছু।",
+        "statLive": "এখন লাইভ",
+        "statTemples": "মন্দির",
+        "statStreaming": "স্ট্রিমিং",
+        "filterAll": "🌐 সব",
+        "filterJyotirlinga": "🕉️ জ্যোতির্লিঙ্গ",
+        "filterCharDham": "🙏 চার ধাম",
+        "filterShaktiPeeth": "🔱 শক্তিপীঠ",
+        "filterMajor": "🛕 প্রধান মন্দির",
+        "filterIskcon": "🌸 ISKCON",
+        "filterGurudwara": "☬ গুরুদ্বার",
+        "filterBuddhist": "☸️ বৌদ্ধ স্থান",
+        "filterJain": "⚪ জৈন তীর্থ",
+        "showing": "দেখানো হচ্ছে",
+        "temples": {
+            "somnath": {
+                "name": "সোমনাথ মন্দির",
+                "location": "প্রভাস পাটন, গুজরাট"
+            },
+            "mahakaleshwar": {
+                "name": "মহাকালেশ্বর মন্দির",
+                "location": "উজ্জয়িনী, মধ্যপ্রদেশ"
+            },
+            "kashi-vishwanath": {
+                "name": "কাশি বিশ্বনাথ",
+                "location": "বারাণসী, উত্তরপ্রদেশ"
+            },
+            "kedarnath": {
+                "name": "কেদারনাথ মন্দির",
+                "location": "কেদারনাথ, উত্তরাখণ্ড"
+            },
+            "rameshwaram": {
+                "name": "রামনাথস্বামী মন্দির",
+                "location": "রামেশ্বরম, তামিলনাড়ু"
+            },
+            "omkareshwar": {
+                "name": "ওঁকারেশ্বর মন্দির",
+                "location": "ওঁকারেশ্বর, মধ্যপ্রদেশ"
+            },
+            "mallikarjuna": {
+                "name": "মল্লিকার্জুন মন্দির",
+                "location": "শ্রীশৈলম, অন্ধ্রপ্রদেশ"
+            },
+            "bhimashankar": {
+                "name": "ভীমাশঙ্কর মন্দির",
+                "location": "পুনে, মহারাষ্ট্র"
+            },
+            "trimbakeshwar": {
+                "name": "ত্র্যম্বকেশ্বর মন্দির",
+                "location": "নাসিক, মহারাষ্ট্র"
+            },
+            "nageshvara": {
+                "name": "নাগেশ্বর মন্দির",
+                "location": "দ্বারকা, গুজরাট"
+            },
+            "grishneshwar": {
+                "name": "ঘৃষ্ণেশ্বর মন্দির",
+                "location": "ঔরঙ্গাবাদ, মহারাষ্ট্র"
+            },
+            "vaidyanath": {
+                "name": "বৈদ্যনাথ মন্দির",
+                "location": "দেওঘর, ঝাড়খণ্ড"
+            },
+            "badrinath": {
+                "name": "বদ্রিনাথ মন্দির",
+                "location": "বদ্রিনাথ, উত্তরাখণ্ড"
+            },
+            "jagannath-puri": {
+                "name": "জগন্নাথ মন্দির",
+                "location": "পুরী, ওড়িশা"
+            },
+            "dwarkadhish": {
+                "name": "দ্বারকাধীশ মন্দির",
+                "location": "দ্বারকা, গুজরাট"
+            },
+            "vaishno-devi": {
+                "name": "বৈষ্ণো দেবী",
+                "location": "কাতরা, জম্মু ও কাশ্মীর"
+            },
+            "kamakhya": {
+                "name": "কামাখ্যা মন্দির",
+                "location": "গুয়াহাটি, আসাম"
+            },
+            "kalighat": {
+                "name": "কালীঘাট কালী মন্দির",
+                "location": "কলকাতা, পশ্চিমবঙ্গ"
+            },
+            "ambaji": {
+                "name": "অম্বাজী মন্দির",
+                "location": "অম্বাজী, গুজরাট"
+            },
+            "mahalaxmi-kolhapur": {
+                "name": "মহালক্ষ্মী মন্দির",
+                "location": "কোলহাপুর, মহারাষ্ট্র"
+            },
+            "ram-mandir": {
+                "name": "রাম মন্দির অযোধ্যা",
+                "location": "অযোধ্যা, উত্তরপ্রদেশ"
+            },
+            "tirupati-balaji": {
+                "name": "তিরুপতি বালাজি",
+                "location": "তিরুপতি, অন্ধ্রপ্রদেশ"
+            },
+            "shirdi-sai-baba": {
+                "name": "শিরডি সাই বাবা",
+                "location": "শিরডি, মহারাষ্ট্র"
+            },
+            "siddhivinayak": {
+                "name": "সিদ্ধিবিনায়ক মন্দির",
+                "location": "মুম্বাই, মহারাষ্ট্র"
+            },
+            "meenakshi": {
+                "name": "মীনাক্ষী আম্মান মন্দির",
+                "location": "মাদুরাই, তামিলনাড়ু"
+            },
+            "padmanabhaswamy": {
+                "name": "পদ্মনাভস্বামী মন্দির",
+                "location": "তিরুবনন্তপুরম, কেরালা"
+            },
+            "guruvayur": {
+                "name": "গুরুভায়ুর কৃষ্ণ মন্দির",
+                "location": "গুরুভায়ুর, কেরালা"
+            },
+            "nathdwara": {
+                "name": "শ্রীনাথজি মন্দির (নাথদ্বার)",
+                "location": "নাথদ্বার, রাজস্থান"
+            },
+            "salasar-balaji": {
+                "name": "সালাসার বালাজি",
+                "location": "চুরু, রাজস্থান"
+            },
+            "khatu-shyam": {
+                "name": "খাটু শ্যাম জি মন্দির",
+                "location": "সিকর, রাজস্থান"
+            },
+            "udupi-krishna": {
+                "name": "উডুপি কৃষ্ণ মন্দির",
+                "location": "উডুপি, কর্ণাটক"
+            },
+            "srirangam": {
+                "name": "শ্রী রঙ্গনাথস্বামী মন্দির",
+                "location": "শ্রীরাঙ্গাম, তামিলনাড়ু"
+            },
+            "prem-mandir": {
+                "name": "প্রেম মন্দির বৃন্দাবন",
+                "location": "বৃন্দাবন, উত্তরপ্রদেশ"
+            },
+            "iskcon-vrindavan": {
+                "name": "ইস্কন বৃন্দাবন",
+                "location": "বৃন্দাবন, উত্তরপ্রদেশ"
+            },
+            "iskcon-mayapur": {
+                "name": "ইস্কন মায়াপুর",
+                "location": "মায়াপুর, পশ্চিমবঙ্গ"
+            },
+            "golden-temple": {
+                "name": "স্বর্ণ মন্দির",
+                "location": "অমৃতসর, পাঞ্জাব"
+            },
+            "hazur-sahib": {
+                "name": "তখত হজুর সাহেব",
+                "location": "নান্দেদ, মহারাষ্ট্র"
+            },
+            "mahabodhi": {
+                "name": "মহাবোধি মন্দির",
+                "location": "বোধ গয়া, বিহার"
+            },
+            "palitana": {
+                "name": "পালিতানা মন্দির",
+                "location": "পালিতানা, গুজরাট"
+            }
+        },
+        "liveLabel": "🟢 লাইভ",
+        "offlineLabel": "⏸ অফলাইন",
+        "viewDetails": "বিস্তারিত দেখুন →",
+        "modalLive": "🟢 এখন লাইভ",
+        "modalOffline": "⏸ এখন অফলাইন",
+        "darshanTimings": "⏰ দর্শন সময়",
+        "todaySchedule": "📋 আজকের সূচি",
+        "watchLive": "📱 অ্যাপে লাইভ দেখুন",
+        "ctaTitle": "অ্যাপে লাইভ দর্শন দেখুন",
+        "ctaDesc": "সনাতন সঙ্গম ডাউনলোড করুন — লাইভ স্ট্রিম, আরতি নোটিফিকেশন এবং আরও অনেক কিছু।",
+        "downloadApp": "�� অ্যাপ ডাউনলোড করুন"
+    },
+    "artPage": {
+        "title": "Artmate — ডিজিটাল Sacred Art: Divya Chhavi & Teerth Yatra",
+        "description": "Create stunning ডিজিটাল spiritual portraits with your favorite deities and gurus using Divya Chhavi, or visit sacred temples virtually with Teerth Yatra.",
+        "badge": "✨ Artmate — ডিজিটাল Sacred Art",
+        "heroTitle": "See Yourself in the Divine Light",
+        "heroDesc": "Our ডিজিটাল Artmate creates breathtaking spiritual portraits and virtual pilgrimages. Choose from Divya Chhavi for sacred portraits or Teerth Yatra for virtual temple visits.",
+        "ctaHero": "✨ Create Your Portrait",
+        "featuresLabel": "🎨 Features",
+        "featuresTitle": "Two Magical Experiences",
+        "card1Title": "Divya Chhavi",
+        "card1Desc": "Generate stunning divine portraits of yourself with 30+ deities and gurus. Choose Shiva, Krishna, Hanuman, Durga, or your beloved Guru — and see yourself in their divine presence.",
+        "feature1_1": "🙏 30+ Deities & Gurus available",
+        "feature1_2": "👔 Clothing options: Traditional, Casual, Festive",
+        "feature1_3": "📸 Quality: HD, 2K, 4K",
+        "feature1_4": "🖼️ Order premium frames from Uphar Store",
+        "card2Title": "Teerth Yatra",
+        "card2Desc": "Visit India's most sacred destinations virtually. Generate beautiful photos of yourself at temples, ghats, and pilgrimage sites across the country.",
+        "feature2_1": "🏛️ Sacred temples & pilgrimage sites",
+        "feature2_2": "🌅 Time of day: Day, Sunset, Night",
+        "feature2_3": "📐 Multiple aspect ratios: Square, Portrait, Landscape",
+        "feature2_4": "📤 Share on social media instantly",
+        "ctaBottomTitle": "Create Your Divine Portrait Today",
+        "ctaBottomDesc": "Download Sanatan Sangam and experience the magic of ডিজিটাল sacred art.",
+        "ctaBottomButton": "📱 Download App"
+    },
+    "wishPage": {
+        "title": "Wishmate — Personalized Divine Blessings",
+        "description": "Send personalized ডিজিটাল blessings for birthdays, anniversaries, Diwali, Holi, Raksha Bandhan & every special occasion. Choose your deity and create divine blessing cards.",
+        "badge": "🙏 Wishmate",
+        "heroTitle": "Send Divine Blessings to Your Loved Ones",
+        "heroDesc": "Create personalized blessing cards for every special occasion. Choose your deity, add a personal touch, and share divine wishes that truly move the heart.",
+        "ctaHero": "🙏 Send a Blessing",
+        "videoLabel": "▶️ See Wishmate in Action",
+        "videoTitle": "Watch How Blessings Come to Life",
+        "occasionsLabel": "🎉 Occasions",
+        "occasionsTitle": "Blessings for Every Moment",
+        "ctaBottomTitle": "Share Your First Blessing",
+        "ctaBottomDesc": "Download Sanatan Sangam and create beautiful, personalized blessing cards for your loved ones.",
+        "ctaBottomButton": "📱 Download App",
+        "occasions": {
+            "birthday": "🎂 Birthday",
+            "anniversary": "💍 Anniversary",
+            "wedding": "💒 Wedding",
+            "diwali": "🪔 Diwali",
+            "holi": "🎆 Holi",
+            "raksha": "🧵 Raksha Bandhan",
+            "navratri": "🪷 Navratri",
+            "newyear": "🎊 New Year",
+            "daily": "🙏 Daily Blessing"
+        },
+        "deities": {
+            "shiva": "🕉️ Shiva",
+            "krishna": "💙 Krishna",
+            "hanuman": "🐒 Hanuman",
+            "lakshmi": "🪷 Lakshmi",
+            "durga": "🔱 Durga",
+            "ram": "🙏 Ram",
+            "ganesh": "🐘 Ganesh"
+        }
+    },
+    "musicPage": {
+        "title": "Devotional Music — 200+ Bhajans, Aarti, Mantra & Chalisa",
+        "description": "Stream 200+ ad-free devotional songs: Aarti, Bhajan, Mantra, Chalisa, Kirtan & Instrumental. Filter by deity, mood, or genre in Hindi, English & regional languages.",
+        "badge": "🎵 Devotional Music",
+        "heroTitle": "200+ Sacred Tracks for Every Moment",
+        "heroDesc": "Immerse yourself in divine melodies. Stream ad-free bhajans, aarti, mantras, chalisas & more in Hindi, English and regional Indian languages.",
+        "ctaHero": "🎵 Listen in App",
+        "categoryLabel": "🎶 Browse by Category",
+        "categoryTitle": "Every Genre of Devotional Music",
+        "playlistLabel": "📋 Curated Playlists",
+        "playlistTitle": "Handpicked Playlists for You",
+        "tracksCount": "{count} tracks",
+        "tunemateLabel": "🎶 Tunemate — ডিজিটাল Bhajan Composer",
+        "tunemateTitle": "Your Voice, Your Bhajan",
+        "tunemateDesc": "Compose personalized devotional bhajans with ডিজিটাল. Choose your deity, occasion, language, tempo, vocals & instruments.",
+        "ctaBottomButton": "🎶 Create a Bhajan",
+        "categories": {
+            "aarti": "Aarti",
+            "bhajan": "Bhajan",
+            "mantra": "Mantra",
+            "chalisa": "Chalisa",
+            "kirtan": "Kirtan",
+            "stuti": "Stuti",
+            "instrumental": "Instrumental"
+        },
+        "playlists": {
+            "p1": "Morning Aarti",
+            "p2": "Shiv Aradhana",
+            "p3": "Krishna Playlist",
+            "p4": "Bajrang Vandana",
+            "p5": "Meditation & Mantras",
+            "p6": "Evening Bhajans",
+            "p7": "Dhan Lakshmi Aradhana",
+            "p8": "Peaceful Instrumentals",
+            "p9": "Bhajan Clubbing"
+        },
+        "instruments": {
+            "harmonium": "🎹 Harmonium",
+            "tabla": "🥁 Tabla",
+            "dholak": "🪘 Dholak",
+            "manjira": "🔔 Manjira",
+            "tanpura": "🎶 Tanpura",
+            "flute": "🎵 Flute",
+            "sitar": "🎸 Sitar",
+            "veena": "🎻 Veena"
+        }
+    },
+    "upharPage": {
+        "title": "Uphar Store — Sacred Photo Frames",
+        "description": "Order premium divine photo frames for your Artmate creations. Classic Black & Walnut Brown frames with live preview, online payment & cash on delivery.",
+        "badge": "🎁 Uphar Store",
+        "heroTitle": "Frame Your Divine Moments",
+        "heroDesc": "Turn your Artmate creations into stunning wall art. Order premium photo frames in Classic Black or Walnut Brown — delivered to your doorstep.",
+        "ctaHero": "🛍️ Shop in App",
+        "howItWorksLabel": "🖼️ How It Works",
+        "howItWorksTitle": "Three Simple Steps",
+        "step1Title": "1. Create with Artmate",
+        "step1Desc": "Generate divine portraits using Divya Chhavi or Teerth Yatra in the Art tab.",
+        "step2Title": "2. Choose Your Frame",
+        "step2Desc": "Pick Classic Black or Walnut Brown frame with live preview of your artwork.",
+        "step3Title": "3. Get it Delivered",
+        "step3Desc": "Pay online or COD. We ship across India & internationally (USD supported).",
+        "ctaBottomTitle": "Shop the Uphar Store",
+        "ctaBottomDesc": "Download Sanatan Sangam, create your divine art, and order beautiful frames.",
+        "ctaBottomButton": "📱 Download App"
+    },
+    "astroPage": {
+        "title": "Astro — Daily Horoscope, Panchang & Kundli",
+        "description": "Get daily horoscope for all 12 zodiac signs, today's Panchang with Tithi & Nakshatra, and generate your complete Kundli birth chart with planet positions.",
+        "badge": "🔮 Astro",
+        "heroTitle": "Daily Horoscope, Panchang & Kundli",
+        "heroDesc": "Get personalized daily horoscopes, today's Panchang with Tithi & Nakshatra details, and generate your complete Kundli birth chart.",
+        "ctaHero": "🔮 Check Your Horoscope",
+        "horoscopeLabel": "⭐ Daily Horoscope",
+        "horoscopeTitle": "What the Stars Say Today",
+        "horoscopeDesc": "Tap your zodiac sign for daily predictions on Love, Career & Health",
+        "panchangLabel": "📅 Panchang",
+        "panchangTitle": "Today's Panchang",
+        "panchangDesc": "Tithi, Nakshatra, Vaar, Yoga, Sunrise & Sunset — updated daily",
+        "panchangStatus": "Available in App",
+        "kundliLabel": "🪐 Kundli",
+        "kundliTitle": "Generate Your Birth Chart",
+        "kundliDesc": "Get your complete Kundli with planet positions, Manglik Dosh analysis, Sun Sign & Moon Sign.",
+        "ctaBottomButton": "📱 Generate Kundli in App",
+        "zodiac": {
+            "aries": "Aries",
+            "taurus": "Taurus",
+            "gemini": "Gemini",
+            "cancer": "Cancer",
+            "leo": "Leo",
+            "virgo": "Virgo",
+            "libra": "Libra",
+            "scorpio": "Scorpio",
+            "sagittarius": "Sagittarius",
+            "capricorn": "Capricorn",
+            "aquarius": "Aquarius",
+            "pisces": "Pisces"
+        },
+        "panchang": {
+            "tithi": "Tithi",
+            "nakshatra": "Nakshatra",
+            "vaar": "Vaar",
+            "yoga": "Yoga",
+            "sunrise": "Sunrise",
+            "sunset": "Sunset"
+        },
+        "kundli": {
+            "planets": "🪐 Planet Positions",
+            "manglik": "🔴 Manglik Dosh",
+            "sun": "☀️ Sun Sign",
+            "moon": "🌙 Moon Sign",
+            "ayanamsha": "📊 Ayanamsha"
+        }
     }
-  },
-  "sangrah": {
-    "sectionLabel": "সংগ্রহ — পবিত্র পাঠাগার",
-    "title": "চিরন্তন জ্ঞান আপনার আঙুলের ডগায়",
-    "subtitle": "আরতি, চালিসা, মন্ত্র, উৎসব নির্দেশিকা এবং আয়ুর্বেদিক জ্ঞানের আমাদের সংকলন দেখুন।"
-  },
-  "stats": {
-    "templeStreams": "মন্দির স্ট্রিম",
-    "devotionalSongs": "ভক্তি গান",
-    "deitiesGurus": "দেবদেবী ও গুরু",
-    "indianLanguages": "ভারতীয় ভাষা"
-  },
-  "download": {
-    "title": "আজই আপনার পবিত্র যাত্রা শুরু করুন",
-    "subtitle": "সনাতন সঙ্গমের মাধ্যমে দিব্য অভিজ্ঞতা লাভকারী হাজার হাজার ভক্তদের সাথে যোগ দিন। ১১টি ভারতীয় ভাষায় উপলব্ধ।",
-    "comingSoon": "শীঘ্রই আসছে",
-    "googlePlay": "গুগল প্লে",
-    "appStore": "অ্যাপ স্টোর"
-  },
-  "social": {
-    "sectionLabel": "আমাদের সম্প্রদায়ে যোগ দিন",
-    "title": "সনাতন সঙ্গমের সাথে সংযুক্ত থাকুন",
-    "subtitle": "দৈনিক আধ্যাত্মিক বিষয়বস্তু, আপডেট এবং ভজনের জন্য আমাদের অনুসরণ করুন।",
-    "follow": "অনুসরণ করুন",
-    "subscribe": "সাবস্ক্রাইব করুন"
-  },
-  "footer": {
-    "brand": "আপনার সম্পূর্ণ আধ্যাত্মিক সঙ্গী — লাইভ দর্শন, ভক্তি সঙ্গীত, AI পবিত্র শিল্প, আশীর্বাদ এবং ১১টি ভারতীয় ভাষায় আরও অনেক কিছু।",
-    "explore": "অন্বেষণ করুন",
-    "content": "বিষয়বস্তু",
-    "connect": "যোগাযোগ",
-    "copyright": "© {year} সনাতন সঙ্গম। সমস্ত অধিকার সংরক্ষিত।",
-    "sanskritQuote": "বসুধৈব কুটুম্বকম্",
-    "quoteTranslation": "বিশ্ব এক পরিবার"
-  }
 }

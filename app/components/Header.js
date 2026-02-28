@@ -1,22 +1,27 @@
 'use client';
 import { useState, useEffect } from 'react';
-import Link from 'next/link';
+import { Link, usePathname } from '../../i18n/routing';
+import { useTranslations, useLocale } from 'next-intl';
 import styles from './Header.module.css';
-
-const navLinks = [
-    { label: 'Home', href: '/' },
-    { label: 'Darshan', href: '/darshan' },
-    { label: 'Art', href: '/art' },
-    { label: 'Wish', href: '/wish' },
-    { label: 'Music', href: '/music' },
-    { label: 'Uphar', href: '/uphar' },
-    { label: 'Astro', href: '/astro' },
-    { label: 'Sangrah', href: '/sangrah' },
-];
+import LanguageSwitcher from './LanguageSwitcher';
 
 export default function Header() {
+    const t = useTranslations('nav');
+    const common = useTranslations('app');
     const [scrolled, setScrolled] = useState(false);
     const [mobileOpen, setMobileOpen] = useState(false);
+    const pathname = usePathname();
+
+    const navLinks = [
+        { label: t('home'), href: '/' },
+        { label: t('darshan'), href: '/darshan' },
+        { label: t('art'), href: '/art' },
+        { label: t('wish'), href: '/wish' },
+        { label: t('music'), href: '/music' },
+        { label: t('uphar'), href: '/uphar' },
+        { label: t('astro'), href: '/astro' },
+        { label: t('sangrah'), href: '/sangrah' },
+    ];
 
     useEffect(() => {
         const handleScroll = () => setScrolled(window.scrollY > 20);
@@ -33,34 +38,37 @@ export default function Header() {
         return () => { document.body.style.overflow = ''; };
     }, [mobileOpen]);
 
+    const isHomePage = pathname === '/' || pathname === '';
+
     return (
-        <header className={`${styles.header} ${scrolled ? styles.scrolled : ''}`}>
+        <header className={`${styles.header} ${(scrolled || !isHomePage) ? styles.scrolled : ''}`}>
             <div className={styles.inner}>
                 {/* Logo */}
                 <Link href="/" className={styles.logo} onClick={() => setMobileOpen(false)}>
-                    <span className={styles.logoIcon}>🕉️</span>
-                    <div className={styles.logoText}>
-                        <span className={styles.logoTitle}>Sanatan Sangam</span>
-                        <span className={styles.logoTagline}>Where Sanatan Meets You</span>
-                    </div>
+                    <img src="/logo.png" alt="Sanatan Sangam Logo" className={styles.logoImg} />
                 </Link>
 
                 {/* Desktop Nav */}
                 <nav className={styles.desktopNav}>
                     {navLinks.map((link) => (
-                        <Link key={link.href} href={link.href} className={styles.navLink}>
+                        <Link
+                            key={link.href}
+                            href={link.href}
+                            className={`${styles.navLink} ${pathname === link.href ? styles.activeLink : ''}`}
+                        >
                             {link.label}
                         </Link>
                     ))}
                 </nav>
 
-                {/* CTA + Hamburger */}
+                {/* CTA + Language + Hamburger */}
                 <div className={styles.actions}>
+                    <LanguageSwitcher />
                     <a
                         href="#download"
                         className={`btn btn-primary btn-sm ${styles.downloadBtn}`}
                     >
-                        📱 Download App
+                        📱 {common('downloadApp')}
                     </a>
                     <button
                         className={`${styles.hamburger} ${mobileOpen ? styles.open : ''}`}
@@ -87,13 +95,16 @@ export default function Header() {
                             {link.label}
                         </Link>
                     ))}
-                    <a
-                        href="#download"
-                        className={`btn btn-primary ${styles.mobileDownloadBtn}`}
-                        onClick={() => setMobileOpen(false)}
-                    >
-                        📱 Download App
-                    </a>
+                    <div className={styles.mobileActions} style={{ display: 'flex', flexDirection: 'column', gap: '1rem', marginTop: '2rem', alignItems: 'center' }}>
+                        <LanguageSwitcher />
+                        <a
+                            href="#download"
+                            className={`btn btn-primary ${styles.mobileDownloadBtn}`}
+                            onClick={() => setMobileOpen(false)}
+                        >
+                            📱 {common('downloadApp')}
+                        </a>
+                    </div>
                 </nav>
             </div>
         </header>

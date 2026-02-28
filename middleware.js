@@ -8,5 +8,5 @@ export const config = {
     // - API routes
     // - Next.js internals (_next)
     // - Static files (images, etc.)
-    matcher: ['/(hi|ta|te|kn|bn|ml|mr|or|pa|gu)/:path*'],
+    matcher: ['/', '/(en|hi|ta|te|kn|bn|ml|mr|or|pa|gu)/:path*', '/((?!api|_next|_vercel|.*\\..*).*)'],
 };

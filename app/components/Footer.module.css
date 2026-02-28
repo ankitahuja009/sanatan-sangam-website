@@ -22,6 +22,8 @@
     display: flex;
     flex-direction: column;
     gap: var(--space-lg);
+    align-items: center;
+    text-align: center;
 }
 
 .logo {
@@ -30,25 +32,10 @@
     gap: var(--space-sm);
 }
 
-.logoIcon {
-    font-size: 2rem;
-}
-
-.logoTitle {
-    font-family: var(--font-display);
-    font-size: 1.3rem;
-    font-weight: 700;
-    color: var(--gold);
-    display: block;
-    line-height: 1.2;
-}
-
-.logoTagline {
-    font-size: 0.65rem;
-    text-transform: uppercase;
-    letter-spacing: 1.5px;
-    color: rgba(255, 248, 240, 0.5);
-    display: block;
+.footerLogoImg {
+    height: 104px;
+    width: auto;
+    object-fit: contain;
 }
 
 .brandDesc {
@@ -119,46 +106,25 @@
 /* Store Badges */
 .storeBadges {
     display: flex;
-    flex-direction: column;
-    gap: var(--space-sm);
-    margin-top: var(--space-sm);
+    flex-direction: row;
+    gap: var(--space-md);
+    margin-top: var(--space-md);
 }
 
-.storeBadge {
-    display: flex;
-    align-items: center;
-    gap: var(--space-sm);
-    padding: 8px 14px;
-    background: rgba(255, 255, 255, 0.08);
-    border: 1px solid rgba(255, 255, 255, 0.12);
-    border-radius: var(--radius-sm);
-    transition: all var(--transition-base);
-    cursor: pointer;
-    text-decoration: none;
+.storeBadgeWrap {
+    display: inline-block;
+    transition: transform var(--transition-base), opacity var(--transition-fast);
 }
 
-.storeBadge:hover {
-    background: rgba(255, 255, 255, 0.15);
-    border-color: var(--saffron);
+.storeBadgeWrap:hover {
+    transform: translateY(-2px);
+    opacity: 0.9;
 }
 
-.badgeIcon {
-    font-size: 1.2rem;
-}
-
-.badgeSmall {
-    display: block;
-    font-size: 0.6rem;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-    color: rgba(255, 248, 240, 0.6);
-}
-
-.badgeBig {
-    display: block;
-    font-size: 0.85rem;
-    font-weight: 600;
-    color: var(--cream);
+.storeBadgeImg {
+    height: 42px;
+    width: auto;
+    object-fit: contain;
 }
 
 /* Bottom Bar */

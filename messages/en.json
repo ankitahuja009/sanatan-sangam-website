@@ -2,7 +2,7 @@
     "app": {
         "title": "Sanatan Sangam",
         "tagline": "Where Sanatan Meets You",
-        "description": "Experience divine darshan, devotional music, AI-powered spiritual art, personalized blessings & ancient wisdom — all in one sacred app.",
+        "description": "Experience divine darshan, devotional music, Digital spiritual art, personalized blessings & ancient wisdom — all in one sacred app.",
         "launchBadge": "Launching Soon on Play Store & App Store",
         "getApp": "Get the App",
         "downloadApp": "Download App",
@@ -21,20 +21,20 @@
     "hero": {
         "title": "Where {highlight} Meets You",
         "highlight": "Sanatan",
-        "subtitle": "Experience divine darshan, devotional music, AI-powered spiritual art, personalized blessings & ancient wisdom — all in one sacred app.",
+        "subtitle": "Experience divine darshan, devotional music, Digital spiritual art, personalized blessings & ancient wisdom — all in one sacred app.",
         "languages": "Available in: Hindi • English • Tamil • Telugu • Kannada • Bengali • Malayalam • Marathi • Odia • Punjabi • Gujarati"
     },
     "features": {
         "sectionLabel": "App Features",
         "title": "One App for Your Complete Spiritual Journey",
-        "subtitle": "From live temple darshan to AI-powered art — everything you need to deepen your connection with the divine.",
+        "subtitle": "From live temple darshan to digital art — everything you need to deepen your connection with the divine.",
         "darshan": {
             "title": "Live Darshan",
             "desc": "50+ temple live streams from across India — darshan anytime, anywhere"
         },
         "divyaChhavi": {
             "title": "Divya Chhavi",
-            "desc": "AI-powered divine portraits with your favorite deities & gurus"
+            "desc": "Digital divine portraits with your favorite deities & gurus"
         },
         "music": {
             "title": "Devotional Music",
@@ -42,7 +42,7 @@
         },
         "wishmate": {
             "title": "Wishmate",
-            "desc": "Personalized AI blessings for birthdays, festivals & special occasions"
+            "desc": "Personalized digital blessings for birthdays, festivals & special occasions"
         },
         "astro": {
             "title": "Astro & Panchang",
@@ -50,13 +50,43 @@
         },
         "tunemate": {
             "title": "Tunemate",
-            "desc": "Compose your own devotional bhajans with AI — your voice, your bhajan!"
+            "desc": "Compose your own devotional bhajans digitally — your voice, your bhajan!"
         }
     },
     "sangrah": {
         "sectionLabel": "Sangrah — Sacred Library",
         "title": "Timeless Wisdom at Your Fingertips",
         "subtitle": "Explore our curated collection of aartis, chalisas, mantras, festival guides, and Ayurvedic wisdom."
+    },
+    "sangrahPage": {
+        "badge": "📚 Sangrah — Sacred Library",
+        "title": "Timeless Wisdom at Your Fingertips",
+        "desc": "Dive into our curated collection of aartis, chalisas, mantras, festival guides, Ayurvedic remedies, and deity knowledge — all available in 11 Indian languages.",
+        "explore": "Explore →",
+        "aarti": {
+            "title": "Aarti Collection",
+            "desc": "Complete collection of sacred aartis with full lyrics, audio, meaning, and significance."
+        },
+        "chalisa": {
+            "title": "Chalisa Collection",
+            "desc": "Full text of all popular chalisas with audio, translation, and spiritual significance."
+        },
+        "mantra": {
+            "title": "Mantra Collection",
+            "desc": "Powerful mantras for peace, prosperity, protection and spiritual growth with pronunciation guide."
+        },
+        "ayurveda": {
+            "title": "Ayurvedic & Home Remedies",
+            "desc": "Ancient Ayurvedic wisdom for modern wellness — natural remedies, seasonal health tips, and lifestyle guides."
+        },
+        "festivals": {
+            "title": "Festival Guide",
+            "desc": "Complete guide to Hindu festivals — exact dates, rituals, significance, puja vidhi, and traditions."
+        },
+        "deities": {
+            "title": "Deity Encyclopedia",
+            "desc": "Explore the stories, mantras, temples, and iconography of 30+ deities and spiritual gurus."
+        }
     },
     "stats": {
         "templeStreams": "Temple Streams",
@@ -79,12 +109,373 @@
         "subscribe": "Subscribe"
     },
     "footer": {
-        "brand": "Your complete spiritual companion — live darshan, devotional music, AI sacred art, blessings & more in 11 Indian languages.",
+        "brand": "Your complete spiritual companion — live darshan, devotional music, digital sacred art, blessings & more in 11 Indian languages.",
         "explore": "Explore",
         "content": "Content",
         "connect": "Connect",
         "copyright": "© {year} Sanatan Sangam. All rights reserved.",
         "sanskritQuote": "वसुधैव कुटुम्बकम्",
         "quoteTranslation": "The World is One Family"
+    },
+    "darshanPage": {
+        "liveNow": "🔴 LIVE NOW",
+        "heroTitle": "Divine Darshan from Sacred Temples",
+        "heroDesc": "Experience live darshan from {count}+ temples across India — Jyotirlingas, Char Dhams, Shakti Peethas, Gurudwaras & more.",
+        "statLive": "Live Now",
+        "statTemples": "Temples",
+        "statStreaming": "Streaming",
+        "filterAll": "🌐 All",
+        "filterJyotirlinga": "🕉️ Jyotirlinga",
+        "filterCharDham": "🙏 Char Dham",
+        "filterShaktiPeeth": "🔱 Shakti Peeth",
+        "filterMajor": "🛕 Major Temples",
+        "filterIskcon": "🌸 ISKCON",
+        "filterGurudwara": "☬ Gurudwaras",
+        "filterBuddhist": "☸️ Buddhist Sites",
+        "filterJain": "⚪ Jain Tirths",
+        "showing": "Showing",
+        "temples": {
+            "somnath": {
+                "name": "Somnath Temple",
+                "location": "Prabhas Patan, Gujarat"
+            },
+            "mahakaleshwar": {
+                "name": "Mahakaleshwar Temple",
+                "location": "Ujjain, MP"
+            },
+            "kashi-vishwanath": {
+                "name": "Kashi Vishwanath",
+                "location": "Varanasi, UP"
+            },
+            "kedarnath": {
+                "name": "Kedarnath Temple",
+                "location": "Kedarnath, Uttarakhand"
+            },
+            "rameshwaram": {
+                "name": "Ramanathaswamy Temple",
+                "location": "Rameshwaram, Tamil Nadu"
+            },
+            "omkareshwar": {
+                "name": "Omkareshwar Temple",
+                "location": "Omkareshwar, MP"
+            },
+            "mallikarjuna": {
+                "name": "Mallikarjuna Temple",
+                "location": "Srisailam, AP"
+            },
+            "bhimashankar": {
+                "name": "Bhimashankar Temple",
+                "location": "Pune, Maharashtra"
+            },
+            "trimbakeshwar": {
+                "name": "Trimbakeshwar Temple",
+                "location": "Nashik, Maharashtra"
+            },
+            "nageshvara": {
+                "name": "Nageshvara Temple",
+                "location": "Dwarka, Gujarat"
+            },
+            "grishneshwar": {
+                "name": "Grishneshwar Temple",
+                "location": "Aurangabad, Maharashtra"
+            },
+            "vaidyanath": {
+                "name": "Vaidyanath Temple",
+                "location": "Deoghar, Jharkhand"
+            },
+            "badrinath": {
+                "name": "Badrinath Temple",
+                "location": "Badrinath, Uttarakhand"
+            },
+            "jagannath-puri": {
+                "name": "Jagannath Temple",
+                "location": "Puri, Odisha"
+            },
+            "dwarkadhish": {
+                "name": "Dwarkadhish Temple",
+                "location": "Dwarka, Gujarat"
+            },
+            "vaishno-devi": {
+                "name": "Vaishno Devi",
+                "location": "Katra, J&K"
+            },
+            "kamakhya": {
+                "name": "Kamakhya Temple",
+                "location": "Guwahati, Assam"
+            },
+            "kalighat": {
+                "name": "Kalighat Kali Temple",
+                "location": "Kolkata, West Bengal"
+            },
+            "ambaji": {
+                "name": "Ambaji Temple",
+                "location": "Ambaji, Gujarat"
+            },
+            "mahalaxmi-kolhapur": {
+                "name": "Mahalaxmi Temple",
+                "location": "Kolhapur, Maharashtra"
+            },
+            "ram-mandir": {
+                "name": "Ram Mandir Ayodhya",
+                "location": "Ayodhya, UP"
+            },
+            "tirupati-balaji": {
+                "name": "Tirupati Balaji",
+                "location": "Tirupati, AP"
+            },
+            "shirdi-sai-baba": {
+                "name": "Shirdi Sai Baba",
+                "location": "Shirdi, Maharashtra"
+            },
+            "siddhivinayak": {
+                "name": "Siddhivinayak Temple",
+                "location": "Mumbai, Maharashtra"
+            },
+            "meenakshi": {
+                "name": "Meenakshi Amman Temple",
+                "location": "Madurai, Tamil Nadu"
+            },
+            "padmanabhaswamy": {
+                "name": "Padmanabhaswamy Temple",
+                "location": "Thiruvananthapuram, Kerala"
+            },
+            "guruvayur": {
+                "name": "Guruvayur Krishna Temple",
+                "location": "Guruvayur, Kerala"
+            },
+            "nathdwara": {
+                "name": "Shrinathji Temple (Nathdwara)",
+                "location": "Nathdwara, Rajasthan"
+            },
+            "salasar-balaji": {
+                "name": "Salasar Balaji",
+                "location": "Churu, Rajasthan"
+            },
+            "khatu-shyam": {
+                "name": "Khatu Shyam Ji Temple",
+                "location": "Sikar, Rajasthan"
+            },
+            "udupi-krishna": {
+                "name": "Udupi Krishna Temple",
+                "location": "Udupi, Karnataka"
+            },
+            "srirangam": {
+                "name": "Sri Ranganathaswamy Temple",
+                "location": "Srirangam, Tamil Nadu"
+            },
+            "prem-mandir": {
+                "name": "Prem Mandir Vrindavan",
+                "location": "Vrindavan, UP"
+            },
+            "iskcon-vrindavan": {
+                "name": "ISKCON Vrindavan",
+                "location": "Vrindavan, UP"
+            },
+            "iskcon-mayapur": {
+                "name": "ISKCON Mayapur",
+                "location": "Mayapur, West Bengal"
+            },
+            "golden-temple": {
+                "name": "Golden Temple",
+                "location": "Amritsar, Punjab"
+            },
+            "hazur-sahib": {
+                "name": "Takht Hazur Sahib",
+                "location": "Nanded, Maharashtra"
+            },
+            "mahabodhi": {
+                "name": "Mahabodhi Temple",
+                "location": "Bodh Gaya, Bihar"
+            },
+            "palitana": {
+                "name": "Palitana Temples",
+                "location": "Palitana, Gujarat"
+            }
+        },
+        "liveLabel": "🟢 Live",
+        "offlineLabel": "⏸ Offline",
+        "viewDetails": "View Details →",
+        "modalLive": "🟢 Live Now",
+        "modalOffline": "⏸ Currently Offline",
+        "darshanTimings": "⏰ Darshan Timings",
+        "todaySchedule": "📋 Today's Schedule",
+        "watchLive": "📱 Watch Live in App",
+        "ctaTitle": "Watch Live Darshan in the App",
+        "ctaDesc": "Download Sanatan Sangam for live streams, aarti notifications, full-screen viewing & more.",
+        "downloadApp": "📱 Download App"
+    },
+    "artPage": {
+        "title": "Artmate — Digital Sacred Art: Divya Chhavi & Teerth Yatra",
+        "description": "Create stunning digital spiritual portraits with your favorite deities and gurus using Divya Chhavi, or visit sacred temples virtually with Teerth Yatra.",
+        "badge": "✨ Artmate — Digital Sacred Art",
+        "heroTitle": "See Yourself in the Divine Light",
+        "heroDesc": "Our digital Artmate creates breathtaking spiritual portraits and virtual pilgrimages. Choose from Divya Chhavi for sacred portraits or Teerth Yatra for virtual temple visits.",
+        "ctaHero": "✨ Create Your Portrait",
+        "featuresLabel": "🎨 Features",
+        "featuresTitle": "Two Magical Experiences",
+        "card1Title": "Divya Chhavi",
+        "card1Desc": "Generate stunning divine portraits of yourself with 30+ deities and gurus. Choose Shiva, Krishna, Hanuman, Durga, or your beloved Guru — and see yourself in their divine presence.",
+        "feature1_1": "🙏 30+ Deities & Gurus available",
+        "feature1_2": "👔 Clothing options: Traditional, Casual, Festive",
+        "feature1_3": "📸 Quality: HD, 2K, 4K",
+        "feature1_4": "🖼️ Order premium frames from Uphar Store",
+        "card2Title": "Teerth Yatra",
+        "card2Desc": "Visit India's most sacred destinations virtually. Generate beautiful photos of yourself at temples, ghats, and pilgrimage sites across the country.",
+        "feature2_1": "🏛️ Sacred temples & pilgrimage sites",
+        "feature2_2": "🌅 Time of day: Day, Sunset, Night",
+        "feature2_3": "📐 Multiple aspect ratios: Square, Portrait, Landscape",
+        "feature2_4": "📤 Share on social media instantly",
+        "ctaBottomTitle": "Create Your Divine Portrait Today",
+        "ctaBottomDesc": "Download Sanatan Sangam and experience the magic of digital sacred art.",
+        "ctaBottomButton": "📱 Download App"
+    },
+    "wishPage": {
+        "title": "Wishmate — Personalized Digital Blessings",
+        "description": "Send personalized digital blessings for birthdays, anniversaries, Diwali, Holi, Raksha Bandhan & every special occasion. Choose your deity and create divine blessing cards.",
+        "badge": "🙏 Wishmate",
+        "heroTitle": "Send Divine Blessings to Your Loved Ones",
+        "heroDesc": "Create personalized blessing cards for every special occasion. Choose your deity, add a personal touch, and share divine wishes that truly move the heart.",
+        "ctaHero": "🙏 Send a Blessing",
+        "videoLabel": "▶️ See Wishmate in Action",
+        "videoTitle": "Watch How Blessings Come to Life",
+        "occasionsLabel": "🎉 Occasions",
+        "occasionsTitle": "Blessings for Every Moment",
+        "ctaBottomTitle": "Share Your First Blessing",
+        "ctaBottomDesc": "Download Sanatan Sangam and create beautiful, personalized blessing cards for your loved ones.",
+        "ctaBottomButton": "📱 Download App",
+        "occasions": {
+            "birthday": "🎂 Birthday",
+            "anniversary": "💍 Anniversary",
+            "wedding": "💒 Wedding",
+            "diwali": "🪔 Diwali",
+            "holi": "🎆 Holi",
+            "raksha": "🧵 Raksha Bandhan",
+            "navratri": "🪷 Navratri",
+            "newyear": "🎊 New Year",
+            "daily": "🙏 Daily Blessing"
+        },
+        "deities": {
+            "shiva": "🕉️ Shiva",
+            "krishna": "💙 Krishna",
+            "hanuman": "🐒 Hanuman",
+            "lakshmi": "🪷 Lakshmi",
+            "durga": "🔱 Durga",
+            "ram": "🙏 Ram",
+            "ganesh": "🐘 Ganesh"
+        }
+    },
+    "musicPage": {
+        "title": "Devotional Music — 200+ Bhajans, Aarti, Mantra & Chalisa",
+        "description": "Stream 200+ ad-free devotional songs: Aarti, Bhajan, Mantra, Chalisa, Kirtan & Instrumental. Filter by deity, mood, or genre in Hindi, English & regional languages.",
+        "badge": "🎵 Devotional Music",
+        "heroTitle": "200+ Sacred Tracks for Every Moment",
+        "heroDesc": "Immerse yourself in divine melodies. Stream ad-free bhajans, aarti, mantras, chalisas & more in Hindi, English and regional Indian languages.",
+        "ctaHero": "🎵 Listen in App",
+        "categoryLabel": "🎶 Browse by Category",
+        "categoryTitle": "Every Genre of Devotional Music",
+        "playlistLabel": "📋 Curated Playlists",
+        "playlistTitle": "Handpicked Playlists for You",
+        "tracksCount": "{count} tracks",
+        "tunemateLabel": "🎶 Tunemate — Digital Bhajan Composer",
+        "tunemateTitle": "Your Voice, Your Bhajan",
+        "tunemateDesc": "Compose personalized devotional bhajans digitally. Choose your deity, occasion, language, tempo, vocals & instruments.",
+        "ctaBottomButton": "🎶 Create a Bhajan",
+        "categories": {
+            "aarti": "Aarti",
+            "bhajan": "Bhajan",
+            "mantra": "Mantra",
+            "chalisa": "Chalisa",
+            "kirtan": "Kirtan",
+            "stuti": "Stuti",
+            "instrumental": "Instrumental"
+        },
+        "playlists": {
+            "p1": "Morning Aarti",
+            "p2": "Shiv Aradhana",
+            "p3": "Krishna Playlist",
+            "p4": "Bajrang Vandana",
+            "p5": "Meditation & Mantras",
+            "p6": "Evening Bhajans",
+            "p7": "Dhan Lakshmi Aradhana",
+            "p8": "Peaceful Instrumentals",
+            "p9": "Bhajan Clubbing"
+        },
+        "instruments": {
+            "harmonium": "🎹 Harmonium",
+            "tabla": "🥁 Tabla",
+            "dholak": "🪘 Dholak",
+            "manjira": "🔔 Manjira",
+            "tanpura": "🎶 Tanpura",
+            "flute": "🎵 Flute",
+            "sitar": "🎸 Sitar",
+            "veena": "🎻 Veena"
+        }
+    },
+    "upharPage": {
+        "title": "Uphar Store — Sacred Photo Frames",
+        "description": "Order premium divine photo frames for your Artmate creations. Classic Black & Walnut Brown frames with live preview, online payment & cash on delivery.",
+        "badge": "🎁 Uphar Store",
+        "heroTitle": "Frame Your Divine Moments",
+        "heroDesc": "Turn your Artmate creations into stunning wall art. Order premium photo frames in Classic Black or Walnut Brown — delivered to your doorstep.",
+        "ctaHero": "🛍️ Shop in App",
+        "howItWorksLabel": "🖼️ How It Works",
+        "howItWorksTitle": "Three Simple Steps",
+        "step1Title": "1. Create with Artmate",
+        "step1Desc": "Generate divine portraits using Divya Chhavi or Teerth Yatra in the Art tab.",
+        "step2Title": "2. Choose Your Frame",
+        "step2Desc": "Pick Classic Black or Walnut Brown frame with live preview of your artwork.",
+        "step3Title": "3. Get it Delivered",
+        "step3Desc": "Pay online or COD. We ship across India & internationally (USD supported).",
+        "ctaBottomTitle": "Shop the Uphar Store",
+        "ctaBottomDesc": "Download Sanatan Sangam, create your divine art, and order beautiful frames.",
+        "ctaBottomButton": "📱 Download App"
+    },
+    "astroPage": {
+        "title": "Astro — Daily Horoscope, Panchang & Kundli",
+        "description": "Get daily horoscope for all 12 zodiac signs, today's Panchang with Tithi & Nakshatra, and generate your complete Kundli birth chart with planet positions.",
+        "badge": "🔮 Astro",
+        "heroTitle": "Daily Horoscope, Panchang & Kundli",
+        "heroDesc": "Get personalized daily horoscopes, today's Panchang with Tithi & Nakshatra details, and generate your complete Kundli birth chart.",
+        "ctaHero": "🔮 Check Your Horoscope",
+        "horoscopeLabel": "⭐ Daily Horoscope",
+        "horoscopeTitle": "What the Stars Say Today",
+        "horoscopeDesc": "Tap your zodiac sign for daily predictions on Love, Career & Health",
+        "panchangLabel": "📅 Panchang",
+        "panchangTitle": "Today's Panchang",
+        "panchangDesc": "Tithi, Nakshatra, Vaar, Yoga, Sunrise & Sunset — updated daily",
+        "panchangStatus": "Available in App",
+        "kundliLabel": "🪐 Kundli",
+        "kundliTitle": "Generate Your Birth Chart",
+        "kundliDesc": "Get your complete Kundli with planet positions, Manglik Dosh analysis, Sun Sign & Moon Sign.",
+        "ctaBottomButton": "📱 Generate Kundli in App",
+        "zodiac": {
+            "aries": "Aries",
+            "taurus": "Taurus",
+            "gemini": "Gemini",
+            "cancer": "Cancer",
+            "leo": "Leo",
+            "virgo": "Virgo",
+            "libra": "Libra",
+            "scorpio": "Scorpio",
+            "sagittarius": "Sagittarius",
+            "capricorn": "Capricorn",
+            "aquarius": "Aquarius",
+            "pisces": "Pisces"
+        },
+        "panchang": {
+            "tithi": "Tithi",
+            "nakshatra": "Nakshatra",
+            "vaar": "Vaar",
+            "yoga": "Yoga",
+            "sunrise": "Sunrise",
+            "sunset": "Sunset"
+        },
+        "kundli": {
+            "planets": "🪐 Planet Positions",
+            "manglik": "🔴 Manglik Dosh",
+            "sun": "☀️ Sun Sign",
+            "moon": "🌙 Moon Sign",
+            "ayanamsha": "📊 Ayanamsha"
+        }
     }
 }

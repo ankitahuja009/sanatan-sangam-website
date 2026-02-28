@@ -2,14 +2,14 @@
    SANATAN SANGAM — Global Design System
    ============================================ */
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Philosopher:ital,wght@0,400;0,700;1,400&family=Tiro+Devanagari:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Philosopher:ital,wght@0,400;0,700;1,400&family=Tiro+Devanagari:ital@0;1&family=Berkshire+Swash&display=swap');
 
 /* ---- CSS Custom Properties (Design Tokens) ---- */
 :root {
   /* Primary */
-  --saffron: #FF6B35;
-  --saffron-light: #FF8A5C;
-  --saffron-dark: #E55A25;
+  --saffron: #FF6B00;
+  --saffron-light: #FF8A00;
+  --saffron-dark: #CC5500;
   --gold: #FFD700;
   --gold-light: #FFE44D;
   --gold-dark: #CCB000;
@@ -41,23 +41,23 @@
   --black: #0A0A0A;
 
   /* Gradients */
-  --gradient-saffron: linear-gradient(135deg, #FF6B35 0%, #FFD700 100%);
-  --gradient-sacred: linear-gradient(135deg, #8B1A1A 0%, #FF6B35 50%, #FFD700 100%);
+  --gradient-saffron: linear-gradient(135deg, var(--saffron) 0%, #FFD700 100%);
+  --gradient-sacred: linear-gradient(135deg, #8B1A1A 0%, var(--saffron) 50%, #FFD700 100%);
   --gradient-temple: linear-gradient(180deg, #FFF8F0 0%, #FFE8D6 100%);
   --gradient-hero: linear-gradient(160deg, #1a0a00 0%, #2C1810 30%, #8B1A1A 100%);
   --gradient-gold-shimmer: linear-gradient(90deg, #FFD700, #FFF8DC, #FFD700);
-  --gradient-warm-overlay: linear-gradient(180deg, rgba(255,248,240,0) 0%, rgba(255,248,240,1) 100%);
+  --gradient-warm-overlay: linear-gradient(180deg, rgba(255, 248, 240, 0) 0%, rgba(255, 248, 240, 1) 100%);
 
   /* Shadows */
-  --shadow-sm: 0 1px 3px rgba(44,24,16,0.08);
-  --shadow-md: 0 4px 12px rgba(44,24,16,0.12);
-  --shadow-lg: 0 8px 30px rgba(44,24,16,0.16);
-  --shadow-xl: 0 16px 50px rgba(44,24,16,0.2);
-  --shadow-glow-saffron: 0 0 30px rgba(255,107,53,0.3);
-  --shadow-glow-gold: 0 0 30px rgba(255,215,0,0.3);
+  --shadow-sm: 0 1px 3px rgba(44, 24, 16, 0.08);
+  --shadow-md: 0 4px 12px rgba(44, 24, 16, 0.12);
+  --shadow-lg: 0 8px 30px rgba(44, 24, 16, 0.16);
+  --shadow-xl: 0 16px 50px rgba(44, 24, 16, 0.2);
+  --shadow-glow-saffron: 0 0 30px rgba(255, 107, 53, 0.3);
+  --shadow-glow-gold: 0 0 30px rgba(255, 215, 0, 0.3);
 
   /* Typography */
-  --font-display: 'Philosopher', serif;
+  --font-display: 'Berkshire Swash', serif;
   --font-body: 'Inter', sans-serif;
   --font-sanskrit: 'Tiro Devanagari', serif;
 
@@ -86,7 +86,7 @@
 
   /* Layout */
   --max-width: 1200px;
-  --header-height: 72px;
+  --header-height: 80px;
 }
 
 /* ---- Reset & Base ---- */
@@ -130,22 +130,39 @@ button {
   font-family: inherit;
 }
 
-ul, ol {
+ul,
+ol {
   list-style: none;
 }
 
 /* ---- Typography ---- */
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: var(--font-display);
   font-weight: 700;
   line-height: 1.2;
   color: var(--brown-rich);
 }
 
-h1 { font-size: clamp(2rem, 5vw, 3.5rem); }
-h2 { font-size: clamp(1.5rem, 3.5vw, 2.5rem); }
-h3 { font-size: clamp(1.2rem, 2.5vw, 1.75rem); }
-h4 { font-size: clamp(1rem, 2vw, 1.25rem); }
+h1 {
+  font-size: clamp(2rem, 5vw, 3.5rem);
+}
+
+h2 {
+  font-size: clamp(1.5rem, 3.5vw, 2.5rem);
+}
+
+h3 {
+  font-size: clamp(1.2rem, 2.5vw, 1.75rem);
+}
+
+h4 {
+  font-size: clamp(1rem, 2vw, 1.25rem);
+}
 
 p {
   font-size: 1rem;
@@ -210,26 +227,27 @@ p {
 }
 
 .btn-primary {
-  background: var(--gradient-saffron);
+  background: var(--saffron);
   color: var(--white);
   box-shadow: var(--shadow-glow-saffron);
 }
 
 .btn-primary:hover {
+  background: var(--saffron-dark);
   transform: translateY(-2px);
-  box-shadow: 0 0 40px rgba(255,107,53,0.5);
+  box-shadow: 0 4px 15px rgba(255, 107, 0, 0.4);
 }
 
 .btn-secondary {
-  background: rgba(255,255,255,0.15);
+  background: rgba(255, 255, 255, 0.15);
   color: var(--white);
-  border: 1.5px solid rgba(255,255,255,0.3);
+  border: 1.5px solid rgba(255, 255, 255, 0.3);
   backdrop-filter: blur(10px);
 }
 
 .btn-secondary:hover {
-  background: rgba(255,255,255,0.25);
-  border-color: rgba(255,255,255,0.5);
+  background: rgba(255, 255, 255, 0.25);
+  border-color: rgba(255, 255, 255, 0.5);
   transform: translateY(-2px);
 }
 
@@ -324,6 +342,7 @@ p {
     opacity: 0;
     transform: translateY(30px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
@@ -331,28 +350,57 @@ p {
 }
 
 @keyframes fadeIn {
-  from { opacity: 0; }
-  to { opacity: 1; }
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }
 
 @keyframes shimmer {
-  0% { background-position: -200% center; }
-  100% { background-position: 200% center; }
+  0% {
+    background-position: -200% center;
+  }
+
+  100% {
+    background-position: 200% center;
+  }
 }
 
 @keyframes float {
-  0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(-10px); }
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
 }
 
 @keyframes pulse-glow {
-  0%, 100% { box-shadow: 0 0 20px rgba(255,107,53,0.3); }
-  50% { box-shadow: 0 0 40px rgba(255,215,0,0.5); }
+
+  0%,
+  100% {
+    box-shadow: 0 0 20px rgba(255, 107, 53, 0.3);
+  }
+
+  50% {
+    box-shadow: 0 0 40px rgba(255, 215, 0, 0.5);
+  }
 }
 
 @keyframes spin-slow {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 .animate-fade-in-up {

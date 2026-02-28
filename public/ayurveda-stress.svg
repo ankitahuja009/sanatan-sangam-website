@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="400" viewBox="0 0 800 400">
+  <defs>
+    <radialGradient id="bg" cx="35%" cy="45%" r="75%">
+      <stop offset="0%" stop-color="#283593"/>
+      <stop offset="55%" stop-color="#1A237E"/>
+      <stop offset="100%" stop-color="#060B27"/>
+    </radialGradient>
+    <radialGradient id="moonGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFF9C4" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#FFF9C4" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="400" fill="url(#bg)"/>
+  <!-- Stars -->
+  <circle cx="120" cy="60" r="2" fill="#FFF9C4" opacity="0.8"/>
+  <circle cx="200" cy="100" r="1.5" fill="#FFF9C4" opacity="0.6"/>
+  <circle cx="650" cy="50" r="2" fill="#FFF9C4" opacity="0.9"/>
+  <circle cx="720" cy="90" r="1.5" fill="#FFF9C4" opacity="0.7"/>
+  <circle cx="580" cy="70" r="2" fill="#FFF9C4" opacity="0.8"/>
+  <circle cx="450" cy="40" r="1" fill="#FFF9C4" opacity="0.6"/>
+  <!-- Moon glow -->
+  <circle cx="580" cy="130" r="100" fill="url(#moonGlow)"/>
+  <!-- Moon -->
+  <circle cx="580" cy="130" r="45" fill="#FFF9C4" opacity="0.15"/>
+  <circle cx="600" cy="120" r="38" fill="#1A237E" opacity="0.9"/>
+  <!-- Diya (oil lamp) -->
+  <ellipse cx="280" cy="310" rx="50" ry="12" fill="#E65100" opacity="0.6"/>
+  <path d="M245 295 Q250 310 280 315 Q310 310 315 295 L310 275 Q295 285 280 285 Q265 285 250 275 Z" fill="#FF6D00" opacity="0.85"/>
+  <!-- Flame -->
+  <path d="M280 275 Q275 255 280 240 Q285 255 280 275" fill="#FFCA28" opacity="0.95"/>
+  <path d="M280 270 Q278 258 280 248 Q282 258 280 270" fill="#FF8F00" opacity="0.8"/>
+  <!-- Glow around flame -->
+  <circle cx="280" cy="260" r="30" fill="#FF8F00" opacity="0.12"/>
+  <!-- Jasmine flowers -->
+  <circle cx="450" cy="250" r="12" fill="white" opacity="0.5"/>
+  <circle cx="480" cy="270" r="10" fill="white" opacity="0.4"/>
+  <circle cx="420" cy="280" r="8" fill="white" opacity="0.45"/>
+  <!-- Ashwagandha powder -->
+  <ellipse cx="380" cy="330" rx="55" ry="14" fill="#8D6E63" opacity="0.5"/>
+  <text x="400" y="370" text-anchor="middle" font-family="Georgia,serif" font-size="22" fill="#9FA8DA" opacity="0.85" letter-spacing="3">ASHWAGANDHA · BRAHMI · SHANTI</text>
+</svg>

@@ -6,6 +6,11 @@ export default function robots() {
                 allow: '/',
                 disallow: ['/api/', '/_next/'],
             },
+            {
+                userAgent: ['OAI-SearchBot', 'ChatGPT-User', 'GoogleExtended', 'anthropic-ai', 'ClaudeBot', 'PerplexityBot'],
+                allow: '/',
+                disallow: ['/api/'],
+            }
         ],
         sitemap: 'https://sanatan-sangam.com/sitemap.xml',
     };

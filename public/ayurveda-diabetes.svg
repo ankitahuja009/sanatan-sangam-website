@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="400" viewBox="0 0 800 400">
+  <defs>
+    <radialGradient id="bg" cx="40%" cy="35%" r="75%">
+      <stop offset="0%" stop-color="#BF360C"/>
+      <stop offset="55%" stop-color="#8B1A00"/>
+      <stop offset="100%" stop-color="#2D0800"/>
+    </radialGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFAB40" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#FFAB40" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="400" fill="url(#bg)"/>
+  <circle cx="350" cy="200" r="200" fill="url(#glow)"/>
+  <!-- Bitter gourd slices (karela) -->
+  <ellipse cx="280" cy="230" rx="55" ry="30" fill="#2E7D32" opacity="0.7" transform="rotate(-15 280 230)"/>
+  <ellipse cx="280" cy="230" rx="42" ry="18" fill="#388E3C" opacity="0.6" transform="rotate(-15 280 230)"/>
+  <!-- Seeds inside -->
+  <ellipse cx="270" cy="228" rx="6" ry="4" fill="#FFF8E1" opacity="0.7" transform="rotate(-15 270 228)"/>
+  <ellipse cx="290" cy="234" rx="6" ry="4" fill="#FFF8E1" opacity="0.7" transform="rotate(-15 290 234)"/>
+  <!-- Second slice -->
+  <ellipse cx="350" cy="190" rx="50" ry="28" fill="#2E7D32" opacity="0.6" transform="rotate(10 350 190)"/>
+  <ellipse cx="350" cy="190" rx="38" ry="17" fill="#388E3C" opacity="0.5" transform="rotate(10 350 190)"/>
+  <!-- Fenugreek seeds scattered -->
+  <circle cx="450" cy="270" r="6" fill="#FF8F00" opacity="0.8"/>
+  <circle cx="470" cy="255" r="5" fill="#FF8F00" opacity="0.7"/>
+  <circle cx="490" cy="275" r="7" fill="#F57F17" opacity="0.75"/>
+  <circle cx="460" cy="285" r="5" fill="#FF8F00" opacity="0.6"/>
+  <circle cx="510" cy="265" r="6" fill="#F57F17" opacity="0.7"/>
+  <!-- Wooden cup (vijaysar) -->
+  <rect x="520" y="220" width="70" height="80" rx="10" fill="#6D4C41" opacity="0.8"/>
+  <ellipse cx="555" cy="220" rx="35" ry="10" fill="#8D6E63" opacity="0.9"/>
+  <ellipse cx="555" cy="300" rx="35" ry="10" fill="#5D4037" opacity="0.8"/>
+  <!-- Water ripple -->
+  <ellipse cx="555" cy="225" rx="28" ry="7" fill="#64B5F6" opacity="0.4"/>
+  <text x="400" y="365" text-anchor="middle" font-family="Georgia,serif" font-size="22" fill="#FFCC80" opacity="0.85" letter-spacing="3">KARELA · METHI · VIJAYSAR</text>
+</svg>
