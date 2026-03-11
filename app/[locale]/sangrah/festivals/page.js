@@ -4,10 +4,6 @@ import { useState } from 'react';
 import { useLocale } from 'next-intl';
 import styles from './festivals.module.css';
 
-const religionsMap = { 'All': '🌟 All', 'Hindu': '🕉️ Hindu', 'Sikh': '☬ Sikh', 'Buddhist': '☸️ Buddhist', 'Jain': '⚖️ Jain' };
-const religionsMapHi = { 'All': '🌟 सभी', 'Hindu': '🕉️ हिंदू', 'Sikh': '☬ सिख', 'Buddhist': '☸️ बौद्ध', 'Jain': '⚖️ जैन' };
-const religions = ['All', 'Hindu', 'Sikh', 'Buddhist', 'Jain'];
-
 const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
 const MONTHS_HI = { 'Jan': 'जनवरी', 'Feb': 'फरवरी', 'Mar': 'मार्च', 'Apr': 'अप्रैल', 'May': 'मई', 'Jun': 'जून', 'Jul': 'जुलाई', 'Aug': 'अगस्त', 'Sep': 'सितंबर', 'Oct': 'अक्टूबर', 'Nov': 'नवंबर', 'Dec': 'दिसंबर' };
 
@@ -147,11 +143,9 @@ const festivals = [
         ritualsHi: ['महावीर का अभिषेक', 'जुलूस', 'दान', 'अहिंसा का पालन'],
         mantra: 'ॐ नमो अरिहंताणं'
     },
-
-    // ── APRIL ──
     {
         icon: '🙏', name: 'Ram Navami', hindi: 'राम नवमी',
-        timing: 'Thu, 26 Mar 2026', timingHi: 'गुरुवार, 26 मार्च 2026', month: 'Apr',
+        timing: 'Thu, 26 Mar 2026', timingHi: 'गुरुवार, 26 मार्च 2026', month: 'Mar',
         religion: 'Hindu', region: 'Pan-India', regionHi: 'संपूर्ण भारत', color: '#1565C0',
         desc: 'Birth anniversary of Lord Rama. Falls on the 9th day of Chaitra Navratri.',
         descHi: 'भगवान राम की जयंती। चैत्र नवरात्रि के 9वें दिन मनाई जाती है।',
@@ -159,6 +153,7 @@ const festivals = [
         ritualsHi: ['रामायण पाठ', 'दोपहर में आरती', 'रथ यात्रा', 'उपवास'],
         mantra: 'श्री राम जय राम जय जय राम'
     },
+    // ── APRIL ──
     {
         icon: '🌾', name: 'Baisakhi', hindi: 'बैसाखी',
         timing: 'Tue, 14 Apr 2026', timingHi: 'मंगलवार, 14 अप्रैल 2026', month: 'Apr',
@@ -242,12 +237,10 @@ const festivals = [
 export default function FestivalsPage() {
     const locale = useLocale();
     const isHi = locale === 'hi';
-    const [activeReligion, setActiveReligion] = useState('All');
     const [activeMonth, setActiveMonth] = useState('All');
     const [expandedId, setExpandedId] = useState(null);
 
     const filtered = festivals.filter(f =>
-        (activeReligion === 'All' || f.religion === activeReligion) &&
         (activeMonth === 'All' || f.month === activeMonth)
     );
 
@@ -262,10 +255,7 @@ export default function FestivalsPage() {
                         {isHi ? 'हिंदू, सिख, बौद्ध और जैन त्यौहार — 2026 की सटीक तिथियों, अनुष्ठानों और मंत्रों के साथ।' : 'Hindu, Sikh, Buddhist & Jain festivals — with exact 2026 dates, rituals and mantras.'}
                     </p>
                     <div className={styles.heroStats}>
-                        <div className={styles.stat}><span>{festivals.filter(f => f.religion === 'Hindu').length}+</span> {isHi ? 'हिंदू' : 'Hindu'}</div>
-                        <div className={styles.stat}><span>{festivals.filter(f => f.religion === 'Sikh').length}</span> {isHi ? 'सिख' : 'Sikh'}</div>
-                        <div className={styles.stat}><span>{festivals.filter(f => f.religion === 'Buddhist').length}</span> {isHi ? 'बौद्ध' : 'Buddhist'}</div>
-                        <div className={styles.stat}><span>{festivals.filter(f => f.religion === 'Jain').length}</span> {isHi ? 'जैन' : 'Jain'}</div>
+                        <div className={styles.stat}><span>{festivals.length}+</span> {isHi ? 'त्यौहार' : 'Festivals'}</div>
                     </div>
                     <Link href="/sangrah" className={styles.backBtn}>← {isHi ? 'संग्रह पर वापस' : 'Back to Sangrah'}</Link>
                 </div>
@@ -274,13 +264,7 @@ export default function FestivalsPage() {
             <div className={styles.filterBar}>
                 <div className="container">
                     <div className={styles.filterRow}>
-                        <div className={styles.filters}>
-                            {religions.map(r => (
-                                <button key={r} className={`${styles.filterBtn} ${activeReligion === r ? styles.filterActive : ''}`} onClick={() => setActiveReligion(r)}>
-                                    {isHi ? religionsMapHi[r] : religionsMap[r]}
-                                </button>
-                            ))}
-                        </div>
+
                         <div className={styles.filters}>
                             <button className={`${styles.filterBtnSm} ${activeMonth === 'All' ? styles.filterActive : ''}`} onClick={() => setActiveMonth('All')}>
                                 {isHi ? 'सभी महीने' : 'All Months'}
@@ -302,7 +286,7 @@ export default function FestivalsPage() {
                         {filtered.map((f, i) => (
                             <article key={i} className={styles.festivalCard} style={{ borderTopColor: f.color }}>
                                 <div className={styles.cardTopBar} style={{ background: f.color + '22' }}>
-                                    <span className={styles.cardSeason}>{isHi ? religionsMapHi[f.religion].replace(/.* /, '') : f.religion} · {isHi ? MONTHS_HI[f.month] : f.month}</span>
+                                    <span className={styles.cardSeason}>{isHi ? MONTHS_HI[f.month] : f.month}</span>
                                     <span className={styles.cardRegion}>📍 {isHi && f.regionHi ? f.regionHi : f.region}</span>
                                 </div>
                                 <div className={styles.cardHeader}>
