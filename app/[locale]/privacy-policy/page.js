@@ -1,9 +1,20 @@
 import styles from '../../components/subpage.module.css';
 
-export const metadata = {
-    title: 'Privacy Policy',
-    description: 'Privacy Policy for Sanatan Sangam app and website.',
-};
+export async function generateMetadata({ params }) {
+  const { locale } = await params;
+  const isHi = locale === 'hi';
+  return {
+    title: isHi ? 'गोपनीयता नीति | सनातन संगम' : 'Privacy Policy | Sanatan Sangam',
+    description: isHi ? 'सनातन संगम ऐप और वेबसाइट के लिए गोपनीयता नीति।' : 'Privacy Policy for Sanatan Sangam app and website.',
+    alternates: {
+      canonical: isHi ? 'https://sanatan-sangam.com/hi/privacy-policy' : 'https://sanatan-sangam.com/privacy-policy',
+      languages: {
+        'en': 'https://sanatan-sangam.com/privacy-policy',
+        'hi': 'https://sanatan-sangam.com/hi/privacy-policy',
+      },
+    },
+  };
+}
 
 export default function PrivacyPolicy() {
     return (

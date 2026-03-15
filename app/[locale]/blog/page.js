@@ -1,35 +1,43 @@
 import Link from 'next/link';
 import styles from './blog.module.css';
 
-export const metadata = {
-    title: 'Blog — Sanatan Dharma Articles, Insights & Spiritual Wisdom',
-    description:
-        'Read expert articles on Sanatan Dharma, Hanuman Chalisa benefits, 12 Jyotirlingas, Bhagavad Gita lessons, Hindu fasting, Tulsi plant, morning rituals & Vedic wisdom.',
+export async function generateMetadata({ params }) {
+  const { locale } = await params;
+  const isHi = locale === 'hi';
+
+  return {
+    title: isHi ? 'ब्लॉग — सनातन धर्म लेख, अंतर्दृष्टि और आध्यात्मिक ज्ञान' : 'Blog — Sanatan Dharma Articles, Insights & Spiritual Wisdom',
+    description: isHi
+      ? 'सनातन धर्म, हनुमान चालीसा के लाभ, 12 ज्योतिर्लिंग, भगवद गीता के पाठ, हिंदू उपवास, तुलसी के पौधे, सुबह के अनुष्ठान और वैदिक ज्ञान पर विशेषज्ञ लेख पढ़ें।'
+      : 'Read expert articles on Sanatan Dharma, Hanuman Chalisa benefits, 12 Jyotirlingas, Bhagavad Gita lessons, Hindu fasting, Tulsi plant, morning rituals & Vedic wisdom.',
     keywords: [
-        'sanatan dharma blog', 'Hindu articles', 'spiritual wisdom', 'Hanuman Chalisa benefits',
-        '12 Jyotirlingas guide', 'Bhagavad Gita lessons', 'Hindu fasting benefits', 'ayurveda articles',
-        'Panchang explained', 'Hindu meditation', 'Sanatan Sangam blog'
+      'sanatan dharma blog', 'Hindu articles', 'spiritual wisdom', 'Hanuman Chalisa benefits',
+      '12 Jyotirlingas guide', 'Bhagavad Gita lessons', 'Hindu fasting benefits', 'ayurveda articles',
+      'Panchang explained', 'Hindu meditation', 'Sanatan Sangam blog'
     ],
     openGraph: {
-        title: 'Sanatan Sangam Blog — Spiritual Wisdom & Sanatan Dharma Insights',
-        description:
-            'Expert articles on Hanuman Chalisa, 12 Jyotirlingas, Bhagavad Gita, Hindu rituals, Panchang, Vedic astrology & Ayurveda. Read on Sanatan Sangam.',
-        url: 'https://sanatan-sangam.com/blog',
-        images: [{ url: 'https://pub-a3540a1b218c43298ca3a816c685b5e7.r2.dev/app-pics/SS%20logo%20without%20text.png' }],
+      title: isHi ? 'सनातन संगम ब्लॉग — आध्यात्मिक ज्ञान और सनातन धर्म अंतर्दृष्टि' : 'Sanatan Sangam Blog — Spiritual Wisdom & Sanatan Dharma Insights',
+      description: isHi
+        ? 'हनुमान चालीसा, 12 ज्योतिर्लिंग, भगवद गीता, हिंदू अनुष्ठान, पंचांग, वैदिक ज्योतिष और आयुर्वेद पर विशेषज्ञ लेख। सनातन संगम पर पढ़ें।'
+        : 'Expert articles on Hanuman Chalisa, 12 Jyotirlingas, Bhagavad Gita, Hindu rituals, Panchang, Vedic astrology & Ayurveda. Read on Sanatan Sangam.',
+      url: isHi ? 'https://sanatan-sangam.com/hi/blog' : 'https://sanatan-sangam.com/blog',
+      images: [{ url: 'https://pub-a3540a1b218c43298ca3a816c685b5e7.r2.dev/app-pics/SS%20logo%20without%20text.png' }],
     },
     twitter: {
-        title: 'Spiritual Wisdom Blog | Sanatan Sangam',
-        description:
-            'Read in-depth articles on Sanatan Dharma, Hanuman Chalisa, Jyotirlingas, Bhagavad Gita & Hindu lifestyle practices.',
+      title: isHi ? 'आध्यात्मिक ज्ञान ब्लॉग | सनातन संगम' : 'Spiritual Wisdom Blog | Sanatan Sangam',
+      description: isHi
+        ? 'सनातन धर्म, हनुमान चालीसा, ज्योतिर्लिंग, भगवद गीता और हिंदू जीवन शैली प्रथाओं पर गहन लेख पढ़ें।'
+        : 'Read in-depth articles on Sanatan Dharma, Hanuman Chalisa, Jyotirlingas, Bhagavad Gita & Hindu lifestyle practices.',
     },
     alternates: {
-        canonical: 'https://sanatan-sangam.com/blog',
-        languages: {
-            'en': 'https://sanatan-sangam.com/blog',
-            'hi': 'https://sanatan-sangam.com/hi/blog',
-        },
+      canonical: isHi ? 'https://sanatan-sangam.com/hi/blog' : 'https://sanatan-sangam.com/blog',
+      languages: {
+        'en': 'https://sanatan-sangam.com/blog',
+        'hi': 'https://sanatan-sangam.com/hi/blog',
+      },
     },
-};
+  };
+}
 
 const articles = [
     {

@@ -1,33 +1,41 @@
 import styles from './about.module.css';
 
-export const metadata = {
-    title: 'About Sanatan Sangam — Our Mission, Vision & Values',
-    description:
-        'Learn how Sanatan Sangam bridges ancient Sanatan Dharma traditions with modern technology. Our mission: making divine experiences accessible to all in 11 Indian languages.',
+export async function generateMetadata({ params }) {
+  const { locale } = await params;
+  const isHi = locale === 'hi';
+
+  return {
+    title: isHi ? 'सनातन संगम के बारे में — हमारा मिशन और विजन' : 'About Sanatan Sangam — Our Mission, Vision & Values',
+    description: isHi
+      ? 'जानें कि कैसे सनातन संगम आधुनिक तकनीक के साथ प्राचीन सनातन धर्म परंपराओं को जोड़ता है। हमारा मिशन: 11 भारतीय भाषाओं में सभी के लिए दिव्य अनुभव सुलभ बनाना।'
+      : 'Learn how Sanatan Sangam bridges ancient Sanatan Dharma traditions with modern technology. Our mission: making divine experiences accessible to all in 11 Indian languages.',
     keywords: [
-        'about Sanatan Sangam', 'Sanatan Dharma mission', 'Hindu spiritual app about',
-        'Sanatan Sangam team', 'digital Sanatan Dharma', 'spiritual technology India',
+      'about Sanatan Sangam', 'Sanatan Dharma mission', 'Hindu spiritual app about',
+      'Sanatan Sangam team', 'digital Sanatan Dharma', 'spiritual technology India',
     ],
     openGraph: {
-        title: 'About Sanatan Sangam — Preserving Sanatan Dharma for the Digital Age',
-        description:
-            'Sanatan Sangam bridges ancient Hindu spiritual traditions with modern technology — live darshan, devotional music, AI art & more in 11 Indian languages.',
-        url: 'https://sanatan-sangam.com/about',
-        images: [{ url: 'https://pub-a3540a1b218c43298ca3a816c685b5e7.r2.dev/app-pics/SS%20logo%20without%20text.png' }],
+      title: isHi ? 'सनातन संगम के बारे में — डिजिटल युग के लिए सनातन धर्म का संरक्षण' : 'About Sanatan Sangam — Preserving Sanatan Dharma for the Digital Age',
+      description: isHi
+        ? 'सनातन संगम आधुनिक तकनीक के साथ प्राचीन हिंदू आध्यात्मिक परंपराओं को जोड़ता है — 11 भारतीय भाषाओं में लाइव दर्शन, भक्ति संगीत, AI कला और बहुत कुछ।'
+        : 'Sanatan Sangam bridges ancient Hindu spiritual traditions with modern technology — live darshan, devotional music, AI art & more in 11 Indian languages.',
+      url: isHi ? 'https://sanatan-sangam.com/hi/about' : 'https://sanatan-sangam.com/about',
+      images: [{ url: 'https://pub-a3540a1b218c43298ca3a816c685b5e7.r2.dev/app-pics/SS%20logo%20without%20text.png' }],
     },
     twitter: {
-        title: 'About Sanatan Sangam | Our Mission & Vision',
-        description:
-            'Sanatan Sangam bridges ancient Hindu spiritual traditions with modern technology. Serving devotees worldwide in 11 Indian languages.',
+      title: isHi ? 'हमारे बारे में | सनातन संगम' : 'About Sanatan Sangam | Our Mission & Vision',
+      description: isHi
+        ? 'सनातन संगम आधुनिक तकनीक के साथ प्राचीन हिंदू आध्यात्मिक परंपराओं को जोड़ता है। 11 भारतीय भाषाओं में दुनिया भर के भक्तों की सेवा।'
+        : 'Sanatan Sangam bridges ancient Hindu spiritual traditions with modern technology. Serving devotees worldwide in 11 Indian languages.',
     },
     alternates: {
-        canonical: 'https://sanatan-sangam.com/about',
-        languages: {
-            'en': 'https://sanatan-sangam.com/about',
-            'hi': 'https://sanatan-sangam.com/hi/about',
-        },
+      canonical: isHi ? 'https://sanatan-sangam.com/hi/about' : 'https://sanatan-sangam.com/about',
+      languages: {
+        'en': 'https://sanatan-sangam.com/about',
+        'hi': 'https://sanatan-sangam.com/hi/about',
+      },
     },
-};
+  };
+}
 
 
 const values = [

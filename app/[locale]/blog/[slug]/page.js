@@ -646,27 +646,32 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }) {
-  const { slug } = await params;
+  const { slug, locale } = await params;
+  const isHi = locale === 'hi';
   const article = articles[slug];
   if (!article) return {};
+
+  const title = article.title;
+  const description = article.description;
+
   return {
-    title: article.title,
-    description: article.description,
+    title,
+    description,
     keywords: [article.category, 'Sanatan Sangam', 'Sanatan Dharma', 'Hindu spirituality'],
     openGraph: {
-      title: article.title,
-      description: article.description,
-      url: `https://sanatan-sangam.com/blog/${slug}`,
+      title,
+      description,
+      url: isHi ? `https://sanatan-sangam.com/hi/blog/${slug}` : `https://sanatan-sangam.com/blog/${slug}`,
       type: 'article',
       publishedTime: article.date,
       images: [{ url: 'https://pub-a3540a1b218c43298ca3a816c685b5e7.r2.dev/app-pics/SS%20logo%20without%20text.png' }],
     },
     twitter: {
-      title: article.title,
-      description: article.description,
+      title,
+      description,
     },
     alternates: {
-      canonical: `https://sanatan-sangam.com/blog/${slug}`,
+      canonical: isHi ? `https://sanatan-sangam.com/hi/blog/${slug}` : `https://sanatan-sangam.com/blog/${slug}`,
       languages: {
         'en': `https://sanatan-sangam.com/blog/${slug}`,
         'hi': `https://sanatan-sangam.com/hi/blog/${slug}`,

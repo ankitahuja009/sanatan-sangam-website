@@ -1,0 +1,16 @@
+{
+  "name": "Sanatan Sangam",
+  "short_name": "Sanatan",
+  "description": "Where Sanatan Meets You — Your complete spiritual companion in 11 Indian languages.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#FF6B00",
+  "icons": [
+    {
+      "src": "/icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

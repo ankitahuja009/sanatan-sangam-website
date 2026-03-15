@@ -1,9 +1,20 @@
 import styles from '../../components/subpage.module.css';
 
-export const metadata = {
-    title: 'Terms of Use',
-    description: 'Terms of Use for Sanatan Sangam app and website.',
-};
+export async function generateMetadata({ params }) {
+  const { locale } = await params;
+  const isHi = locale === 'hi';
+  return {
+    title: isHi ? 'उपयोग की शर्तें | सनातन संगम' : 'Terms of Use | Sanatan Sangam',
+    description: isHi ? 'सनातन संगम ऐप और वेबसाइट के लिए उपयोग की शर्तें।' : 'Terms of Use for Sanatan Sangam app and website.',
+    alternates: {
+      canonical: isHi ? 'https://sanatan-sangam.com/hi/terms-of-use' : 'https://sanatan-sangam.com/terms-of-use',
+      languages: {
+        'en': 'https://sanatan-sangam.com/terms-of-use',
+        'hi': 'https://sanatan-sangam.com/hi/terms-of-use',
+      },
+    },
+  };
+}
 
 export default function TermsOfUse() {
     return (

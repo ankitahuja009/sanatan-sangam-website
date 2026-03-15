@@ -24,7 +24,7 @@ export default function ArtmateCarousel() {
                 <img
                     key={img}
                     src={img}
-                    alt={`Artmate showcase ${i + 1}`}
+                    alt={`Sanatan Sangam AI Artmate Sample ${i + 1}`}
                     style={{
                         position: 'absolute',
                         inset: 0,

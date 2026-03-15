@@ -17,7 +17,7 @@ export default function SquareCarousel({ images }) {
                 <img
                     key={img}
                     src={img}
-                    alt={`Carousel image ${i + 1}`}
+                    alt={`Sanatan Sangam Gallery Image ${i + 1}`}
                     style={{
                         position: 'absolute',
                         inset: 0,
