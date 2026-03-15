@@ -17,11 +17,40 @@ export async function generateMetadata({ params }) {
     };
 }
 
-export default function MantraListingPage() {
-    const locale = useLocale();
+export default async function MantraListingPage({ params }) {
+    const { locale } = await params;
+
+    const breadcrumbData = {
+        '@context': 'https://schema.org',
+        '@type': 'BreadcrumbList',
+        'itemListElement': [
+            {
+                '@type': 'ListItem',
+                'position': 1,
+                'name': locale === 'hi' ? 'होम' : 'Home',
+                'item': locale === 'hi' ? 'https://sanatan-sangam.com/hi' : 'https://sanatan-sangam.com',
+            },
+            {
+                '@type': 'ListItem',
+                'position': 2,
+                'name': locale === 'hi' ? 'संग्रह' : 'Sangrah',
+                'item': locale === 'hi' ? 'https://sanatan-sangam.com/hi/sangrah' : 'https://sanatan-sangam.com/sangrah',
+            },
+            {
+                '@type': 'ListItem',
+                'position': 3,
+                'name': locale === 'hi' ? 'मंत्र' : 'Mantra',
+                'item': locale === 'hi' ? 'https://sanatan-sangam.com/hi/sangrah/mantra' : 'https://sanatan-sangam.com/sangrah/mantra',
+            },
+        ],
+    };
 
     return (
         <>
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbData) }}
+            />
             <section className={styles.hero}>
                 <div className={`container ${styles.heroContent}`}>
                     <span className={styles.badge}>{locale === 'hi' ? '🕉️ संग्रह — मंत्र संग्रह' : '🕉️ Sangrah — Mantra Collection'}</span>

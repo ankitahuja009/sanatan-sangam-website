@@ -8,50 +8,89 @@ import { notFound } from 'next/navigation';
 import { routing } from '../../i18n/routing';
 import { GoogleAnalytics } from '@next/third-parties/google';
 
-export const metadata = {
-  metadataBase: new URL('https://sanatan-sangam.com'),
-  title: {
-    default: 'Sanatan Sangam — Where Sanatan Meets You | Devotional App',
+export async function generateMetadata({ params }) {
+  const { locale } = await params;
+  const isHi = locale === 'hi';
+
+  const title = {
+    default: isHi 
+      ? 'सनातन संगम — जहाँ सनातन आपसे मिलता है | लाइव दर्शन, आरती और भजन' 
+      : 'Sanatan Sangam — Where Sanatan Meets You | Live Darshan, Aarti & Bhajans',
     template: '%s | Sanatan Sangam',
-  },
-  description:
-    'Sanatan Sangam brings divine darshan, devotional music, AI spiritual art, personalized blessings, horoscope, Panchang, and more — your complete spiritual companion in 11 Indian languages.',
-  keywords: [
-    'Sanatan Dharma',
-    'devotional app',
-    'live darshan',
-    'aarti',
-    'chalisa',
-    'mantra',
-    'bhajan',
-    'horoscope',
-    'panchang',
-    'kundli',
-    'Hindu spirituality',
-    'ai spiritual art',
-    'devotional music',
-  ],
-  openGraph: {
-    title: 'Sanatan Sangam — Where Sanatan Meets You',
-    description:
-      'Experience divine darshan, devotional music, AI art, blessings & more. Your complete spiritual companion.',
-    url: 'https://sanatan-sangam.com',
-    siteName: 'Sanatan Sangam',
-    locale: 'en_IN',
-    type: 'website',
-    images: [{ url: 'https://pub-a3540a1b218c43298ca3a816c685b5e7.r2.dev/app-pics/SS%20logo%20without%20text.png' }],
-  },
-  twitter: {
-    card: 'summary_large_image',
-    title: 'Sanatan Sangam — Where Sanatan Meets You',
-    description:
-      'Live temple darshan, 200+ bhajans, AI spiritual art, horoscope & more in 11 languages.',
-  },
-  robots: {
-    index: true,
-    follow: true,
-  },
-};
+  };
+  
+  const description = isHi
+    ? 'सनातन संगम लाया है दिव्य दर्शन, भक्ति संगीत, AI आध्यात्मिक कला, व्यक्तिगत आशीर्वाद, राशिफल, पंचांग और बहुत कुछ — 11 भारतीय भाषाओं में आपका संपूर्ण आध्यात्मिक साथी।'
+    : 'Sanatan Sangam brings divine darshan, devotional music, AI spiritual art, personalized blessings, horoscope, Panchang, and more — your complete spiritual companion in 11 Indian languages.';
+
+  const keywords = [
+    'Sanatan Sangam', 'Sanatan Dharma app', 'devotional app India',
+    'live darshan app', 'aarti app', 'chalisa app', 'mantra app',
+    'bhajan app', 'horoscope app', 'panchang today', 'free kundli',
+    'Hindu spirituality app', 'AI spiritual art', 'devotional music app',
+    'temple darshan online', 'Hindu prayer app',
+  ];
+  if (isHi) {
+    keywords.push('सनातन संगम', 'लाइव दर्शन', 'आरती', 'भजन', 'चालीसा', 'मंत्र', 'पंचांग', 'राशिफल');
+  }
+
+  return {
+    metadataBase: new URL('https://sanatan-sangam.com'),
+    title,
+    description,
+    keywords,
+    openGraph: {
+      title: title.default,
+      description,
+      url: isHi ? 'https://sanatan-sangam.com/hi' : 'https://sanatan-sangam.com',
+      siteName: 'Sanatan Sangam',
+      locale: isHi ? 'hi_IN' : 'en_IN',
+      type: 'website',
+      images: [{
+        url: 'https://pub-a3540a1b218c43298ca3a816c685b5e7.r2.dev/app-pics/SS%20logo%20without%20text.png',
+        width: 1200,
+        height: 630,
+        alt: 'Sanatan Sangam — Devotional App',
+      }],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      site: '@sanatansangam',
+      title: title.default,
+      description,
+      images: ['https://pub-a3540a1b218c43298ca3a816c685b5e7.r2.dev/app-pics/SS%20logo%20without%20text.png'],
+    },
+    robots: {
+      index: true,
+      follow: true,
+      googleBot: {
+        index: true,
+        follow: true,
+        'max-video-preview': -1,
+        'max-image-preview': 'large',
+        'max-snippet': -1,
+      },
+    },
+    alternates: {
+      canonical: isHi ? 'https://sanatan-sangam.com/hi' : 'https://sanatan-sangam.com',
+      languages: {
+        'en': 'https://sanatan-sangam.com',
+        'hi': 'https://sanatan-sangam.com/hi',
+        'x-default': 'https://sanatan-sangam.com',
+      },
+    },
+    verification: {
+      google: 'zNyxuhsrHy87yfO6ChC3lurxHebghuTFNxLxHnLRZno',
+    },
+    other: {
+      'theme-color': '#FF6B00',
+      'apple-mobile-web-app-capable': 'yes',
+      'apple-mobile-web-app-status-bar-style': 'default',
+      'apple-mobile-web-app-title': 'Sanatan Sangam',
+    },
+  };
+}
+
 
 export default async function RootLayout({ children, params }) {
   const { locale } = await params;

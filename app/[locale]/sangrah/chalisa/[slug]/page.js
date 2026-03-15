@@ -54,9 +54,40 @@ export default async function ChalisaDetailPage({ params }) {
     const desc = locale === 'hi' ? (chalisa.descriptionHi || chalisa.description) : chalisa.description;
     const benefits = locale === 'hi' ? (chalisa.benefitsHi || chalisa.benefits) : chalisa.benefits;
 
+    const breadcrumbData = {
+        '@type': 'BreadcrumbList',
+        'itemListElement': [
+            {
+                '@type': 'ListItem',
+                'position': 1,
+                'name': locale === 'hi' ? 'होम' : 'Home',
+                'item': locale === 'hi' ? 'https://sanatan-sangam.com/hi' : 'https://sanatan-sangam.com',
+            },
+            {
+                '@type': 'ListItem',
+                'position': 2,
+                'name': locale === 'hi' ? 'संग्रह' : 'Sangrah',
+                'item': locale === 'hi' ? 'https://sanatan-sangam.com/hi/sangrah' : 'https://sanatan-sangam.com/sangrah',
+            },
+            {
+                '@type': 'ListItem',
+                'position': 3,
+                'name': locale === 'hi' ? 'चालीसा' : 'Chalisa',
+                'item': locale === 'hi' ? 'https://sanatan-sangam.com/hi/sangrah/chalisa' : 'https://sanatan-sangam.com/sangrah/chalisa',
+            },
+            {
+                '@type': 'ListItem',
+                'position': 4,
+                'name': name,
+                'item': absoluteUrl,
+            },
+        ],
+    };
+
     const jsonLd = {
         '@context': 'https://schema.org',
         '@graph': [
+            breadcrumbData,
             {
                 '@type': 'Article',
                 headline: `${name} — ${deity} Chalisa Lyrics`,
@@ -71,26 +102,18 @@ export default async function ChalisaDetailPage({ params }) {
                 mainEntity: [
                     {
                         '@type': 'Question',
-                        name: `What are the benefits of reciting ${chalisa.name}?`,
+                        name: locale === 'hi' ? `${name} के पाठ करने के क्या लाभ हैं?` : `What are the benefits of reciting ${name}?`,
                         acceptedAnswer: {
                             '@type': 'Answer',
-                            text: typeof chalisa.benefits === 'string' ? chalisa.benefits : (chalisa.benefits || []).join(' ')
+                            text: locale === 'hi' ? (chalisa.benefitsHi || []).join(' ') : (chalisa.benefits || []).join(' ')
                         }
                     },
                     {
                         '@type': 'Question',
-                        name: `Who wrote the ${chalisa.name}?`,
+                        name: locale === 'hi' ? `${name} किसने लिखी?` : `Who wrote the ${name}?`,
                         acceptedAnswer: {
                             '@type': 'Answer',
-                            text: `The ${chalisa.name} was written by ${chalisa.author}.`
-                        }
-                    },
-                    {
-                        '@type': 'Question',
-                        name: `What is the significance of ${chalisa.name}?`,
-                        acceptedAnswer: {
-                            '@type': 'Answer',
-                            text: typeof chalisa.description === 'string' ? chalisa.description : (typeof desc === 'string' ? desc : '')
+                            text: locale === 'hi' ? `${name} को ${chalisa.author} ने लिखा था।` : `The ${name} was written by ${chalisa.author}.`
                         }
                     }
                 ]

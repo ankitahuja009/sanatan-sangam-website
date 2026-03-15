@@ -17,11 +17,40 @@ export async function generateMetadata({ params }) {
     };
 }
 
-export default function ChalisaListingPage() {
-    const locale = useLocale();
+export default async function ChalisaListingPage({ params }) {
+    const { locale } = await params;
+
+    const breadcrumbData = {
+        '@context': 'https://schema.org',
+        '@type': 'BreadcrumbList',
+        'itemListElement': [
+            {
+                '@type': 'ListItem',
+                'position': 1,
+                'name': locale === 'hi' ? 'होम' : 'Home',
+                'item': locale === 'hi' ? 'https://sanatan-sangam.com/hi' : 'https://sanatan-sangam.com',
+            },
+            {
+                '@type': 'ListItem',
+                'position': 2,
+                'name': locale === 'hi' ? 'संग्रह' : 'Sangrah',
+                'item': locale === 'hi' ? 'https://sanatan-sangam.com/hi/sangrah' : 'https://sanatan-sangam.com/sangrah',
+            },
+            {
+                '@type': 'ListItem',
+                'position': 3,
+                'name': locale === 'hi' ? 'चालीसा' : 'Chalisa',
+                'item': locale === 'hi' ? 'https://sanatan-sangam.com/hi/sangrah/chalisa' : 'https://sanatan-sangam.com/sangrah/chalisa',
+            },
+        ],
+    };
 
     return (
         <>
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbData) }}
+            />
             <section className={styles.hero}>
                 <div className={`container ${styles.heroContent}`}>
                     <span className={styles.badge}>{locale === 'hi' ? '📿 संग्रह — चालीसा संग्रह' : '📿 Sangrah — Chalisa Collection'}</span>

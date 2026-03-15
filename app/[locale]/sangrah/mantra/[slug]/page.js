@@ -50,13 +50,54 @@ export default async function MantraDetailPage({ params }) {
     const recommended = getRecommendedMantras(slug, 4);
     const pageUrl = `https://sanatan-sangam.com/sangrah/mantra/${mantra.slug}`;
 
+    const isHi = locale === 'hi';
+    const name = isHi ? (mantra.nameHi || mantra.name) : mantra.name;
+    const deity = isHi ? (mantra.deityHi || mantra.deity) : mantra.deity;
+    const description = isHi ? (mantra.descriptionHi || mantra.description) : mantra.description;
+    const meaning = isHi ? (mantra.meaningHi || mantra.meaning) : mantra.meaning;
+    const benefits = isHi ? (mantra.benefitsHi || mantra.benefits) : mantra.benefits;
+    const howToChant = isHi ? (mantra.howToChantHi || mantra.howToChant) : mantra.howToChant;
+
+    const absoluteUrl = `https://sanatan-sangam.com${locale === 'en' ? '' : `/${locale}`}/sangrah/mantra/${mantra.slug}`;
+
+    const breadcrumbData = {
+        '@type': 'BreadcrumbList',
+        'itemListElement': [
+            {
+                '@type': 'ListItem',
+                'position': 1,
+                'name': isHi ? 'होम' : 'Home',
+                'item': isHi ? 'https://sanatan-sangam.com/hi' : 'https://sanatan-sangam.com',
+            },
+            {
+                '@type': 'ListItem',
+                'position': 2,
+                'name': isHi ? 'संग्रह' : 'Sangrah',
+                'item': isHi ? 'https://sanatan-sangam.com/hi/sangrah' : 'https://sanatan-sangam.com/sangrah',
+            },
+            {
+                '@type': 'ListItem',
+                'position': 3,
+                'name': isHi ? 'मंत्र' : 'Mantra',
+                'item': isHi ? 'https://sanatan-sangam.com/hi/sangrah/mantra' : 'https://sanatan-sangam.com/sangrah/mantra',
+            },
+            {
+                '@type': 'ListItem',
+                'position': 4,
+                'name': name,
+                'item': absoluteUrl,
+            },
+        ],
+    };
+
     const jsonLd = {
         '@context': 'https://schema.org',
         '@graph': [
+            breadcrumbData,
             {
                 '@type': 'Article',
-                headline: `${mantra.name} — ${mantra.deity} Mantra Text and Meaning`,
-                description: mantra.description,
+                headline: `${name} — ${deity} Mantra Text and Meaning`,
+                description: description,
                 dateModified: mantra.updatedAt,
                 author: { '@type': 'Organization', name: 'Sanatan Sangam' },
                 publisher: { '@type': 'Organization', name: 'Sanatan Sangam' },
@@ -67,41 +108,32 @@ export default async function MantraDetailPage({ params }) {
                 mainEntity: [
                     {
                         '@type': 'Question',
-                        name: `What are the benefits of chanting ${mantra.name}?`,
+                        name: isHi ? `${name} जाप के क्या लाभ हैं?` : `What are the benefits of chanting ${name}?`,
                         acceptedAnswer: {
                             '@type': 'Answer',
-                            text: typeof mantra.benefits === 'string' ? mantra.benefits : (mantra.benefits || []).join(' ')
+                            text: isHi ? (mantra.benefitsHi || []).join(' ') : (mantra.benefits || []).join(' ')
                         }
                     },
                     {
                         '@type': 'Question',
-                        name: `How should one chant the ${mantra.name}?`,
+                        name: isHi ? `${name} का जाप कैसे करें?` : `How should one chant the ${name}?`,
                         acceptedAnswer: {
                             '@type': 'Answer',
-                            text: mantra.howToChant
+                            text: howToChant
                         }
                     },
                     {
                         '@type': 'Question',
-                        name: `What is the meaning of ${mantra.name}?`,
+                        name: isHi ? `${name} का अर्थ क्या है?` : `What is the meaning of ${name}?`,
                         acceptedAnswer: {
                             '@type': 'Answer',
-                            text: mantra.meaning
+                            text: meaning
                         }
                     }
                 ]
             }
         ]
     };
-
-    const isHi = locale === 'hi';
-
-    const name = isHi ? (mantra.nameHi || mantra.name) : mantra.name;
-    const deity = isHi ? (mantra.deityHi || mantra.deity) : mantra.deity;
-    const description = isHi ? (mantra.descriptionHi || mantra.description) : mantra.description;
-    const meaning = isHi ? (mantra.meaningHi || mantra.meaning) : mantra.meaning;
-    const benefits = isHi ? (mantra.benefitsHi || mantra.benefits) : mantra.benefits;
-    const howToChant = isHi ? (mantra.howToChantHi || mantra.howToChant) : mantra.howToChant;
 
     return (
         <>

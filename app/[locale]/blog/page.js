@@ -4,8 +4,31 @@ import styles from './blog.module.css';
 export const metadata = {
     title: 'Blog — Sanatan Dharma Articles, Insights & Spiritual Wisdom',
     description:
-        'Read articles on Sanatan Dharma, Hindu philosophy, temple histories, festival guides, yoga & meditation, Ayurveda tips, and spiritual living.',
-    keywords: ['sanatan dharma blog', 'hindu articles', 'spiritual wisdom', 'yoga blog', 'ayurveda articles', 'hindu philosophy'],
+        'Read expert articles on Sanatan Dharma, Hanuman Chalisa benefits, 12 Jyotirlingas, Bhagavad Gita lessons, Hindu fasting, Tulsi plant, morning rituals & Vedic wisdom.',
+    keywords: [
+        'sanatan dharma blog', 'Hindu articles', 'spiritual wisdom', 'Hanuman Chalisa benefits',
+        '12 Jyotirlingas guide', 'Bhagavad Gita lessons', 'Hindu fasting benefits', 'ayurveda articles',
+        'Panchang explained', 'Hindu meditation', 'Sanatan Sangam blog'
+    ],
+    openGraph: {
+        title: 'Sanatan Sangam Blog — Spiritual Wisdom & Sanatan Dharma Insights',
+        description:
+            'Expert articles on Hanuman Chalisa, 12 Jyotirlingas, Bhagavad Gita, Hindu rituals, Panchang, Vedic astrology & Ayurveda. Read on Sanatan Sangam.',
+        url: 'https://sanatan-sangam.com/blog',
+        images: [{ url: 'https://pub-a3540a1b218c43298ca3a816c685b5e7.r2.dev/app-pics/SS%20logo%20without%20text.png' }],
+    },
+    twitter: {
+        title: 'Spiritual Wisdom Blog | Sanatan Sangam',
+        description:
+            'Read in-depth articles on Sanatan Dharma, Hanuman Chalisa, Jyotirlingas, Bhagavad Gita & Hindu lifestyle practices.',
+    },
+    alternates: {
+        canonical: 'https://sanatan-sangam.com/blog',
+        languages: {
+            'en': 'https://sanatan-sangam.com/blog',
+            'hi': 'https://sanatan-sangam.com/hi/blog',
+        },
+    },
 };
 
 const articles = [
@@ -109,7 +132,7 @@ export default function BlogPage() {
 
                     <div className={styles.articleGrid}>
                         {articles.map((a, i) => (
-                            <article key={i} className={styles.articleCard}>
+                            <Link key={i} href={`/blog/${a.slug}`} className={styles.articleCard} style={{ textDecoration: 'none', display: 'block' }}>
                                 <div className={styles.articleMeta}>
                                     <span className={styles.articleCategory}>{a.category}</span>
                                     <span className={styles.articleTime}>{a.readTime} read</span>
@@ -120,7 +143,7 @@ export default function BlogPage() {
                                     <span className={styles.articleDate}>{new Date(a.date).toLocaleDateString('en-IN', { day: 'numeric', month: 'short', year: 'numeric' })}</span>
                                     <span className={styles.articleArrow}>Read →</span>
                                 </div>
-                            </article>
+                            </Link>
                         ))}
                     </div>
                 </div>

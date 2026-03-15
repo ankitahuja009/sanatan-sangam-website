@@ -1,10 +1,34 @@
 import styles from './about.module.css';
 
 export const metadata = {
-    title: 'About Us',
+    title: 'About Sanatan Sangam — Our Mission, Vision & Values',
     description:
-        'Sanatan Sangam is dedicated to preserving and promoting the timeless wisdom of Sanatan Dharma through technology.',
+        'Learn how Sanatan Sangam bridges ancient Sanatan Dharma traditions with modern technology. Our mission: making divine experiences accessible to all in 11 Indian languages.',
+    keywords: [
+        'about Sanatan Sangam', 'Sanatan Dharma mission', 'Hindu spiritual app about',
+        'Sanatan Sangam team', 'digital Sanatan Dharma', 'spiritual technology India',
+    ],
+    openGraph: {
+        title: 'About Sanatan Sangam — Preserving Sanatan Dharma for the Digital Age',
+        description:
+            'Sanatan Sangam bridges ancient Hindu spiritual traditions with modern technology — live darshan, devotional music, AI art & more in 11 Indian languages.',
+        url: 'https://sanatan-sangam.com/about',
+        images: [{ url: 'https://pub-a3540a1b218c43298ca3a816c685b5e7.r2.dev/app-pics/SS%20logo%20without%20text.png' }],
+    },
+    twitter: {
+        title: 'About Sanatan Sangam | Our Mission & Vision',
+        description:
+            'Sanatan Sangam bridges ancient Hindu spiritual traditions with modern technology. Serving devotees worldwide in 11 Indian languages.',
+    },
+    alternates: {
+        canonical: 'https://sanatan-sangam.com/about',
+        languages: {
+            'en': 'https://sanatan-sangam.com/about',
+            'hi': 'https://sanatan-sangam.com/hi/about',
+        },
+    },
 };
+
 
 const values = [
     { icon: '🕉️', title: 'Authenticity', desc: 'Preserving traditional practices with integrity and respect for ancient scriptures.' },

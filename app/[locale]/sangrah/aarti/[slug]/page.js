@@ -54,9 +54,40 @@ export default async function AartiDetailPage({ params }) {
     const desc = locale === 'hi' ? aarti.descriptionHi : aarti.description;
     const benefits = locale === 'hi' ? aarti.benefitsHi : aarti.benefits;
 
+    const breadcrumbData = {
+        '@type': 'BreadcrumbList',
+        'itemListElement': [
+            {
+                '@type': 'ListItem',
+                'position': 1,
+                'name': locale === 'hi' ? 'होम' : 'Home',
+                'item': locale === 'hi' ? 'https://sanatan-sangam.com/hi' : 'https://sanatan-sangam.com',
+            },
+            {
+                '@type': 'ListItem',
+                'position': 2,
+                'name': locale === 'hi' ? 'संग्रह' : 'Sangrah',
+                'item': locale === 'hi' ? 'https://sanatan-sangam.com/hi/sangrah' : 'https://sanatan-sangam.com/sangrah',
+            },
+            {
+                '@type': 'ListItem',
+                'position': 3,
+                'name': locale === 'hi' ? 'आरती' : 'Aarti',
+                'item': locale === 'hi' ? 'https://sanatan-sangam.com/hi/sangrah/aarti' : 'https://sanatan-sangam.com/sangrah/aarti',
+            },
+            {
+                '@type': 'ListItem',
+                'position': 4,
+                'name': name,
+                'item': absoluteUrl,
+            },
+        ],
+    };
+
     const jsonLd = {
         '@context': 'https://schema.org',
         '@graph': [
+            breadcrumbData,
             {
                 '@type': 'Article',
                 headline: `${name} — ${deity} Aarti Lyrics`,
@@ -71,26 +102,18 @@ export default async function AartiDetailPage({ params }) {
                 mainEntity: [
                     {
                         '@type': 'Question',
-                        name: `What are the benefits of reciting ${aarti.name}?`,
+                        name: locale === 'hi' ? `${aarti.nameHi} के पाठ करने के क्या लाभ हैं?` : `What are the benefits of reciting ${aarti.name}?`,
                         acceptedAnswer: {
                             '@type': 'Answer',
-                            text: typeof aarti.benefits === 'string' ? aarti.benefits : (aarti.benefits || []).join(' ')
+                            text: locale === 'hi' ? (aarti.benefitsHi || []).join(' ') : (aarti.benefits || []).join(' ')
                         }
                     },
                     {
                         '@type': 'Question',
-                        name: `Who is the deity of ${aarti.name}?`,
+                        name: locale === 'hi' ? `${aarti.nameHi} के देवता कौन हैं?` : `Who is the deity of ${aarti.name}?`,
                         acceptedAnswer: {
                             '@type': 'Answer',
-                            text: typeof aarti.deity === 'string' ? aarti.deity : `${aarti.name} is dedicated to ${aarti.deity}.`
-                        }
-                    },
-                    {
-                        '@type': 'Question',
-                        name: `What is the significance of ${aarti.name}?`,
-                        acceptedAnswer: {
-                            '@type': 'Answer',
-                            text: typeof aarti.description === 'string' ? aarti.description : (typeof desc === 'string' ? desc : '')
+                            text: locale === 'hi' ? `${aarti.nameHi} ${aarti.deityHi} को समर्पित है।` : `${aarti.name} is dedicated to ${aarti.deity}.`
                         }
                     }
                 ]
