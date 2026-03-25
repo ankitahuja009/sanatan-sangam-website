@@ -64,12 +64,12 @@ export default function Header() {
                 {/* CTA + Language + Hamburger */}
                 <div className={styles.actions}>
                     <LanguageSwitcher />
-                    <a
-                        href="#download"
+                    <Link
+                        href="/#download"
                         className={`btn btn-primary btn-sm ${styles.downloadBtn}`}
                     >
                         📱 {common('downloadApp')}
-                    </a>
+                    </Link>
                     <button
                         className={`${styles.hamburger} ${mobileOpen ? styles.open : ''}`}
                         onClick={() => setMobileOpen(!mobileOpen)}
@@ -97,13 +97,13 @@ export default function Header() {
                     ))}
                     <div className={styles.mobileActions} style={{ display: 'flex', flexDirection: 'column', gap: '1rem', marginTop: '2rem', alignItems: 'center' }}>
                         <LanguageSwitcher />
-                        <a
-                            href="#download"
+                        <Link
+                            href="/#download"
                             className={`btn btn-primary ${styles.mobileDownloadBtn}`}
                             onClick={() => setMobileOpen(false)}
                         >
                             📱 {common('downloadApp')}
-                        </a>
+                        </Link>
                     </div>
                 </nav>
             </div>

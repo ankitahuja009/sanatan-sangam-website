@@ -1,5 +1,6 @@
 'use client';
 import { useTranslations } from 'next-intl';
+import { Link } from '../../i18n/routing';
 import styles from '../../components/subpage.module.css';
 
 export default function MusicPage() {
@@ -53,7 +54,7 @@ export default function MusicPage() {
                     <span className={styles.badge}>{t('badge')}</span>
                     <h1>{t('heroTitle')}</h1>
                     <p className={styles.heroDesc}>{t('heroDesc')}</p>
-                    <a href="#download" className="btn btn-primary">{t('ctaHero')}</a>
+                    <Link href="/#download" className="btn btn-primary">{t('ctaHero')}</Link>
                 </div>
             </section>
 
@@ -119,7 +120,7 @@ export default function MusicPage() {
                         ))}
                     </div>
                     <div style={{ textAlign: 'center', marginTop: '24px' }}>
-                        <a href="#download" className="btn btn-primary">{t('ctaBottomButton')}</a>
+                        <Link href="/#download" className="btn btn-primary">{t('ctaBottomButton')}</Link>
                     </div>
                 </div>
             </section>

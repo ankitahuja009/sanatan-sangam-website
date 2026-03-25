@@ -1,5 +1,6 @@
 'use client';
 import { useTranslations } from 'next-intl';
+import { Link } from '../../i18n/routing';
 import styles from '../../components/subpage.module.css';
 import SquareCarousel from '../../components/SquareCarousel';
 
@@ -13,7 +14,7 @@ export default function ArtPage() {
                     <span className={styles.badge}>{t('badge')}</span>
                     <h1>{t('heroTitle')}</h1>
                     <p className={styles.heroDesc}>{t('heroDesc')}</p>
-                    <a href="#download" className="btn btn-primary">{t('ctaHero')}</a>
+                    <Link href="/#download" className="btn btn-primary">{t('ctaHero')}</Link>
                 </div>
             </section>
 
@@ -58,7 +59,7 @@ export default function ArtPage() {
                     <p style={{ color: 'var(--brown-light)', margin: '16px auto 24px', maxWidth: '500px' }}>
                         {t('ctaBottomDesc')}
                     </p>
-                    <a href="#download" className="btn btn-primary">{t('ctaBottomButton')}</a>
+                    <Link href="/#download" className="btn btn-primary">{t('ctaBottomButton')}</Link>
                 </div>
             </section>
         </>

@@ -1,5 +1,6 @@
 'use client';
 import { useTranslations } from 'next-intl';
+import { Link } from '../../i18n/routing';
 import styles from '../../components/subpage.module.css';
 
 export default function AstroPage() {
@@ -35,7 +36,7 @@ export default function AstroPage() {
                     <span className={styles.badge}>{t('badge')}</span>
                     <h1>{t('heroTitle')}</h1>
                     <p className={styles.heroDesc}>{t('heroDesc')}</p>
-                    <a href="#download" className="btn btn-primary">{t('ctaHero')}</a>
+                    <Link href="/#download" className="btn btn-primary">{t('ctaHero')}</Link>
                 </div>
             </section>
 
@@ -92,7 +93,7 @@ export default function AstroPage() {
                                 <span key={i} className={styles.chipAccent}>{k}</span>
                             ))}
                         </div>
-                        <a href="#download" className="btn btn-primary" style={{ marginTop: '24px' }}>{t('ctaBottomButton')}</a>
+                        <Link href="/#download" className="btn btn-primary" style={{ marginTop: '24px' }}>{t('ctaBottomButton')}</Link>
                     </div>
                 </div>
             </section>

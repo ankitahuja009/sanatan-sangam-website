@@ -2,6 +2,7 @@
 import { useState } from 'react';
 import Image from 'next/image';
 import { useTranslations } from 'next-intl';
+import { Link } from '../../i18n/routing';
 import styles from './darshan.module.css';
 
 const temples = [
@@ -197,9 +198,9 @@ export default function DarshanPage() {
                                     </div>
                                 </div>
                             )}
-                            <a href="#download" className={styles.watchBtn} onClick={() => setSelectedTemple(null)}>
+                            <Link href="/#download" className={styles.watchBtn} onClick={() => setSelectedTemple(null)}>
                                 {t('watchLive')}
-                            </a>
+                            </Link>
                         </div>
                     </div>
                 </div>
@@ -210,7 +211,7 @@ export default function DarshanPage() {
                 <div className="container">
                     <h2>{t('ctaTitle')}</h2>
                     <p>{t('ctaDesc')}</p>
-                    <a href="#download" className="btn btn-primary">{t('downloadApp')}</a>
+                    <Link href="/#download" className="btn btn-primary">{t('downloadApp')}</Link>
                 </div>
             </section>
         </>
