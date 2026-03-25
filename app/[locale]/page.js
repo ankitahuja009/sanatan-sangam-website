@@ -377,10 +377,10 @@ export default function HomePage() {
               {downloadT('subtitle')}
             </p>
             <div className={styles.downloadButtons}>
-              <a href="#" className={styles.storeBtnWrap}>
+              <a href="https://play.google.com/store/apps/details?id=com.sanatansangam" target="_blank" rel="noopener noreferrer" className={styles.storeBtnWrap}>
                 <img src="/google-play-badge.svg" alt="Get it on Google Play" className={styles.storeBadgeImg} />
               </a>
-              <a href="#" className={styles.storeBtnWrap}>
+              <a href="https://apps.apple.com/us/app/sanatan-sangam/id6760002994" target="_blank" rel="noopener noreferrer" className={styles.storeBtnWrap}>
                 <img src="/app-store-badge.svg" alt="Download on the App Store" className={styles.storeBadgeImg} />
               </a>
             </div>
