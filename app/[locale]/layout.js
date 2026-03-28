@@ -71,14 +71,7 @@ export async function generateMetadata({ params }) {
         'max-snippet': -1,
       },
     },
-    alternates: {
-      canonical: isHi ? 'https://sanatan-sangam.com/hi' : 'https://sanatan-sangam.com',
-      languages: {
-        'en': 'https://sanatan-sangam.com',
-        'hi': 'https://sanatan-sangam.com/hi',
-        'x-default': 'https://sanatan-sangam.com',
-      },
-    },
+
     verification: {
       google: 'zNyxuhsrHy87yfO6ChC3lurxHebghuTFNxLxHnLRZno',
     },
@@ -103,7 +96,6 @@ export default async function RootLayout({ children, params }) {
   // Providing all messages to the client
   // side is the easiest way to get started
   const messages = await getMessages();
-  console.log('DEBUG: Loaded messages for locale:', locale, Object.keys(messages));
 
   const jsonLd = {
     '@context': 'https://schema.org',
@@ -138,11 +130,6 @@ export default async function RootLayout({ children, params }) {
         '@type': 'WebSite',
         name: 'Sanatan Sangam',
         url: 'https://sanatan-sangam.com',
-        potentialAction: {
-          '@type': 'SearchAction',
-          target: 'https://sanatan-sangam.com/search?q={search_term_string}',
-          'query-input': 'required name=search_term_string',
-        },
       },
     ],
   };

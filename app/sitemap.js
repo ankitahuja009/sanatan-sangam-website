@@ -6,6 +6,7 @@ import { CITIES } from '@/lib/celestial';
 export default function sitemap() {
     const baseUrl = 'https://sanatan-sangam.com';
     const now = new Date().toISOString();
+    const slugify = (name) => name.toLowerCase().replace(/\s+/g, '-');
 
     const staticRoutes = [
         { url: '', priority: 1.0, changeFrequency: 'daily' },
@@ -36,7 +37,7 @@ export default function sitemap() {
 
     const routes = staticRoutes.map((route) => ({
         url: `${baseUrl}${route.url}`,
-        lastModified: now,
+        lastModified: '2026-03-25T00:00:00.000Z',
         changeFrequency: route.changeFrequency,
         priority: route.priority,
         alternates: {
@@ -75,21 +76,21 @@ export default function sitemap() {
     }));
 
     const panchangSunRoutes = CITIES.map((c) => ({
-        url: `${baseUrl}/panchang/sunrise-sunset/${c.name.toLowerCase()}`,
+        url: `${baseUrl}/panchang/sunrise-sunset/${slugify(c.name)}`,
         lastModified: now,
         changeFrequency: 'daily',
         priority: 0.9,
         alternates: {
-            languages: generateAlternates(`/panchang/sunrise-sunset/${c.name.toLowerCase()}`)
+            languages: generateAlternates(`/panchang/sunrise-sunset/${slugify(c.name)}`)
         }
     }));
     const panchangMoonRoutes = CITIES.map((c) => ({
-        url: `${baseUrl}/panchang/moonrise-moonset/${c.name.toLowerCase()}`,
+        url: `${baseUrl}/panchang/moonrise-moonset/${slugify(c.name)}`,
         lastModified: now,
         changeFrequency: 'daily',
         priority: 0.9,
         alternates: {
-            languages: generateAlternates(`/panchang/moonrise-moonset/${c.name.toLowerCase()}`)
+            languages: generateAlternates(`/panchang/moonrise-moonset/${slugify(c.name)}`)
         }
     }));
 

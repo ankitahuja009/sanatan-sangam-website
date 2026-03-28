@@ -20,14 +20,7 @@ export async function generateMetadata({ params }) {
       url: isHi ? 'https://sanatan-sangam.com/hi/sangrah' : 'https://sanatan-sangam.com/sangrah',
       images: [{ url: 'https://pub-a3540a1b218c43298ca3a816c685b5e7.r2.dev/app-pics/SS%20logo%20without%20text.png' }],
     },
-    alternates: {
-      canonical: isHi ? 'https://sanatan-sangam.com/hi/sangrah' : 'https://sanatan-sangam.com/sangrah',
-      languages: {
-        'en': 'https://sanatan-sangam.com/sangrah',
-        'hi': 'https://sanatan-sangam.com/hi/sangrah',
-        'x-default': 'https://sanatan-sangam.com/sangrah',
-      },
-    },
+
   };
 }
 

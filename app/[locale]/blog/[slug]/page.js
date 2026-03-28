@@ -675,6 +675,7 @@ export async function generateMetadata({ params }) {
       languages: {
         'en': `https://sanatan-sangam.com/blog/${slug}`,
         'hi': `https://sanatan-sangam.com/hi/blog/${slug}`,
+        'x-default': `https://sanatan-sangam.com/blog/${slug}`,
       },
     },
   };

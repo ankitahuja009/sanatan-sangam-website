@@ -31,6 +31,7 @@ export async function generateMetadata({ params }) {
             languages: {
                 en: `https://sanatan-sangam.com${path}`,
                 hi: `https://sanatan-sangam.com/hi${path}`,
+                'x-default': `https://sanatan-sangam.com${path}`,
             },
         },
         openGraph: {

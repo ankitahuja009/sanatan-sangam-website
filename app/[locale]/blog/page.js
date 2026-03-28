@@ -34,6 +34,7 @@ export async function generateMetadata({ params }) {
       languages: {
         'en': 'https://sanatan-sangam.com/blog',
         'hi': 'https://sanatan-sangam.com/hi/blog',
+        'x-default': 'https://sanatan-sangam.com/blog',
       },
     },
   };
