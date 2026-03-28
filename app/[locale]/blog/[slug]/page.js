@@ -641,9 +641,7 @@ Check your Panchang via the Sanatan Sangam app for all upcoming Ekadashi, Navrat
   },
 };
 
-export async function generateStaticParams() {
-  return Object.keys(articles).map((slug) => ({ slug }));
-}
+export const dynamic = 'force-dynamic';
 
 export async function generateMetadata({ params }) {
   const { slug, locale } = await params;

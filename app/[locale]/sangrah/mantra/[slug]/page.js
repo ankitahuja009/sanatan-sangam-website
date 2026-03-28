@@ -6,9 +6,7 @@ import { mantras, getMantraBySlug, getRecommendedMantras } from '../data';
 import styles from '../../aarti/aarti.module.css';
 import ShareButtons from './ShareButtons';
 
-export async function generateStaticParams() {
-    return mantras.map((m) => ({ slug: m.slug }));
-}
+export const dynamic = 'force-dynamic';
 
 export async function generateMetadata({ params }) {
     const { slug, locale } = await params;

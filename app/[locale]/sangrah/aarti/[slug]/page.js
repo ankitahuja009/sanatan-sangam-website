@@ -5,12 +5,9 @@ import { aartis, getAartiBySlug, getRecommendedAartis } from '../data';
 import styles from '../aarti.module.css';
 import ShareButtons from './ShareButtons';
 
-export async function generateStaticParams() {
-    return aartis.map((a) => ({ slug: a.slug }));
-}
+export const dynamic = 'force-dynamic';
 
 export async function generateMetadata({ params }) {
-    try {
     const { slug, locale } = await params;
     const aarti = getAartiBySlug(slug);
     if (!aarti) return {};
@@ -41,14 +38,9 @@ export async function generateMetadata({ params }) {
             images: [{ url: aarti.deityImage }],
         },
     };
-    } catch (error) {
-        console.error('AARTI_METADATA_ERROR:', error.message, error.stack);
-        return { title: 'Aarti — Sanatan Sangam' };
-    }
 }
 
 export default async function AartiDetailPage({ params }) {
-    try {
     const { slug, locale } = await params;
     const aarti = getAartiBySlug(slug);
     if (!aarti) notFound();
@@ -227,15 +219,5 @@ export default async function AartiDetailPage({ params }) {
             </div>
         </>
     );
-    } catch (error) {
-        console.error('AARTI_PAGE_ERROR:', error.message, error.stack);
-        return (
-            <div style={{ padding: '2rem', color: 'red' }}>
-                <h1>Debug: Page Error</h1>
-                <pre>{error.message}</pre>
-                <pre>{error.stack}</pre>
-            </div>
-        );
-    }
 }
 
