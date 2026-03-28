@@ -10,13 +10,14 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }) {
+    try {
     const { slug, locale } = await params;
     const aarti = getAartiBySlug(slug);
     if (!aarti) return {};
 
     const name = locale === 'hi' ? aarti.nameHi : aarti.name;
     const deity = locale === 'hi' ? aarti.deityHi : aarti.deity;
-    const desc = locale === 'hi' ? aarti.descriptionHi.slice(0, 160) : aarti.description.slice(0, 160);
+    const desc = locale === 'hi' ? (aarti.descriptionHi || '').slice(0, 160) : (aarti.description || '').slice(0, 160);
     const path = `/sangrah/aarti/${aarti.slug}`;
     const url = locale === 'en' ? path : `/${locale}${path}`;
     const absoluteUrl = `https://sanatan-sangam.com${url}`;
@@ -40,6 +41,10 @@ export async function generateMetadata({ params }) {
             images: [{ url: aarti.deityImage }],
         },
     };
+    } catch (error) {
+        console.error('AARTI_METADATA_ERROR:', error.message, error.stack);
+        return { title: 'Aarti — Sanatan Sangam' };
+    }
 }
 
 export default async function AartiDetailPage({ params }) {
