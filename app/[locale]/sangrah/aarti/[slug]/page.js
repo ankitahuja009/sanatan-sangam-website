@@ -43,6 +43,7 @@ export async function generateMetadata({ params }) {
 }
 
 export default async function AartiDetailPage({ params }) {
+    try {
     const { slug, locale } = await params;
     const aarti = getAartiBySlug(slug);
     if (!aarti) notFound();
@@ -221,4 +222,15 @@ export default async function AartiDetailPage({ params }) {
             </div>
         </>
     );
+    } catch (error) {
+        console.error('AARTI_PAGE_ERROR:', error.message, error.stack);
+        return (
+            <div style={{ padding: '2rem', color: 'red' }}>
+                <h1>Debug: Page Error</h1>
+                <pre>{error.message}</pre>
+                <pre>{error.stack}</pre>
+            </div>
+        );
+    }
 }
+
