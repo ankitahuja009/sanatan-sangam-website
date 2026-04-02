@@ -4,7 +4,7 @@ import { mantras } from './[locale]/sangrah/mantra/data';
 import { CITIES } from '@/lib/celestial';
 
 export default function sitemap() {
-    const baseUrl = 'https://sanatan-sangam.com';
+    const baseUrl = 'https://www.sanatan-sangam.com';
     const now = new Date().toISOString();
     const slugify = (name) => name.toLowerCase().replace(/\s+/g, '-');
 

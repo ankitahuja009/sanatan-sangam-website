@@ -7,10 +7,10 @@ export async function generateMetadata({ params }) {
     title: isHi ? 'उपयोग की शर्तें | सनातन संगम' : 'Terms of Use | Sanatan Sangam',
     description: isHi ? 'सनातन संगम ऐप और वेबसाइट के लिए उपयोग की शर्तें।' : 'Terms of Use for Sanatan Sangam app and website.',
     alternates: {
-      canonical: isHi ? 'https://sanatan-sangam.com/hi/terms-of-use' : 'https://sanatan-sangam.com/terms-of-use',
+      canonical: isHi ? 'https://www.sanatan-sangam.com/hi/terms-of-use' : 'https://www.sanatan-sangam.com/terms-of-use',
       languages: {
-        'en': 'https://sanatan-sangam.com/terms-of-use',
-        'hi': 'https://sanatan-sangam.com/hi/terms-of-use',
+        'en': 'https://www.sanatan-sangam.com/terms-of-use',
+        'hi': 'https://www.sanatan-sangam.com/hi/terms-of-use',
       },
     },
   };

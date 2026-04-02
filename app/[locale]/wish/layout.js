@@ -17,15 +17,15 @@ export async function generateMetadata({ params }) {
       description: isHi
         ? 'जन्मदिन, दिवाली, होली, नवरात्रि और हर विशेष अवसर के लिए दिव्य आशीर्वाद भेजें। अपने चुने हुए देवता के साथ व्यक्तिगत आशीर्वाद कार्ड बनाएं और तुरंत साझा करें।'
         : 'Send divine blessings for birthdays, Diwali, Holi, Navratri & every special occasion. Create personalized blessing cards with your chosen deity and share instantly.',
-      url: isHi ? 'https://sanatan-sangam.com/hi/wish' : 'https://sanatan-sangam.com/wish',
+      url: isHi ? 'https://www.sanatan-sangam.com/hi/wish' : 'https://www.sanatan-sangam.com/wish',
       images: [{ url: 'https://pub-a3540a1b218c43298ca3a816c685b5e7.r2.dev/app-pics/SS%20logo%20without%20text.png' }],
     },
     alternates: {
-      canonical: isHi ? 'https://sanatan-sangam.com/hi/wish' : 'https://sanatan-sangam.com/wish',
+      canonical: isHi ? 'https://www.sanatan-sangam.com/hi/wish' : 'https://www.sanatan-sangam.com/wish',
       languages: {
-        'en': 'https://sanatan-sangam.com/wish',
-        'hi': 'https://sanatan-sangam.com/hi/wish',
-        'x-default': 'https://sanatan-sangam.com/wish',
+        'en': 'https://www.sanatan-sangam.com/wish',
+        'hi': 'https://www.sanatan-sangam.com/hi/wish',
+        'x-default': 'https://www.sanatan-sangam.com/wish',
       },
     },
   };
@@ -43,13 +43,13 @@ export default async function WishLayout({ children, params }) {
         '@type': 'ListItem',
         'position': 1,
         'name': isHi ? 'होम' : 'Home',
-        'item': isHi ? 'https://sanatan-sangam.com/hi' : 'https://sanatan-sangam.com',
+        'item': isHi ? 'https://www.sanatan-sangam.com/hi' : 'https://www.sanatan-sangam.com',
       },
       {
         '@type': 'ListItem',
         'position': 2,
         'name': isHi ? 'शुभकामनाएं' : 'Wish',
-        'item': isHi ? 'https://sanatan-sangam.com/hi/wish' : 'https://sanatan-sangam.com/wish',
+        'item': isHi ? 'https://www.sanatan-sangam.com/hi/wish' : 'https://www.sanatan-sangam.com/wish',
       },
     ],
   };

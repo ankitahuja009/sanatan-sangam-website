@@ -18,7 +18,7 @@ export async function generateMetadata({ params }) {
     const desc = isHi ? (mantra.descriptionHi || mantra.description) : mantra.description;
     const path = `/sangrah/mantra/${mantra.slug}`;
     const url = locale === 'en' ? path : `/${locale}${path}`;
-    const absoluteUrl = `https://sanatan-sangam.com${url}`;
+    const absoluteUrl = `https://www.sanatan-sangam.com${url}`;
 
     return {
         title: `${name} — ${deity} ${isHi ? 'मंत्र' : 'Mantra'}`,
@@ -27,9 +27,9 @@ export async function generateMetadata({ params }) {
         alternates: {
             canonical: absoluteUrl,
             languages: {
-                en: `https://sanatan-sangam.com${path}`,
-                hi: `https://sanatan-sangam.com/hi${path}`,
-                'x-default': `https://sanatan-sangam.com${path}`,
+                en: `https://www.sanatan-sangam.com${path}`,
+                hi: `https://www.sanatan-sangam.com/hi${path}`,
+                'x-default': `https://www.sanatan-sangam.com${path}`,
             },
         },
         openGraph: {
@@ -47,7 +47,7 @@ export default async function MantraDetailPage({ params }) {
     if (!mantra) notFound();
 
     const recommended = getRecommendedMantras(slug, 4);
-    const pageUrl = `https://sanatan-sangam.com/sangrah/mantra/${mantra.slug}`;
+    const pageUrl = `https://www.sanatan-sangam.com/sangrah/mantra/${mantra.slug}`;
 
     const isHi = locale === 'hi';
     const name = isHi ? (mantra.nameHi || mantra.name) : mantra.name;
@@ -57,7 +57,7 @@ export default async function MantraDetailPage({ params }) {
     const benefits = isHi ? (mantra.benefitsHi || mantra.benefits) : mantra.benefits;
     const howToChant = isHi ? (mantra.howToChantHi || mantra.howToChant) : mantra.howToChant;
 
-    const absoluteUrl = `https://sanatan-sangam.com${locale === 'en' ? '' : `/${locale}`}/sangrah/mantra/${mantra.slug}`;
+    const absoluteUrl = `https://www.sanatan-sangam.com${locale === 'en' ? '' : `/${locale}`}/sangrah/mantra/${mantra.slug}`;
 
     const breadcrumbData = {
         '@type': 'BreadcrumbList',
@@ -66,19 +66,19 @@ export default async function MantraDetailPage({ params }) {
                 '@type': 'ListItem',
                 'position': 1,
                 'name': isHi ? 'होम' : 'Home',
-                'item': isHi ? 'https://sanatan-sangam.com/hi' : 'https://sanatan-sangam.com',
+                'item': isHi ? 'https://www.sanatan-sangam.com/hi' : 'https://www.sanatan-sangam.com',
             },
             {
                 '@type': 'ListItem',
                 'position': 2,
                 'name': isHi ? 'संग्रह' : 'Sangrah',
-                'item': isHi ? 'https://sanatan-sangam.com/hi/sangrah' : 'https://sanatan-sangam.com/sangrah',
+                'item': isHi ? 'https://www.sanatan-sangam.com/hi/sangrah' : 'https://www.sanatan-sangam.com/sangrah',
             },
             {
                 '@type': 'ListItem',
                 'position': 3,
                 'name': isHi ? 'मंत्र' : 'Mantra',
-                'item': isHi ? 'https://sanatan-sangam.com/hi/sangrah/mantra' : 'https://sanatan-sangam.com/sangrah/mantra',
+                'item': isHi ? 'https://www.sanatan-sangam.com/hi/sangrah/mantra' : 'https://www.sanatan-sangam.com/sangrah/mantra',
             },
             {
                 '@type': 'ListItem',

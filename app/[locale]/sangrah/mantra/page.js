@@ -28,19 +28,19 @@ export default async function MantraListingPage({ params }) {
                 '@type': 'ListItem',
                 'position': 1,
                 'name': locale === 'hi' ? 'होम' : 'Home',
-                'item': locale === 'hi' ? 'https://sanatan-sangam.com/hi' : 'https://sanatan-sangam.com',
+                'item': locale === 'hi' ? 'https://www.sanatan-sangam.com/hi' : 'https://www.sanatan-sangam.com',
             },
             {
                 '@type': 'ListItem',
                 'position': 2,
                 'name': locale === 'hi' ? 'संग्रह' : 'Sangrah',
-                'item': locale === 'hi' ? 'https://sanatan-sangam.com/hi/sangrah' : 'https://sanatan-sangam.com/sangrah',
+                'item': locale === 'hi' ? 'https://www.sanatan-sangam.com/hi/sangrah' : 'https://www.sanatan-sangam.com/sangrah',
             },
             {
                 '@type': 'ListItem',
                 'position': 3,
                 'name': locale === 'hi' ? 'मंत्र' : 'Mantra',
-                'item': locale === 'hi' ? 'https://sanatan-sangam.com/hi/sangrah/mantra' : 'https://sanatan-sangam.com/sangrah/mantra',
+                'item': locale === 'hi' ? 'https://www.sanatan-sangam.com/hi/sangrah/mantra' : 'https://www.sanatan-sangam.com/sangrah/mantra',
             },
         ],
     };

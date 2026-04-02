@@ -17,7 +17,7 @@ export async function generateMetadata({ params }) {
       description: isHi
         ? 'आरती गीत, चालीसा, मंत्र, देवता विश्वकोश, त्यौहार गाइड और आयुर्वेदिक उपचार — एक ही स्थान पर संपूर्ण सनातन पुस्तकालय।'
         : 'Aarti lyrics, Chalisa, Mantras, Deity Encyclopedia, Festival Guide & Ayurvedic Remedies — the complete Sanatan library in one place.',
-      url: isHi ? 'https://sanatan-sangam.com/hi/sangrah' : 'https://sanatan-sangam.com/sangrah',
+      url: isHi ? 'https://www.sanatan-sangam.com/hi/sangrah' : 'https://www.sanatan-sangam.com/sangrah',
       images: [{ url: 'https://pub-a3540a1b218c43298ca3a816c685b5e7.r2.dev/app-pics/SS%20logo%20without%20text.png' }],
     },
 
@@ -36,13 +36,13 @@ export default async function SangrahLayout({ children, params }) {
         '@type': 'ListItem',
         'position': 1,
         'name': isHi ? 'होम' : 'Home',
-        'item': isHi ? 'https://sanatan-sangam.com/hi' : 'https://sanatan-sangam.com',
+        'item': isHi ? 'https://www.sanatan-sangam.com/hi' : 'https://www.sanatan-sangam.com',
       },
       {
         '@type': 'ListItem',
         'position': 2,
         'name': isHi ? 'संग्रह' : 'Sangrah',
-        'item': isHi ? 'https://sanatan-sangam.com/hi/sangrah' : 'https://sanatan-sangam.com/sangrah',
+        'item': isHi ? 'https://www.sanatan-sangam.com/hi/sangrah' : 'https://www.sanatan-sangam.com/sangrah',
       },
     ],
   };

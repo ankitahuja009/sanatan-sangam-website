@@ -17,7 +17,7 @@ export async function generateMetadata({ params }) {
     const desc = locale === 'hi' ? (chalisa.descriptionHi || chalisa.description).slice(0, 160) : chalisa.description.slice(0, 160);
     const path = `/sangrah/chalisa/${chalisa.slug}`;
     const url = locale === 'en' ? path : `/${locale}${path}`;
-    const absoluteUrl = `https://sanatan-sangam.com${url}`;
+    const absoluteUrl = `https://www.sanatan-sangam.com${url}`;
 
     return {
         title: locale === 'hi' ? `${name} — पूर्ण हिंदी बोल | ${deity} चालीसा` : `${name} — Full Lyrics in Hindi | ${deity} Chalisa`,
@@ -26,9 +26,9 @@ export async function generateMetadata({ params }) {
         alternates: {
             canonical: absoluteUrl,
             languages: {
-                en: `https://sanatan-sangam.com${path}`,
-                hi: `https://sanatan-sangam.com/hi${path}`,
-                'x-default': `https://sanatan-sangam.com${path}`,
+                en: `https://www.sanatan-sangam.com${path}`,
+                hi: `https://www.sanatan-sangam.com/hi${path}`,
+                'x-default': `https://www.sanatan-sangam.com${path}`,
             },
         },
         openGraph: {
@@ -46,7 +46,7 @@ export default async function ChalisaDetailPage({ params }) {
     if (!chalisa) notFound();
 
     const recommended = getRecommendedChalisas(slug, 4);
-    const pageUrl = `https://sanatan-sangam.com/sangrah/chalisa/${chalisa.slug}`;
+    const pageUrl = `https://www.sanatan-sangam.com/sangrah/chalisa/${chalisa.slug}`;
 
     const name = locale === 'hi' ? (chalisa.nameHi || chalisa.name) : chalisa.name;
     const deity = locale === 'hi' ? (chalisa.deityHi || chalisa.deity) : chalisa.deity;
@@ -60,19 +60,19 @@ export default async function ChalisaDetailPage({ params }) {
                 '@type': 'ListItem',
                 'position': 1,
                 'name': locale === 'hi' ? 'होम' : 'Home',
-                'item': locale === 'hi' ? 'https://sanatan-sangam.com/hi' : 'https://sanatan-sangam.com',
+                'item': locale === 'hi' ? 'https://www.sanatan-sangam.com/hi' : 'https://www.sanatan-sangam.com',
             },
             {
                 '@type': 'ListItem',
                 'position': 2,
                 'name': locale === 'hi' ? 'संग्रह' : 'Sangrah',
-                'item': locale === 'hi' ? 'https://sanatan-sangam.com/hi/sangrah' : 'https://sanatan-sangam.com/sangrah',
+                'item': locale === 'hi' ? 'https://www.sanatan-sangam.com/hi/sangrah' : 'https://www.sanatan-sangam.com/sangrah',
             },
             {
                 '@type': 'ListItem',
                 'position': 3,
                 'name': locale === 'hi' ? 'चालीसा' : 'Chalisa',
-                'item': locale === 'hi' ? 'https://sanatan-sangam.com/hi/sangrah/chalisa' : 'https://sanatan-sangam.com/sangrah/chalisa',
+                'item': locale === 'hi' ? 'https://www.sanatan-sangam.com/hi/sangrah/chalisa' : 'https://www.sanatan-sangam.com/sangrah/chalisa',
             },
             {
                 '@type': 'ListItem',

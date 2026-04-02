@@ -7,10 +7,10 @@ export async function generateMetadata({ params }) {
     title: isHi ? 'अस्वीकरण | सनातन संगम' : 'Disclaimer | Sanatan Sangam',
     description: isHi ? 'सनातन संगम ऐप और वेबसाइट के लिए अस्वीकरण।' : 'Disclaimer for Sanatan Sangam app and website.',
     alternates: {
-      canonical: isHi ? 'https://sanatan-sangam.com/hi/disclaimer' : 'https://sanatan-sangam.com/disclaimer',
+      canonical: isHi ? 'https://www.sanatan-sangam.com/hi/disclaimer' : 'https://www.sanatan-sangam.com/disclaimer',
       languages: {
-        'en': 'https://sanatan-sangam.com/disclaimer',
-        'hi': 'https://sanatan-sangam.com/hi/disclaimer',
+        'en': 'https://www.sanatan-sangam.com/disclaimer',
+        'hi': 'https://www.sanatan-sangam.com/hi/disclaimer',
       },
     },
   };

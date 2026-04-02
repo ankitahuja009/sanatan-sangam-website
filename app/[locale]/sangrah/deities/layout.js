@@ -14,17 +14,17 @@ export async function generateMetadata({ params }) {
     description,
     keywords: ['Hindu deities', 'Hindu Gods', 'Goddesses', 'Shiva', 'Krishna', 'Durga', 'Ganesha', 'Hanuman', 'deity encyclopedia', 'Hindu mythology'],
     alternates: {
-      canonical: isHi ? 'https://sanatan-sangam.com/hi/sangrah/deities' : 'https://sanatan-sangam.com/sangrah/deities',
+      canonical: isHi ? 'https://www.sanatan-sangam.com/hi/sangrah/deities' : 'https://www.sanatan-sangam.com/sangrah/deities',
       languages: {
-        'en': 'https://sanatan-sangam.com/sangrah/deities',
-        'hi': 'https://sanatan-sangam.com/hi/sangrah/deities',
-        'x-default': 'https://sanatan-sangam.com/sangrah/deities',
+        'en': 'https://www.sanatan-sangam.com/sangrah/deities',
+        'hi': 'https://www.sanatan-sangam.com/hi/sangrah/deities',
+        'x-default': 'https://www.sanatan-sangam.com/sangrah/deities',
       },
     },
     openGraph: {
       title,
       description,
-      url: isHi ? 'https://sanatan-sangam.com/hi/sangrah/deities' : 'https://sanatan-sangam.com/sangrah/deities',
+      url: isHi ? 'https://www.sanatan-sangam.com/hi/sangrah/deities' : 'https://www.sanatan-sangam.com/sangrah/deities',
       images: [{ url: 'https://pub-a3540a1b218c43298ca3a816c685b5e7.r2.dev/app-pics/SS%20logo%20without%20text.png' }],
     },
   };
@@ -42,19 +42,19 @@ export default async function DeitiesLayout({ children, params }) {
         '@type': 'ListItem',
         'position': 1,
         'name': isHi ? 'होम' : 'Home',
-        'item': isHi ? 'https://sanatan-sangam.com/hi' : 'https://sanatan-sangam.com',
+        'item': isHi ? 'https://www.sanatan-sangam.com/hi' : 'https://www.sanatan-sangam.com',
       },
       {
         '@type': 'ListItem',
         'position': 2,
         'name': isHi ? 'संग्रह' : 'Sangrah',
-        'item': isHi ? 'https://sanatan-sangam.com/hi/sangrah' : 'https://sanatan-sangam.com/sangrah',
+        'item': isHi ? 'https://www.sanatan-sangam.com/hi/sangrah' : 'https://www.sanatan-sangam.com/sangrah',
       },
       {
         '@type': 'ListItem',
         'position': 3,
         'name': isHi ? 'देवी-देवता' : 'Deities',
-        'item': isHi ? 'https://sanatan-sangam.com/hi/sangrah/deities' : 'https://sanatan-sangam.com/sangrah/deities',
+        'item': isHi ? 'https://www.sanatan-sangam.com/hi/sangrah/deities' : 'https://www.sanatan-sangam.com/sangrah/deities',
       },
     ],
   };

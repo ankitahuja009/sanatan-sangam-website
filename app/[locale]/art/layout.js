@@ -17,15 +17,15 @@ export async function generateMetadata({ params }) {
       description: isHi
         ? 'अपने आप को दिव्य प्रकाश में देखें। 30+ देवताओं और गुरुओं के साथ सुंदर एआई चित्र बनाएं, या भारत के सबसे पवित्र मंदिरों की वस्तुतः यात्रा करें।'
         : 'See yourself in the divine light. Create beautiful AI portraits with 30+ deities & gurus, or visit India\'s holiest temples virtually. Offering Divya Chhavi & Teerth Yatra experiences.',
-      url: isHi ? 'https://sanatan-sangam.com/hi/art' : 'https://sanatan-sangam.com/art',
+      url: isHi ? 'https://www.sanatan-sangam.com/hi/art' : 'https://www.sanatan-sangam.com/art',
       images: [{ url: 'https://pub-a3540a1b218c43298ca3a816c685b5e7.r2.dev/app-pics/SS%20logo%20without%20text.png' }],
     },
     alternates: {
-      canonical: isHi ? 'https://sanatan-sangam.com/hi/art' : 'https://sanatan-sangam.com/art',
+      canonical: isHi ? 'https://www.sanatan-sangam.com/hi/art' : 'https://www.sanatan-sangam.com/art',
       languages: {
-        'en': 'https://sanatan-sangam.com/art',
-        'hi': 'https://sanatan-sangam.com/hi/art',
-        'x-default': 'https://sanatan-sangam.com/art',
+        'en': 'https://www.sanatan-sangam.com/art',
+        'hi': 'https://www.sanatan-sangam.com/hi/art',
+        'x-default': 'https://www.sanatan-sangam.com/art',
       },
     },
   };
@@ -43,13 +43,13 @@ export default async function ArtLayout({ children, params }) {
         '@type': 'ListItem',
         'position': 1,
         'name': isHi ? 'होम' : 'Home',
-        'item': isHi ? 'https://sanatan-sangam.com/hi' : 'https://sanatan-sangam.com',
+        'item': isHi ? 'https://www.sanatan-sangam.com/hi' : 'https://www.sanatan-sangam.com',
       },
       {
         '@type': 'ListItem',
         'position': 2,
         'name': isHi ? 'कला' : 'Art',
-        'item': isHi ? 'https://sanatan-sangam.com/hi/art' : 'https://sanatan-sangam.com/art',
+        'item': isHi ? 'https://www.sanatan-sangam.com/hi/art' : 'https://www.sanatan-sangam.com/art',
       },
     ],
   };

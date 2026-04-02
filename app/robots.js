@@ -12,6 +12,6 @@ export default function robots() {
                 disallow: ['/api/'],
             }
         ],
-        sitemap: 'https://sanatan-sangam.com/sitemap.xml',
+        sitemap: 'https://www.sanatan-sangam.com/sitemap.xml',
     };
 }

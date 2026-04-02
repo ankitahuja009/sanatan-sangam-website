@@ -17,15 +17,15 @@ export async function generateMetadata({ params }) {
       description: isHi
         ? 'अपना दैनिक राशिफल, आज का पंचांग (तिथि, नक्षत्र, वार, योग, सूर्योदय और सूर्यास्त) देखें और अपनी पूर्ण कुंडली जन्म चार्ट तैयार करें — सनातन संगम पर सब कुछ मुफ्त।'
         : 'Check your daily horoscope, today\'s Panchang (Tithi, Nakshatra, Vaar, Yoga, Sunrise & Sunset) and generate your complete Kundli birth chart — all free on Sanatan Sangam.',
-      url: isHi ? 'https://sanatan-sangam.com/hi/astro' : 'https://sanatan-sangam.com/astro',
+      url: isHi ? 'https://www.sanatan-sangam.com/hi/astro' : 'https://www.sanatan-sangam.com/astro',
       images: [{ url: 'https://pub-a3540a1b218c43298ca3a816c685b5e7.r2.dev/app-pics/SS%20logo%20without%20text.png' }],
     },
     alternates: {
-      canonical: isHi ? 'https://sanatan-sangam.com/hi/astro' : 'https://sanatan-sangam.com/astro',
+      canonical: isHi ? 'https://www.sanatan-sangam.com/hi/astro' : 'https://www.sanatan-sangam.com/astro',
       languages: {
-        'en': 'https://sanatan-sangam.com/astro',
-        'hi': 'https://sanatan-sangam.com/hi/astro',
-        'x-default': 'https://sanatan-sangam.com/astro',
+        'en': 'https://www.sanatan-sangam.com/astro',
+        'hi': 'https://www.sanatan-sangam.com/hi/astro',
+        'x-default': 'https://www.sanatan-sangam.com/astro',
       },
     },
   };
@@ -43,13 +43,13 @@ export default async function AstroLayout({ children, params }) {
         '@type': 'ListItem',
         'position': 1,
         'name': isHi ? 'होम' : 'Home',
-        'item': isHi ? 'https://sanatan-sangam.com/hi' : 'https://sanatan-sangam.com',
+        'item': isHi ? 'https://www.sanatan-sangam.com/hi' : 'https://www.sanatan-sangam.com',
       },
       {
         '@type': 'ListItem',
         'position': 2,
         'name': isHi ? 'ज्योतिष' : 'Astro',
-        'item': isHi ? 'https://sanatan-sangam.com/hi/astro' : 'https://sanatan-sangam.com/astro',
+        'item': isHi ? 'https://www.sanatan-sangam.com/hi/astro' : 'https://www.sanatan-sangam.com/astro',
       },
     ],
   };

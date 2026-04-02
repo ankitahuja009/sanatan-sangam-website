@@ -35,14 +35,14 @@ export async function generateMetadata({ params }) {
   }
 
   return {
-    metadataBase: new URL('https://sanatan-sangam.com'),
+    metadataBase: new URL('https://www.sanatan-sangam.com'),
     title,
     description,
     keywords,
     openGraph: {
       title: title.default,
       description,
-      url: isHi ? 'https://sanatan-sangam.com/hi' : 'https://sanatan-sangam.com',
+      url: isHi ? 'https://www.sanatan-sangam.com/hi' : 'https://www.sanatan-sangam.com',
       siteName: 'Sanatan Sangam',
       locale: isHi ? 'hi_IN' : 'en_IN',
       type: 'website',
@@ -103,7 +103,7 @@ export default async function RootLayout({ children, params }) {
       {
         '@type': 'Organization',
         name: 'Sanatan Sangam',
-        url: 'https://sanatan-sangam.com',
+        url: 'https://www.sanatan-sangam.com',
         logo: 'https://pub-a3540a1b218c43298ca3a816c685b5e7.r2.dev/app-pics/SS%20logo%20without%20text.png',
         sameAs: [
           'https://www.instagram.com/sanatansangam.official',
@@ -129,7 +129,7 @@ export default async function RootLayout({ children, params }) {
       {
         '@type': 'WebSite',
         name: 'Sanatan Sangam',
-        url: 'https://sanatan-sangam.com',
+        url: 'https://www.sanatan-sangam.com',
       },
     ],
   };

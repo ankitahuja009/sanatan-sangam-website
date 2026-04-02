@@ -28,7 +28,7 @@ export async function generateMetadata({ params }) {
             ? `${cityName} में आज के चंद्रोदय, चंद्रास्त और शुभ समय की सटीक जानकारी प्राप्त करें। दैनिक आध्यात्मिक अनुष्ठानों, पूजा और ज्योतिष के लिए सही।`
             : `Check accurate daily moonrise, moonset, and auspicious timings in ${city.name}. Perfect for your daily spiritual rituals, pooja, and astrology.`;
 
-    const absoluteUrl = `https://sanatan-sangam.com${isHi ? '/hi' : ''}/panchang/${type}/${cityParam.toLowerCase()}`;
+    const absoluteUrl = `https://www.sanatan-sangam.com${isHi ? '/hi' : ''}/panchang/${type}/${cityParam.toLowerCase()}`;
 
     return {
         title,
@@ -43,9 +43,9 @@ export async function generateMetadata({ params }) {
         alternates: {
             canonical: absoluteUrl,
             languages: {
-                'en': `https://sanatan-sangam.com/panchang/${type}/${cityParam.toLowerCase()}`,
-                'hi': `https://sanatan-sangam.com/hi/panchang/${type}/${cityParam.toLowerCase()}`,
-                'x-default': `https://sanatan-sangam.com/panchang/${type}/${cityParam.toLowerCase()}`,
+                'en': `https://www.sanatan-sangam.com/panchang/${type}/${cityParam.toLowerCase()}`,
+                'hi': `https://www.sanatan-sangam.com/hi/panchang/${type}/${cityParam.toLowerCase()}`,
+                'x-default': `https://www.sanatan-sangam.com/panchang/${type}/${cityParam.toLowerCase()}`,
             },
         },
     };
@@ -68,25 +68,25 @@ export default async function Layout({ children, params }) {
                 '@type': 'ListItem',
                 'position': 1,
                 'name': isHi ? 'होम' : 'Home',
-                'item': isHi ? 'https://sanatan-sangam.com/hi' : 'https://sanatan-sangam.com',
+                'item': isHi ? 'https://www.sanatan-sangam.com/hi' : 'https://www.sanatan-sangam.com',
             },
             {
                 '@type': 'ListItem',
                 'position': 2,
                 'name': isHi ? 'पंचांग' : 'Panchang',
-                'item': isHi ? `https://sanatan-sangam.com/hi/panchang/${type}/${cityParam.toLowerCase()}` : `https://sanatan-sangam.com/panchang/${type}/${cityParam.toLowerCase()}`,
+                'item': isHi ? `https://www.sanatan-sangam.com/hi/panchang/${type}/${cityParam.toLowerCase()}` : `https://www.sanatan-sangam.com/panchang/${type}/${cityParam.toLowerCase()}`,
             },
             {
                 '@type': 'ListItem',
                 'position': 3,
                 'name': typeName,
-                'item': isHi ? `https://sanatan-sangam.com/hi/panchang/${type}/${cityParam.toLowerCase()}` : `https://sanatan-sangam.com/panchang/${type}/${cityParam.toLowerCase()}`,
+                'item': isHi ? `https://www.sanatan-sangam.com/hi/panchang/${type}/${cityParam.toLowerCase()}` : `https://www.sanatan-sangam.com/panchang/${type}/${cityParam.toLowerCase()}`,
             },
             {
                 '@type': 'ListItem',
                 'position': 4,
                 'name': cityName,
-                'item': isHi ? `https://sanatan-sangam.com/hi/panchang/${type}/${cityParam.toLowerCase()}` : `https://sanatan-sangam.com/panchang/${type}/${cityParam.toLowerCase()}`,
+                'item': isHi ? `https://www.sanatan-sangam.com/hi/panchang/${type}/${cityParam.toLowerCase()}` : `https://www.sanatan-sangam.com/panchang/${type}/${cityParam.toLowerCase()}`,
             },
         ],
     };

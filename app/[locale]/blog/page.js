@@ -20,7 +20,7 @@ export async function generateMetadata({ params }) {
       description: isHi
         ? 'हनुमान चालीसा, 12 ज्योतिर्लिंग, भगवद गीता, हिंदू अनुष्ठान, पंचांग, वैदिक ज्योतिष और आयुर्वेद पर विशेषज्ञ लेख। सनातन संगम पर पढ़ें।'
         : 'Expert articles on Hanuman Chalisa, 12 Jyotirlingas, Bhagavad Gita, Hindu rituals, Panchang, Vedic astrology & Ayurveda. Read on Sanatan Sangam.',
-      url: isHi ? 'https://sanatan-sangam.com/hi/blog' : 'https://sanatan-sangam.com/blog',
+      url: isHi ? 'https://www.sanatan-sangam.com/hi/blog' : 'https://www.sanatan-sangam.com/blog',
       images: [{ url: 'https://pub-a3540a1b218c43298ca3a816c685b5e7.r2.dev/app-pics/SS%20logo%20without%20text.png' }],
     },
     twitter: {
@@ -30,11 +30,11 @@ export async function generateMetadata({ params }) {
         : 'Read in-depth articles on Sanatan Dharma, Hanuman Chalisa, Jyotirlingas, Bhagavad Gita & Hindu lifestyle practices.',
     },
     alternates: {
-      canonical: isHi ? 'https://sanatan-sangam.com/hi/blog' : 'https://sanatan-sangam.com/blog',
+      canonical: isHi ? 'https://www.sanatan-sangam.com/hi/blog' : 'https://www.sanatan-sangam.com/blog',
       languages: {
-        'en': 'https://sanatan-sangam.com/blog',
-        'hi': 'https://sanatan-sangam.com/hi/blog',
-        'x-default': 'https://sanatan-sangam.com/blog',
+        'en': 'https://www.sanatan-sangam.com/blog',
+        'hi': 'https://www.sanatan-sangam.com/hi/blog',
+        'x-default': 'https://www.sanatan-sangam.com/blog',
       },
     },
   };

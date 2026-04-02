@@ -17,15 +17,15 @@ export async function generateMetadata({ params }) {
       description: isHi
         ? 'सभी 12 ज्योतिर्लिंग, चार धाम, राम मंदिर अयोध्या, वैष्णो देवी, तिरुपति बालाजी और अन्य मंदिरों से लाइव दर्शन देखें — सनातन संगम पर 24x7 स्ट्रीमिंग।'
         : 'Watch live darshan from all 12 Jyotirlingas, Char Dham, Ram Mandir Ayodhya, Vaishno Devi, Tirupati Balaji & more — 24x7 streaming on Sanatan Sangam.',
-      url: isHi ? 'https://sanatan-sangam.com/hi/darshan' : 'https://sanatan-sangam.com/darshan',
+      url: isHi ? 'https://www.sanatan-sangam.com/hi/darshan' : 'https://www.sanatan-sangam.com/darshan',
       images: [{ url: 'https://pub-a3540a1b218c43298ca3a816c685b5e7.r2.dev/app-pics/SS%20logo%20without%20text.png' }],
     },
     alternates: {
-      canonical: isHi ? 'https://sanatan-sangam.com/hi/darshan' : 'https://sanatan-sangam.com/darshan',
+      canonical: isHi ? 'https://www.sanatan-sangam.com/hi/darshan' : 'https://www.sanatan-sangam.com/darshan',
       languages: {
-        'en': 'https://sanatan-sangam.com/darshan',
-        'hi': 'https://sanatan-sangam.com/hi/darshan',
-        'x-default': 'https://sanatan-sangam.com/darshan',
+        'en': 'https://www.sanatan-sangam.com/darshan',
+        'hi': 'https://www.sanatan-sangam.com/hi/darshan',
+        'x-default': 'https://www.sanatan-sangam.com/darshan',
       },
     },
   };
@@ -43,13 +43,13 @@ export default async function DarshanLayout({ children, params }) {
         '@type': 'ListItem',
         'position': 1,
         'name': isHi ? 'होम' : 'Home',
-        'item': isHi ? 'https://sanatan-sangam.com/hi' : 'https://sanatan-sangam.com',
+        'item': isHi ? 'https://www.sanatan-sangam.com/hi' : 'https://www.sanatan-sangam.com',
       },
       {
         '@type': 'ListItem',
         'position': 2,
         'name': isHi ? 'लाइव दर्शन' : 'Live Darshan',
-        'item': isHi ? 'https://sanatan-sangam.com/hi/darshan' : 'https://sanatan-sangam.com/darshan',
+        'item': isHi ? 'https://www.sanatan-sangam.com/hi/darshan' : 'https://www.sanatan-sangam.com/darshan',
       },
     ],
   };

@@ -17,15 +17,15 @@ export async function generateMetadata({ params }) {
       description: isHi
         ? 'हर मूड के लिए 200+ विज्ञापन-मुक्त भजन, आरती, मंत्र और चालीसा। 9 क्षेत्रीय भाषाओं में स्ट्रीम करें या ट्यूनमेट के साथ अपना स्वयं का व्यक्तिगत भजन लिखें।'
         : '200+ ad-free bhajans, aarti, mantras & chalisas for every mood. Stream in 9 regional languages or compose your own personalized bhajan with Tunemate.',
-      url: isHi ? 'https://sanatan-sangam.com/hi/music' : 'https://sanatan-sangam.com/music',
+      url: isHi ? 'https://www.sanatan-sangam.com/hi/music' : 'https://www.sanatan-sangam.com/music',
       images: [{ url: 'https://pub-a3540a1b218c43298ca3a816c685b5e7.r2.dev/app-pics/SS%20logo%20without%20text.png' }],
     },
     alternates: {
-      canonical: isHi ? 'https://sanatan-sangam.com/hi/music' : 'https://sanatan-sangam.com/music',
+      canonical: isHi ? 'https://www.sanatan-sangam.com/hi/music' : 'https://www.sanatan-sangam.com/music',
       languages: {
-        'en': 'https://sanatan-sangam.com/music',
-        'hi': 'https://sanatan-sangam.com/hi/music',
-        'x-default': 'https://sanatan-sangam.com/music',
+        'en': 'https://www.sanatan-sangam.com/music',
+        'hi': 'https://www.sanatan-sangam.com/hi/music',
+        'x-default': 'https://www.sanatan-sangam.com/music',
       },
     },
   };
@@ -43,13 +43,13 @@ export default async function MusicLayout({ children, params }) {
         '@type': 'ListItem',
         'position': 1,
         'name': isHi ? 'होम' : 'Home',
-        'item': isHi ? 'https://sanatan-sangam.com/hi' : 'https://sanatan-sangam.com',
+        'item': isHi ? 'https://www.sanatan-sangam.com/hi' : 'https://www.sanatan-sangam.com',
       },
       {
         '@type': 'ListItem',
         'position': 2,
         'name': isHi ? 'संगीत' : 'Music',
-        'item': isHi ? 'https://sanatan-sangam.com/hi/music' : 'https://sanatan-sangam.com/music',
+        'item': isHi ? 'https://www.sanatan-sangam.com/hi/music' : 'https://www.sanatan-sangam.com/music',
       },
     ],
   };

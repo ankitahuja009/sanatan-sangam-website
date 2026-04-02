@@ -17,7 +17,7 @@ export async function generateMetadata({ params }) {
     const desc = locale === 'hi' ? (aarti.descriptionHi || '').slice(0, 160) : (aarti.description || '').slice(0, 160);
     const path = `/sangrah/aarti/${aarti.slug}`;
     const url = locale === 'en' ? path : `/${locale}${path}`;
-    const absoluteUrl = `https://sanatan-sangam.com${url}`;
+    const absoluteUrl = `https://www.sanatan-sangam.com${url}`;
 
     return {
         title: `${name} — ${deity} ${locale === 'hi' ? 'के आरती के बोल (हिंदी)' : 'Aarti Lyrics in Hindi'}`,
@@ -26,9 +26,9 @@ export async function generateMetadata({ params }) {
         alternates: {
             canonical: absoluteUrl,
             languages: {
-                en: `https://sanatan-sangam.com${path}`,
-                hi: `https://sanatan-sangam.com/hi${path}`,
-                'x-default': `https://sanatan-sangam.com${path}`,
+                en: `https://www.sanatan-sangam.com${path}`,
+                hi: `https://www.sanatan-sangam.com/hi${path}`,
+                'x-default': `https://www.sanatan-sangam.com${path}`,
             },
         },
         openGraph: {
@@ -46,7 +46,7 @@ export default async function AartiDetailPage({ params }) {
     if (!aarti) notFound();
 
     const recommended = getRecommendedAartis(slug, 4);
-    const pageUrl = `https://sanatan-sangam.com/sangrah/aarti/${aarti.slug}`;
+    const pageUrl = `https://www.sanatan-sangam.com/sangrah/aarti/${aarti.slug}`;
 
     const name = locale === 'hi' ? aarti.nameHi : aarti.name;
     const deity = locale === 'hi' ? aarti.deityHi : aarti.deity;
@@ -60,19 +60,19 @@ export default async function AartiDetailPage({ params }) {
                 '@type': 'ListItem',
                 'position': 1,
                 'name': locale === 'hi' ? 'होम' : 'Home',
-                'item': locale === 'hi' ? 'https://sanatan-sangam.com/hi' : 'https://sanatan-sangam.com',
+                'item': locale === 'hi' ? 'https://www.sanatan-sangam.com/hi' : 'https://www.sanatan-sangam.com',
             },
             {
                 '@type': 'ListItem',
                 'position': 2,
                 'name': locale === 'hi' ? 'संग्रह' : 'Sangrah',
-                'item': locale === 'hi' ? 'https://sanatan-sangam.com/hi/sangrah' : 'https://sanatan-sangam.com/sangrah',
+                'item': locale === 'hi' ? 'https://www.sanatan-sangam.com/hi/sangrah' : 'https://www.sanatan-sangam.com/sangrah',
             },
             {
                 '@type': 'ListItem',
                 'position': 3,
                 'name': locale === 'hi' ? 'आरती' : 'Aarti',
-                'item': locale === 'hi' ? 'https://sanatan-sangam.com/hi/sangrah/aarti' : 'https://sanatan-sangam.com/sangrah/aarti',
+                'item': locale === 'hi' ? 'https://www.sanatan-sangam.com/hi/sangrah/aarti' : 'https://www.sanatan-sangam.com/sangrah/aarti',
             },
             {
                 '@type': 'ListItem',

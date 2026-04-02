@@ -659,7 +659,7 @@ export async function generateMetadata({ params }) {
     openGraph: {
       title,
       description,
-      url: isHi ? `https://sanatan-sangam.com/hi/blog/${slug}` : `https://sanatan-sangam.com/blog/${slug}`,
+      url: isHi ? `https://www.sanatan-sangam.com/hi/blog/${slug}` : `https://www.sanatan-sangam.com/blog/${slug}`,
       type: 'article',
       publishedTime: article.date,
       images: [{ url: 'https://pub-a3540a1b218c43298ca3a816c685b5e7.r2.dev/app-pics/SS%20logo%20without%20text.png' }],
@@ -669,11 +669,11 @@ export async function generateMetadata({ params }) {
       description,
     },
     alternates: {
-      canonical: isHi ? `https://sanatan-sangam.com/hi/blog/${slug}` : `https://sanatan-sangam.com/blog/${slug}`,
+      canonical: isHi ? `https://www.sanatan-sangam.com/hi/blog/${slug}` : `https://www.sanatan-sangam.com/blog/${slug}`,
       languages: {
-        'en': `https://sanatan-sangam.com/blog/${slug}`,
-        'hi': `https://sanatan-sangam.com/hi/blog/${slug}`,
-        'x-default': `https://sanatan-sangam.com/blog/${slug}`,
+        'en': `https://www.sanatan-sangam.com/blog/${slug}`,
+        'hi': `https://www.sanatan-sangam.com/hi/blog/${slug}`,
+        'x-default': `https://www.sanatan-sangam.com/blog/${slug}`,
       },
     },
   };
@@ -691,13 +691,13 @@ export default async function BlogArticlePage({ params }) {
     description: article.description,
     datePublished: article.date,
     dateModified: article.date,
-    author: { '@type': 'Organization', name: 'Sanatan Sangam', url: 'https://sanatan-sangam.com' },
+    author: { '@type': 'Organization', name: 'Sanatan Sangam', url: 'https://www.sanatan-sangam.com' },
     publisher: {
       '@type': 'Organization',
       name: 'Sanatan Sangam',
       logo: { '@type': 'ImageObject', url: 'https://pub-a3540a1b218c43298ca3a816c685b5e7.r2.dev/app-pics/SS%20logo%20without%20text.png' },
     },
-    mainEntityOfPage: { '@type': 'WebPage', '@id': `https://sanatan-sangam.com/blog/${slug}` },
+    mainEntityOfPage: { '@type': 'WebPage', '@id': `https://www.sanatan-sangam.com/blog/${slug}` },
   };
 
   // Simple markdown-like rendering

@@ -14,17 +14,17 @@ export async function generateMetadata({ params }) {
     description,
     keywords: ['festival calendar 2026', 'hindu festivals', 'holi 2026', 'diwali 2026', 'navratri 2026', 'indian festivals', 'panchang 2026'],
     alternates: {
-      canonical: isHi ? 'https://sanatan-sangam.com/hi/sangrah/festivals' : 'https://sanatan-sangam.com/sangrah/festivals',
+      canonical: isHi ? 'https://www.sanatan-sangam.com/hi/sangrah/festivals' : 'https://www.sanatan-sangam.com/sangrah/festivals',
       languages: {
-        'en': 'https://sanatan-sangam.com/sangrah/festivals',
-        'hi': 'https://sanatan-sangam.com/hi/sangrah/festivals',
-        'x-default': 'https://sanatan-sangam.com/sangrah/festivals',
+        'en': 'https://www.sanatan-sangam.com/sangrah/festivals',
+        'hi': 'https://www.sanatan-sangam.com/hi/sangrah/festivals',
+        'x-default': 'https://www.sanatan-sangam.com/sangrah/festivals',
       },
     },
     openGraph: {
       title,
       description,
-      url: isHi ? 'https://sanatan-sangam.com/hi/sangrah/festivals' : 'https://sanatan-sangam.com/sangrah/festivals',
+      url: isHi ? 'https://www.sanatan-sangam.com/hi/sangrah/festivals' : 'https://www.sanatan-sangam.com/sangrah/festivals',
       images: [{ url: 'https://pub-a3540a1b218c43298ca3a816c685b5e7.r2.dev/app-pics/SS%20logo%20without%20text.png' }],
     },
   };
@@ -42,19 +42,19 @@ export default async function FestivalsLayout({ children, params }) {
         '@type': 'ListItem',
         'position': 1,
         'name': isHi ? 'होम' : 'Home',
-        'item': isHi ? 'https://sanatan-sangam.com/hi' : 'https://sanatan-sangam.com',
+        'item': isHi ? 'https://www.sanatan-sangam.com/hi' : 'https://www.sanatan-sangam.com',
       },
       {
         '@type': 'ListItem',
         'position': 2,
         'name': isHi ? 'संग्रह' : 'Sangrah',
-        'item': isHi ? 'https://sanatan-sangam.com/hi/sangrah' : 'https://sanatan-sangam.com/sangrah',
+        'item': isHi ? 'https://www.sanatan-sangam.com/hi/sangrah' : 'https://www.sanatan-sangam.com/sangrah',
       },
       {
         '@type': 'ListItem',
         'position': 3,
         'name': isHi ? 'त्यौहार' : 'Festivals',
-        'item': isHi ? 'https://sanatan-sangam.com/hi/sangrah/festivals' : 'https://sanatan-sangam.com/sangrah/festivals',
+        'item': isHi ? 'https://www.sanatan-sangam.com/hi/sangrah/festivals' : 'https://www.sanatan-sangam.com/sangrah/festivals',
       },
     ],
   };

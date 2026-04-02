@@ -18,7 +18,7 @@ export async function generateMetadata({ params }) {
       description: isHi
         ? 'सनातन संगम आधुनिक तकनीक के साथ प्राचीन हिंदू आध्यात्मिक परंपराओं को जोड़ता है — 11 भारतीय भाषाओं में लाइव दर्शन, भक्ति संगीत, AI कला और बहुत कुछ।'
         : 'Sanatan Sangam bridges ancient Hindu spiritual traditions with modern technology — live darshan, devotional music, AI art & more in 11 Indian languages.',
-      url: isHi ? 'https://sanatan-sangam.com/hi/about' : 'https://sanatan-sangam.com/about',
+      url: isHi ? 'https://www.sanatan-sangam.com/hi/about' : 'https://www.sanatan-sangam.com/about',
       images: [{ url: 'https://pub-a3540a1b218c43298ca3a816c685b5e7.r2.dev/app-pics/SS%20logo%20without%20text.png' }],
     },
     twitter: {
@@ -28,10 +28,10 @@ export async function generateMetadata({ params }) {
         : 'Sanatan Sangam bridges ancient Hindu spiritual traditions with modern technology. Serving devotees worldwide in 11 Indian languages.',
     },
     alternates: {
-      canonical: isHi ? 'https://sanatan-sangam.com/hi/about' : 'https://sanatan-sangam.com/about',
+      canonical: isHi ? 'https://www.sanatan-sangam.com/hi/about' : 'https://www.sanatan-sangam.com/about',
       languages: {
-        'en': 'https://sanatan-sangam.com/about',
-        'hi': 'https://sanatan-sangam.com/hi/about',
+        'en': 'https://www.sanatan-sangam.com/about',
+        'hi': 'https://www.sanatan-sangam.com/hi/about',
       },
     },
   };

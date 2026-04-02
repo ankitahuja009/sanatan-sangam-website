@@ -14,17 +14,17 @@ export async function generateMetadata({ params }) {
     description,
     keywords: ['ayurvedic remedies', 'home remedies', 'natural healing', 'gharelu nuskhe', 'ayurveda tips', 'herbal medicine', 'immunity boosters'],
     alternates: {
-      canonical: isHi ? 'https://sanatan-sangam.com/hi/sangrah/ayurveda' : 'https://sanatan-sangam.com/sangrah/ayurveda',
+      canonical: isHi ? 'https://www.sanatan-sangam.com/hi/sangrah/ayurveda' : 'https://www.sanatan-sangam.com/sangrah/ayurveda',
       languages: {
-        'en': 'https://sanatan-sangam.com/sangrah/ayurveda',
-        'hi': 'https://sanatan-sangam.com/hi/sangrah/ayurveda',
-        'x-default': 'https://sanatan-sangam.com/sangrah/ayurveda',
+        'en': 'https://www.sanatan-sangam.com/sangrah/ayurveda',
+        'hi': 'https://www.sanatan-sangam.com/hi/sangrah/ayurveda',
+        'x-default': 'https://www.sanatan-sangam.com/sangrah/ayurveda',
       },
     },
     openGraph: {
       title,
       description,
-      url: isHi ? 'https://sanatan-sangam.com/hi/sangrah/ayurveda' : 'https://sanatan-sangam.com/sangrah/ayurveda',
+      url: isHi ? 'https://www.sanatan-sangam.com/hi/sangrah/ayurveda' : 'https://www.sanatan-sangam.com/sangrah/ayurveda',
       images: [{ url: 'https://pub-a3540a1b218c43298ca3a816c685b5e7.r2.dev/app-pics/SS%20logo%20without%20text.png' }],
     },
   };
@@ -42,19 +42,19 @@ export default async function AyurvedaLayout({ children, params }) {
         '@type': 'ListItem',
         'position': 1,
         'name': isHi ? 'होम' : 'Home',
-        'item': isHi ? 'https://sanatan-sangam.com/hi' : 'https://sanatan-sangam.com',
+        'item': isHi ? 'https://www.sanatan-sangam.com/hi' : 'https://www.sanatan-sangam.com',
       },
       {
         '@type': 'ListItem',
         'position': 2,
         'name': isHi ? 'संग्रह' : 'Sangrah',
-        'item': isHi ? 'https://sanatan-sangam.com/hi/sangrah' : 'https://sanatan-sangam.com/sangrah',
+        'item': isHi ? 'https://www.sanatan-sangam.com/hi/sangrah' : 'https://www.sanatan-sangam.com/sangrah',
       },
       {
         '@type': 'ListItem',
         'position': 3,
         'name': isHi ? 'आयुर्वेद' : 'Ayurveda',
-        'item': isHi ? 'https://sanatan-sangam.com/hi/sangrah/ayurveda' : 'https://sanatan-sangam.com/sangrah/ayurveda',
+        'item': isHi ? 'https://www.sanatan-sangam.com/hi/sangrah/ayurveda' : 'https://www.sanatan-sangam.com/sangrah/ayurveda',
       },
     ],
   };

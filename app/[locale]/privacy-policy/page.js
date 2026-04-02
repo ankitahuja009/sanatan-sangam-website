@@ -7,10 +7,10 @@ export async function generateMetadata({ params }) {
     title: isHi ? 'गोपनीयता नीति | सनातन संगम' : 'Privacy Policy | Sanatan Sangam',
     description: isHi ? 'सनातन संगम ऐप और वेबसाइट के लिए गोपनीयता नीति।' : 'Privacy Policy for Sanatan Sangam app and website.',
     alternates: {
-      canonical: isHi ? 'https://sanatan-sangam.com/hi/privacy-policy' : 'https://sanatan-sangam.com/privacy-policy',
+      canonical: isHi ? 'https://www.sanatan-sangam.com/hi/privacy-policy' : 'https://www.sanatan-sangam.com/privacy-policy',
       languages: {
-        'en': 'https://sanatan-sangam.com/privacy-policy',
-        'hi': 'https://sanatan-sangam.com/hi/privacy-policy',
+        'en': 'https://www.sanatan-sangam.com/privacy-policy',
+        'hi': 'https://www.sanatan-sangam.com/hi/privacy-policy',
       },
     },
   };
