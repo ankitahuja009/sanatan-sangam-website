@@ -13,7 +13,7 @@ const MANTRA_LINKS = [
 
 const AARTI_LINKS = [
     { name: 'Om Jai Jagdish Aarti', slug: 'om-jai-jagdish-hare' },
-    { name: 'Shiv Omkara Aarti', slug: 'om-jai-shiv-omkara' },
+    { name: 'Shiv Omkara Aarti', slug: 'shiv-aarti' },
     { name: 'Kunj Bihari Aarti', slug: 'aarti-kunj-bihari-ki' },
     { name: 'Hanuman Aarti', slug: 'hanuman-aarti' },
     { name: 'Ganesh Aarti', slug: 'ganesh-aarti' },

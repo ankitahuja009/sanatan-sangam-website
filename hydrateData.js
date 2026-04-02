@@ -57,7 +57,7 @@ const updatedAartis = `export const aartis = [
         benefitsHi: ['सभी देवताओं के लिए सार्वभौमिक आरती', 'शाम की संध्या आरती', 'दुख और कठिनाइयों को दूर करती है', 'शांति और समृद्धि प्रदान करती है']
     },
     {
-        slug: 'om-jai-shiv-omkara',
+        slug: 'shiv-aarti',
         name: 'Om Jai Shiv Omkara',
         nameHi: 'ॐ जय शिव ओंकारा',
         deity: 'Lord Shiva',
