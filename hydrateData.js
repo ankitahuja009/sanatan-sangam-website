@@ -1,10 +1,10 @@
 const fs = require('fs');
 const currentDataFile = 'app/[locale]/sangrah/aarti/data.js';
 
-// Load original data to a js eval, we can't easily require it if it's ES module, but we can parse it.
 let rawContent = fs.readFileSync(currentDataFile, 'utf8');
 
-const updatedAartis = `export const aartis = [
+const updatedAartis = `
+export const aartis = [
     {
         slug: 'om-jai-jagdish-hare',
         name: 'Om Jai Jagdish Hare',
@@ -97,18 +97,18 @@ const updatedAartis = `export const aartis = [
 त्रिगुण शिवजी की आरती जो कोई नर गावे,
 कहत शिवानन्द स्वामी मनवांछित फल पावे।
 ॐ जय शिव ओंकारा॥\`,
-        benefits: ['Principal Shiva aarti', 'Ideal for Mondays and Shravan', 'Grants Shiva\\'s blessings', 'Removes all sins'],
+        benefits: ['Principal Shiva aarti', 'Ideal for Mondays and Shravan', 'Grants Shiva\'s blessings', 'Removes all sins'],
         benefitsHi: ['प्रमुख शिव आरती', 'सोमवार और सावन के लिए सबसे उत्तम', 'शिव के आशीर्वाद प्रदान करती है', 'सभी पापों को दूर करती है']
     },
     {
-        slug: 'aarti-kunj-bihari-ki',
+        slug: 'krishna-aarti',
         name: 'Aarti Kunj Bihari Ki',
         nameHi: 'आरती कुंजबिहारी की',
         deity: 'Lord Krishna',
         deityHi: 'भगवान कृष्ण',
         deityImage: '/images/deities/krishna.webp',
         updatedAt: '2026-02-28',
-        description: 'Aarti Kunj Bihari Ki is one of the most beloved aartis dedicated to Lord Krishna — the divine flute player who resides in the groves (kunj) of Vrindavan. This beautiful aarti describes Krishna\\'s enchanting form, his yellow garments, the peacock feather on his crown, and his playful divine nature.',
+        description: 'Aarti Kunj Bihari Ki is one of the most beloved aartis dedicated to Lord Krishna — the divine flute player who resides in the groves (kunj) of Vrindavan. This beautiful aarti describes Krishna\'s enchanting form, his yellow garments, the peacock feather on his crown, and his playful divine nature.',
         descriptionHi: 'आरती कुंजबिहारी की भगवान कृष्ण को समर्पित सबसे प्रिय आरतियों में से एक है। यह सुंदर आरती कृष्ण के मनमोहक रूप, उनके पीले वस्त्र, उनके मुकुट पर मोर पंख और उनके चंचल दिव्य स्वभाव का वर्णन करती है।',
         lyrics: \`आरती कुंजबिहारी की, श्री गिरिधर कृष्णमुरारी की॥
 गले में बैजंती माला, बजावै मुरली मधुर बाला।
@@ -384,7 +384,7 @@ const updatedAartis = `export const aartis = [
         deityHi: 'भगवान कृष्ण (गोवर्धन)',
         deityImage: '/images/deities/krishna.webp',
         updatedAt: '2026-02-28',
-        description: 'Govardhan Maharaj Aarti is dedicated to Govardhan Parvat and Lord Krishna, who lifted the mountain on his little finger to protect the people of Vrindavan from Lord Indra\\'s wrath. It is sung on Govardhan Puja.',
+        description: 'Govardhan Maharaj Aarti is dedicated to Govardhan Parvat and Lord Krishna, who lifted the mountain on his little finger to protect the people of Vrindavan from Lord Indra\'s wrath. It is sung on Govardhan Puja.',
         descriptionHi: 'श्री गोवर्धन महाराज आरती गोवर्धन पर्वत और भगवान कृष्ण को समर्पित है। इसका गायन गोवर्धन पूजा के पावन अवसर पर किया जाता है।',
         lyrics: \`श्री गोवर्धन महाराज, ओ महाराज,
 तेरे माथे मुकुट विराज रहेओ।
@@ -480,7 +480,7 @@ const updatedAartis = `export const aartis = [
         benefitsHi: ['सभी धर्मों के लिए सार्वभौमिक आरती', 'गुरुवार को श्रेष्ठ', 'शांति और संतोष प्रदान करती है', 'शिरडी साईं बाबा मंदिर अनुष्ठान']
     },
     {
-        slug: 'shri-ram-aarti',
+        slug: 'ram-aarti',
         name: 'Shri Ramchandra Kripalu Bhajaman',
         nameHi: 'श्री रामचन्द्र कृपालु भजमन',
         deity: 'Lord Ram',
@@ -505,6 +505,110 @@ const updatedAartis = `export const aartis = [
 मम हृदय कंज निवास कुरु, कामादि खलदल गंजनम्॥\`,
         benefits: ['Written by Tulsidas', 'Removes cycle of birth & death', 'Ideal for Ram Navami', 'Fills heart with devotion'],
         benefitsHi: ['तुलसीदास द्वारा रचित', 'जन्म-मरण के चक्र से मुक्ति', 'राम नवमी के लिए उत्तम', 'भक्ति से परिपूर्ण करती है']
+    },
+    {
+        slug: 'santoshi-mata-aarti',
+        name: 'Jai Santoshi Mata',
+        nameHi: 'जय सन्तोषी माता',
+        deity: 'Goddess Santoshi',
+        deityHi: 'माँ सन्तोषी',
+        deityImage: '/images/deities/santoshi_mata.webp',
+        updatedAt: '2026-04-03',
+        description: 'Jai Santoshi Mata is the principal aarti of Goddess Santoshi, the goddess of satisfaction and contentment. Reciting this aarti, especially on Fridays, is believed to bring peace and fulfill all desires.',
+        descriptionHi: 'जय सन्तोषी माता संतोष की देवी माँ सन्तोषी की प्रमुख आरती है। विशेष रूप से शुक्रवार को इस आरती का पाठ करने से शांति मिलती है और सभी मनोकामनाएं पूर्ण होती हैं।',
+        lyrics: \`जय सन्तोषी माता, मैया जय सन्तोषी माता।
+अपने सेवक जन को, सुख सम्पत्ति दाता॥ जय सन्तोषी माता॥
+
+सुन्दर चीर सुनहरी, माँ धारण कीन्हों।
+हीरा पन्ना दमके, तन श्रृंगार कीन्हों॥ जय सन्तोषी माता॥
+
+गेरू लाल छटा छवि, बदन कमल सोहे।
+मन्द हंसत करुणामयी, त्रिभुवन मन मोहे॥ जय सन्तोषी माता॥
+
+स्वर्ण सिंहासन बैठी, चँवर ढुरें प्यारे।
+धूप, दीप, मधुमेवा, भोग धरें न्यारे॥ जय सन्तोषी माता॥
+
+गुड़ अरु चना परमप्रिय, तामें संतोष कियो।
+सन्तोषी कहलाई, भक्तन वैभव दियो॥ जय सन्तोषी माता॥
+
+शुक्रवार प्रिय मानत, आज दिवस सोही।
+भक्त मण्डली छाई, कथा सुनत मोही॥ जय सन्तोषी माता॥\`,
+        benefits: ['Brings satisfaction and peace', 'Fulfills honest desires', 'Best on Fridays', 'Removes family disputes'],
+        benefitsHi: ['संतोष और शांति लाती है', 'ईमानदार इच्छाओं को पूरा करती है', 'शुक्रवार को सर्वश्रेष्ठ', 'पारिवारिक विवादों को दूर करती है']
+    },
+    {
+        slug: 'kartikeya-aarti',
+        name: 'Kartikeya Aarti',
+        nameHi: 'श्री कार्तिकेय आरती',
+        deity: 'Lord Kartikeya',
+        deityHi: 'भगवान कार्तिकेय',
+        deityImage: '/images/deities/kartikeya.webp',
+        updatedAt: '2026-04-03',
+        description: 'Kartikeya Aarti is dedicated to Lord Kartikeya (also known as Murugan or Skanda), the god of war and victory. He is the son of Lord Shiva and Goddess Parvati.',
+        descriptionHi: 'भगवान कार्तिकेय की आरती युद्ध और जीत के देवता भगवान कार्तिकेय (जिन्हें मुरुगन या स्कंद के नाम से भी जाना जाता है) को समर्पित है। वे भगवान शिव और देवी पार्वती के पुत्र हैं।',
+        lyrics: \`जय जय आरती, जय जय आरती वेणु गोपाला।
+वेणु गोपाला, वेणु लोला, पाप विदुरा, नवनीत चोरा॥
+
+जय जय आरती, जय जय आरती वेणु गोपाला।\`,
+        benefits: ['Grants victory and success', 'Removes fear and obstacles', 'Best during Skanda Sashti', 'Protects against enemies'],
+        benefitsHi: ['विजय और सफलता प्रदान करती है', 'भय और बाधाओं को दूर करती है', 'स्कंद षष्ठी के दौरान सर्वश्रेष्ठ', 'शत्रुओं से रक्षा करती है']
+    },
+    {
+        slug: 'surya-aarti',
+        name: 'Om Jai Surya Bhagwan',
+        nameHi: 'ॐ जय सूर्य भगवान',
+        deity: 'Lord Surya',
+        deityHi: 'भगवान सूर्य',
+        deityImage: '/images/deities/surya.webp',
+        updatedAt: '2026-04-03',
+        description: 'Surya Aarti is dedicated to the Sun God, the primary source of energy and light for the world. Reciting this aarti brings health, vitality, and removes darkness from life.',
+        descriptionHi: 'सूर्य आरती सूर्य देव को समर्पित है, जो दुनिया के लिए ऊर्जा और प्रकाश का प्राथमिक स्रोत हैं। इस आरती का पाठ करने से स्वास्थ्य, जीवन शक्ति मिलती है और जीवन से अंधकार दूर होता है।',
+        lyrics: \`जय कश्यप-नन्दन, ॐ जय अदिति नन्दन।
+त्रिभुवन-तिमिर-निकन्दन, भक्त-हृदय-चन्दन॥ जय कश्यप-नन्दन...
+
+सप्त-अश्वरथ राजित, एक चक्रधारी।
+दुःखहारी, सुखकारी, मानस-मल-हारी॥ जय कश्यप-नन्दन...
+
+सुर-मुनि-भूसुर-वन्दित, विमल विभवशाली।
+अघ-दल-दलन दिवाकर, दिव्य किरण माली॥ जय कश्यप-नन्दन...
+
+सकल-सुकर्म-प्रसविता, सविता शुभकारी।
+विश्व-विलोचन मोचन, भव-बन्धन भारी॥ जय कश्यप-नन्दन...
+
+कमल-समूह विकासक, नाशक त्रय तापा।
+सेवत साहज हरत अति मनसिज-संतापा॥ जय कश्यप-नन्दन...
+
+नेत्र-व्याधि हर सुरवर, भू-पीड़ा-हारी।
+वृष्टि विमोचन संतत, परहित व्रतधारी॥ जय कश्यप-नन्दन...
+
+सूर्यदेव करुणाकर, अब करुणा कीजै।
+हर अज्ञान-मोह सब, तत्त्वज्ञान दीजै॥ जय कश्यप-नन्दन...\`,
+        benefits: ['Improves health and longevity', 'Eliminates poverty', 'Brings fame and respect', 'Ideal for Sundays and Chhath Puja'],
+        benefitsHi: ['स्वास्थ्य और दीर्घायु में सुधार करती है', 'गरीबी मिटाती है', 'यश और सम्मान दिलाती है', 'रविवार और छठ पूजा के लिए उत्तम']
+    },
+    {
+        slug: 'jagannath-aarti',
+        name: 'Jai Jagannath Swami',
+        nameHi: 'जय जगन्नाथ स्वामी',
+        deity: 'Lord Jagannath',
+        deityHi: 'भगवान जगन्नाथ',
+        deityImage: '/images/deities/jagannath.webp',
+        updatedAt: '2026-04-03',
+        description: 'Jagannath Aarti is dedicated to Lord Jagannath, the Lord of the Universe, primarily worshipped at Puri, Odisha. He is considered an avatar of Lord Vishnu.',
+        descriptionHi: 'जगन्नाथ आरती ब्रह्मांड के भगवान, भगवान जगन्नाथ को समर्पित है, जिनकी मुख्य रूप से पुरी, ओडिशा में पूजा की जाती है। उन्हें भगवान विष्णु का अवतार माना जाता है।',
+        lyrics: \`चतुर्भुज जगन्नाथ, कंठ शोभित कौस्तुभः।
+पद्मनाभ, वेद-गर्भ, चन्द्र-सूर्य बिलोचनः॥
+
+जगन्नाथ, लोकनाथ, नीलाद्रि सो पारो हरि।
+दीनबंधु, दयासिंधु, कृपालुं च रक्षकः॥
+
+कम्बु पानि, चक्र पानि, पद्मनाभो, नरोतमः।
+जग्दम्पा रथो व्यापी, सर्वव्यापी सुरेश्वराहा॥
+
+लोका राजो, देव राजः, चक्र भूपह स्कभूपतिहि।
+नीलाद्रिह बद्रीनाथशः, अनन्ता पुरुषोत्तमः॥\`,
+        benefits: ['Grants spiritual liberation', 'Best for family welfare', 'Auspicious during Rath Yatra', 'Connects with the universe'],
+        benefitsHi: ['आध्यात्मिक मुक्ति प्रदान करती है', 'पारिवारिक कल्याण के लिए सर्वोत्तम', 'रथ यात्रा के दौरान शुभ', 'ब्रह्मांड से जोड़ती है']
     }
 ];
 

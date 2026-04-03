@@ -14,12 +14,17 @@ const MANTRA_LINKS = [
 const AARTI_LINKS = [
     { name: 'Om Jai Jagdish Aarti', slug: 'om-jai-jagdish-hare' },
     { name: 'Shiv Omkara Aarti', slug: 'shiv-aarti' },
-    { name: 'Kunj Bihari Aarti', slug: 'aarti-kunj-bihari-ki' },
+    { name: 'Krishna Aarti', slug: 'krishna-aarti' },
+    { name: 'Ram Aarti', slug: 'ram-aarti' },
     { name: 'Hanuman Aarti', slug: 'hanuman-aarti' },
     { name: 'Ganesh Aarti', slug: 'ganesh-aarti' },
     { name: 'Durga Aarti', slug: 'durga-aarti' },
     { name: 'Kaali Aarti', slug: 'kali-mata-aarti' },
     { name: 'Vishwakarma Aarti', slug: 'vishwakarma-aarti' },
+    { name: 'Santoshi Mata Aarti', slug: 'santoshi-mata-aarti' },
+    { name: 'Kartikeya Aarti', slug: 'kartikeya-aarti' },
+    { name: 'Surya Aarti', slug: 'surya-aarti' },
+    { name: 'Jagannath Aarti', slug: 'jagannath-aarti' },
 ];
 
 const CHALISA_LINKS = [
