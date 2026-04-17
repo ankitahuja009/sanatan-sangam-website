@@ -1,11 +1,12 @@
 import { notFound } from 'next/navigation';
-import { getTranslations } from 'next-intl/server';
+import { getTranslations, setRequestLocale } from 'next-intl/server';
 import Image from 'next/image';
 import { Link } from '../../../../i18n/routing';
 import { getTempleById, getAllTemples } from '../../../../lib/templesData';
 
 export async function generateMetadata({ params }) {
-    const { id } = await params;
+    const { id, locale } = await params;
+    setRequestLocale(locale);
     const temple = getTempleById(id);
     if (!temple) return { title: 'Not Found' };
 
@@ -34,6 +35,7 @@ export function generateStaticParams() {
 
 export default async function TempleDetailPage({ params }) {
     const { locale, id } = await params;
+    setRequestLocale(locale);
     const temple = getTempleById(id);
     if (!temple) notFound();
 

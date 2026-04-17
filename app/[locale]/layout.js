@@ -3,13 +3,14 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import WatiWidget from '../components/WatiWidget';
 import { NextIntlClientProvider } from 'next-intl';
-import { getMessages } from 'next-intl/server';
+import { getMessages, setRequestLocale } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { routing } from '../../i18n/routing';
 import { GoogleAnalytics } from '@next/third-parties/google';
 
 export async function generateMetadata({ params }) {
   const { locale } = await params;
+  setRequestLocale(locale);
   const isHi = locale === 'hi';
 
   const title = {
@@ -87,6 +88,7 @@ export async function generateMetadata({ params }) {
 
 export default async function RootLayout({ children, params }) {
   const { locale } = await params;
+  setRequestLocale(locale);
 
   // Ensure that the incoming `locale` is valid
   if (!routing.locales.includes(locale)) {
