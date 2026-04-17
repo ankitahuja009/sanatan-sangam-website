@@ -13,18 +13,29 @@ export async function generateMetadata({ params }) {
     const name = temple.name;
     const location = temple.location;
 
+    let seoTitle = `${name} Live Darshan & Aarti Online - Timings & Video | Sanatan Sangam`;
+    let seoDesc = temple.desc || `Watch the live stream of ${name} located in ${location}. Check out the latest ${temple.schedule || 'timings'} and aarti schedule online.`;
+
+    if (temple.category === 'katha') {
+        seoTitle = `${name} Live Bhagwat Katha & Pravachan Online | Sanatan Sangam`;
+        seoDesc = temple.desc || `Experience divine wisdom with ${name}. Watch the latest live Bhagwat Katha, pravachan, and spiritual discourses online.`;
+    } else if (temple.category === 'satsang') {
+        seoTitle = `${name} Live Satsang, Bhajan & Darshan Online | Sanatan Sangam`;
+        seoDesc = temple.desc || `Join the spiritual congregation. Watch live Satsang, devotional bhajans, and guided meditation with ${name} online.`;
+    }
+
     return {
-        title: `${name} Live Darshan - Watch Online | Sanatan Sangam`,
-        description: temple.desc || `Watch the live stream of ${name} located in ${location}. ${temple.schedule || ''}`,
+        title: seoTitle,
+        description: seoDesc,
         openGraph: {
-            title: `${name} Live Darshan`,
-            description: temple.desc || `Watch the live stream of ${name} in ${location}.`,
-            images: [{ url: `https://sanatansangam.com${temple.image}` }]
+            title: seoTitle,
+            description: seoDesc,
+            images: [{ url: `https://www.sanatan-sangam.com${temple.image}` }]
         },
         twitter: {
             card: 'summary_large_image',
-            title: `${name} Live Darshan`,
-            description: temple.desc || `Watch the live stream of ${name} in ${location}.`,
+            title: seoTitle,
+            description: seoDesc,
         }
     };
 }
@@ -44,26 +55,84 @@ export default async function TempleDetailPage({ params }) {
     const tabLabel = temple.category === 'katha' ? 'Katha' :
                      temple.category === 'satsang' ? 'Satsang' : 'Mandir';
 
-    const jsonLd = {
+    // 1. Place / Organization Schema
+    const baseType = (temple.category === 'katha' || temple.category === 'satsang') ? 'Organization' : ['Place', 'LandmarksOrHistoricalBuildings'];
+    const placeSchema = {
         '@context': 'https://schema.org',
-        '@type': ['Place', 'LandmarksOrHistoricalBuildings'],
+        '@type': baseType,
         name: temple.name,
         description: temple.desc || `Watch live darshan of ${temple.name}`,
-        image: `https://sanatansangam.com${temple.image}`,
+        image: `https://www.sanatan-sangam.com${temple.image}`,
         address: {
             '@type': 'PostalAddress',
             addressLocality: temple.location,
             addressRegion: temple.state || '',
             addressCountry: 'IN'
         },
-        ...(temple.religion && { additionalType: `https://schema.org/${temple.religion}` })
+        ...(temple.religion && baseType !== 'Organization' && { additionalType: `https://schema.org/${temple.religion}` })
     };
+
+    // 2. BreadcrumbList Schema
+    const breadcrumbSchema = {
+        '@context': 'https://schema.org',
+        '@type': 'BreadcrumbList',
+        itemListElement: [
+            { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.sanatan-sangam.com/' },
+            { '@type': 'ListItem', position: 2, name: 'Darshan', item: 'https://www.sanatan-sangam.com/darshan' },
+            { '@type': 'ListItem', position: 3, name: temple.name, item: `https://www.sanatan-sangam.com/darshan/${temple.id}` }
+        ]
+    };
+
+    // 3. BroadcastEvent Schema (If Live)
+    let broadcastSchema = null;
+    if (temple.live) {
+        broadcastSchema = {
+            '@context': 'https://schema.org',
+            '@type': 'BroadcastEvent',
+            name: `${temple.name} Live Stream`,
+            description: `Live streaming broadcast of ${temple.name}`,
+            isLiveBroadcast: true,
+            videoFormat: 'HD',
+            location: { '@type': 'Place', name: temple.location }
+        };
+    }
+
+    // 4. FAQ Schema (If timetable exists)
+    let faqSchema = null;
+    if (temple.timetable && temple.timetable.length > 0) {
+        faqSchema = {
+            '@context': 'https://schema.org',
+            '@type': 'FAQPage',
+            mainEntity: [
+                {
+                    '@type': 'Question',
+                    name: `What are the live streaming timings for ${temple.name}?`,
+                    acceptedAnswer: {
+                        '@type': 'Answer',
+                        text: `The expected live broadcast schedule is ${temple.schedule || 'available daily'}.`
+                    }
+                },
+                ...temple.timetable.map(t => ({
+                    '@type': 'Question',
+                    name: `When is the ${t.n} at ${temple.name}?`,
+                    acceptedAnswer: {
+                        '@type': 'Answer',
+                        text: `The ${t.n} takes place at ${t.t}.`
+                    }
+                }))
+            ]
+        };
+    }
+
+    const allSchemas = [placeSchema, breadcrumbSchema];
+    if (broadcastSchema) allSchemas.push(broadcastSchema);
+    if (faqSchema) allSchemas.push(faqSchema);
 
     return (
         <div style={{ backgroundColor: '#0f0f14', color: '#fff', minHeight: '100vh', paddingBottom: '5rem' }}>
             <script
                 type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(allSchemas) }}
             />
 
             {/* Hero Banner */}
