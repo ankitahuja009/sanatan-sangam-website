@@ -2,6 +2,7 @@ import { aartis } from './[locale]/sangrah/aarti/data';
 import { chalisas } from './[locale]/sangrah/chalisa/data';
 import { mantras } from './[locale]/sangrah/mantra/data';
 import { CITIES } from '@/lib/celestial';
+import { getAllTemples } from '@/lib/templesData';
 
 export default function sitemap() {
     const baseUrl = 'https://www.sanatan-sangam.com';
@@ -94,5 +95,15 @@ export default function sitemap() {
         }
     }));
 
-    return [...routes, ...aartiRoutes, ...chalisaRoutes, ...mantraRoutes, ...panchangSunRoutes, ...panchangMoonRoutes];
+    const darshanRoutes = getAllTemples().map((t) => ({
+        url: `${baseUrl}/darshan/${t.id}`,
+        lastModified: now,
+        changeFrequency: 'daily',
+        priority: 0.9,
+        alternates: {
+            languages: generateAlternates(`/darshan/${t.id}`)
+        }
+    }));
+
+    return [...routes, ...darshanRoutes, ...aartiRoutes, ...chalisaRoutes, ...mantraRoutes, ...panchangSunRoutes, ...panchangMoonRoutes];
 }

@@ -1,0 +1,1575 @@
+﻿[
+  {
+    "id": "somnath",
+    "templeName": "Somnath Temple",
+    "shortName": "Somnath",
+    "location": "Prabhas Patan, Gujarat",
+    "state": "Gujarat",
+    "religion": "hindu",
+    "category": "jyotirlinga",
+    "youtubeUrl": "https://www.youtube.com/@SomnathTempleOfficialChannel/streams",
+    "scheduleType": "daily",
+    "liveSchedule": "6:00 AM - 9:00 PM",
+    "scheduleHours": [
+      6,
+      21
+    ],
+    "timetable": [
+      {
+        "name": "Darshan Opens",
+        "time": "06:00 AM"
+      },
+      {
+        "name": "Pratah Aarti",
+        "time": "07:00 AM"
+      },
+      {
+        "name": "Madhyan Aarti",
+        "time": "12:00 PM"
+      },
+      {
+        "name": "Sayam Aarti",
+        "time": "07:00 PM"
+      },
+      {
+        "name": "Light & Sound Show",
+        "time": "08:00 PM"
+      },
+      {
+        "name": "Darshan Closes",
+        "time": "10:00 PM"
+      }
+    ],
+    "displayOrder": 1,
+    "isActive": true,
+    "isPopular": true,
+    "language": "gu"
+  },
+  {
+    "id": "mahakaleshwar",
+    "templeName": "Mahakaleshwar Temple",
+    "shortName": "Mahakaleshwar",
+    "location": "Ujjain, MP",
+    "state": "Madhya Pradesh",
+    "religion": "hindu",
+    "category": "jyotirlinga",
+    "youtubeUrl": "https://www.youtube.com/@mahakaleshwarujjain/streams",
+    "scheduleType": "daily",
+    "liveSchedule": "4:00 AM - 11:00 PM (Bhasm Aarti 4-6 AM)",
+    "scheduleHours": [
+      4,
+      23
+    ],
+    "timetable": [
+      {
+        "name": "Bhasm Aarti",
+        "time": "04:00 AM - 06:00 AM",
+        "description": "Requires prior booking"
+      },
+      {
+        "name": "Dadhiyaodak Aarti",
+        "time": "07:00 AM - 07:30 AM"
+      },
+      {
+        "name": "Bhog Aarti",
+        "time": "10:00 AM - 10:30 AM"
+      },
+      {
+        "name": "Sandhya Aarti",
+        "time": "05:00 PM - 05:30 PM"
+      },
+      {
+        "name": "Shayan Aarti",
+        "time": "10:30 PM - 11:00 PM"
+      }
+    ],
+    "displayOrder": 2,
+    "isActive": true,
+    "language": "hi"
+  },
+  {
+    "id": "kashi-vishwanath",
+    "templeName": "Kashi Vishwanath Temple",
+    "shortName": "Kashi Vishwanath",
+    "location": "Varanasi, UP",
+    "state": "Uttar Pradesh",
+    "religion": "hindu",
+    "category": "jyotirlinga",
+    "youtubeUrl": "https://www.youtube.com/@ShreeKashiVishwanathMandir/streams",
+    "scheduleType": "daily",
+    "liveSchedule": "3:00 AM - 11:00 PM",
+    "scheduleHours": [
+      3,
+      23
+    ],
+    "timetable": [
+      {
+        "name": "Mangala Aarti",
+        "time": "03:00 AM - 04:00 AM"
+      },
+      {
+        "name": "Bhog Aarti",
+        "time": "11:15 AM - 12:20 PM"
+      },
+      {
+        "name": "Sandhya Aarti",
+        "time": "07:00 PM - 08:15 PM"
+      },
+      {
+        "name": "Shringar Aarti",
+        "time": "09:00 PM - 10:15 PM"
+      },
+      {
+        "name": "Shayan Aarti",
+        "time": "10:30 PM - 11:00 PM"
+      }
+    ],
+    "displayOrder": 3,
+    "isActive": true,
+    "isPopular": true,
+    "language": "hi"
+  },
+  {
+    "id": "kedarnath",
+    "templeName": "Kedarnath Temple",
+    "shortName": "Kedarnath",
+    "location": "Kedarnath, Uttarakhand",
+    "state": "Uttarakhand",
+    "religion": "hindu",
+    "category": "jyotirlinga",
+    "youtubeUrl": "https://www.youtube.com/@ukdevdarshan",
+    "scheduleType": "seasonal",
+    "liveSchedule": "May - November (Temple closed in winter)",
+    "scheduleHours": [
+      4,
+      21
+    ],
+    "seasonalMonths": [
+      5,
+      11
+    ],
+    "timetable": [
+      {
+        "name": "Morning Darshan",
+        "time": "04:00 AM - 03:00 PM"
+      },
+      {
+        "name": "Evening Darshan",
+        "time": "05:00 PM - 09:00 PM"
+      },
+      {
+        "name": "Temple Closes",
+        "time": "09:00 PM"
+      }
+    ],
+    "displayOrder": 4,
+    "isActive": false,
+    "language": "hi"
+  },
+  {
+    "id": "rameshwaram",
+    "templeName": "Ramanathaswamy Temple",
+    "shortName": "Rameshwaram",
+    "location": "Rameshwaram, TN",
+    "state": "Tamil Nadu",
+    "religion": "hindu",
+    "category": "jyotirlinga",
+    "youtubeUrl": "https://www.youtube.com/@ramanathaswamytemple/streams",
+    "scheduleType": "daily",
+    "liveSchedule": "5:00 AM - 9:00 PM",
+    "scheduleHours": [
+      5,
+      21
+    ],
+    "timetable": [
+      {
+        "name": "Palliyarai Deepa Aradhana",
+        "time": "05:00 AM"
+      },
+      {
+        "name": "Spadigalinga Deepa Aradhana",
+        "time": "05:10 AM"
+      },
+      {
+        "name": "Thiruvananthal Deepa Aradhana",
+        "time": "05:45 AM"
+      },
+      {
+        "name": "Vila Pooja",
+        "time": "07:00 AM"
+      },
+      {
+        "name": "Kalasanthi Pooja",
+        "time": "10:00 AM"
+      },
+      {
+        "name": "Uchikalm Pooja",
+        "time": "12:00 PM"
+      },
+      {
+        "name": "Sayaratchai Pooja",
+        "time": "06:00 PM"
+      },
+      {
+        "name": "Ardhajama Pooja",
+        "time": "08:30 PM"
+      },
+      {
+        "name": "Palliyarai Pooja",
+        "time": "08:45 PM"
+      }
+    ],
+    "displayOrder": 5,
+    "isActive": true,
+    "language": "ta"
+  },
+  {
+    "id": "badrinath",
+    "templeName": "Badrinath Temple",
+    "shortName": "Badrinath",
+    "location": "Badrinath, Uttarakhand",
+    "state": "Uttarakhand",
+    "religion": "hindu",
+    "category": "char_dham",
+    "youtubeUrl": "https://www.youtube.com/@ukdevdarshan",
+    "scheduleType": "seasonal",
+    "liveSchedule": "April/May - November (Temple closed in winter)",
+    "scheduleHours": [
+      4,
+      21
+    ],
+    "seasonalMonths": [
+      4,
+      11
+    ],
+    "timetable": [
+      {
+        "name": "Mahabhishek/Abhishek",
+        "time": "04:30 AM - 06:30 AM"
+      },
+      {
+        "name": "Balbog",
+        "time": "07:00 AM - 08:00 AM"
+      },
+      {
+        "name": "Shringar Darshan",
+        "time": "08:00 AM - 12:00 PM"
+      },
+      {
+        "name": "Rajbhog",
+        "time": "12:00 PM - 12:30 PM"
+      },
+      {
+        "name": "Afternoon Recess",
+        "time": "01:00 PM - 04:00 PM"
+      },
+      {
+        "name": "Swarna Aarti",
+        "time": "06:00 PM"
+      },
+      {
+        "name": "Kapoor Aarti",
+        "time": "07:00 PM"
+      },
+      {
+        "name": "Shayan Aarti",
+        "time": "08:30 PM"
+      }
+    ],
+    "displayOrder": 10,
+    "isActive": false,
+    "language": "hi"
+  },
+  {
+    "id": "jagannath-puri",
+    "templeName": "Jagannath Temple",
+    "shortName": "Jagannath Puri",
+    "location": "Puri, Odisha",
+    "state": "Odisha",
+    "religion": "hindu",
+    "category": "char_dham",
+    "youtubeUrl": "https://www.youtube.com/@DoordarshanOdia",
+    "scheduleType": "event_based",
+    "liveSchedule": "Events only (Rath Yatra etc)",
+    "scheduleHours": [
+      5,
+      22
+    ],
+    "timetable": [
+      {
+        "name": "Dwara Phita (Door Opening)",
+        "time": "04:30 AM"
+      },
+      {
+        "name": "Mangala Alati",
+        "time": "05:30 AM"
+      },
+      {
+        "name": "Abakasha",
+        "time": "06:30 AM"
+      },
+      {
+        "name": "Gopal Ballav Bhog",
+        "time": "08:30 AM"
+      },
+      {
+        "name": "Sakala Dhupa (Morning Food)",
+        "time": "10:00 AM"
+      },
+      {
+        "name": "Madhyahna Dhupa (Midday Food)",
+        "time": "12:30 PM"
+      },
+      {
+        "name": "Sandhya Alati",
+        "time": "06:00 PM"
+      },
+      {
+        "name": "Sandhya Dhupa",
+        "time": "07:00 PM"
+      },
+      {
+        "name": "Badasinghara Besha",
+        "time": "09:00 PM"
+      },
+      {
+        "name": "Pahuda (Rest)",
+        "time": "11:45 PM"
+      }
+    ],
+    "displayOrder": 11,
+    "isActive": true,
+    "language": "or"
+  },
+  {
+    "id": "dwarkadhish",
+    "templeName": "Dwarkadhish Temple",
+    "shortName": "Dwarkadhish",
+    "location": "Dwarka, Gujarat",
+    "state": "Gujarat",
+    "religion": "hindu",
+    "category": "char_dham",
+    "youtubeUrl": "https://www.youtube.com/@ShreeDwarkadhishMandir",
+    "scheduleType": "daily",
+    "liveSchedule": "6:00 AM - 9:30 PM",
+    "scheduleHours": [
+      6,
+      22
+    ],
+    "timetable": [
+      {
+        "name": "Mangla Aarti",
+        "time": "06:30 AM"
+      },
+      {
+        "name": "Mangla Darshan",
+        "time": "07:00 AM - 08:00 AM"
+      },
+      {
+        "name": "Abhishek Pooja",
+        "time": "08:00 AM - 09:00 AM"
+      },
+      {
+        "name": "Shringar Darshan",
+        "time": "09:00 AM - 09:30 AM"
+      },
+      {
+        "name": "Snan Bhog",
+        "time": "09:30 AM - 09:45 AM"
+      },
+      {
+        "name": "Shringar Aarti",
+        "time": "10:30 AM"
+      },
+      {
+        "name": "Rajbhog Aarti",
+        "time": "10:30 AM - 11:00 AM"
+      },
+      {
+        "name": "Darshan Closed",
+        "time": "01:00 PM - 05:00 PM"
+      },
+      {
+        "name": "Utthapan Aarti",
+        "time": "05:00 PM"
+      },
+      {
+        "name": "Sandhya Aarti",
+        "time": "07:30 PM"
+      },
+      {
+        "name": "Shayan Aarti",
+        "time": "08:30 PM"
+      }
+    ],
+    "displayOrder": 12,
+    "isActive": true,
+    "isPopular": true,
+    "language": "gu"
+  },
+  {
+    "id": "ram-mandir",
+    "templeName": "Ram Mandir Ayodhya",
+    "shortName": "Ram Mandir",
+    "location": "Ayodhya, UP",
+    "state": "Uttar Pradesh",
+    "religion": "hindu",
+    "category": "major_temple",
+    "youtubeUrl": "https://www.youtube.com/@srjbtkshetra/streams",
+    "scheduleType": "daily",
+    "liveSchedule": "6:30 AM Aarti & Special Events",
+    "scheduleHours": [
+      6,
+      22
+    ],
+    "timetable": [
+      {
+        "name": "Sringaar Aarti",
+        "time": "06:30 AM"
+      },
+      {
+        "name": "Bhog Aarti",
+        "time": "12:00 PM"
+      },
+      {
+        "name": "Sandhya Aarti",
+        "time": "07:30 PM"
+      }
+    ],
+    "displayOrder": 19,
+    "isActive": true,
+    "language": "hi"
+  },
+  {
+    "id": "tirupati-balaji",
+    "templeName": "Tirumala Tirupati Balaji",
+    "shortName": "Tirupati",
+    "location": "Tirupati, AP",
+    "state": "Andhra Pradesh",
+    "religion": "hindu",
+    "category": "major_temple",
+    "youtubeUrl": "https://www.youtube.com/@SVBCTTD",
+    "scheduleType": "daily",
+    "liveSchedule": "3:00 AM - 10:00 PM",
+    "scheduleHours": [
+      3,
+      22
+    ],
+    "timetable": [
+      {
+        "name": "Suprabhatam",
+        "time": "03:00 AM"
+      },
+      {
+        "name": "Thomala Seva",
+        "time": "03:30 AM",
+        "description": "Tue-Wed-Thu"
+      },
+      {
+        "name": "Kalyanotsavam",
+        "time": "12:00 PM"
+      },
+      {
+        "name": "Sahasra Deepalankara",
+        "time": "05:30 PM"
+      },
+      {
+        "name": "Ekantha Seva",
+        "time": "01:00 AM"
+      }
+    ],
+    "displayOrder": 20,
+    "isActive": true,
+    "isPopular": true,
+    "language": "te"
+  },
+  {
+    "id": "shirdi-sai-baba",
+    "templeName": "Shirdi Sai Baba Temple",
+    "shortName": "Shirdi",
+    "location": "Shirdi, Maharashtra",
+    "state": "Maharashtra",
+    "religion": "hindu",
+    "category": "major_temple",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=shirdi+sai+baba+live",
+    "scheduleType": "daily",
+    "liveSchedule": "4:00 AM - 11:00 PM IST",
+    "scheduleHours": [
+      4,
+      23
+    ],
+    "timetable": [
+      {
+        "name": "Temple Open",
+        "time": "04:00 AM"
+      },
+      {
+        "name": "Bhupali",
+        "time": "04:15 AM"
+      },
+      {
+        "name": "Kakad Aarti",
+        "time": "04:30 AM - 05:00 AM"
+      },
+      {
+        "name": "Mangal Snaan",
+        "time": "05:05 AM"
+      },
+      {
+        "name": "Darshan Begins",
+        "time": "05:40 AM"
+      },
+      {
+        "name": "Dhuni Pooja",
+        "time": "11:30 AM"
+      },
+      {
+        "name": "Madhyan Aarti",
+        "time": "12:00 PM - 12:30 PM"
+      },
+      {
+        "name": "Dhoop Aarti",
+        "time": "Sunset"
+      },
+      {
+        "name": "Shej Aarti",
+        "time": "10:30 PM - 10:50 PM"
+      },
+      {
+        "name": "Temple Close",
+        "time": "11:15 PM"
+      }
+    ],
+    "displayOrder": 21,
+    "isActive": true,
+    "isPopular": true,
+    "language": "mr"
+  },
+  {
+    "id": "siddhivinayak",
+    "templeName": "Siddhivinayak Temple",
+    "shortName": "Siddhivinayak",
+    "location": "Mumbai, Maharashtra",
+    "state": "Maharashtra",
+    "religion": "hindu",
+    "category": "major_temple",
+    "youtubeUrl": "https://www.youtube.com/@livebhagwan/streams",
+    "scheduleType": "daily",
+    "liveSchedule": "5:30 AM - 10:00 PM",
+    "scheduleHours": [
+      5,
+      22
+    ],
+    "timetable": [
+      {
+        "name": "Kakad Aarti",
+        "time": "05:30 AM"
+      },
+      {
+        "name": "Shree Darshan",
+        "time": "06:00 AM - 12:15 PM"
+      },
+      {
+        "name": "Naivedya",
+        "time": "12:15 PM"
+      },
+      {
+        "name": "Shej Aarti",
+        "time": "09:50 PM"
+      }
+    ],
+    "displayOrder": 22,
+    "isActive": true,
+    "language": "mr"
+  },
+  {
+    "id": "vaishno-devi",
+    "templeName": "Vaishno Devi Temple",
+    "shortName": "Vaishno Devi",
+    "location": "Katra, J&K",
+    "state": "Jammu & Kashmir",
+    "religion": "hindu",
+    "category": "shakti_peeth",
+    "youtubeUrl": "https://www.youtube.com/@MHONESHRADDHA/live",
+    "scheduleType": "daily",
+    "liveSchedule": "Aarti: 6:20-8:00 AM & 6:20-8:00 PM",
+    "scheduleHours": [
+      5,
+      22
+    ],
+    "timetable": [
+      {
+        "name": "Morning Aarti",
+        "time": "06:20 AM - 08:00 AM"
+      },
+      {
+        "name": "Evening Aarti",
+        "time": "06:20 PM - 08:00 PM"
+      }
+    ],
+    "displayOrder": 23,
+    "isActive": false,
+    "language": "hi"
+  },
+  {
+    "id": "dagdusheth",
+    "templeName": "Dagdusheth Halwai Ganpati",
+    "shortName": "Dagdusheth",
+    "location": "Pune, Maharashtra",
+    "state": "Maharashtra",
+    "religion": "hindu",
+    "category": "major_temple",
+    "youtubeUrl": "https://www.youtube.com/@ShrimantDagdushethGanpati/streams",
+    "scheduleType": "daily",
+    "liveSchedule": "6:00 AM - 11:00 PM",
+    "scheduleHours": [
+      6,
+      23
+    ],
+    "timetable": [
+      {
+        "name": "Suprabhatam Aarti",
+        "time": "07:30 AM - 07:45 AM"
+      },
+      {
+        "name": "Naivedyam Aarti",
+        "time": "01:30 PM - 01:45 PM"
+      },
+      {
+        "name": "Madhyana Aarti",
+        "time": "03:00 PM - 03:15 PM"
+      },
+      {
+        "name": "Mahamangal Aarti",
+        "time": "08:00 PM - 09:00 PM"
+      },
+      {
+        "name": "Shejarti",
+        "time": "10:30 PM - 10:45 PM"
+      }
+    ],
+    "displayOrder": 23,
+    "isActive": false,
+    "language": "mr"
+  },
+  {
+    "id": "salasar-balaji",
+    "templeName": "Salasar Balaji Temple",
+    "shortName": "Salasar Balaji",
+    "location": "Churu, Rajasthan",
+    "state": "Rajasthan",
+    "religion": "hindu",
+    "category": "major_temple",
+    "youtubeUrl": "https://www.youtube.com/@salasarofficial",
+    "scheduleType": "daily",
+    "liveSchedule": "5:00 AM - 10:00 PM",
+    "scheduleHours": [
+      5,
+      22
+    ],
+    "timetable": [
+      {
+        "name": "Mangla Aarti",
+        "time": "05:00 AM"
+      },
+      {
+        "name": "Mohandas Ji Aarti",
+        "time": "05:30 AM"
+      },
+      {
+        "name": "Rajbhog Aarti",
+        "time": "10:00 AM"
+      },
+      {
+        "name": "Dhoop Gwal Aarti",
+        "time": "06:30 PM"
+      },
+      {
+        "name": "Mohandas Ji Aarti",
+        "time": "07:00 PM"
+      },
+      {
+        "name": "Sandhya Aarti",
+        "time": "07:30 PM"
+      },
+      {
+        "name": "Bal Bhog Stuti",
+        "time": "08:00 PM"
+      },
+      {
+        "name": "Shayan Aarti",
+        "time": "10:00 PM"
+      }
+    ],
+    "displayOrder": 24,
+    "isActive": true,
+    "language": "hi"
+  },
+  {
+    "id": "khatu-shyam",
+    "templeName": "Khatu Shyam Ji Temple",
+    "shortName": "Khatu Shyam",
+    "location": "Sikar, Rajasthan",
+    "state": "Rajasthan",
+    "religion": "hindu",
+    "category": "major_temple",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=khatu+shyam+live",
+    "scheduleType": "daily",
+    "liveSchedule": "4:30 AM - 10:00 PM",
+    "scheduleHours": [
+      4,
+      22
+    ],
+    "timetable": [
+      {
+        "name": "Mangala Aarti",
+        "time": "04:30 AM",
+        "description": "Winter: 05:30 AM"
+      },
+      {
+        "name": "Shringar Aarti",
+        "time": "07:00 AM",
+        "description": "Winter: 08:00 AM"
+      },
+      {
+        "name": "Bhog Aarti",
+        "time": "12:30 PM",
+        "description": "Winter: 12:30 PM"
+      },
+      {
+        "name": "Sandhya Aarti",
+        "time": "07:30 PM",
+        "description": "Winter: 06:30 PM"
+      },
+      {
+        "name": "Shayan Aarti",
+        "time": "10:00 PM",
+        "description": "Winter: 09:00 PM"
+      }
+    ],
+    "displayOrder": 24,
+    "isActive": true,
+    "language": "hi"
+  },
+  {
+    "id": "kashtabhanjan",
+    "templeName": "Kashtabhanjan Dev Hanuman",
+    "shortName": "Sarangpur Hanuman",
+    "location": "Sarangpur, Gujarat",
+    "state": "Gujarat",
+    "religion": "hindu",
+    "category": "major_temple",
+    "youtubeUrl": "https://www.youtube.com/@salangpurhanumanji",
+    "scheduleType": "daily",
+    "liveSchedule": "6:00 AM - 9:00 PM",
+    "scheduleHours": [
+      6,
+      21
+    ],
+    "timetable": [
+      {
+        "name": "Mangla Aarti",
+        "time": "05:30 AM - 06:30 AM"
+      },
+      {
+        "name": "Shangar Aarti",
+        "time": "07:00 AM",
+        "description": "Tue/Sat only"
+      },
+      {
+        "name": "Rajbhog Aarti",
+        "time": "10:30 AM - 11:00 AM"
+      },
+      {
+        "name": "Sandhya Aarti",
+        "time": "Sunset"
+      },
+      {
+        "name": "Shayan Aarti",
+        "time": "09:00 PM"
+      }
+    ],
+    "displayOrder": 24,
+    "isActive": true,
+    "language": "gu"
+  },
+  {
+    "id": "mahalaxmi-kolhapur",
+    "templeName": "Mahalaxmi Temple",
+    "shortName": "Kolhapur Mahalaxmi",
+    "location": "Kolhapur, Maharashtra",
+    "state": "Maharashtra",
+    "religion": "hindu",
+    "category": "shakti_peeth",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=mahalaxmi+kolhapur+live",
+    "scheduleType": "daily",
+    "liveSchedule": "5:00 AM - 10:00 PM",
+    "scheduleHours": [
+      5,
+      22
+    ],
+    "timetable": [
+      {
+        "name": "Kakad Aarti",
+        "time": "04:30 AM"
+      },
+      {
+        "name": "Morning Mahapuja",
+        "time": "08:30 AM"
+      },
+      {
+        "name": "Afternoon Mahapuja",
+        "time": "11:30 AM"
+      },
+      {
+        "name": "Dhup/Bhog Aarti",
+        "time": "07:30 PM"
+      },
+      {
+        "name": "Shej Aarti",
+        "time": "10:00 PM"
+      }
+    ],
+    "displayOrder": 24,
+    "isActive": true,
+    "language": "mr"
+  },
+  {
+    "id": "tuljapur",
+    "templeName": "Tulja Bhavani Temple",
+    "shortName": "Tuljapur Bhavani",
+    "location": "Tuljapur, Maharashtra",
+    "state": "Maharashtra",
+    "religion": "hindu",
+    "category": "shakti_peeth",
+    "youtubeUrl": "https://www.youtube.com/@TuljabhavaniTT",
+    "scheduleType": "daily",
+    "liveSchedule": "5:00 AM - 10:00 PM",
+    "scheduleHours": [
+      5,
+      22
+    ],
+    "timetable": [
+      {
+        "name": "Kakad Aarti",
+        "time": "04:15 AM"
+      },
+      {
+        "name": "Morning Abhishek",
+        "time": "06:00 AM - 10:00 AM"
+      },
+      {
+        "name": "Dhup Aarti (Noon)",
+        "time": "12:00 PM"
+      },
+      {
+        "name": "Evening Abhishek",
+        "time": "07:00 PM - 09:00 PM"
+      },
+      {
+        "name": "Shej Aarti",
+        "time": "09:30 PM"
+      }
+    ],
+    "displayOrder": 24,
+    "isActive": true,
+    "language": "mr"
+  },
+  {
+    "id": "guruvayur",
+    "templeName": "Guruvayur Sri Krishna Temple",
+    "shortName": "Guruvayur",
+    "location": "Guruvayur, Kerala",
+    "state": "Kerala",
+    "religion": "hindu",
+    "category": "major_temple",
+    "youtubeUrl": "https://www.youtube.com/@GuruvayurDevaswomOfficial/streams",
+    "scheduleType": "daily",
+    "liveSchedule": "3:00 AM - 10:00 PM",
+    "scheduleHours": [
+      3,
+      22
+    ],
+    "timetable": [
+      {
+        "name": "Nirmalyam",
+        "time": "03:00 AM"
+      },
+      {
+        "name": "Usha Nivedyam",
+        "time": "04:15 AM"
+      },
+      {
+        "name": "Seeveli",
+        "time": "07:15 AM"
+      },
+      {
+        "name": "Ucha Pooja",
+        "time": "11:30 AM"
+      },
+      {
+        "name": "Deeparadhana",
+        "time": "06:00 PM"
+      },
+      {
+        "name": "Athazha Pooja",
+        "time": "07:45 PM"
+      },
+      {
+        "name": "Thrippuka",
+        "time": "09:00 PM"
+      },
+      {
+        "name": "Temple Closes",
+        "time": "09:15 PM"
+      }
+    ],
+    "displayOrder": 25,
+    "isActive": true,
+    "language": "ml"
+  },
+  {
+    "id": "meenakshi",
+    "templeName": "Meenakshi Amman Temple",
+    "shortName": "Meenakshi",
+    "location": "Madurai, TN",
+    "state": "Tamil Nadu",
+    "religion": "hindu",
+    "category": "major_temple",
+    "youtubeUrl": "https://www.youtube.com/@MaduraiMeenakshi/streams",
+    "scheduleType": "daily",
+    "liveSchedule": "5:00 AM - 10:00 PM",
+    "scheduleHours": [
+      5,
+      22
+    ],
+    "timetable": [
+      {
+        "name": "Thiruvanandal Pooja",
+        "time": "05:00 AM - 06:00 AM"
+      },
+      {
+        "name": "Vila Pooja",
+        "time": "06:30 AM - 07:15 AM"
+      },
+      {
+        "name": "Kalasandhi Pooja",
+        "time": "07:30 AM - 08:30 AM"
+      },
+      {
+        "name": "Thrikalasandhi/Uchikkala",
+        "time": "10:30 AM - 11:30 AM"
+      },
+      {
+        "name": "Maalai Pooja",
+        "time": "04:30 PM - 05:15 PM"
+      },
+      {
+        "name": "Ardhajama Pooja",
+        "time": "07:30 PM - 08:15 PM"
+      },
+      {
+        "name": "Palliarai Pooja",
+        "time": "09:30 PM - 10:00 PM"
+      }
+    ],
+    "displayOrder": 26,
+    "isActive": true,
+    "language": "ta"
+  },
+  {
+    "id": "padmanabhaswamy",
+    "templeName": "Padmanabhaswamy Temple",
+    "shortName": "Padmanabhaswamy",
+    "location": "Thiruvananthapuram, Kerala",
+    "state": "Kerala",
+    "religion": "hindu",
+    "category": "major_temple",
+    "youtubeUrl": "https://www.youtube.com/@SreePadmanabhaswamyTemple/streams",
+    "scheduleType": "daily",
+    "liveSchedule": "3:30 AM - 7:30 PM",
+    "scheduleHours": [
+      3,
+      20
+    ],
+    "timetable": [
+      {
+        "name": "Nirmalya Darshan",
+        "time": "03:15 AM - 04:15 AM"
+      },
+      {
+        "name": "Morning Darshan",
+        "time": "06:30 AM - 07:00 AM"
+      },
+      {
+        "name": "Ucha Pooja",
+        "time": "11:30 AM - 12:00 PM"
+      },
+      {
+        "name": "Evening Darshan",
+        "time": "05:00 PM - 06:15 PM"
+      },
+      {
+        "name": "Deeparadhana",
+        "time": "06:45 PM - 07:20 PM"
+      }
+    ],
+    "displayOrder": 27,
+    "isActive": true,
+    "language": "ml"
+  },
+  {
+    "id": "ambaji",
+    "templeName": "Ambaji Temple",
+    "shortName": "Ambaji",
+    "location": "Ambaji, Gujarat",
+    "state": "Gujarat",
+    "religion": "hindu",
+    "category": "shakti_peeth",
+    "youtubeUrl": "https://www.youtube.com/@officialambajitemple/streams",
+    "scheduleType": "daily",
+    "liveSchedule": "6:00 AM - 9:00 PM",
+    "scheduleHours": [
+      6,
+      21
+    ],
+    "timetable": [
+      {
+        "name": "Mangala Aarti",
+        "time": "06:00 AM"
+      },
+      {
+        "name": "Darshan",
+        "time": "07:00 AM - 11:30 AM"
+      },
+      {
+        "name": "Rajbhog Aarti",
+        "time": "12:00 PM"
+      },
+      {
+        "name": "Darshan",
+        "time": "12:30 PM - 04:30 PM"
+      },
+      {
+        "name": "Sandhya Aarti",
+        "time": "07:00 PM"
+      },
+      {
+        "name": "Shayana Aarti",
+        "time": "09:00 PM"
+      }
+    ],
+    "displayOrder": 28,
+    "isActive": true,
+    "language": "gu"
+  },
+  {
+    "id": "govind-dev-ji",
+    "templeName": "Govind Dev Ji Temple",
+    "shortName": "Govind Dev Ji",
+    "location": "Jaipur, Rajasthan",
+    "state": "Rajasthan",
+    "religion": "hindu",
+    "category": "major_temple",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=govind+dev+ji+jaipur+live",
+    "scheduleType": "event_based",
+    "liveSchedule": "Event Based / Special Darshan",
+    "scheduleHours": [
+      4,
+      22
+    ],
+    "timetable": [
+      {
+        "name": "Mangla Jhanki",
+        "time": "05:00 AM - 05:15 AM"
+      },
+      {
+        "name": "Dhoop Jhanki",
+        "time": "07:45 AM - 09:00 AM"
+      },
+      {
+        "name": "Shringar Jhanki",
+        "time": "09:30 AM - 10:15 AM"
+      },
+      {
+        "name": "Rajbhog Jhanki",
+        "time": "10:45 AM - 11:15 AM"
+      },
+      {
+        "name": "Gwal Jhanki",
+        "time": "05:00 PM - 05:15 PM"
+      },
+      {
+        "name": "Sandhya Jhanki",
+        "time": "05:45 PM - 06:45 PM"
+      },
+      {
+        "name": "Shayan Jhanki",
+        "time": "08:00 PM - 08:15 PM"
+      }
+    ],
+    "displayOrder": 29,
+    "isActive": true,
+    "language": "hi"
+  },
+  {
+    "id": "prem-mandir",
+    "templeName": "Prem Mandir Vrindavan",
+    "shortName": "Prem Mandir",
+    "location": "Vrindavan, UP",
+    "state": "Uttar Pradesh",
+    "religion": "hindu",
+    "category": "major_temple",
+    "youtubeUrl": "https://www.youtube.com/@JKPIndia/live",
+    "scheduleType": "daily",
+    "liveSchedule": "5:30 AM - 8:30 PM",
+    "scheduleHours": [
+      5,
+      21
+    ],
+    "timetable": [
+      {
+        "name": "Aarti & Parikrama",
+        "time": "05:00 AM"
+      },
+      {
+        "name": "Darshan & Aarti",
+        "time": "08:30 AM"
+      },
+      {
+        "name": "Bhog",
+        "time": "11:30 AM"
+      },
+      {
+        "name": "Afternoon Break",
+        "time": "12:00 PM - 04:30 PM"
+      },
+      {
+        "name": "Evening Aarti",
+        "time": "04:30 PM"
+      },
+      {
+        "name": "Fountain Show (Winter)",
+        "time": "07:00 PM - 07:30 PM"
+      },
+      {
+        "name": "Fountain Show (Summer)",
+        "time": "07:30 PM - 08:00 PM"
+      },
+      {
+        "name": "Shayan Aarti",
+        "time": "08:10 PM"
+      }
+    ],
+    "displayOrder": 30,
+    "isActive": true
+  },
+  {
+    "id": "iskcon-chandrodaya",
+    "templeName": "ISKCON Vrindavan (Chandrodaya Mandir)",
+    "shortName": "Chandrodaya",
+    "location": "Vrindavan, UP",
+    "state": "Uttar Pradesh",
+    "religion": "hindu",
+    "category": "iskcon",
+    "youtubeUrl": "https://www.youtube.com/@VrindavanChandrodayaMandir",
+    "scheduleType": "daily",
+    "liveSchedule": "4:30 AM - 8:30 PM with multiple aartis",
+    "scheduleHours": [
+      4,
+      21
+    ],
+    "timetable": [
+      {
+        "name": "Morning Darshan",
+        "time": "07:15 AM - 01:00 PM"
+      },
+      {
+        "name": "Evening Darshan",
+        "time": "04:15 PM - 08:15 PM"
+      },
+      {
+        "name": "Construction Status",
+        "time": "Est. completion 2027"
+      }
+    ],
+    "displayOrder": 30,
+    "isActive": true,
+    "language": "hi"
+  },
+  {
+    "id": "iskcon-vrindavan",
+    "templeName": "ISKCON Vrindavan",
+    "shortName": "ISKCON Vrindavan",
+    "location": "Vrindavan, UP",
+    "state": "Uttar Pradesh",
+    "religion": "hindu",
+    "category": "iskcon",
+    "youtubeUrl": "https://www.youtube.com/@ISKCONVrndavan/live",
+    "scheduleType": "daily",
+    "liveSchedule": "4:10 AM - 12:45 PM & 4:00 PM - 8:30 PM",
+    "scheduleHours": [
+      4,
+      21
+    ],
+    "timetable": [
+      {
+        "name": "Samadhi Aarti",
+        "time": "04:10 AM"
+      },
+      {
+        "name": "Mangala Aarti",
+        "time": "04:30 AM"
+      },
+      {
+        "name": "Tulasi Aarti",
+        "time": "05:00 AM"
+      },
+      {
+        "name": "Guru Puja",
+        "time": "07:15 AM"
+      },
+      {
+        "name": "Shringar/Dhoop Aarti",
+        "time": "08:30 AM"
+      },
+      {
+        "name": "Raj Bhoga Aarti",
+        "time": "12:00 PM"
+      },
+      {
+        "name": "Pushpa/Dhoop Aarti",
+        "time": "04:30 PM"
+      },
+      {
+        "name": "Sandhya Aarti",
+        "time": "06:30 PM"
+      },
+      {
+        "name": "Shayan Aarti",
+        "time": "08:00 PM"
+      }
+    ],
+    "displayOrder": 31,
+    "isActive": true,
+    "isPopular": true,
+    "language": "hi"
+  },
+  {
+    "id": "iskcon-mayapur",
+    "templeName": "ISKCON Mayapur",
+    "shortName": "ISKCON Mayapur",
+    "location": "Mayapur, West Bengal",
+    "state": "West Bengal",
+    "religion": "hindu",
+    "category": "iskcon",
+    "youtubeUrl": "https://www.youtube.com/@MayapurTVOfficial/streams",
+    "scheduleType": "daily",
+    "liveSchedule": "4:00 AM - 9:00 PM",
+    "scheduleHours": [
+      4,
+      21
+    ],
+    "timetable": [
+      {
+        "name": "Mangala Aarti",
+        "time": "04:30 AM"
+      },
+      {
+        "name": "Darshan Aarti",
+        "time": "07:00 AM"
+      },
+      {
+        "name": "Rajabhoga Aarti",
+        "time": "11:45 AM"
+      },
+      {
+        "name": "Dhoop Aarti",
+        "time": "04:00 PM"
+      },
+      {
+        "name": "Sandhya (Gaura) Aarti",
+        "time": "06:30 PM"
+      },
+      {
+        "name": "Shayan Aarti",
+        "time": "08:15 PM"
+      }
+    ],
+    "displayOrder": 32,
+    "isActive": true,
+    "isPopular": true,
+    "language": "bn"
+  },
+  {
+    "id": "golden-temple",
+    "templeName": "Sri Harmandir Sahib (Golden Temple)",
+    "shortName": "Golden Temple",
+    "location": "Amritsar, Punjab",
+    "state": "Punjab",
+    "religion": "sikh",
+    "category": "gurudwara",
+    "youtubeUrl": "https://www.youtube.com/@SGPCSriAmritsar/live",
+    "scheduleType": "24x7",
+    "liveSchedule": "24x7 Continuous",
+    "scheduleHours": [
+      0,
+      24
+    ],
+    "timetable": [
+      {
+        "name": "Kiwad Opening",
+        "time": "02:00 AM - 03:00 AM"
+      },
+      {
+        "name": "Asa Di Var",
+        "time": "03:15 AM"
+      },
+      {
+        "name": "Palki Sahib Ceremony",
+        "time": "04:00 AM - 04:30 AM"
+      },
+      {
+        "name": "First Hukamnama",
+        "time": "05:00 AM"
+      },
+      {
+        "name": "Rehras Sahib",
+        "time": "Sunset"
+      },
+      {
+        "name": "Sukhasan/Palki Ceremony",
+        "time": "10:00 PM - 11:00 PM"
+      }
+    ],
+    "displayOrder": 40,
+    "isActive": false,
+    "isPopular": true,
+    "language": "pa"
+  },
+  {
+    "id": "bangla-sahib",
+    "templeName": "Gurudwara Bangla Sahib",
+    "shortName": "Bangla Sahib",
+    "location": "New Delhi",
+    "state": "Delhi",
+    "religion": "sikh",
+    "category": "gurudwara",
+    "youtubeUrl": "https://www.youtube.com/channel/UCA1Jqo-WXVuMgs4WcD5f5Yw",
+    "scheduleType": "daily",
+    "liveSchedule": "4:00 AM - 10:00 PM",
+    "scheduleHours": [
+      4,
+      22
+    ],
+    "timetable": [
+      {
+        "name": "Amrit Vela Kirtan",
+        "time": "04:00 AM - 06:00 AM"
+      },
+      {
+        "name": "Langar Service",
+        "time": "09:00 AM - 03:00 PM"
+      },
+      {
+        "name": "Evening Ardaas",
+        "time": "05:00 PM - 09:00 PM"
+      },
+      {
+        "name": "Langar Service (Eve)",
+        "time": "07:00 PM - 10:00 PM"
+      }
+    ],
+    "displayOrder": 41,
+    "isActive": false,
+    "language": "pa"
+  },
+  {
+    "id": "hazur-sahib",
+    "templeName": "Takht Hazur Sahib",
+    "shortName": "Hazur Sahib",
+    "location": "Nanded, Maharashtra",
+    "state": "Maharashtra",
+    "religion": "sikh",
+    "category": "gurudwara",
+    "youtubeUrl": "https://www.youtube.com/@HazurSahibNanded/streams",
+    "scheduleType": "daily",
+    "liveSchedule": "4:00 AM - 10:00 PM",
+    "scheduleHours": [
+      4,
+      22
+    ],
+    "timetable": [
+      {
+        "name": "Prakash",
+        "time": "03:15 AM"
+      },
+      {
+        "name": "Hukumnama",
+        "time": "03:40 AM"
+      },
+      {
+        "name": "Asa Ki War",
+        "time": "03:45 AM - 06:15 AM"
+      },
+      {
+        "name": "Sodar Chowky",
+        "time": "05:00 PM"
+      },
+      {
+        "name": "Rehras Sahib",
+        "time": "06:30 PM"
+      },
+      {
+        "name": "Aarti",
+        "time": "07:30 PM"
+      },
+      {
+        "name": "Kirtan Sohela",
+        "time": "08:45 PM"
+      }
+    ],
+    "displayOrder": 42,
+    "isActive": false,
+    "language": "pa"
+  },
+  {
+    "id": "patna-sahib",
+    "templeName": "Takht Sri Patna Sahib",
+    "shortName": "Patna Sahib",
+    "location": "Patna, Bihar",
+    "state": "Bihar",
+    "religion": "sikh",
+    "category": "gurudwara",
+    "youtubeUrl": "https://www.youtube.com/@JanhitTVpatna/streams",
+    "scheduleType": "daily",
+    "liveSchedule": "4:00 AM - 10:00 PM",
+    "scheduleHours": [
+      4,
+      22
+    ],
+    "timetable": [
+      {
+        "name": "Morning Kirtan",
+        "time": "04:30 AM - 06:00 AM"
+      },
+      {
+        "name": "Hukamnama",
+        "time": "06:00 AM"
+      },
+      {
+        "name": "Evening Ardaas",
+        "time": "06:00 PM"
+      },
+      {
+        "name": "Evening Kirtan",
+        "time": "06:30 PM - 08:30 PM"
+      },
+      {
+        "name": "Sukhasan",
+        "time": "09:00 PM"
+      }
+    ],
+    "displayOrder": 43,
+    "isActive": false,
+    "language": "pa"
+  },
+  {
+    "id": "dalai-lama",
+    "templeName": "Dalai Lama Teachings",
+    "shortName": "Dalai Lama",
+    "location": "Dharamshala, HP",
+    "state": "Himachal Pradesh",
+    "religion": "buddhist",
+    "category": "buddhist_site",
+    "youtubeUrl": "https://www.youtube.com/@DalaiLamaOfficial/streams",
+    "scheduleType": "event_based",
+    "liveSchedule": "Event-based teachings",
+    "displayOrder": 50,
+    "isActive": false,
+    "language": "hi"
+  },
+  {
+    "id": "mahabodhi",
+    "templeName": "Mahabodhi Temple",
+    "shortName": "Bodh Gaya",
+    "location": "Bodh Gaya, Bihar",
+    "state": "Bihar",
+    "religion": "buddhist",
+    "category": "buddhist_site",
+    "youtubeUrl": "https://www.youtube.com/@MAHABODHITEMPLEOffice",
+    "scheduleType": "event_based",
+    "liveSchedule": "Special events & Buddha Jayanti",
+    "timetable": [
+      {
+        "name": "Temple Opening",
+        "time": "05:00 AM"
+      },
+      {
+        "name": "Morning Chanting",
+        "time": "05:30 AM - 06:00 AM"
+      },
+      {
+        "name": "Evening Chanting",
+        "time": "06:00 PM - 06:30 PM"
+      },
+      {
+        "name": "Temple Closing",
+        "time": "09:00 PM"
+      }
+    ],
+    "displayOrder": 51,
+    "isActive": false,
+    "language": "hi"
+  },
+  {
+    "id": "palitana",
+    "templeName": "Palitana Shatrunjaya",
+    "shortName": "Palitana",
+    "location": "Palitana, Gujarat",
+    "state": "Gujarat",
+    "religion": "jain",
+    "category": "jain_tirth",
+    "youtubeUrl": "https://www.youtube.com/@i2iLive/streams",
+    "scheduleType": "event_based",
+    "liveSchedule": "Festival & event-based streams",
+    "timetable": [
+      {
+        "name": "Hill Opening",
+        "time": "06:00 AM"
+      },
+      {
+        "name": "Must descend by",
+        "time": "Sunset (Strict)"
+      }
+    ],
+    "displayOrder": 60,
+    "isActive": false,
+    "language": "gu"
+  },
+  {
+    "id": "dilwara",
+    "templeName": "Dilwara Temples",
+    "shortName": "Dilwara",
+    "location": "Mount Abu, Rajasthan",
+    "state": "Rajasthan",
+    "religion": "jain",
+    "category": "jain_tirth",
+    "youtubeUrl": "https://www.youtube.com/@JAINAorg/streams",
+    "scheduleType": "event_based",
+    "liveSchedule": "Virtual tours & events",
+    "timetable": [
+      {
+        "name": "Opening Time",
+        "time": "12:00 PM (for Tourists)"
+      },
+      {
+        "name": "Closing Time",
+        "time": "05:00 PM"
+      }
+    ],
+    "displayOrder": 61,
+    "isActive": false,
+    "language": "hi"
+  }
+]

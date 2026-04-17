@@ -1,0 +1,5732 @@
+[
+  {
+    "id": "690c6f8a-133b-4fca-95fe-979accd3da4c",
+    "temple_name": "Shirdi Sai Baba Temple",
+    "short_name": "Shirdi",
+    "location": "Shirdi, Maharashtra",
+    "state": "Maharashtra",
+    "religion": "hindu",
+    "category": "major_temple",
+    "youtube_url": "https://www.youtube.com/watch?v=PYOlbb9s0gk",
+    "youtube_video_id": null,
+    "thumbnail_url": "https://pub-a3540a1b218c43298ca3a816c685b5e7.r2.dev/content/notifications/temple_live/static/shirdi.jpg",
+    "schedule_type": "daily",
+    "live_schedule": "4:00 AM - 11:00 PM IST",
+    "schedule_start_hour": 4,
+    "schedule_end_hour": 23,
+    "seasonal_start_month": null,
+    "seasonal_end_month": null,
+    "timezone": "Asia/Kolkata",
+    "special_events": [
+      {
+        "name": "Kakad Aarti",
+        "time": "04:30"
+      },
+      {
+        "name": "Madhyan Aarti",
+        "time": "12:00"
+      },
+      {
+        "name": "Dhoop Aarti",
+        "time": "18:00"
+      },
+      {
+        "name": "Shej Aarti",
+        "time": "22:30"
+      }
+    ],
+    "is_currently_live": false,
+    "last_verified_at": null,
+    "is_active": true,
+    "display_order": 21,
+    "description": null,
+    "created_at": "2025-12-28T15:58:00.404738+00:00",
+    "updated_at": "2026-04-17T10:00:03.823293+00:00",
+    "is_popular": true,
+    "temple_name_hi": "शिर्डी साईं बाबा मंदिर",
+    "location_hi": "शिर्डी, महाराष्ट्र",
+    "live_schedule_hi": "सुबह 4:00 - रात 11:00",
+    "timetable": [
+      {
+        "name": "Temple Open",
+        "time": "04:00 AM"
+      },
+      {
+        "name": "Bhupali",
+        "time": "04:15 AM"
+      },
+      {
+        "name": "Kakad Aarti",
+        "time": "04:30 AM - 05:00 AM"
+      },
+      {
+        "name": "Mangal Snaan",
+        "time": "05:05 AM"
+      },
+      {
+        "name": "Darshan Begins",
+        "time": "05:40 AM"
+      },
+      {
+        "name": "Dhuni Pooja",
+        "time": "11:30 AM"
+      },
+      {
+        "name": "Madhyan Aarti",
+        "time": "12:00 PM - 12:30 PM"
+      },
+      {
+        "name": "Dhoop Aarti",
+        "time": "Sunset"
+      },
+      {
+        "name": "Shej Aarti",
+        "time": "10:30 PM - 10:50 PM"
+      },
+      {
+        "name": "Temple Close",
+        "time": "11:15 PM"
+      }
+    ],
+    "timetable_hi": [
+      {
+        "name": "मंदिर खुला",
+        "time": "04:00 AM"
+      },
+      {
+        "name": "भुपाली",
+        "time": "04:15 AM"
+      },
+      {
+        "name": "काकड़ आरती",
+        "time": "04:30 AM - 05:00 AM"
+      },
+      {
+        "name": "मंगल स्नान",
+        "time": "05:05 AM"
+      },
+      {
+        "name": "दर्शन प्रारंभ",
+        "time": "05:40 AM"
+      },
+      {
+        "name": "धूनी पूजा",
+        "time": "11:30 AM"
+      },
+      {
+        "name": "मध्याह्न आरती",
+        "time": "12:00 PM - 12:30 PM"
+      },
+      {
+        "name": "धूप आरती",
+        "time": "सूर्यास्त"
+      },
+      {
+        "name": "शेज आरती",
+        "time": "10:30 PM - 10:50 PM"
+      },
+      {
+        "name": "मंदिर बंद",
+        "time": "11:15 PM"
+      }
+    ],
+    "names_jsonb": {
+      "bn": "শিরডি সাই বাবা মন্দির",
+      "en": "Shirdi Sai Baba Temple",
+      "gu": "શિરਡੀ સાઈ બાબા મંદિર",
+      "hi": "शिर्डी साईं बाबा मंदिर",
+      "kn": "ಶಿರಡಿ సాయి ಬಾಬਾ ದೇವಸ್ಥಾನ",
+      "ml": "ഷീർദ്ദി സായി ബാബ ക്ഷേത്രം",
+      "mr": "शिर्डी साई बाबा मंदिर",
+      "or": "ଶିରିଡਿ ସାଇ ବାବା ମନ୍ଦିର",
+      "pa": "ਸ਼ਿਰਡੀ ਸਾਈਂ ਬਾਬਾ ਮੰਦਰ",
+      "ta": "ஷீரடி சாய் பாபா கோவில்",
+      "te": "షీర్రిਡੀ సాయి బాబా ఆలయం"
+    },
+    "locations_jsonb": {
+      "bn": "শিরডি, মহারাষ্ট্র",
+      "en": "Shirdi, Maharashtra",
+      "gu": "શિરਡੀ, મહારાષ્ટ્ર",
+      "hi": "शिर्डी, महाराष्ट्र",
+      "kn": "ಶಿರಡಿ, ಮಹಾರಾಷ್ಟ್ರ",
+      "ml": "ഷീർദ്ദി, മഹാരാഷ്ട്ര",
+      "mr": "शिर्डी, महाराष्ट्र",
+      "or": "ଶିରିଡਿ, ମହାରାଷ୍ଟ୍ର",
+      "pa": "ਸ਼ਿਰਡੀ, ਮਹਾਰਾਸ਼ਟਰ",
+      "ta": "ஷீரடி, மகாராட்டிரம்",
+      "te": "షీర్రిਡੀ, మహారాష్ట్ర"
+    },
+    "schedules_jsonb": {},
+    "timetables_jsonb": {
+      "bn": [
+        {
+          "name": "কাকড় আরতি",
+          "time": "04:30 AM"
+        },
+        {
+          "name": "মধ্যাহ্ন আরতি",
+          "time": "12:00 PM"
+        },
+        {
+          "name": "সন্ধ্যা আরতি",
+          "time": "Sunset"
+        },
+        {
+          "name": "শেজ আরতি",
+          "time": "10:30 PM"
+        }
+      ],
+      "en": [
+        {
+          "name": "Kakad Aarti",
+          "time": "04:30 AM"
+        },
+        {
+          "name": "Madhyan Aarti",
+          "time": "12:00 PM"
+        },
+        {
+          "name": "Sandhya Aarti",
+          "time": "Sunset"
+        },
+        {
+          "name": "Shej Aarti",
+          "time": "10:30 PM"
+        }
+      ],
+      "gu": [
+        {
+          "name": "કાકડ આરਤੀ",
+          "time": "04:30 AM"
+        },
+        {
+          "name": "ਮધ્યાહન આરਤੀ",
+          "time": "12:00 PM"
+        },
+        {
+          "name": "સંધ્યા આરਤੀ",
+          "time": "Sunset"
+        },
+        {
+          "name": "શેਜ આરਤੀ",
+          "time": "10:30 PM"
+        }
+      ],
+      "hi": [
+        {
+          "name": "काकड़ आरती",
+          "time": "04:30 AM"
+        },
+        {
+          "name": "मध्याह्न आरती",
+          "time": "12:00 PM"
+        },
+        {
+          "name": "संध्या आरती",
+          "time": "Sunset"
+        },
+        {
+          "name": "शेज आरती",
+          "time": "10:30 PM"
+        }
+      ],
+      "kn": [
+        {
+          "name": "ಕಾಕಡ್ ಆರತಿ",
+          "time": "04:30 AM"
+        },
+        {
+          "name": "ಮಧ್ಯಾಹ್ನ ಆರತಿ",
+          "time": "12:00 PM"
+        },
+        {
+          "name": "సంధ్యా ಆರತಿ",
+          "time": "Sunset"
+        },
+        {
+          "name": "ಶೇಜ್ ಆರತಿ",
+          "time": "10:30 PM"
+        }
+      ],
+      "ml": [
+        {
+          "name": "കാകഡ് ആരതി",
+          "time": "04:30 AM"
+        },
+        {
+          "name": "മധ്യാന ആരതി",
+          "time": "12:00 PM"
+        },
+        {
+          "name": "സന്ധ്യാ ആരതി",
+          "time": "Sunset"
+        },
+        {
+          "name": "ഷേജ് ആരതി",
+          "time": "10:30 PM"
+        }
+      ],
+      "mr": [
+        {
+          "name": "काकड़ आरती",
+          "time": "04:30 AM"
+        },
+        {
+          "name": "मध्यान्ह आरती",
+          "time": "12:00 PM"
+        },
+        {
+          "name": "संध्या आरती",
+          "time": "Sunset"
+        },
+        {
+          "name": "शेज आरती",
+          "time": "10:30 PM"
+        }
+      ],
+      "or": [
+        {
+          "name": "କାକଡ ଆରତି",
+          "time": "04:30 AM"
+        },
+        {
+          "name": "ମଧ୍ୟାହ୍ନ ଆରତି",
+          "time": "12:00 PM"
+        },
+        {
+          "name": "ସନ୍ଧ୍ଯା ଆରତି",
+          "time": "Sunset"
+        },
+        {
+          "name": "ଶେଜ ଆରତି",
+          "time": "10:30 PM"
+        }
+      ],
+      "pa": [
+        {
+          "name": "ਕਾਕੜ ਆਰਤੀ",
+          "time": "04:30 AM"
+        },
+        {
+          "name": "ਮਧਿਆਨ ਆਰਤੀ",
+          "time": "12:00 PM"
+        },
+        {
+          "name": "ਸੰਧਿਆ ਆਰਤੀ",
+          "time": "Sunset"
+        },
+        {
+          "name": "ਸ਼ੇਜ ਆਰਤੀ",
+          "time": "10:30 PM"
+        }
+      ],
+      "ta": [
+        {
+          "name": "காகட் ஆரத்தி",
+          "time": "04:30 AM"
+        },
+        {
+          "name": "மதிய ஆரத்தி",
+          "time": "12:00 PM"
+        },
+        {
+          "name": "சந்தியா ஆரத்தி",
+          "time": "Sunset"
+        },
+        {
+          "name": "ஷேஜ் ஆரத்தி",
+          "time": "10:30 PM"
+        }
+      ],
+      "te": [
+        {
+          "name": "కాకడ్ హారਤੀ",
+          "time": "04:30 AM"
+        },
+        {
+          "name": "మధ్యాహ్న హారਤੀ",
+          "time": "12:00 PM"
+        },
+        {
+          "name": "సంధ్యా హారਤੀ",
+          "time": "Sunset"
+        },
+        {
+          "name": "శేజ్ హారਤੀ",
+          "time": "10:30 PM"
+        }
+      ]
+    },
+    "language": "mr",
+    "youtube_channel_handle": "@therealsource",
+    "last_detected_video_id": null,
+    "last_live_check_at": "2026-04-17T10:00:03.799+00:00",
+    "consecutive_fail_days": 0,
+    "last_fail_date": null,
+    "last_successful_check_at": "2026-04-17T10:00:03.799+00:00",
+    "total_view_count": 7,
+    "daily_view_count": 0,
+    "daily_view_date": "2026-04-17",
+    "live_viewer_count": null,
+    "yt_subscriber_count": 8,
+    "yt_subscriber_count_updated_at": "2026-04-17T06:30:04.684+00:00",
+    "stream_languages": [
+      "hi",
+      "en",
+      "mr"
+    ],
+    "offline_youtube_url": null
+  },
+  {
+    "id": "1ada4bdc-b844-4bf5-a8a7-a59ba2308c9a",
+    "temple_name": "Jagannath Temple",
+    "short_name": "Jagannath Puri",
+    "location": "Puri, Odisha",
+    "state": "Odisha",
+    "religion": "hindu",
+    "category": "char_dham",
+    "youtube_url": "https://www.youtube.com/watch?v=_pplsMPNVmQ",
+    "youtube_video_id": "_pplsMPNVmQ",
+    "thumbnail_url": "https://pub-a3540a1b218c43298ca3a816c685b5e7.r2.dev/content/notifications/temple_live/static/jagannath_puri.jpg",
+    "schedule_type": "event_based",
+    "live_schedule": "Events only (Rath Yatra etc)",
+    "schedule_start_hour": 5,
+    "schedule_end_hour": 22,
+    "seasonal_start_month": null,
+    "seasonal_end_month": null,
+    "timezone": "Asia/Kolkata",
+    "special_events": null,
+    "is_currently_live": true,
+    "last_verified_at": "2026-04-12T06:35:08.285+00:00",
+    "is_active": true,
+    "display_order": 11,
+    "description": null,
+    "created_at": "2025-12-28T15:58:00.404738+00:00",
+    "updated_at": "2026-04-17T10:00:04.734277+00:00",
+    "is_popular": false,
+    "temple_name_hi": "जगन्नाथ मंदिर",
+    "location_hi": "पुरी, ओडिशा",
+    "live_schedule_hi": "केवल विशेष कार्यक्रम (रथ यात्रा आदि)",
+    "timetable": [
+      {
+        "name": "Dwara Phita (Door Opening)",
+        "time": "04:30 AM"
+      },
+      {
+        "name": "Mangala Alati",
+        "time": "05:30 AM"
+      },
+      {
+        "name": "Abakasha",
+        "time": "06:30 AM"
+      },
+      {
+        "name": "Gopal Ballav Bhog",
+        "time": "08:30 AM"
+      },
+      {
+        "name": "Sakala Dhupa (Morning Food)",
+        "time": "10:00 AM"
+      },
+      {
+        "name": "Madhyahna Dhupa (Midday Food)",
+        "time": "12:30 PM"
+      },
+      {
+        "name": "Sandhya Alati",
+        "time": "06:00 PM"
+      },
+      {
+        "name": "Sandhya Dhupa",
+        "time": "07:00 PM"
+      },
+      {
+        "name": "Badasinghara Besha",
+        "time": "09:00 PM"
+      },
+      {
+        "name": "Pahuda (Rest)",
+        "time": "11:45 PM"
+      }
+    ],
+    "timetable_hi": [
+      {
+        "name": "द्वार फीता (द्वार खुलना)",
+        "time": "04:30 AM"
+      },
+      {
+        "name": "मंगला आरती",
+        "time": "05:30 AM"
+      },
+      {
+        "name": "अवकाश",
+        "time": "06:30 AM"
+      },
+      {
+        "name": "गोपाल वल्लभ भोग",
+        "time": "08:30 AM"
+      },
+      {
+        "name": "सकाला धूप (सुबह का भोग)",
+        "time": "10:00 AM"
+      },
+      {
+        "name": "मध्याहना धूप (दोपहर का भोग)",
+        "time": "12:30 PM"
+      },
+      {
+        "name": "संध्या आरती",
+        "time": "06:00 PM"
+      },
+      {
+        "name": "संध्या धूप",
+        "time": "07:00 PM"
+      },
+      {
+        "name": "बड़सिंघार बेश",
+        "time": "09:00 PM"
+      },
+      {
+        "name": "पहुड़ा (विश्राम)",
+        "time": "11:45 PM"
+      }
+    ],
+    "names_jsonb": {
+      "bn": "জগন্নাথ মন্দির",
+      "en": "Jagannath Temple",
+      "gu": "જગન્નાથ મંદિર",
+      "hi": "जगन्नाथ मंदिर",
+      "kn": "ಜಗನ್ನಾಥ ದೇವಸ್ಥಾನ",
+      "ml": "ജഗന്നാഥൻ ക്ഷേത്രം",
+      "mr": "जगन्नाथ मंदिर",
+      "or": "ଜଗନ୍ନାଥ ମନ୍ଦିର",
+      "pa": "ਜਗਨਨਾਥ ਮੰਦਰ",
+      "ta": "ஜகந்நாதர் கோவில்",
+      "te": "జగన్నాథుడు ఆలయం"
+    },
+    "locations_jsonb": {
+      "bn": "পুরী, ওড়িশা",
+      "en": "Puri, Odisha",
+      "gu": "પુરી, ઓડિશા",
+      "hi": "पुरी, ओडिशा",
+      "kn": "ಪುರಿ, ಒಡಿಶಾ",
+      "ml": "ಪುರಿ, ഒഡീഷ",
+      "mr": "पुरी, ओडिशा",
+      "or": "ପୁରୀ, ଓଡ଼ିଶା",
+      "pa": "ਪੁਰੀ, ਓਡੀਸ਼ਾ",
+      "ta": "பூரி, ஒடிசா",
+      "te": "పూరీ, ఒడిశా"
+    },
+    "schedules_jsonb": {},
+    "timetables_jsonb": {
+      "bn": [
+        {
+          "name": "মঙ্গলা আরতি",
+          "time": "05:30 AM"
+        },
+        {
+          "name": "সন্ধ্যা আরতি",
+          "time": "06:00 PM"
+        }
+      ],
+      "en": [
+        {
+          "name": "Mangala Alati",
+          "time": "05:30 AM"
+        },
+        {
+          "name": "Sandhya Alati",
+          "time": "06:00 PM"
+        }
+      ],
+      "gu": [
+        {
+          "name": "ਮੰਗਲਾ આરતી",
+          "time": "05:30 AM"
+        },
+        {
+          "name": "સંધ્યા આરતી",
+          "time": "06:00 PM"
+        }
+      ],
+      "hi": [
+        {
+          "name": "मंगला आरती",
+          "time": "05:30 AM"
+        },
+        {
+          "name": "संध्या आरती",
+          "time": "06:00 PM"
+        }
+      ],
+      "kn": [
+        {
+          "name": "ಮಂಗಳಾ ఆరతి",
+          "time": "05:30 AM"
+        },
+        {
+          "name": "సంధ్యా ఆరతి",
+          "time": "06:00 PM"
+        }
+      ],
+      "ml": [
+        {
+          "name": "മംഗള ആരതി",
+          "time": "05:30 AM"
+        },
+        {
+          "name": "സന്ധ്യാ ആരതി",
+          "time": "06:00 PM"
+        }
+      ],
+      "mr": [
+        {
+          "name": "मंगला आरती",
+          "time": "05:30 AM"
+        },
+        {
+          "name": "संध्या आरती",
+          "time": "06:00 PM"
+        }
+      ],
+      "or": [
+        {
+          "name": "ମଙ୍ଗଳା ଆରତି",
+          "time": "05:30 AM"
+        },
+        {
+          "name": "ସନ୍ଧ୍ଯା ଆରତି",
+          "time": "06:00 PM"
+        }
+      ],
+      "pa": [
+        {
+          "name": "ਮੰਗਲਾ ਆਰਤੀ",
+          "time": "05:30 AM"
+        },
+        {
+          "name": "ਸੰਧਿਆ ਆਰਤੀ",
+          "time": "06:00 PM"
+        }
+      ],
+      "ta": [
+        {
+          "name": "மங்கள ஆரத்தி",
+          "time": "05:30 AM"
+        },
+        {
+          "name": "சந்தியா ஆரத்தி",
+          "time": "06:00 PM"
+        }
+      ],
+      "te": [
+        {
+          "name": "మంగళ హారతి",
+          "time": "05:30 AM"
+        },
+        {
+          "name": "సంధ్యా హారతి",
+          "time": "06:00 PM"
+        }
+      ]
+    },
+    "language": "or",
+    "youtube_channel_handle": "@JayJagannathTVofficial",
+    "last_detected_video_id": "_pplsMPNVmQ",
+    "last_live_check_at": "2026-04-17T10:00:04.594+00:00",
+    "consecutive_fail_days": 0,
+    "last_fail_date": null,
+    "last_successful_check_at": "2026-04-17T10:00:04.594+00:00",
+    "total_view_count": 6,
+    "daily_view_count": 0,
+    "daily_view_date": "2026-04-17",
+    "live_viewer_count": 435,
+    "yt_subscriber_count": 713000,
+    "yt_subscriber_count_updated_at": "2026-04-17T06:30:04.724+00:00",
+    "stream_languages": [
+      "hi",
+      "en",
+      "or"
+    ],
+    "offline_youtube_url": "https://www.youtube.com/watch?v=2AKMKcUrGSc"
+  },
+  {
+    "id": "0811f985-17eb-4b41-8f2f-2b801f4f6f95",
+    "temple_name": "Salasar Balaji Temple",
+    "short_name": "Salasar Balaji",
+    "location": "Churu, Rajasthan",
+    "state": "Rajasthan",
+    "religion": "hindu",
+    "category": "major_temple",
+    "youtube_url": "https://www.youtube.com/watch?v=onzZz_4GrtY",
+    "youtube_video_id": "onzZz_4GrtY",
+    "thumbnail_url": "https://pub-a3540a1b218c43298ca3a816c685b5e7.r2.dev/content/notifications/temple_live/salasar_balaji_onzZz_4GrtY.jpg",
+    "schedule_type": "daily",
+    "live_schedule": "5:00 AM - 10:00 PM",
+    "schedule_start_hour": 5,
+    "schedule_end_hour": 22,
+    "seasonal_start_month": null,
+    "seasonal_end_month": null,
+    "timezone": "Asia/Kolkata",
+    "special_events": null,
+    "is_currently_live": true,
+    "last_verified_at": "2026-04-17T06:30:06.311+00:00",
+    "is_active": true,
+    "display_order": 24,
+    "description": null,
+    "created_at": "2025-12-28T15:58:00.404738+00:00",
+    "updated_at": "2026-04-17T10:00:04.747971+00:00",
+    "is_popular": false,
+    "temple_name_hi": "सालासर बालाजी मंदिर",
+    "location_hi": "चूरू, राजस्थान",
+    "live_schedule_hi": "सुबह 5:00 - रात 10:00",
+    "timetable": [
+      {
+        "name": "Mangla Aarti",
+        "time": "05:00 AM"
+      },
+      {
+        "name": "Mohandas Ji Aarti",
+        "time": "05:30 AM"
+      },
+      {
+        "name": "Rajbhog Aarti",
+        "time": "10:00 AM"
+      },
+      {
+        "name": "Dhoop Gwal Aarti",
+        "time": "06:30 PM"
+      },
+      {
+        "name": "Mohandas Ji Aarti",
+        "time": "07:00 PM"
+      },
+      {
+        "name": "Sandhya Aarti",
+        "time": "07:30 PM"
+      },
+      {
+        "name": "Bal Bhog Stuti",
+        "time": "08:00 PM"
+      },
+      {
+        "name": "Shayan Aarti",
+        "time": "10:00 PM"
+      }
+    ],
+    "timetable_hi": [
+      {
+        "name": "मंगला आरती",
+        "time": "05:00 AM"
+      },
+      {
+        "name": "मोहनदास जी आरती",
+        "time": "05:30 AM"
+      },
+      {
+        "name": "राजभोग आरती",
+        "time": "10:00 AM"
+      },
+      {
+        "name": "धूप ग्वाल आरती",
+        "time": "06:30 PM"
+      },
+      {
+        "name": "मोहनदास जी आरती",
+        "time": "07:00 PM"
+      },
+      {
+        "name": "संध्या आरती",
+        "time": "07:30 PM"
+      },
+      {
+        "name": "बाल भोग स्तुति",
+        "time": "08:00 PM"
+      },
+      {
+        "name": "शयन आरती",
+        "time": "10:00 PM"
+      }
+    ],
+    "names_jsonb": {
+      "bn": "সালাসার বালাজি মন্দির",
+      "en": "Salasar Balaji Temple",
+      "gu": "સાલાસર બાલાજી મંદિર",
+      "hi": "सालासर बालाजी मंदिर",
+      "kn": "ಸಾಲಾಸರ್ ಬಾಲਾಜಿ ದೇವಸ್ಥಾನ",
+      "ml": "സാലാസർ ಬാലാജി ക്ഷേത്രം",
+      "mr": "सालासर बालाजी मंदिर",
+      "or": "ସାଲାସର ବାଲାଜੀ ମନ୍ଦିର",
+      "pa": "ਸਾਲਾਸਰ ਬਾਲਾਜੀ ਮੰਦਰ",
+      "ta": "சாலாசர் பாலாஜி கோவில்",
+      "te": "సాలాసర్ బాలాజీ ఆలయం"
+    },
+    "locations_jsonb": {
+      "bn": "Churu, রাজস্থান",
+      "en": "Churu, Rajasthan",
+      "gu": "Churu, રાજસ્થਾਨ",
+      "hi": "Churu, राजस्थान",
+      "kn": "Churu, ರಾಜಸ್ಥಾನ",
+      "ml": "Churu, രാജസ്ഥാൻ",
+      "mr": "Churu, राजस्थान",
+      "or": "Churu, ରାଜସ୍ଥਾਨ",
+      "pa": "Churu, ਰਾਜਸਥਾਨ",
+      "ta": "Churu, ராஜஸ்தான்",
+      "te": "Churu, రాజస్థాన్"
+    },
+    "schedules_jsonb": {},
+    "timetables_jsonb": {
+      "bn": [
+        {
+          "name": "Mangla আরতি",
+          "time": "05:00 AM"
+        },
+        {
+          "name": "সন্ধ্যা আরতি",
+          "time": "07:30 PM"
+        }
+      ],
+      "en": [
+        {
+          "name": "Mangla Aarti",
+          "time": "05:00 AM"
+        },
+        {
+          "name": "Sandhya Aarti",
+          "time": "07:30 PM"
+        }
+      ],
+      "gu": [
+        {
+          "name": "Mangla આરਤੀ",
+          "time": "05:00 AM"
+        },
+        {
+          "name": "સંધ્યા આરਤੀ",
+          "time": "07:30 PM"
+        }
+      ],
+      "hi": [
+        {
+          "name": "Mangla आरती",
+          "time": "05:00 AM"
+        },
+        {
+          "name": "संध्या आरती",
+          "time": "07:30 PM"
+        }
+      ],
+      "kn": [
+        {
+          "name": "Mangla ಆರತಿ",
+          "time": "05:00 AM"
+        },
+        {
+          "name": "సంధ్యా ಆರತಿ",
+          "time": "07:30 PM"
+        }
+      ],
+      "ml": [
+        {
+          "name": "Mangla ആരതി",
+          "time": "05:00 AM"
+        },
+        {
+          "name": "സന്ധ്യാ ആരതി",
+          "time": "07:30 PM"
+        }
+      ],
+      "mr": [
+        {
+          "name": "Mangla आरती",
+          "time": "05:00 AM"
+        },
+        {
+          "name": "संध्या आरती",
+          "time": "07:30 PM"
+        }
+      ],
+      "or": [
+        {
+          "name": "Mangla ଆରତି",
+          "time": "05:00 AM"
+        },
+        {
+          "name": "ସନ୍ଧ୍ଯା ଆରତି",
+          "time": "07:30 PM"
+        }
+      ],
+      "pa": [
+        {
+          "name": "Mangla ਆਰਤੀ",
+          "time": "05:00 AM"
+        },
+        {
+          "name": "ਸੰਧਿਆ ਆਰਤੀ",
+          "time": "07:30 PM"
+        }
+      ],
+      "ta": [
+        {
+          "name": "Mangla ஆரத்தி",
+          "time": "05:00 AM"
+        },
+        {
+          "name": "சந்தியா ஆரத்தி",
+          "time": "07:30 PM"
+        }
+      ],
+      "te": [
+        {
+          "name": "Mangla హారਤੀ",
+          "time": "05:00 AM"
+        },
+        {
+          "name": "సంధ్యా హారਤੀ",
+          "time": "07:30 PM"
+        }
+      ]
+    },
+    "language": "hi",
+    "youtube_channel_handle": "@salasarofficial",
+    "last_detected_video_id": "onzZz_4GrtY",
+    "last_live_check_at": "2026-04-17T10:00:04.618+00:00",
+    "consecutive_fail_days": 0,
+    "last_fail_date": null,
+    "last_successful_check_at": "2026-04-17T10:00:04.618+00:00",
+    "total_view_count": 3,
+    "daily_view_count": 1,
+    "daily_view_date": "2026-04-17",
+    "live_viewer_count": 44,
+    "yt_subscriber_count": 265000,
+    "yt_subscriber_count_updated_at": "2026-04-17T06:30:05.467+00:00",
+    "stream_languages": [
+      "hi",
+      "en"
+    ],
+    "offline_youtube_url": "https://www.youtube.com/watch?v=eiiPXXOxN-A"
+  },
+  {
+    "id": "13902962-6f75-4e12-a815-0dcb86aaee3b",
+    "temple_name": "Radhanath Swami",
+    "short_name": "Radhanath Swami",
+    "location": "Mumbai, Maharashtra",
+    "state": "Maharashtra",
+    "religion": "hindu",
+    "category": "satsang",
+    "youtube_url": "https://www.youtube.com/@HisHolinessRadhanathSwami/live",
+    "youtube_video_id": null,
+    "thumbnail_url": "https://pub-a3540a1b218c43298ca3a816c685b5e7.r2.dev/content/notifications/temple_live/static/radhanath_swami.jpg",
+    "schedule_type": "event_based",
+    "live_schedule": "Weekly ISKCON bhakti satsang",
+    "schedule_start_hour": null,
+    "schedule_end_hour": null,
+    "seasonal_start_month": null,
+    "seasonal_end_month": null,
+    "timezone": "Asia/Kolkata",
+    "special_events": [],
+    "is_currently_live": false,
+    "last_verified_at": null,
+    "is_active": true,
+    "display_order": 29,
+    "description": null,
+    "created_at": "2026-04-16T06:31:10.861189+00:00",
+    "updated_at": "2026-04-17T10:00:33.195375+00:00",
+    "is_popular": false,
+    "temple_name_hi": null,
+    "location_hi": null,
+    "live_schedule_hi": null,
+    "timetable": null,
+    "timetable_hi": null,
+    "names_jsonb": {},
+    "locations_jsonb": {},
+    "schedules_jsonb": {},
+    "timetables_jsonb": {},
+    "language": "hi",
+    "youtube_channel_handle": "@HisHolinessRadhanathSwami",
+    "last_detected_video_id": null,
+    "last_live_check_at": "2026-04-17T10:00:03.942+00:00",
+    "consecutive_fail_days": 0,
+    "last_fail_date": null,
+    "last_successful_check_at": "2026-04-17T10:00:03.942+00:00",
+    "total_view_count": 0,
+    "daily_view_count": 0,
+    "daily_view_date": "2026-04-17",
+    "live_viewer_count": null,
+    "yt_subscriber_count": 249000,
+    "yt_subscriber_count_updated_at": "2026-04-17T08:30:04.72+00:00",
+    "stream_languages": [
+      "hi",
+      "en"
+    ],
+    "offline_youtube_url": "https://www.youtube.com/watch?v=MjAfZj6x6zU"
+  },
+  {
+    "id": "231921ec-0b58-48de-a9d3-968c207e1c78",
+    "temple_name": "Ram Mandir Ayodhya",
+    "short_name": "Ram Mandir",
+    "location": "Ayodhya, UP",
+    "state": "Uttar Pradesh",
+    "religion": "hindu",
+    "category": "major_temple",
+    "youtube_url": "https://www.youtube.com/watch?v=0XPn3LH5wds",
+    "youtube_video_id": "0XPn3LH5wds",
+    "thumbnail_url": "https://pub-a3540a1b218c43298ca3a816c685b5e7.r2.dev/content/notifications/temple_live/static/ram_mandir.jpg",
+    "schedule_type": "daily",
+    "live_schedule": "6:30 AM Aarti & Special Events",
+    "schedule_start_hour": 6,
+    "schedule_end_hour": 22,
+    "seasonal_start_month": null,
+    "seasonal_end_month": null,
+    "timezone": "Asia/Kolkata",
+    "special_events": [
+      {
+        "name": "Sringaar Aarti",
+        "time": "06:30"
+      },
+      {
+        "name": "Sandhya Aarti",
+        "time": "19:30"
+      }
+    ],
+    "is_currently_live": false,
+    "last_verified_at": "2026-04-16T00:35:27.165+00:00",
+    "is_active": true,
+    "display_order": 19,
+    "description": null,
+    "created_at": "2025-12-28T15:58:00.404738+00:00",
+    "updated_at": "2026-04-17T10:00:04.207661+00:00",
+    "is_popular": false,
+    "temple_name_hi": "राम मंदिर अयोध्या",
+    "location_hi": "अयोध्या, उत्तर प्रदेश",
+    "live_schedule_hi": "सुबह 6:30 आरती और विशेष कार्यक्रम",
+    "timetable": [
+      {
+        "name": "Sringaar Aarti",
+        "time": "06:30 AM"
+      },
+      {
+        "name": "Bhog Aarti",
+        "time": "12:00 PM"
+      },
+      {
+        "name": "Sandhya Aarti",
+        "time": "07:30 PM"
+      }
+    ],
+    "timetable_hi": [
+      {
+        "name": "श्रृंगार आरती",
+        "time": "06:30 AM"
+      },
+      {
+        "name": "भोग आरती",
+        "time": "12:00 PM"
+      },
+      {
+        "name": "संध्या आरती",
+        "time": "07:30 PM"
+      }
+    ],
+    "names_jsonb": {
+      "bn": "রাম মন্দির অযোধਿਆ",
+      "en": "Ram Mandir Ayodhya",
+      "gu": "રામ મંદિર અયોધ્યા",
+      "hi": "राम मंदिर अयोध्या",
+      "kn": "ರಾಮ ಮಂದಿರ ಅಯೋಧ್ಯೆ",
+      "ml": "രാമൻ മന്ദിർ അയോധ്യ",
+      "mr": "राम मंदिर अयोध्या",
+      "or": "ରାମ ମନ୍ଦିਰ ଅଯୋଧ୍ୟା",
+      "pa": "ਰਾਮ ਮੰਦਰ ਅਯੁੱਧਿਆ",
+      "ta": "ராமர் மந்திர் அயோத்தி",
+      "te": "రాముడు మందిరం అయోధ్య"
+    },
+    "locations_jsonb": {
+      "bn": "অযোধਿਆ, উত্তরপ্রদেশ",
+      "en": "Ayodhya, UP",
+      "gu": "અયોધ્યા, ઉત્તર પ્રદેશ",
+      "hi": "अयोध्या, उत्तर प्रदेश",
+      "kn": "ಅಯೋಧ್ಯೆ, ಉತ್ತರ ಪ್ರದೇಶ",
+      "ml": "അയോധ്യ, ഉത്തർപ്രദേശ്",
+      "mr": "अयोध्या, उत्तर प्रदेश",
+      "or": "ଅଯୋଧ୍ୟା, ଉତ୍ତର ପ୍ରଦେଶ",
+      "pa": "ਅਯੁੱਧਿਆ, ਉੱਤਰ ਪ੍ਰਦੇਸ਼",
+      "ta": "அயோத்தி, உத்தர பிரதேசம்",
+      "te": "అయోధ్య, ఉత్తర ప్రదేశ్"
+    },
+    "schedules_jsonb": {},
+    "timetables_jsonb": {
+      "bn": [
+        {
+          "name": "Sringaar আরতি",
+          "time": "06:30 AM"
+        },
+        {
+          "name": "ভোগ আরতি",
+          "time": "12:00 PM"
+        },
+        {
+          "name": "সন্ধ্যা আরতি",
+          "time": "07:30 PM"
+        }
+      ],
+      "en": [
+        {
+          "name": "Sringaar Aarti",
+          "time": "06:30 AM"
+        },
+        {
+          "name": "Bhog Aarti",
+          "time": "12:00 PM"
+        },
+        {
+          "name": "Sandhya Aarti",
+          "time": "07:30 PM"
+        }
+      ],
+      "gu": [
+        {
+          "name": "Sringaar આરਤੀ",
+          "time": "06:30 AM"
+        },
+        {
+          "name": "ભોગ આરਤੀ",
+          "time": "12:00 PM"
+        },
+        {
+          "name": "સંધ્યા આરਤੀ",
+          "time": "07:30 PM"
+        }
+      ],
+      "hi": [
+        {
+          "name": "Sringaar आरती",
+          "time": "06:30 AM"
+        },
+        {
+          "name": "भोग आरती",
+          "time": "12:00 PM"
+        },
+        {
+          "name": "संध्या आरती",
+          "time": "07:30 PM"
+        }
+      ],
+      "kn": [
+        {
+          "name": "Sringaar ಆರತಿ",
+          "time": "06:30 AM"
+        },
+        {
+          "name": "భోಗ್ ಆರತಿ",
+          "time": "12:00 PM"
+        },
+        {
+          "name": "సంధ్యా ಆರತಿ",
+          "time": "07:30 PM"
+        }
+      ],
+      "ml": [
+        {
+          "name": "Sringaar ആരതി",
+          "time": "06:30 AM"
+        },
+        {
+          "name": "ഭോഗ് ആരതി",
+          "time": "12:00 PM"
+        },
+        {
+          "name": "സന്ധ്യാ ആരതി",
+          "time": "07:30 PM"
+        }
+      ],
+      "mr": [
+        {
+          "name": "Sringaar आरती",
+          "time": "06:30 AM"
+        },
+        {
+          "name": "भोग आरती",
+          "time": "12:00 PM"
+        },
+        {
+          "name": "संध्या आरती",
+          "time": "07:30 PM"
+        }
+      ],
+      "or": [
+        {
+          "name": "Sringaar ଆରତି",
+          "time": "06:30 AM"
+        },
+        {
+          "name": "ଭୋଗ ଆରତି",
+          "time": "12:00 PM"
+        },
+        {
+          "name": "ସନ୍ଧ୍ଯା ଆରତି",
+          "time": "07:30 PM"
+        }
+      ],
+      "pa": [
+        {
+          "name": "Sringaar ਆਰਤੀ",
+          "time": "06:30 AM"
+        },
+        {
+          "name": "ਭੋਗ ਆਰਤੀ",
+          "time": "12:00 PM"
+        },
+        {
+          "name": "ਸੰਧਿਆ ਆਰਤੀ",
+          "time": "07:30 PM"
+        }
+      ],
+      "ta": [
+        {
+          "name": "Sringaar ஆரத்தி",
+          "time": "06:30 AM"
+        },
+        {
+          "name": "போக் ஆரத்தி",
+          "time": "12:00 PM"
+        },
+        {
+          "name": "சந்தியா ஆரத்தி",
+          "time": "07:30 PM"
+        }
+      ],
+      "te": [
+        {
+          "name": "Sringaar హారਤੀ",
+          "time": "06:30 AM"
+        },
+        {
+          "name": "భోగ్ హారਤੀ",
+          "time": "12:00 PM"
+        },
+        {
+          "name": "సంధ్యా హారਤੀ",
+          "time": "07:30 PM"
+        }
+      ]
+    },
+    "language": "hi",
+    "youtube_channel_handle": "@srjbtkshetra",
+    "last_detected_video_id": "0XPn3LH5wds",
+    "last_live_check_at": "2026-04-17T10:00:04.2+00:00",
+    "consecutive_fail_days": 0,
+    "last_fail_date": null,
+    "last_successful_check_at": "2026-04-17T10:00:04.2+00:00",
+    "total_view_count": 8,
+    "daily_view_count": 0,
+    "daily_view_date": "2026-04-17",
+    "live_viewer_count": null,
+    "yt_subscriber_count": 26700,
+    "yt_subscriber_count_updated_at": "2026-04-17T06:30:13.402+00:00",
+    "stream_languages": [
+      "hi",
+      "en"
+    ],
+    "offline_youtube_url": "https://www.youtube.com/watch?v=oujbiZi3aEE"
+  },
+  {
+    "id": "04ac1d65-8e47-4e61-9b49-36cef6661a8c",
+    "temple_name": "Wings Marathi Bhakti",
+    "short_name": "Wings Marathi Bhakti",
+    "location": "Mumbai, Maharashtra",
+    "state": "Maharashtra",
+    "religion": "hindu",
+    "category": "satsang",
+    "youtube_url": "https://www.youtube.com/@MarathiBhaktiGeete/live",
+    "youtube_video_id": null,
+    "thumbnail_url": "https://pub-a3540a1b218c43298ca3a816c685b5e7.r2.dev/content/notifications/temple_live/static/wings_marathi_bhakti.jpg",
+    "schedule_type": "event_based",
+    "live_schedule": "Marathi abhangs & satsang 2-3/week",
+    "schedule_start_hour": null,
+    "schedule_end_hour": null,
+    "seasonal_start_month": null,
+    "seasonal_end_month": null,
+    "timezone": "Asia/Kolkata",
+    "special_events": [],
+    "is_currently_live": false,
+    "last_verified_at": null,
+    "is_active": true,
+    "display_order": 16,
+    "description": null,
+    "created_at": "2026-04-16T06:31:10.861189+00:00",
+    "updated_at": "2026-04-17T10:00:32.817455+00:00",
+    "is_popular": false,
+    "temple_name_hi": null,
+    "location_hi": null,
+    "live_schedule_hi": null,
+    "timetable": null,
+    "timetable_hi": null,
+    "names_jsonb": {},
+    "locations_jsonb": {},
+    "schedules_jsonb": {},
+    "timetables_jsonb": {},
+    "language": "mr",
+    "youtube_channel_handle": "@MarathiBhaktiGeete",
+    "last_detected_video_id": null,
+    "last_live_check_at": "2026-04-17T10:00:06.776+00:00",
+    "consecutive_fail_days": 0,
+    "last_fail_date": null,
+    "last_successful_check_at": "2026-04-17T10:00:06.776+00:00",
+    "total_view_count": 0,
+    "daily_view_count": 0,
+    "daily_view_date": "2026-04-17",
+    "live_viewer_count": null,
+    "yt_subscriber_count": 3060000,
+    "yt_subscriber_count_updated_at": "2026-04-17T08:30:07.569+00:00",
+    "stream_languages": [
+      "mr"
+    ],
+    "offline_youtube_url": "https://www.youtube.com/watch?v=qejdVw3Vn0M"
+  },
+  {
+    "id": "9ff0a179-9606-42ee-a05f-3ba60e4ee0a5",
+    "temple_name": "Isha Foundation",
+    "short_name": "Isha Foundation",
+    "location": "Coimbatore, Tamil Nadu",
+    "state": "Tamil Nadu",
+    "religion": "hindu",
+    "category": "satsang",
+    "youtube_url": "https://www.youtube.com/@ishafoundation/live",
+    "youtube_video_id": null,
+    "thumbnail_url": "https://pub-a3540a1b218c43298ca3a816c685b5e7.r2.dev/content/notifications/temple_live/static/isha_foundation.jpg",
+    "schedule_type": "event_based",
+    "live_schedule": "Weekly live events & meditations",
+    "schedule_start_hour": null,
+    "schedule_end_hour": null,
+    "seasonal_start_month": null,
+    "seasonal_end_month": null,
+    "timezone": "Asia/Kolkata",
+    "special_events": [],
+    "is_currently_live": false,
+    "last_verified_at": null,
+    "is_active": true,
+    "display_order": 18,
+    "description": null,
+    "created_at": "2026-04-16T06:31:10.861189+00:00",
+    "updated_at": "2026-04-17T10:00:32.877589+00:00",
+    "is_popular": false,
+    "temple_name_hi": null,
+    "location_hi": null,
+    "live_schedule_hi": null,
+    "timetable": null,
+    "timetable_hi": null,
+    "names_jsonb": {},
+    "locations_jsonb": {},
+    "schedules_jsonb": {},
+    "timetables_jsonb": {},
+    "language": "hi",
+    "youtube_channel_handle": "@ishafoundation",
+    "last_detected_video_id": null,
+    "last_live_check_at": "2026-04-17T10:00:06.465+00:00",
+    "consecutive_fail_days": 0,
+    "last_fail_date": null,
+    "last_successful_check_at": "2026-04-17T10:00:06.465+00:00",
+    "total_view_count": 0,
+    "daily_view_count": 0,
+    "daily_view_date": "2026-04-17",
+    "live_viewer_count": null,
+    "yt_subscriber_count": 2410000,
+    "yt_subscriber_count_updated_at": "2026-04-17T08:30:06.654+00:00",
+    "stream_languages": [
+      "hi",
+      "en"
+    ],
+    "offline_youtube_url": "https://www.youtube.com/watch?v=6Ft4Z0Z36Ow"
+  },
+  {
+    "id": "9a325476-17ae-4a2d-ac5a-7422a1bfb26c",
+    "temple_name": "Sudhanshu Ji Maharaj",
+    "short_name": "Sudhanshu Ji",
+    "location": "India",
+    "state": "Delhi",
+    "religion": "hindu",
+    "category": "satsang",
+    "youtube_url": "https://www.youtube.com/@SudhanshuJiMaharajOfficial/live",
+    "youtube_video_id": null,
+    "thumbnail_url": "https://yt3.googleusercontent.com/2xqPWOWke89MGG6iTUvcRQI4rS3dYRT3VaxRvAIdUwQRyFolwX0itIr9Id3neLvcUELbYgbw=s900-c-k-c0x00ffffff-no-rj",
+    "schedule_type": "event_based",
+    "live_schedule": "Live Satsang & Pravachan",
+    "schedule_start_hour": null,
+    "schedule_end_hour": null,
+    "seasonal_start_month": null,
+    "seasonal_end_month": null,
+    "timezone": "Asia/Kolkata",
+    "special_events": [],
+    "is_currently_live": false,
+    "last_verified_at": null,
+    "is_active": true,
+    "display_order": 1,
+    "description": "Sudhanshu Ji Maharaj - Vishwa Jagriti Mission Satsang",
+    "created_at": "2026-04-12T02:53:02.507642+00:00",
+    "updated_at": "2026-04-17T10:00:32.320236+00:00",
+    "is_popular": false,
+    "temple_name_hi": "सुधांशु जी महाराज",
+    "location_hi": "भारत",
+    "live_schedule_hi": "लाइव सत्संग और प्रवचन",
+    "timetable": null,
+    "timetable_hi": null,
+    "names_jsonb": {},
+    "locations_jsonb": {},
+    "schedules_jsonb": {},
+    "timetables_jsonb": {},
+    "language": "hi",
+    "youtube_channel_handle": "@SudhanshuJiMaharajOfficial",
+    "last_detected_video_id": null,
+    "last_live_check_at": "2026-04-17T10:00:05.963+00:00",
+    "consecutive_fail_days": 0,
+    "last_fail_date": null,
+    "last_successful_check_at": "2026-04-17T10:00:05.963+00:00",
+    "total_view_count": 0,
+    "daily_view_count": 0,
+    "daily_view_date": "2026-04-17",
+    "live_viewer_count": null,
+    "yt_subscriber_count": 1380000,
+    "yt_subscriber_count_updated_at": "2026-04-17T06:30:09.087+00:00",
+    "stream_languages": [
+      "hi",
+      "en"
+    ],
+    "offline_youtube_url": "https://www.youtube.com/watch?v=1QWzJtnMKf0"
+  },
+  {
+    "id": "17eb95cf-3346-4b54-8e70-46c26d476c06",
+    "temple_name": "Chinmaya Mission",
+    "short_name": "Chinmaya Mission",
+    "location": "Mumbai, Maharashtra",
+    "state": "Maharashtra",
+    "religion": "hindu",
+    "category": "katha",
+    "youtube_url": "https://www.youtube.com/@ChinmayaChannel/live",
+    "youtube_video_id": null,
+    "thumbnail_url": "https://pub-a3540a1b218c43298ca3a816c685b5e7.r2.dev/content/notifications/temple_live/static/chinmaya_mission.jpg",
+    "schedule_type": "event_based",
+    "live_schedule": "Weekly Vedantic discourse",
+    "schedule_start_hour": null,
+    "schedule_end_hour": null,
+    "seasonal_start_month": null,
+    "seasonal_end_month": null,
+    "timezone": "Asia/Kolkata",
+    "special_events": [],
+    "is_currently_live": false,
+    "last_verified_at": null,
+    "is_active": true,
+    "display_order": 22,
+    "description": null,
+    "created_at": "2026-04-16T06:31:10.861189+00:00",
+    "updated_at": "2026-04-17T10:00:33.003005+00:00",
+    "is_popular": false,
+    "temple_name_hi": null,
+    "location_hi": null,
+    "live_schedule_hi": null,
+    "timetable": null,
+    "timetable_hi": null,
+    "names_jsonb": {},
+    "locations_jsonb": {},
+    "schedules_jsonb": {},
+    "timetables_jsonb": {},
+    "language": "hi",
+    "youtube_channel_handle": "@ChinmayaChannel",
+    "last_detected_video_id": null,
+    "last_live_check_at": "2026-04-17T10:00:08.316+00:00",
+    "consecutive_fail_days": 0,
+    "last_fail_date": null,
+    "last_successful_check_at": "2026-04-17T10:00:08.316+00:00",
+    "total_view_count": 0,
+    "daily_view_count": 0,
+    "daily_view_date": "2026-04-17",
+    "live_viewer_count": null,
+    "yt_subscriber_count": 934000,
+    "yt_subscriber_count_updated_at": "2026-04-17T08:30:08.503+00:00",
+    "stream_languages": [
+      "hi",
+      "en"
+    ],
+    "offline_youtube_url": "https://www.youtube.com/watch?v=6UsSexMD0oI"
+  },
+  {
+    "id": "c70a9a37-364f-469b-97f9-ed50bd4356a8",
+    "temple_name": "Spiritual Kannada",
+    "short_name": "Spiritual Kannada",
+    "location": "Bengaluru, Karnataka",
+    "state": "Karnataka",
+    "religion": "hindu",
+    "category": "satsang",
+    "youtube_url": "https://www.youtube.com/@SpiritualKannada/live",
+    "youtube_video_id": null,
+    "thumbnail_url": "https://pub-a3540a1b218c43298ca3a816c685b5e7.r2.dev/content/notifications/temple_live/static/spiritual_kannada.jpg",
+    "schedule_type": "event_based",
+    "live_schedule": "Weekly Vedantic talks in Kannada",
+    "schedule_start_hour": null,
+    "schedule_end_hour": null,
+    "seasonal_start_month": null,
+    "seasonal_end_month": null,
+    "timezone": "Asia/Kolkata",
+    "special_events": [],
+    "is_currently_live": false,
+    "last_verified_at": null,
+    "is_active": true,
+    "display_order": 39,
+    "description": null,
+    "created_at": "2026-04-16T06:31:10.861189+00:00",
+    "updated_at": "2026-04-17T10:00:33.512699+00:00",
+    "is_popular": false,
+    "temple_name_hi": null,
+    "location_hi": null,
+    "live_schedule_hi": null,
+    "timetable": null,
+    "timetable_hi": null,
+    "names_jsonb": {},
+    "locations_jsonb": {},
+    "schedules_jsonb": {},
+    "timetables_jsonb": {},
+    "language": "kn",
+    "youtube_channel_handle": "@SpiritualKannada",
+    "last_detected_video_id": null,
+    "last_live_check_at": "2026-04-17T10:00:07.002+00:00",
+    "consecutive_fail_days": 0,
+    "last_fail_date": null,
+    "last_successful_check_at": "2026-04-17T10:00:07.002+00:00",
+    "total_view_count": 0,
+    "daily_view_count": 0,
+    "daily_view_date": "2026-04-17",
+    "live_viewer_count": null,
+    "yt_subscriber_count": 47000,
+    "yt_subscriber_count_updated_at": "2026-04-17T08:30:07.375+00:00",
+    "stream_languages": [
+      "kn"
+    ],
+    "offline_youtube_url": "https://www.youtube.com/watch?v=FR2rPf6U_FE"
+  },
+  {
+    "id": "fa2ce43b-7252-4056-9afc-fb4ce4c82c6e",
+    "temple_name": "Gaur Gopal Das",
+    "short_name": "Gaur Gopal Das",
+    "location": "Mumbai, Maharashtra",
+    "state": "Maharashtra",
+    "religion": "hindu",
+    "category": "satsang",
+    "youtube_url": "https://www.youtube.com/@GaurGopalDas/live",
+    "youtube_video_id": null,
+    "thumbnail_url": "https://pub-a3540a1b218c43298ca3a816c685b5e7.r2.dev/content/notifications/temple_live/static/gaur_gopal_das.jpg",
+    "schedule_type": "event_based",
+    "live_schedule": "Weekly ISKCON life wisdom",
+    "schedule_start_hour": null,
+    "schedule_end_hour": null,
+    "seasonal_start_month": null,
+    "seasonal_end_month": null,
+    "timezone": "Asia/Kolkata",
+    "special_events": [],
+    "is_currently_live": false,
+    "last_verified_at": null,
+    "is_active": true,
+    "display_order": 12,
+    "description": null,
+    "created_at": "2026-04-16T06:31:10.861189+00:00",
+    "updated_at": "2026-04-17T10:00:32.670799+00:00",
+    "is_popular": true,
+    "temple_name_hi": null,
+    "location_hi": null,
+    "live_schedule_hi": null,
+    "timetable": null,
+    "timetable_hi": null,
+    "names_jsonb": {},
+    "locations_jsonb": {},
+    "schedules_jsonb": {},
+    "timetables_jsonb": {},
+    "language": "hi",
+    "youtube_channel_handle": "@GaurGopalDas",
+    "last_detected_video_id": null,
+    "last_live_check_at": "2026-04-17T10:00:10.236+00:00",
+    "consecutive_fail_days": 0,
+    "last_fail_date": null,
+    "last_successful_check_at": "2026-04-17T10:00:10.236+00:00",
+    "total_view_count": 0,
+    "daily_view_count": 0,
+    "daily_view_date": "2026-04-17",
+    "live_viewer_count": null,
+    "yt_subscriber_count": 5170000,
+    "yt_subscriber_count_updated_at": "2026-04-17T08:30:10.368+00:00",
+    "stream_languages": [
+      "hi",
+      "en"
+    ],
+    "offline_youtube_url": "https://www.youtube.com/watch?v=AZeUb-uArPY"
+  },
+  {
+    "id": "6ffc0fcf-df54-4210-844f-1639c4e31979",
+    "temple_name": "Morari Bapu — Chitrakut Dham Talgajarda",
+    "short_name": "Morari Bapu",
+    "location": "Talgajarda, Gujarat",
+    "state": "Gujarat",
+    "religion": "hindu",
+    "category": "katha",
+    "youtube_url": "https://www.youtube.com/@MorariBapu/live",
+    "youtube_video_id": null,
+    "thumbnail_url": "https://pub-a3540a1b218c43298ca3a816c685b5e7.r2.dev/content/notifications/temple_live/static/morari_bapu.jpg",
+    "schedule_type": "event_based",
+    "live_schedule": "Ram Katha — 9-day live cycles",
+    "schedule_start_hour": null,
+    "schedule_end_hour": null,
+    "seasonal_start_month": null,
+    "seasonal_end_month": null,
+    "timezone": "Asia/Kolkata",
+    "special_events": [],
+    "is_currently_live": false,
+    "last_verified_at": null,
+    "is_active": true,
+    "display_order": 21,
+    "description": null,
+    "created_at": "2026-04-16T06:31:10.861189+00:00",
+    "updated_at": "2026-04-17T10:00:32.957596+00:00",
+    "is_popular": true,
+    "temple_name_hi": null,
+    "location_hi": null,
+    "live_schedule_hi": null,
+    "timetable": null,
+    "timetable_hi": null,
+    "names_jsonb": {},
+    "locations_jsonb": {},
+    "schedules_jsonb": {},
+    "timetables_jsonb": {},
+    "language": "gu",
+    "youtube_channel_handle": "@MorariBapu",
+    "last_detected_video_id": null,
+    "last_live_check_at": "2026-04-17T10:00:09.938+00:00",
+    "consecutive_fail_days": 0,
+    "last_fail_date": null,
+    "last_successful_check_at": "2026-04-17T10:00:09.938+00:00",
+    "total_view_count": 0,
+    "daily_view_count": 0,
+    "daily_view_date": "2026-04-17",
+    "live_viewer_count": null,
+    "yt_subscriber_count": 964000,
+    "yt_subscriber_count_updated_at": "2026-04-17T08:30:10.413+00:00",
+    "stream_languages": [
+      "gu"
+    ],
+    "offline_youtube_url": "https://www.youtube.com/watch?v=hW2PFZOrklo"
+  },
+  {
+    "id": "03c8b27b-1551-4474-830a-0a6d60862df6",
+    "temple_name": "VrajRas Productions",
+    "short_name": "VrajRas",
+    "location": "Vrindavan, Uttar Pradesh",
+    "state": "Uttar Pradesh",
+    "religion": "hindu",
+    "category": "katha",
+    "youtube_url": "https://www.youtube.com/@vrajrasproductions/live",
+    "youtube_video_id": null,
+    "thumbnail_url": "https://pub-a3540a1b218c43298ca3a816c685b5e7.r2.dev/content/notifications/temple_live/static/vrajras.jpg",
+    "schedule_type": "event_based",
+    "live_schedule": "Bhagwat Katha — 7-day cycles",
+    "schedule_start_hour": null,
+    "schedule_end_hour": null,
+    "seasonal_start_month": null,
+    "seasonal_end_month": null,
+    "timezone": "Asia/Kolkata",
+    "special_events": [],
+    "is_currently_live": false,
+    "last_verified_at": null,
+    "is_active": true,
+    "display_order": 23,
+    "description": null,
+    "created_at": "2026-04-16T06:31:10.861189+00:00",
+    "updated_at": "2026-04-17T10:00:33.030737+00:00",
+    "is_popular": false,
+    "temple_name_hi": null,
+    "location_hi": null,
+    "live_schedule_hi": null,
+    "timetable": null,
+    "timetable_hi": null,
+    "names_jsonb": {},
+    "locations_jsonb": {},
+    "schedules_jsonb": {},
+    "timetables_jsonb": {},
+    "language": "hi",
+    "youtube_channel_handle": "@vrajrasproductions",
+    "last_detected_video_id": null,
+    "last_live_check_at": "2026-04-17T10:00:09.242+00:00",
+    "consecutive_fail_days": 0,
+    "last_fail_date": null,
+    "last_successful_check_at": "2026-04-17T10:00:09.242+00:00",
+    "total_view_count": 0,
+    "daily_view_count": 0,
+    "daily_view_date": "2026-04-17",
+    "live_viewer_count": null,
+    "yt_subscriber_count": 644000,
+    "yt_subscriber_count_updated_at": "2026-04-17T08:30:09.666+00:00",
+    "stream_languages": [
+      "hi",
+      "en"
+    ],
+    "offline_youtube_url": "https://www.youtube.com/watch?v=qX1L-EwxA34"
+  },
+  {
+    "id": "78af7bfa-7abf-4c9a-a15f-0e4781605d60",
+    "temple_name": "Gauranga Das (ISKCON Chowpatty)",
+    "short_name": "Gauranga Das",
+    "location": "Mumbai, Maharashtra",
+    "state": "Maharashtra",
+    "religion": "hindu",
+    "category": "katha",
+    "youtube_url": "https://www.youtube.com/watch?v=AmVFflgbJx4",
+    "youtube_video_id": "AmVFflgbJx4",
+    "thumbnail_url": "https://pub-a3540a1b218c43298ca3a816c685b5e7.r2.dev/content/notifications/temple_live/gauranga_das_AmVFflgbJx4.jpg",
+    "schedule_type": "event_based",
+    "live_schedule": "Weekly ISKCON discourse",
+    "schedule_start_hour": null,
+    "schedule_end_hour": null,
+    "seasonal_start_month": null,
+    "seasonal_end_month": null,
+    "timezone": "Asia/Kolkata",
+    "special_events": [],
+    "is_currently_live": true,
+    "last_verified_at": "2026-04-17T06:30:11.235+00:00",
+    "is_active": true,
+    "display_order": 36,
+    "description": null,
+    "created_at": "2026-04-16T06:31:10.861189+00:00",
+    "updated_at": "2026-04-17T10:00:33.42333+00:00",
+    "is_popular": false,
+    "temple_name_hi": null,
+    "location_hi": null,
+    "live_schedule_hi": null,
+    "timetable": null,
+    "timetable_hi": null,
+    "names_jsonb": {},
+    "locations_jsonb": {},
+    "schedules_jsonb": {},
+    "timetables_jsonb": {},
+    "language": "hi",
+    "youtube_channel_handle": "@RG108",
+    "last_detected_video_id": "AmVFflgbJx4",
+    "last_live_check_at": "2026-04-17T10:00:10.097+00:00",
+    "consecutive_fail_days": 0,
+    "last_fail_date": null,
+    "last_successful_check_at": "2026-04-17T10:00:10.097+00:00",
+    "total_view_count": 2,
+    "daily_view_count": 0,
+    "daily_view_date": "2026-04-17",
+    "live_viewer_count": null,
+    "yt_subscriber_count": 109000,
+    "yt_subscriber_count_updated_at": "2026-04-17T08:30:10.703+00:00",
+    "stream_languages": [
+      "hi",
+      "en"
+    ],
+    "offline_youtube_url": "https://www.youtube.com/watch?v=qjqizgxAWGo"
+  },
+  {
+    "id": "c0120eb2-da63-4291-98f1-0936ebf3da63",
+    "temple_name": "Lakshya TV",
+    "short_name": "Lakshya TV",
+    "location": "Ahmedabad, Gujarat",
+    "state": "Gujarat",
+    "religion": "hindu",
+    "category": "katha",
+    "youtube_url": "https://www.youtube.com/watch?v=2j_I8D73xFo",
+    "youtube_video_id": "2j_I8D73xFo",
+    "thumbnail_url": "https://pub-a3540a1b218c43298ca3a816c685b5e7.r2.dev/content/notifications/temple_live/lakshya_tv_2j_I8D73xFo.jpg",
+    "schedule_type": "daily",
+    "live_schedule": "Daily Gujarati spiritual broadcasts",
+    "schedule_start_hour": 6,
+    "schedule_end_hour": 22,
+    "seasonal_start_month": null,
+    "seasonal_end_month": null,
+    "timezone": "Asia/Kolkata",
+    "special_events": [],
+    "is_currently_live": true,
+    "last_verified_at": "2026-04-17T07:15:10.683+00:00",
+    "is_active": true,
+    "display_order": 20,
+    "description": null,
+    "created_at": "2026-04-16T06:31:10.861189+00:00",
+    "updated_at": "2026-04-17T10:00:32.928716+00:00",
+    "is_popular": true,
+    "temple_name_hi": null,
+    "location_hi": null,
+    "live_schedule_hi": null,
+    "timetable": null,
+    "timetable_hi": null,
+    "names_jsonb": {},
+    "locations_jsonb": {},
+    "schedules_jsonb": {},
+    "timetables_jsonb": {},
+    "language": "gu",
+    "youtube_channel_handle": "@lakshyatvofficial",
+    "last_detected_video_id": "2j_I8D73xFo",
+    "last_live_check_at": "2026-04-17T10:00:11.211+00:00",
+    "consecutive_fail_days": 0,
+    "last_fail_date": null,
+    "last_successful_check_at": "2026-04-17T10:00:11.211+00:00",
+    "total_view_count": 1,
+    "daily_view_count": 0,
+    "daily_view_date": "2026-04-17",
+    "live_viewer_count": 23,
+    "yt_subscriber_count": 1230000,
+    "yt_subscriber_count_updated_at": "2026-04-17T08:30:12.713+00:00",
+    "stream_languages": [
+      "gu"
+    ],
+    "offline_youtube_url": "https://www.youtube.com/watch?v=eX1wHBCgN68"
+  },
+  {
+    "id": "f758b6bd-ea84-4213-847f-563d4fab7e3c",
+    "temple_name": "Dandapani",
+    "short_name": "Dandapani",
+    "location": "New York, USA",
+    "state": null,
+    "religion": "hindu",
+    "category": "satsang",
+    "youtube_url": "https://www.youtube.com/@DandapaniLLC/live",
+    "youtube_video_id": null,
+    "thumbnail_url": "https://pub-a3540a1b218c43298ca3a816c685b5e7.r2.dev/content/notifications/temple_live/static/dandapani.jpg",
+    "schedule_type": "event_based",
+    "live_schedule": "Monthly — Hindu focus & meditation",
+    "schedule_start_hour": null,
+    "schedule_end_hour": null,
+    "seasonal_start_month": null,
+    "seasonal_end_month": null,
+    "timezone": "Asia/Kolkata",
+    "special_events": [],
+    "is_currently_live": false,
+    "last_verified_at": null,
+    "is_active": true,
+    "display_order": 25,
+    "description": null,
+    "created_at": "2026-04-16T06:31:10.861189+00:00",
+    "updated_at": "2026-04-17T10:00:33.088198+00:00",
+    "is_popular": false,
+    "temple_name_hi": null,
+    "location_hi": null,
+    "live_schedule_hi": null,
+    "timetable": null,
+    "timetable_hi": null,
+    "names_jsonb": {},
+    "locations_jsonb": {},
+    "schedules_jsonb": {},
+    "timetables_jsonb": {},
+    "language": "hi",
+    "youtube_channel_handle": "@DandapaniLLC",
+    "last_detected_video_id": null,
+    "last_live_check_at": "2026-04-17T10:00:13.213+00:00",
+    "consecutive_fail_days": 0,
+    "last_fail_date": null,
+    "last_successful_check_at": "2026-04-17T10:00:13.213+00:00",
+    "total_view_count": 0,
+    "daily_view_count": 0,
+    "daily_view_date": "2026-04-17",
+    "live_viewer_count": null,
+    "yt_subscriber_count": 501000,
+    "yt_subscriber_count_updated_at": "2026-04-17T08:30:15.31+00:00",
+    "stream_languages": [
+      "hi",
+      "en"
+    ],
+    "offline_youtube_url": "https://www.youtube.com/watch?v=9rNAbzDCs7g"
+  },
+  {
+    "id": "9b822345-3d1b-4cc3-bfcd-d9235ba2e8d2",
+    "temple_name": "SGPC — Sri Harmandir Sahib (Golden Temple)",
+    "short_name": "SGPC Golden Temple",
+    "location": "Amritsar, Punjab",
+    "state": "Punjab",
+    "religion": "sikh",
+    "category": "satsang",
+    "youtube_url": "https://www.youtube.com/@sgpcamritsar/live",
+    "youtube_video_id": null,
+    "thumbnail_url": "https://pub-a3540a1b218c43298ca3a816c685b5e7.r2.dev/content/notifications/temple_live/static/sgpc_golden_temple.jpg",
+    "schedule_type": "daily",
+    "live_schedule": "Daily live Gurbani kirtan",
+    "schedule_start_hour": 4,
+    "schedule_end_hour": 22,
+    "seasonal_start_month": null,
+    "seasonal_end_month": null,
+    "timezone": "Asia/Kolkata",
+    "special_events": [],
+    "is_currently_live": false,
+    "last_verified_at": null,
+    "is_active": true,
+    "display_order": 42,
+    "description": null,
+    "created_at": "2026-04-16T06:31:10.861189+00:00",
+    "updated_at": "2026-04-17T10:00:33.598401+00:00",
+    "is_popular": true,
+    "temple_name_hi": null,
+    "location_hi": null,
+    "live_schedule_hi": null,
+    "timetable": null,
+    "timetable_hi": null,
+    "names_jsonb": {},
+    "locations_jsonb": {},
+    "schedules_jsonb": {},
+    "timetables_jsonb": {},
+    "language": "pa",
+    "youtube_channel_handle": "@sgpcamritsar",
+    "last_detected_video_id": null,
+    "last_live_check_at": "2026-04-17T10:00:12.898+00:00",
+    "consecutive_fail_days": 1,
+    "last_fail_date": "2026-04-17",
+    "last_successful_check_at": null,
+    "total_view_count": 0,
+    "daily_view_count": 0,
+    "daily_view_date": "2026-04-17",
+    "live_viewer_count": null,
+    "yt_subscriber_count": null,
+    "yt_subscriber_count_updated_at": null,
+    "stream_languages": [
+      "pa"
+    ],
+    "offline_youtube_url": "https://www.youtube.com/watch?v=m7UgvyEYJ88"
+  },
+  {
+    "id": "efd3535d-d180-4621-9318-b25fd10ffeaf",
+    "temple_name": "Sri Chaganti Koteswara Rao",
+    "short_name": "Sri Chaganti",
+    "location": "Amalapuram, Andhra Pradesh",
+    "state": "Andhra Pradesh",
+    "religion": "hindu",
+    "category": "satsang",
+    "youtube_url": "https://www.youtube.com/@srichagantibodhana/live",
+    "youtube_video_id": null,
+    "thumbnail_url": "https://pub-a3540a1b218c43298ca3a816c685b5e7.r2.dev/content/notifications/temple_live/static/sri_chaganti.jpg",
+    "schedule_type": "event_based",
+    "live_schedule": "Telugu pravachanam — 2-3 per week",
+    "schedule_start_hour": null,
+    "schedule_end_hour": null,
+    "seasonal_start_month": null,
+    "seasonal_end_month": null,
+    "timezone": "Asia/Kolkata",
+    "special_events": [],
+    "is_currently_live": false,
+    "last_verified_at": null,
+    "is_active": true,
+    "display_order": 43,
+    "description": null,
+    "created_at": "2026-04-16T06:31:10.861189+00:00",
+    "updated_at": "2026-04-17T10:00:33.627191+00:00",
+    "is_popular": true,
+    "temple_name_hi": null,
+    "location_hi": null,
+    "live_schedule_hi": null,
+    "timetable": null,
+    "timetable_hi": null,
+    "names_jsonb": {},
+    "locations_jsonb": {},
+    "schedules_jsonb": {},
+    "timetables_jsonb": {},
+    "language": "te",
+    "youtube_channel_handle": "@srichagantibodhana",
+    "last_detected_video_id": null,
+    "last_live_check_at": "2026-04-17T10:00:13.038+00:00",
+    "consecutive_fail_days": 1,
+    "last_fail_date": "2026-04-17",
+    "last_successful_check_at": null,
+    "total_view_count": 0,
+    "daily_view_count": 0,
+    "daily_view_date": "2026-04-17",
+    "live_viewer_count": null,
+    "yt_subscriber_count": null,
+    "yt_subscriber_count_updated_at": null,
+    "stream_languages": [
+      "te"
+    ],
+    "offline_youtube_url": "https://www.youtube.com/watch?v=RmYasonT8_E"
+  },
+  {
+    "id": "063d6a46-6cf1-4c35-923b-30df19d40bfa",
+    "temple_name": "BK Shivani — Brahma Kumaris",
+    "short_name": "BK Shivani",
+    "location": "Mount Abu, Rajasthan",
+    "state": "Rajasthan",
+    "religion": "hindu",
+    "category": "satsang",
+    "youtube_url": "https://www.youtube.com/@bkshivani/live",
+    "youtube_video_id": null,
+    "thumbnail_url": "https://pub-a3540a1b218c43298ca3a816c685b5e7.r2.dev/content/notifications/temple_live/static/bk_shivani.jpg",
+    "schedule_type": "event_based",
+    "live_schedule": "Weekly spiritual healing sessions",
+    "schedule_start_hour": null,
+    "schedule_end_hour": null,
+    "seasonal_start_month": null,
+    "seasonal_end_month": null,
+    "timezone": "Asia/Kolkata",
+    "special_events": [],
+    "is_currently_live": false,
+    "last_verified_at": null,
+    "is_active": true,
+    "display_order": 9,
+    "description": null,
+    "created_at": "2026-04-16T06:31:10.861189+00:00",
+    "updated_at": "2026-04-17T10:00:32.575612+00:00",
+    "is_popular": true,
+    "temple_name_hi": null,
+    "location_hi": null,
+    "live_schedule_hi": null,
+    "timetable": null,
+    "timetable_hi": null,
+    "names_jsonb": {},
+    "locations_jsonb": {},
+    "schedules_jsonb": {},
+    "timetables_jsonb": {},
+    "language": "hi",
+    "youtube_channel_handle": "@bkshivani",
+    "last_detected_video_id": null,
+    "last_live_check_at": "2026-04-17T10:00:13.057+00:00",
+    "consecutive_fail_days": 0,
+    "last_fail_date": null,
+    "last_successful_check_at": "2026-04-17T10:00:13.057+00:00",
+    "total_view_count": 0,
+    "daily_view_count": 0,
+    "daily_view_date": "2026-04-17",
+    "live_viewer_count": null,
+    "yt_subscriber_count": 6380000,
+    "yt_subscriber_count_updated_at": "2026-04-17T08:30:14.697+00:00",
+    "stream_languages": [
+      "hi",
+      "en"
+    ],
+    "offline_youtube_url": "https://www.youtube.com/watch?v=XnT_cOq_Ba8"
+  },
+  {
+    "id": "703d74e9-dc02-4dbf-8284-33a1d7ea9c65",
+    "temple_name": "Dwarkadhish Temple",
+    "short_name": "Dwarkadhish",
+    "location": "Dwarka, Gujarat",
+    "state": "Gujarat",
+    "religion": "hindu",
+    "category": "char_dham",
+    "youtube_url": "https://www.youtube.com/watch?v=UzzjNOoATUY",
+    "youtube_video_id": null,
+    "thumbnail_url": "https://pub-a3540a1b218c43298ca3a816c685b5e7.r2.dev/content/notifications/temple_live/static/dwarkadhish.jpg",
+    "schedule_type": "daily",
+    "live_schedule": "6:00 AM - 9:30 PM",
+    "schedule_start_hour": 6,
+    "schedule_end_hour": 22,
+    "seasonal_start_month": null,
+    "seasonal_end_month": null,
+    "timezone": "Asia/Kolkata",
+    "special_events": null,
+    "is_currently_live": false,
+    "last_verified_at": null,
+    "is_active": true,
+    "display_order": 12,
+    "description": null,
+    "created_at": "2025-12-28T15:58:00.404738+00:00",
+    "updated_at": "2026-04-17T10:00:15.241062+00:00",
+    "is_popular": true,
+    "temple_name_hi": "द्वारकाधीश मंदिर",
+    "location_hi": "द्वारका, गुजरात",
+    "live_schedule_hi": "सुबह 6:00 - रात 9:30",
+    "timetable": [
+      {
+        "name": "Mangla Aarti",
+        "time": "06:30 AM"
+      },
+      {
+        "name": "Mangla Darshan",
+        "time": "07:00 AM - 08:00 AM"
+      },
+      {
+        "name": "Abhishek Pooja",
+        "time": "08:00 AM - 09:00 AM"
+      },
+      {
+        "name": "Shringar Darshan",
+        "time": "09:00 AM - 09:30 AM"
+      },
+      {
+        "name": "Snan Bhog",
+        "time": "09:30 AM - 09:45 AM"
+      },
+      {
+        "name": "Shringar Aarti",
+        "time": "10:30 AM"
+      },
+      {
+        "name": "Rajbhog Aarti",
+        "time": "10:30 AM - 11:00 AM"
+      },
+      {
+        "name": "Darshan Closed",
+        "time": "01:00 PM - 05:00 PM"
+      },
+      {
+        "name": "Utthapan Aarti",
+        "time": "05:00 PM"
+      },
+      {
+        "name": "Sandhya Aarti",
+        "time": "07:30 PM"
+      },
+      {
+        "name": "Shayan Aarti",
+        "time": "08:30 PM"
+      }
+    ],
+    "timetable_hi": [
+      {
+        "name": "मंगला आरती",
+        "time": "06:30 AM"
+      },
+      {
+        "name": "मंगला दर्शन",
+        "time": "07:00 AM - 08:00 AM"
+      },
+      {
+        "name": "अभिषेक पूजा",
+        "time": "08:00 AM - 09:00 AM"
+      },
+      {
+        "name": "श्रृंगार दर्शन",
+        "time": "09:00 AM - 09:30 AM"
+      },
+      {
+        "name": "स्नान भोग",
+        "time": "09:30 AM - 09:45 AM"
+      },
+      {
+        "name": "श्रृंगार आरती",
+        "time": "10:30 AM"
+      },
+      {
+        "name": "राजभोग आरती",
+        "time": "10:30 AM - 11:00 AM"
+      },
+      {
+        "name": "दर्शन बंद",
+        "time": "01:00 PM - 05:00 PM"
+      },
+      {
+        "name": "उत्थापन आरती",
+        "time": "05:00 PM"
+      },
+      {
+        "name": "संध्या आरती",
+        "time": "07:30 PM"
+      },
+      {
+        "name": "शयन आरती",
+        "time": "08:30 PM"
+      }
+    ],
+    "names_jsonb": {
+      "bn": "দ্বারকাধীশ মন্দির",
+      "en": "Dwarkadhish Temple",
+      "gu": "દ્વારકાધીશ મંદિર",
+      "hi": "द्वारकाधीश मंदिर",
+      "kn": "ದ್ವಾರಕಾಧೀಶ ದೇವಸ್ಥಾನ",
+      "ml": "ദ്വാരകാധീശ് ക്ഷേത്രം",
+      "mr": "द्वारकाधीश मंदिर",
+      "or": "ଦ୍ଵਾਰକਾଧୀଶ ମନ୍ଦିର",
+      "pa": "ਦਵਾਰਕਾਧੀਸ਼ ਮੰਦਰ",
+      "ta": "துவாரகாதீசர் கோவில்",
+      "te": "ద్వారకాధీశ ఆలయం"
+    },
+    "locations_jsonb": {
+      "bn": "দ্বারকা, গুজরাট",
+      "en": "Dwarka, Gujarat",
+      "gu": "દ્વારકા, ગુજરાત",
+      "hi": "द्वारका, गुजरात",
+      "kn": "ದ್ವಾರಕಾ, ಗುಜರಾತ್",
+      "ml": "ദ്വਾਰക, ഗുജറാത്ത്",
+      "mr": "द्वारका, गुजरात",
+      "or": "ଦ୍ଵਾਰକਾ, ଗୁଜୁରାଟ",
+      "pa": "ਦਵਾਰਕਾ, ਗੁਜਰਾਤ",
+      "ta": "துவாரகா, குசરાத்து",
+      "te": "ద్వారక, గుజరాత్"
+    },
+    "schedules_jsonb": {},
+    "timetables_jsonb": {
+      "bn": [
+        {
+          "name": "Mangla আরতি",
+          "time": "06:30 AM"
+        },
+        {
+          "name": "Shringar আরতি",
+          "time": "10:30 AM"
+        },
+        {
+          "name": "সন্ধ্যা আরতি",
+          "time": "07:30 PM"
+        },
+        {
+          "name": "শয়ন আরতি",
+          "time": "08:30 PM"
+        }
+      ],
+      "en": [
+        {
+          "name": "Mangla Aarti",
+          "time": "06:30 AM"
+        },
+        {
+          "name": "Shringar Aarti",
+          "time": "10:30 AM"
+        },
+        {
+          "name": "Sandhya Aarti",
+          "time": "07:30 PM"
+        },
+        {
+          "name": "Shayan Aarti",
+          "time": "08:30 PM"
+        }
+      ],
+      "gu": [
+        {
+          "name": "Mangla આરਤੀ",
+          "time": "06:30 AM"
+        },
+        {
+          "name": "Shringar આરਤੀ",
+          "time": "10:30 AM"
+        },
+        {
+          "name": "સંધ્યા આરਤੀ",
+          "time": "07:30 PM"
+        },
+        {
+          "name": "ಶಯನ આરਤੀ",
+          "time": "08:30 PM"
+        }
+      ],
+      "hi": [
+        {
+          "name": "Mangla आरती",
+          "time": "06:30 AM"
+        },
+        {
+          "name": "Shringar आरती",
+          "time": "10:30 AM"
+        },
+        {
+          "name": "संध्या आरती",
+          "time": "07:30 PM"
+        },
+        {
+          "name": "शयन आरती",
+          "time": "08:30 PM"
+        }
+      ],
+      "kn": [
+        {
+          "name": "Mangla ಆರತಿ",
+          "time": "06:30 AM"
+        },
+        {
+          "name": "Shringar ಆರತಿ",
+          "time": "10:30 AM"
+        },
+        {
+          "name": "సంధ్యా ಆರತಿ",
+          "time": "07:30 PM"
+        },
+        {
+          "name": "ಶಯನ ಆರತಿ",
+          "time": "08:30 PM"
+        }
+      ],
+      "ml": [
+        {
+          "name": "Mangla ആരതി",
+          "time": "06:30 AM"
+        },
+        {
+          "name": "Shringar ആരതി",
+          "time": "10:30 AM"
+        },
+        {
+          "name": "സന്ധ്യാ ആരതി",
+          "time": "07:30 PM"
+        },
+        {
+          "name": "ശയന ആരതി",
+          "time": "08:30 PM"
+        }
+      ],
+      "mr": [
+        {
+          "name": "Mangla आरती",
+          "time": "06:30 AM"
+        },
+        {
+          "name": "Shringar आरती",
+          "time": "10:30 AM"
+        },
+        {
+          "name": "संध्या आरती",
+          "time": "07:30 PM"
+        },
+        {
+          "name": "शयन आरती",
+          "time": "08:30 PM"
+        }
+      ],
+      "or": [
+        {
+          "name": "Mangla ଆରତି",
+          "time": "06:30 AM"
+        },
+        {
+          "name": "Shringar ଆରତି",
+          "time": "10:30 AM"
+        },
+        {
+          "name": "ସନ୍ଧ୍ଯା ଆରତି",
+          "time": "07:30 PM"
+        },
+        {
+          "name": "ଶୟନ ଆରତି",
+          "time": "08:30 PM"
+        }
+      ],
+      "pa": [
+        {
+          "name": "Mangla ਆਰਤੀ",
+          "time": "06:30 AM"
+        },
+        {
+          "name": "Shringar ਆਰਤੀ",
+          "time": "10:30 AM"
+        },
+        {
+          "name": "ਸੰਧਿਆ ਆਰਤੀ",
+          "time": "07:30 PM"
+        },
+        {
+          "name": "ਸ਼ਯਨ ਆਰਤੀ",
+          "time": "08:30 PM"
+        }
+      ],
+      "ta": [
+        {
+          "name": "Mangla ஆரத்தி",
+          "time": "06:30 AM"
+        },
+        {
+          "name": "Shringar ஆரத்தி",
+          "time": "10:30 AM"
+        },
+        {
+          "name": "சந்தியா ஆரத்தி",
+          "time": "07:30 PM"
+        },
+        {
+          "name": "சயன ஆரத்தி",
+          "time": "08:30 PM"
+        }
+      ],
+      "te": [
+        {
+          "name": "Mangla హారਤੀ",
+          "time": "06:30 AM"
+        },
+        {
+          "name": "Shringar హారਤੀ",
+          "time": "10:30 AM"
+        },
+        {
+          "name": "సంధ్యా హారਤੀ",
+          "time": "07:30 PM"
+        },
+        {
+          "name": "శయన హారਤੀ",
+          "time": "08:30 PM"
+        }
+      ]
+    },
+    "language": "gu",
+    "youtube_channel_handle": "@shridwarkadhish",
+    "last_detected_video_id": null,
+    "last_live_check_at": "2026-04-17T10:00:15.256+00:00",
+    "consecutive_fail_days": 0,
+    "last_fail_date": null,
+    "last_successful_check_at": "2026-04-17T10:00:15.256+00:00",
+    "total_view_count": 11,
+    "daily_view_count": 0,
+    "daily_view_date": "2026-04-17",
+    "live_viewer_count": null,
+    "yt_subscriber_count": 1500,
+    "yt_subscriber_count_updated_at": "2026-04-17T06:30:17.913+00:00",
+    "stream_languages": [
+      "hi",
+      "en",
+      "gu"
+    ],
+    "offline_youtube_url": "https://www.youtube.com/watch?v=YTsPhqG4lxw"
+  },
+  {
+    "id": "ed288401-aee0-473f-abf7-5e82815e5b30",
+    "temple_name": "Somnath Temple",
+    "short_name": "Somnath",
+    "location": "Prabhas Patan, Gujarat",
+    "state": "Gujarat",
+    "religion": "hindu",
+    "category": "jyotirlinga",
+    "youtube_url": "https://www.youtube.com/watch?v=V6h-j5_fp1I",
+    "youtube_video_id": "V6h-j5_fp1I",
+    "thumbnail_url": "https://pub-a3540a1b218c43298ca3a816c685b5e7.r2.dev/content/notifications/temple_live/somnath_V6h-j5_fp1I.jpg",
+    "schedule_type": "daily",
+    "live_schedule": "6:00 AM - 9:00 PM",
+    "schedule_start_hour": 6,
+    "schedule_end_hour": 21,
+    "seasonal_start_month": null,
+    "seasonal_end_month": null,
+    "timezone": "Asia/Kolkata",
+    "special_events": [
+      {
+        "name": "Pratah Aarti",
+        "time": "07:00"
+      },
+      {
+        "name": "Sayam Aarti",
+        "time": "19:00"
+      }
+    ],
+    "is_currently_live": true,
+    "last_verified_at": "2026-04-17T06:30:06.826+00:00",
+    "is_active": true,
+    "display_order": 1,
+    "description": null,
+    "created_at": "2025-12-28T15:58:00.404738+00:00",
+    "updated_at": "2026-04-17T10:00:13.273922+00:00",
+    "is_popular": true,
+    "temple_name_hi": "सोमनाथ मंदिर",
+    "location_hi": "प्रभास पाटन, गुजरात",
+    "live_schedule_hi": "सुबह 6:00 - रात 9:00",
+    "timetable": [
+      {
+        "name": "Darshan Opens",
+        "time": "06:00 AM"
+      },
+      {
+        "name": "Pratah Aarti",
+        "time": "07:00 AM"
+      },
+      {
+        "name": "Madhyan Aarti",
+        "time": "12:00 PM"
+      },
+      {
+        "name": "Sayam Aarti",
+        "time": "07:00 PM"
+      },
+      {
+        "name": "Light & Sound Show",
+        "time": "08:00 PM"
+      },
+      {
+        "name": "Darshan Closes",
+        "time": "10:00 PM"
+      }
+    ],
+    "timetable_hi": [
+      {
+        "name": "दर्शन प्रारंभ",
+        "time": "06:00 AM"
+      },
+      {
+        "name": "प्रातः आरती",
+        "time": "07:00 AM"
+      },
+      {
+        "name": "मध्याह्न आरती",
+        "time": "12:00 PM"
+      },
+      {
+        "name": "सायं आरती",
+        "time": "07:00 PM"
+      },
+      {
+        "name": "लाइट एंड साउंड शो",
+        "time": "08:00 PM"
+      },
+      {
+        "name": "दर्शन समापन",
+        "time": "10:00 PM"
+      }
+    ],
+    "names_jsonb": {
+      "bn": "সোমনাথ মহাদেব মন্দির",
+      "en": "Somnath Mahadev Temple",
+      "gu": "સોમનાથ મહાદેવ મંદિર",
+      "hi": "सोमनाथ महादेव मंदिर",
+      "kn": "ಸೋಮನಾಥ ಮಹಾದೇವ ದೇವಸ್ಥಾನ",
+      "ml": "സോമനാഥ് മഹാദേവൻ ക്ഷേത്രം",
+      "mr": "सोमनाथ महादेव मंदिर",
+      "or": "ସୋਮନାଥ ମହାଦେਵ ମନ୍ଦିର",
+      "pa": "ਸੋਮਨਾਥ ਮਹਾਦੇਵ ਮੰਦਰ",
+      "ta": "சோமநாத் மகாதேவ் கோவில்",
+      "te": "సోమనాథ్ మహాదేవ ఆలయం"
+    },
+    "locations_jsonb": {
+      "bn": "প্রভাস পাটন, গুজরাট",
+      "en": "Prabhas Patan, Gujarat",
+      "gu": "પ્રભાસ પાટણ, ગુજરાત",
+      "hi": "प्रभास पाटन, गुजरात",
+      "kn": "ಪ್ರಭಾಸ ಪಾಟನ್, ಗುಜರಾತ್",
+      "ml": "പ്രഭാസ് പാറ്റൺ, ഗുജറാത്ത്",
+      "mr": "प्रभास पाटन, गुजरात",
+      "or": "ପ୍ରଭାସ ପାଟନ, ଗୁଜୁରାଟ",
+      "pa": "ਪ੍ਰਭਾਸ ਪਾਟਨ, ਗੁਜਰਾਤ",
+      "ta": "பிரபாஸ் பாடன், குசરાத்து",
+      "te": "ప్రభాస్ పాటన్, గుజరాత్"
+    },
+    "schedules_jsonb": {},
+    "timetables_jsonb": {
+      "bn": [
+        {
+          "name": "দর্শন খুলে",
+          "time": "06:00 AM"
+        },
+        {
+          "name": "প্রাতঃ আরতি",
+          "time": "07:00 AM"
+        },
+        {
+          "name": "মধ্যাহ্ন আরতি",
+          "time": "12:00 PM"
+        },
+        {
+          "name": "সায়ੰ আরতি",
+          "time": "07:00 PM"
+        },
+        {
+          "name": "দর্শন বন্ধ",
+          "time": "10:00 PM"
+        }
+      ],
+      "en": [
+        {
+          "name": "Darshan Opens",
+          "time": "06:00 AM"
+        },
+        {
+          "name": "Pratah Aarti",
+          "time": "07:00 AM"
+        },
+        {
+          "name": "Madhyan Aarti",
+          "time": "12:00 PM"
+        },
+        {
+          "name": "Sayam Aarti",
+          "time": "07:00 PM"
+        },
+        {
+          "name": "Darshan Closes",
+          "time": "10:00 PM"
+        }
+      ],
+      "gu": [
+        {
+          "name": "દર્શન ખુલે છે",
+          "time": "06:00 AM"
+        },
+        {
+          "name": "પ્રાતઃ આરਤੀ",
+          "time": "07:00 AM"
+        },
+        {
+          "name": "ਮધ્યાહન આરਤੀ",
+          "time": "12:00 PM"
+        },
+        {
+          "name": "સાંਜੇ આરਤੀ",
+          "time": "07:00 PM"
+        },
+        {
+          "name": "દર્શન બંધ થાય છે",
+          "time": "10:00 PM"
+        }
+      ],
+      "hi": [
+        {
+          "name": "दर्शन खुलता है",
+          "time": "06:00 AM"
+        },
+        {
+          "name": "प्रातः आरती",
+          "time": "07:00 AM"
+        },
+        {
+          "name": "मध्याह्न आरती",
+          "time": "12:00 PM"
+        },
+        {
+          "name": "सायं आरती",
+          "time": "07:00 PM"
+        },
+        {
+          "name": "दर्शन बंद होता है",
+          "time": "10:00 PM"
+        }
+      ],
+      "kn": [
+        {
+          "name": "ದರ್ಶನ ಪ್ರಾರಂಭ",
+          "time": "06:00 AM"
+        },
+        {
+          "name": "ಪ್ರಾತಃ ಆರತಿ",
+          "time": "07:00 AM"
+        },
+        {
+          "name": "ಮಧ್ಯಾಹ್ನ ಆರತಿ",
+          "time": "12:00 PM"
+        },
+        {
+          "name": "ಸಾಯံ ಆರತಿ",
+          "time": "07:00 PM"
+        },
+        {
+          "name": "ದರ್ಶನ ಮುಕ್ತಾಯ",
+          "time": "10:00 PM"
+        }
+      ],
+      "ml": [
+        {
+          "name": "ദർശനം തുറക്കുന്നു",
+          "time": "06:00 AM"
+        },
+        {
+          "name": "പ്രാതഃ ആരതി",
+          "time": "07:00 AM"
+        },
+        {
+          "name": "മധ്യാന ആരതി",
+          "time": "12:00 PM"
+        },
+        {
+          "name": "സായം ആരതി",
+          "time": "07:00 PM"
+        },
+        {
+          "name": "ദർശനം അടയ്ക്കുന്നു",
+          "time": "10:00 PM"
+        }
+      ],
+      "mr": [
+        {
+          "name": "दर्शन उघडते",
+          "time": "06:00 AM"
+        },
+        {
+          "name": "प्रातः आरती",
+          "time": "07:00 AM"
+        },
+        {
+          "name": "मध्यान्ह आरती",
+          "time": "12:00 PM"
+        },
+        {
+          "name": "सायं आरती",
+          "time": "07:00 PM"
+        },
+        {
+          "name": "दर्शन बंद होते",
+          "time": "10:00 PM"
+        }
+      ],
+      "or": [
+        {
+          "name": "ଦର୍ଶਨ ଖୋଲିବା",
+          "time": "06:00 AM"
+        },
+        {
+          "name": "ପ୍ରାତଃ ଆରତି",
+          "time": "07:00 AM"
+        },
+        {
+          "name": "ମଧ୍ୟାହ୍ନ ଆରତି",
+          "time": "12:00 PM"
+        },
+        {
+          "name": "ସାୟଂ ଆରତି",
+          "time": "07:00 PM"
+        },
+        {
+          "name": "ଦର୍ଶਨ ବନ୍ଦ",
+          "time": "10:00 PM"
+        }
+      ],
+      "pa": [
+        {
+          "name": "ਦਰਸ਼ਨ ਖੁੱਲ੍ਹਦਾ ਹੈ",
+          "time": "06:00 AM"
+        },
+        {
+          "name": "ਪ੍ਰਾਤਹ ਆਰਤੀ",
+          "time": "07:00 AM"
+        },
+        {
+          "name": "ਮਧਿਆਨ ਆਰਤੀ",
+          "time": "12:00 PM"
+        },
+        {
+          "name": "ਸਾਇੰ ਆਰਤੀ",
+          "time": "07:00 PM"
+        },
+        {
+          "name": "ਦਰਸ਼ਨ ਬੰਦ ਹੁੰਦਾ ਹੈ",
+          "time": "10:00 PM"
+        }
+      ],
+      "ta": [
+        {
+          "name": "தரிசனம் திறப்பு",
+          "time": "06:00 AM"
+        },
+        {
+          "name": "காலை ஆரத்தி",
+          "time": "07:00 AM"
+        },
+        {
+          "name": "மதிய ஆரத்தி",
+          "time": "12:00 PM"
+        },
+        {
+          "name": "சாயம் ஆரத்தி",
+          "time": "07:00 PM"
+        },
+        {
+          "name": "தரிசனம் நிறைவு",
+          "time": "10:00 PM"
+        }
+      ],
+      "te": [
+        {
+          "name": "దర్శనం ప్రారంభం",
+          "time": "06:00 AM"
+        },
+        {
+          "name": "ప్రాతః హారਤੀ",
+          "time": "07:00 AM"
+        },
+        {
+          "name": "మధ్యాహ్న హారਤੀ",
+          "time": "12:00 PM"
+        },
+        {
+          "name": "సాయం హారਤੀ",
+          "time": "07:00 PM"
+        },
+        {
+          "name": "దర్శనం ముగింపు",
+          "time": "10:00 PM"
+        }
+      ]
+    },
+    "language": "gu",
+    "youtube_channel_handle": "@SomnathTempleOfficialChannel",
+    "last_detected_video_id": "V6h-j5_fp1I",
+    "last_live_check_at": "2026-04-17T10:00:13.223+00:00",
+    "consecutive_fail_days": 0,
+    "last_fail_date": null,
+    "last_successful_check_at": "2026-04-17T10:00:13.223+00:00",
+    "total_view_count": 10,
+    "daily_view_count": 0,
+    "daily_view_date": "2026-04-17",
+    "live_viewer_count": 95,
+    "yt_subscriber_count": 263000,
+    "yt_subscriber_count_updated_at": "2026-04-17T06:30:05.202+00:00",
+    "stream_languages": [
+      "hi",
+      "en",
+      "gu"
+    ],
+    "offline_youtube_url": "https://www.youtube.com/watch?v=3vVZiy8o_6M"
+  },
+  {
+    "id": "8da2bbcf-184f-42ac-a8dc-61ca4d240dad",
+    "temple_name": "Kashi Vishwanath Temple",
+    "short_name": "Kashi Vishwanath",
+    "location": "Varanasi, UP",
+    "state": "Uttar Pradesh",
+    "religion": "hindu",
+    "category": "jyotirlinga",
+    "youtube_url": "https://www.youtube.com/watch?v=HZA9-OZh0xM",
+    "youtube_video_id": "HZA9-OZh0xM",
+    "thumbnail_url": "https://pub-a3540a1b218c43298ca3a816c685b5e7.r2.dev/content/notifications/temple_live/kashi_vishwanath_HZA9-OZh0xM.jpg",
+    "schedule_type": "daily",
+    "live_schedule": "3:00 AM - 11:00 PM",
+    "schedule_start_hour": 3,
+    "schedule_end_hour": 23,
+    "seasonal_start_month": null,
+    "seasonal_end_month": null,
+    "timezone": "Asia/Kolkata",
+    "special_events": [
+      {
+        "name": "Mangala Aarti",
+        "time": "03:00"
+      },
+      {
+        "name": "Shringar Aarti",
+        "time": "11:15"
+      },
+      {
+        "name": "Sandhya Aarti",
+        "time": "19:00"
+      }
+    ],
+    "is_currently_live": true,
+    "last_verified_at": "2026-04-16T08:14:43.903+00:00",
+    "is_active": true,
+    "display_order": 3,
+    "description": null,
+    "created_at": "2025-12-28T15:58:00.404738+00:00",
+    "updated_at": "2026-04-17T10:00:15.582135+00:00",
+    "is_popular": true,
+    "temple_name_hi": "काशी विश्वनाथ मंदिर",
+    "location_hi": "वाराणसी, उत्तर प्रदेश",
+    "live_schedule_hi": "सुबह 3:00 - रात 11:00",
+    "timetable": [
+      {
+        "name": "Mangala Aarti",
+        "time": "03:00 AM - 04:00 AM"
+      },
+      {
+        "name": "Bhog Aarti",
+        "time": "11:15 AM - 12:20 PM"
+      },
+      {
+        "name": "Sandhya Aarti",
+        "time": "07:00 PM - 08:15 PM"
+      },
+      {
+        "name": "Shringar Aarti",
+        "time": "09:00 PM - 10:15 PM"
+      },
+      {
+        "name": "Shayan Aarti",
+        "time": "10:30 PM - 11:00 PM"
+      }
+    ],
+    "timetable_hi": [
+      {
+        "name": "मंगला आरती",
+        "time": "03:00 AM - 04:00 AM"
+      },
+      {
+        "name": "भोग आरती",
+        "time": "11:15 AM - 12:20 PM"
+      },
+      {
+        "name": "संध्या आरती",
+        "time": "07:00 PM - 08:15 PM"
+      },
+      {
+        "name": "श्रृंगार आरती",
+        "time": "09:00 PM - 10:15 PM"
+      },
+      {
+        "name": "शयन आरती",
+        "time": "10:30 PM - 11:00 PM"
+      }
+    ],
+    "names_jsonb": {
+      "bn": "কাশী বিশ্বনাথ মন্দির",
+      "en": "Kashi Vishwanath Temple",
+      "gu": "કાશી વિશ્વનાથ મંદિર",
+      "hi": "काशी विश्वनाथ मंदिर",
+      "kn": "ಕಾಶಿ ವಿಶ್ವನಾಥ ದೇವಸ್ಥಾನ",
+      "ml": "കാശി വിശ്വನಾഥ് ക്ഷേത്രം",
+      "mr": "काशी विश्वनाथ मंदिर",
+      "or": "କାଶୀ ବିଶ୍ୱନାଥ ମନ୍ଦିର",
+      "pa": "ਕਾਸ਼ੀ ਵਿਸ਼ਵਨਾਥ ਮੰਦਰ",
+      "ta": "காசி விஸ்வநாத் கோவில்",
+      "te": "కాశీ విశ్వనాథ ఆలయం"
+    },
+    "locations_jsonb": {
+      "bn": "বারাণসী, উত্তরপ্রদেশ",
+      "en": "Varanasi, UP",
+      "gu": "વારાણਸੀ, ઉત્તર પ્રદેશ",
+      "hi": "वाराणसी, उत्तर प्रदेश",
+      "kn": "ವಾರಣಾಸಿ, ಉತ್ತರ ಪ್ರದೇಶ",
+      "ml": "വാരാണസി, ഉത്തർപ്രദേശ്",
+      "mr": "वाराणसी, उत्तर प्रदेश",
+      "or": "ବାରାଣସୀ, ଉତ୍ତର ପ୍ରଦେଶ",
+      "pa": "ਵਾਰਾਣਸੀ, ਉੱਤਰ ਪ੍ਰਦੇਸ਼",
+      "ta": "வாரணாசி, உத்தர பிரதேசம்",
+      "te": "వారణాసి, ఉత్తర ప్రదేశ్"
+    },
+    "schedules_jsonb": {},
+    "timetables_jsonb": {
+      "bn": [
+        {
+          "name": "মঙ্গলা আরতি",
+          "time": "03:00 AM"
+        },
+        {
+          "name": "ভোগ আরতি",
+          "time": "11:15 AM"
+        },
+        {
+          "name": "সন্ধ্যা আরতি",
+          "time": "07:00 PM"
+        },
+        {
+          "name": "Shringar আরতি",
+          "time": "09:00 PM"
+        },
+        {
+          "name": "শয়ন আরতি",
+          "time": "10:30 PM"
+        }
+      ],
+      "en": [
+        {
+          "name": "Mangala Aarti",
+          "time": "03:00 AM"
+        },
+        {
+          "name": "Bhog Aarti",
+          "time": "11:15 AM"
+        },
+        {
+          "name": "Sandhya Aarti",
+          "time": "07:00 PM"
+        },
+        {
+          "name": "Shringar Aarti",
+          "time": "09:00 PM"
+        },
+        {
+          "name": "Shayan Aarti",
+          "time": "10:30 PM"
+        }
+      ],
+      "gu": [
+        {
+          "name": "ਮੰਗਲਾ આરਤੀ",
+          "time": "03:00 AM"
+        },
+        {
+          "name": "ભોગ આરਤੀ",
+          "time": "11:15 AM"
+        },
+        {
+          "name": "સંધ્યા આરਤੀ",
+          "time": "07:00 PM"
+        },
+        {
+          "name": "Shringar આરਤੀ",
+          "time": "09:00 PM"
+        },
+        {
+          "name": "ಶಯನ આરਤੀ",
+          "time": "10:30 PM"
+        }
+      ],
+      "hi": [
+        {
+          "name": "मंगला आरती",
+          "time": "03:00 AM"
+        },
+        {
+          "name": "भोग आरती",
+          "time": "11:15 AM"
+        },
+        {
+          "name": "संध्या आरती",
+          "time": "07:00 PM"
+        },
+        {
+          "name": "Shringar आरती",
+          "time": "09:00 PM"
+        },
+        {
+          "name": "शयन आरती",
+          "time": "10:30 PM"
+        }
+      ],
+      "kn": [
+        {
+          "name": "ಮಂಗಳಾ ಆರತಿ",
+          "time": "03:00 AM"
+        },
+        {
+          "name": "భోಗ್ ಆರತಿ",
+          "time": "11:15 AM"
+        },
+        {
+          "name": "సంధ్యా ಆರತಿ",
+          "time": "07:00 PM"
+        },
+        {
+          "name": "Shringar ಆರತಿ",
+          "time": "09:00 PM"
+        },
+        {
+          "name": "ಶಯನ ಆರತಿ",
+          "time": "10:30 PM"
+        }
+      ],
+      "ml": [
+        {
+          "name": "മംഗള ആരതി",
+          "time": "03:00 AM"
+        },
+        {
+          "name": "ഭോഗ് ആരതി",
+          "time": "11:15 AM"
+        },
+        {
+          "name": "സന്ധ്യാ ആരതി",
+          "time": "07:00 PM"
+        },
+        {
+          "name": "Shringar ആരതി",
+          "time": "09:00 PM"
+        },
+        {
+          "name": "ശയന ആരതി",
+          "time": "10:30 PM"
+        }
+      ],
+      "mr": [
+        {
+          "name": "मंगला आरती",
+          "time": "03:00 AM"
+        },
+        {
+          "name": "भोग आरती",
+          "time": "11:15 AM"
+        },
+        {
+          "name": "संध्या आरती",
+          "time": "07:00 PM"
+        },
+        {
+          "name": "Shringar आरती",
+          "time": "09:00 PM"
+        },
+        {
+          "name": "शयन आरती",
+          "time": "10:30 PM"
+        }
+      ],
+      "or": [
+        {
+          "name": "ମଙ୍ଗଳା ଆରତି",
+          "time": "03:00 AM"
+        },
+        {
+          "name": "ଭୋଗ ଆରତି",
+          "time": "11:15 AM"
+        },
+        {
+          "name": "ସନ୍ଧ୍ଯା ଆରତି",
+          "time": "07:00 PM"
+        },
+        {
+          "name": "Shringar ଆରତି",
+          "time": "09:00 PM"
+        },
+        {
+          "name": "ଶୟନ ଆରତି",
+          "time": "10:30 PM"
+        }
+      ],
+      "pa": [
+        {
+          "name": "ਮੰਗਲਾ ਆਰਤੀ",
+          "time": "03:00 AM"
+        },
+        {
+          "name": "ਭੋਗ ਆਰਤੀ",
+          "time": "11:15 AM"
+        },
+        {
+          "name": "ਸੰਧਿਆ ਆਰਤੀ",
+          "time": "07:00 PM"
+        },
+        {
+          "name": "Shringar ਆਰਤੀ",
+          "time": "09:00 PM"
+        },
+        {
+          "name": "ਸ਼ਯਨ ਆਰਤੀ",
+          "time": "10:30 PM"
+        }
+      ],
+      "ta": [
+        {
+          "name": "மங்கள ஆரத்தி",
+          "time": "03:00 AM"
+        },
+        {
+          "name": "போக் ஆரத்தி",
+          "time": "11:15 AM"
+        },
+        {
+          "name": "சந்தியா ஆரத்தி",
+          "time": "07:00 PM"
+        },
+        {
+          "name": "Shringar ஆரத்தி",
+          "time": "09:00 PM"
+        },
+        {
+          "name": "சயன ஆரத்தி",
+          "time": "10:30 PM"
+        }
+      ],
+      "te": [
+        {
+          "name": "మంగళ హారਤੀ",
+          "time": "03:00 AM"
+        },
+        {
+          "name": "భోగ్ హారਤੀ",
+          "time": "11:15 AM"
+        },
+        {
+          "name": "సంధ్యా హారਤੀ",
+          "time": "07:00 PM"
+        },
+        {
+          "name": "Shringar హారਤੀ",
+          "time": "09:00 PM"
+        },
+        {
+          "name": "శయన హారਤੀ",
+          "time": "10:30 PM"
+        }
+      ]
+    },
+    "language": "hi",
+    "youtube_channel_handle": "@ShreeKashiVishwanathMandir",
+    "last_detected_video_id": "HZA9-OZh0xM",
+    "last_live_check_at": "2026-04-17T10:00:15.559+00:00",
+    "consecutive_fail_days": 0,
+    "last_fail_date": null,
+    "last_successful_check_at": "2026-04-17T10:00:15.559+00:00",
+    "total_view_count": 13,
+    "daily_view_count": 1,
+    "daily_view_date": "2026-04-17",
+    "live_viewer_count": 24,
+    "yt_subscriber_count": 29400,
+    "yt_subscriber_count_updated_at": "2026-04-17T06:30:10.709+00:00",
+    "stream_languages": [
+      "hi",
+      "en"
+    ],
+    "offline_youtube_url": "https://www.youtube.com/watch?v=W3_1uixg98E"
+  },
+  {
+    "id": "370b75f6-6164-44ea-8c85-e9c6c78ae463",
+    "temple_name": "Ramanathaswamy Temple",
+    "short_name": "Rameshwaram",
+    "location": "Rameshwaram, TN",
+    "state": "Tamil Nadu",
+    "religion": "hindu",
+    "category": "jyotirlinga",
+    "youtube_url": "https://www.youtube.com/watch?v=W-4FHmGLYlI",
+    "youtube_video_id": null,
+    "thumbnail_url": "https://pub-a3540a1b218c43298ca3a816c685b5e7.r2.dev/content/notifications/temple_live/static/rameshwaram.jpg",
+    "schedule_type": "daily",
+    "live_schedule": "5:00 AM - 9:00 PM",
+    "schedule_start_hour": 5,
+    "schedule_end_hour": 21,
+    "seasonal_start_month": null,
+    "seasonal_end_month": null,
+    "timezone": "Asia/Kolkata",
+    "special_events": null,
+    "is_currently_live": false,
+    "last_verified_at": null,
+    "is_active": true,
+    "display_order": 5,
+    "description": null,
+    "created_at": "2025-12-28T15:58:00.404738+00:00",
+    "updated_at": "2026-04-17T10:00:15.076811+00:00",
+    "is_popular": false,
+    "temple_name_hi": "रामनाथस्वामी मंदिर",
+    "location_hi": "रामेश्वरम, तमिलनाडु",
+    "live_schedule_hi": "सुबह 5:00 - रात 9:00",
+    "timetable": [
+      {
+        "name": "Palliyarai Deepa Aradhana",
+        "time": "05:00 AM"
+      },
+      {
+        "name": "Spadigalinga Deepa Aradhana",
+        "time": "05:10 AM"
+      },
+      {
+        "name": "Thiruvananthal Deepa Aradhana",
+        "time": "05:45 AM"
+      },
+      {
+        "name": "Vila Pooja",
+        "time": "07:00 AM"
+      },
+      {
+        "name": "Kalasanthi Pooja",
+        "time": "10:00 AM"
+      },
+      {
+        "name": "Uchikalm Pooja",
+        "time": "12:00 PM"
+      },
+      {
+        "name": "Sayaratchai Pooja",
+        "time": "06:00 PM"
+      },
+      {
+        "name": "Ardhajama Pooja",
+        "time": "08:30 PM"
+      },
+      {
+        "name": "Palliyarai Pooja",
+        "time": "08:45 PM"
+      }
+    ],
+    "timetable_hi": [
+      {
+        "name": "पल्लीयाराई दीपा आराधना",
+        "time": "05:00 AM"
+      },
+      {
+        "name": "स्फटिकलिंग दीपा आराधना",
+        "time": "05:10 AM"
+      },
+      {
+        "name": "तिरुवनंतल दीपा आराधना",
+        "time": "05:45 AM"
+      },
+      {
+        "name": "विला पूजा",
+        "time": "07:00 AM"
+      },
+      {
+        "name": "कालशांति पूजा",
+        "time": "10:00 AM"
+      },
+      {
+        "name": "उचीकालम पूजा",
+        "time": "12:00 PM"
+      },
+      {
+        "name": "सायरात्चाई पूजा",
+        "time": "06:00 PM"
+      },
+      {
+        "name": "अर्धजामा पूजा",
+        "time": "08:30 PM"
+      },
+      {
+        "name": "पल्लीयाराई पूजा",
+        "time": "08:45 PM"
+      }
+    ],
+    "names_jsonb": {
+      "bn": "Ramanathaswamy মন্দির",
+      "en": "Ramanathaswamy Temple",
+      "gu": "Ramanathaswamy મંદિર",
+      "hi": "Ramanathaswamy मंदिर",
+      "kn": "Ramanathaswamy ದೇವಸ್ಥಾನ",
+      "ml": "Ramanathaswamy ക്ഷേത്രം",
+      "mr": "Ramanathaswamy मंदिर",
+      "or": "Ramanathaswamy ମନ୍ଦିର",
+      "pa": "Ramanathaswamy ਮੰਦਰ",
+      "ta": "Ramanathaswamy கோவில்",
+      "te": "Ramanathaswamy ఆలయం"
+    },
+    "locations_jsonb": {
+      "bn": "রামেশ্বরম, TN",
+      "en": "Rameshwaram, TN",
+      "gu": "રામેશ્વરમ, TN",
+      "hi": "रामेश्वरम, TN",
+      "kn": "ರಾಮೇಶ್ವರಂ, TN",
+      "ml": "രാമേശ്വരം, TN",
+      "mr": "रामेश्वरम, TN",
+      "or": "ରାମେଶ୍ଵରମ, TN",
+      "pa": "ਰਾਮੇਸ਼ਵਰਮ, TN",
+      "ta": "ராமேஸ்வரம், TN",
+      "te": "రామేశ్వరం, TN"
+    },
+    "schedules_jsonb": {},
+    "timetables_jsonb": {
+      "bn": [
+        {
+          "name": "Vila Pooja",
+          "time": "07:00 AM"
+        },
+        {
+          "name": "Sayaratchai Pooja",
+          "time": "06:00 PM"
+        },
+        {
+          "name": "Ardhajama Pooja",
+          "time": "08:30 PM"
+        }
+      ],
+      "en": [
+        {
+          "name": "Vila Pooja",
+          "time": "07:00 AM"
+        },
+        {
+          "name": "Sayaratchai Pooja",
+          "time": "06:00 PM"
+        },
+        {
+          "name": "Ardhajama Pooja",
+          "time": "08:30 PM"
+        }
+      ],
+      "gu": [
+        {
+          "name": "Vila Pooja",
+          "time": "07:00 AM"
+        },
+        {
+          "name": "Sayaratchai Pooja",
+          "time": "06:00 PM"
+        },
+        {
+          "name": "Ardhajama Pooja",
+          "time": "08:30 PM"
+        }
+      ],
+      "hi": [
+        {
+          "name": "Vila Pooja",
+          "time": "07:00 AM"
+        },
+        {
+          "name": "Sayaratchai Pooja",
+          "time": "06:00 PM"
+        },
+        {
+          "name": "Ardhajama Pooja",
+          "time": "08:30 PM"
+        }
+      ],
+      "kn": [
+        {
+          "name": "Vila Pooja",
+          "time": "07:00 AM"
+        },
+        {
+          "name": "Sayaratchai Pooja",
+          "time": "06:00 PM"
+        },
+        {
+          "name": "Ardhajama Pooja",
+          "time": "08:30 PM"
+        }
+      ],
+      "ml": [
+        {
+          "name": "Vila Pooja",
+          "time": "07:00 AM"
+        },
+        {
+          "name": "Sayaratchai Pooja",
+          "time": "06:00 PM"
+        },
+        {
+          "name": "Ardhajama Pooja",
+          "time": "08:30 PM"
+        }
+      ],
+      "mr": [
+        {
+          "name": "Vila Pooja",
+          "time": "07:00 AM"
+        },
+        {
+          "name": "Sayaratchai Pooja",
+          "time": "06:00 PM"
+        },
+        {
+          "name": "Ardhajama Pooja",
+          "time": "08:30 PM"
+        }
+      ],
+      "or": [
+        {
+          "name": "Vila Pooja",
+          "time": "07:00 AM"
+        },
+        {
+          "name": "Sayaratchai Pooja",
+          "time": "06:00 PM"
+        },
+        {
+          "name": "Ardhajama Pooja",
+          "time": "08:30 PM"
+        }
+      ],
+      "pa": [
+        {
+          "name": "Vila Pooja",
+          "time": "07:00 AM"
+        },
+        {
+          "name": "Sayaratchai Pooja",
+          "time": "06:00 PM"
+        },
+        {
+          "name": "Ardhajama Pooja",
+          "time": "08:30 PM"
+        }
+      ],
+      "ta": [
+        {
+          "name": "Vila Pooja",
+          "time": "07:00 AM"
+        },
+        {
+          "name": "Sayaratchai Pooja",
+          "time": "06:00 PM"
+        },
+        {
+          "name": "Ardhajama Pooja",
+          "time": "08:30 PM"
+        }
+      ],
+      "te": [
+        {
+          "name": "Vila Pooja",
+          "time": "07:00 AM"
+        },
+        {
+          "name": "Sayaratchai Pooja",
+          "time": "06:00 PM"
+        },
+        {
+          "name": "Ardhajama Pooja",
+          "time": "08:30 PM"
+        }
+      ]
+    },
+    "language": "ta",
+    "youtube_channel_handle": "@ramanathaswamytemple",
+    "last_detected_video_id": null,
+    "last_live_check_at": "2026-04-17T10:00:15.093+00:00",
+    "consecutive_fail_days": 0,
+    "last_fail_date": null,
+    "last_successful_check_at": "2026-04-17T10:00:15.093+00:00",
+    "total_view_count": 2,
+    "daily_view_count": 0,
+    "daily_view_date": "2026-04-17",
+    "live_viewer_count": null,
+    "yt_subscriber_count": 2160,
+    "yt_subscriber_count_updated_at": "2026-04-17T06:30:10.726+00:00",
+    "stream_languages": [
+      "hi",
+      "en",
+      "ta"
+    ],
+    "offline_youtube_url": "https://www.youtube.com/watch?v=y9Uc2AV-yWE"
+  },
+  {
+    "id": "4c50af12-2559-4092-a189-0c88a716b3d2",
+    "temple_name": "Chitralekhaji",
+    "short_name": "Chitralekhaji",
+    "location": "India",
+    "state": "Rajasthan",
+    "religion": "hindu",
+    "category": "katha",
+    "youtube_url": "https://www.youtube.com/watch?v=au91b8Q9_do",
+    "youtube_video_id": "au91b8Q9_do",
+    "thumbnail_url": "https://yt3.googleusercontent.com/4FA-8vDejlE5xZi5BkyUD3NffVZs010PJ9R925rOm25LEYrFcBIgnMaPHZWdC67WmTRPsqOYfg=s900-c-k-c0x00ffffff-no-rj",
+    "schedule_type": "event_based",
+    "live_schedule": "Live Katha & Pravachan",
+    "schedule_start_hour": null,
+    "schedule_end_hour": null,
+    "seasonal_start_month": null,
+    "seasonal_end_month": null,
+    "timezone": "Asia/Kolkata",
+    "special_events": [],
+    "is_currently_live": false,
+    "last_verified_at": "2026-04-12T06:25:05.58+00:00",
+    "is_active": true,
+    "display_order": 13,
+    "description": "Devi Chitralekhaji - Spiritual discourses and Katha",
+    "created_at": "2026-04-12T02:53:02.507642+00:00",
+    "updated_at": "2026-04-17T10:00:32.717765+00:00",
+    "is_popular": false,
+    "temple_name_hi": "चित्रलेखाजी",
+    "location_hi": "भारत",
+    "live_schedule_hi": "लाइव कथा और प्रवचन",
+    "timetable": null,
+    "timetable_hi": null,
+    "names_jsonb": {},
+    "locations_jsonb": {},
+    "schedules_jsonb": {},
+    "timetables_jsonb": {},
+    "language": "hi",
+    "youtube_channel_handle": "@Chitralekhaji",
+    "last_detected_video_id": "au91b8Q9_do",
+    "last_live_check_at": "2026-04-17T10:00:14.678+00:00",
+    "consecutive_fail_days": 0,
+    "last_fail_date": null,
+    "last_successful_check_at": "2026-04-17T10:00:14.678+00:00",
+    "total_view_count": 0,
+    "daily_view_count": 0,
+    "daily_view_date": "2026-04-17",
+    "live_viewer_count": null,
+    "yt_subscriber_count": 4620000,
+    "yt_subscriber_count_updated_at": "2026-04-17T06:30:18.792+00:00",
+    "stream_languages": [
+      "hi",
+      "en"
+    ],
+    "offline_youtube_url": "https://www.youtube.com/watch?v=FjS4mmiYv4A"
+  },
+  {
+    "id": "a794a022-06ab-433e-acc1-4710fe527c22",
+    "temple_name": "Dr. Archika Didi",
+    "short_name": "Archika Didi",
+    "location": "India",
+    "state": "Delhi",
+    "religion": "hindu",
+    "category": "satsang",
+    "youtube_url": "https://www.youtube.com/@DrArchikaDidiOfficial/live",
+    "youtube_video_id": null,
+    "thumbnail_url": "https://yt3.googleusercontent.com/ZBPQ9YD2RHjF2RWlURAtEAIVhExSCA4W1SDaEHUtylngu2c9M0Jc7X_yp3OlFzgEM_Py8HOQZQ=s900-c-k-c0x00ffffff-no-rj",
+    "schedule_type": "event_based",
+    "live_schedule": "Live Satsang & Motivation",
+    "schedule_start_hour": null,
+    "schedule_end_hour": null,
+    "seasonal_start_month": null,
+    "seasonal_end_month": null,
+    "timezone": "Asia/Kolkata",
+    "special_events": [],
+    "is_currently_live": false,
+    "last_verified_at": null,
+    "is_active": true,
+    "display_order": 34,
+    "description": "Dr. Archika Didi - Spiritual motivation and Satsang",
+    "created_at": "2026-04-12T02:53:02.507642+00:00",
+    "updated_at": "2026-04-17T10:00:33.368339+00:00",
+    "is_popular": false,
+    "temple_name_hi": "डॉ. अर्चिका दीदी",
+    "location_hi": "भारत",
+    "live_schedule_hi": "लाइव सत्संग और प्रेरणा",
+    "timetable": null,
+    "timetable_hi": null,
+    "names_jsonb": {},
+    "locations_jsonb": {},
+    "schedules_jsonb": {},
+    "timetables_jsonb": {},
+    "language": "hi",
+    "youtube_channel_handle": "@DrArchikaDidiOfficial",
+    "last_detected_video_id": null,
+    "last_live_check_at": "2026-04-17T10:00:15.071+00:00",
+    "consecutive_fail_days": 0,
+    "last_fail_date": null,
+    "last_successful_check_at": "2026-04-17T10:00:15.071+00:00",
+    "total_view_count": 0,
+    "daily_view_count": 0,
+    "daily_view_date": "2026-04-17",
+    "live_viewer_count": null,
+    "yt_subscriber_count": 167000,
+    "yt_subscriber_count_updated_at": "2026-04-17T06:30:18.829+00:00",
+    "stream_languages": [
+      "hi",
+      "en"
+    ],
+    "offline_youtube_url": "https://www.youtube.com/watch?v=846XD4ItFEo"
+  },
+  {
+    "id": "a2aa469c-4325-4c88-afe7-21db4e34bc0b",
+    "temple_name": "Bageshwar Dham Sarkar",
+    "short_name": "Bageshwar Dham",
+    "location": "Chhatarpur, Madhya Pradesh",
+    "state": "Madhya Pradesh",
+    "religion": "hindu",
+    "category": "katha",
+    "youtube_url": "https://www.youtube.com/@BageshwarDhamSarkar/live",
+    "youtube_video_id": null,
+    "thumbnail_url": "https://pub-a3540a1b218c43298ca3a816c685b5e7.r2.dev/content/notifications/temple_live/static/bageshwar_dham.jpg",
+    "schedule_type": "daily",
+    "live_schedule": "Daily live darbar & katha",
+    "schedule_start_hour": 6,
+    "schedule_end_hour": 22,
+    "seasonal_start_month": null,
+    "seasonal_end_month": null,
+    "timezone": "Asia/Kolkata",
+    "special_events": [],
+    "is_currently_live": false,
+    "last_verified_at": null,
+    "is_active": true,
+    "display_order": 6,
+    "description": null,
+    "created_at": "2026-04-16T06:31:10.861189+00:00",
+    "updated_at": "2026-04-17T10:00:32.457799+00:00",
+    "is_popular": true,
+    "temple_name_hi": null,
+    "location_hi": null,
+    "live_schedule_hi": null,
+    "timetable": null,
+    "timetable_hi": null,
+    "names_jsonb": {},
+    "locations_jsonb": {},
+    "schedules_jsonb": {},
+    "timetables_jsonb": {},
+    "language": "hi",
+    "youtube_channel_handle": "@BageshwarDhamSarkar",
+    "last_detected_video_id": null,
+    "last_live_check_at": "2026-04-17T10:00:17.305+00:00",
+    "consecutive_fail_days": 0,
+    "last_fail_date": null,
+    "last_successful_check_at": "2026-04-17T10:00:17.305+00:00",
+    "total_view_count": 0,
+    "daily_view_count": 0,
+    "daily_view_date": "2026-04-17",
+    "live_viewer_count": null,
+    "yt_subscriber_count": 11200000,
+    "yt_subscriber_count_updated_at": "2026-04-17T08:30:19.016+00:00",
+    "stream_languages": [
+      "hi",
+      "en"
+    ],
+    "offline_youtube_url": "https://www.youtube.com/watch?v=V-0AiTaAbpk"
+  },
+  {
+    "id": "c34dc2a4-e648-478c-a2b9-e5798df48d72",
+    "temple_name": "Premanand Ji Maharaj (Bhajan Marg)",
+    "short_name": "Premanand Ji",
+    "location": "Vrindavan, Uttar Pradesh",
+    "state": "Uttar Pradesh",
+    "religion": "hindu",
+    "category": "katha",
+    "youtube_url": "https://www.youtube.com/@BhajanMarg/live",
+    "youtube_video_id": null,
+    "thumbnail_url": "https://pub-a3540a1b218c43298ca3a816c685b5e7.r2.dev/content/notifications/temple_live/static/premanand_ji.jpg",
+    "schedule_type": "daily",
+    "live_schedule": "Daily satsang & Bhagwat Katha",
+    "schedule_start_hour": 6,
+    "schedule_end_hour": 21,
+    "seasonal_start_month": null,
+    "seasonal_end_month": null,
+    "timezone": "Asia/Kolkata",
+    "special_events": [],
+    "is_currently_live": false,
+    "last_verified_at": null,
+    "is_active": true,
+    "display_order": 2,
+    "description": null,
+    "created_at": "2026-04-16T06:31:10.861189+00:00",
+    "updated_at": "2026-04-17T10:00:32.348419+00:00",
+    "is_popular": true,
+    "temple_name_hi": null,
+    "location_hi": null,
+    "live_schedule_hi": null,
+    "timetable": null,
+    "timetable_hi": null,
+    "names_jsonb": {},
+    "locations_jsonb": {},
+    "schedules_jsonb": {},
+    "timetables_jsonb": {},
+    "language": "hi",
+    "youtube_channel_handle": "@BhajanMarg",
+    "last_detected_video_id": null,
+    "last_live_check_at": "2026-04-17T10:00:16.662+00:00",
+    "consecutive_fail_days": 0,
+    "last_fail_date": null,
+    "last_successful_check_at": "2026-04-17T10:00:16.662+00:00",
+    "total_view_count": 0,
+    "daily_view_count": 0,
+    "daily_view_date": "2026-04-17",
+    "live_viewer_count": null,
+    "yt_subscriber_count": 16800000,
+    "yt_subscriber_count_updated_at": "2026-04-17T08:30:19.358+00:00",
+    "stream_languages": [
+      "hi",
+      "en"
+    ],
+    "offline_youtube_url": "https://www.youtube.com/watch?v=_-A2IMW1Kts"
+  },
+  {
+    "id": "c7c394a3-982b-471c-b3c1-01e67c6c3a4e",
+    "temple_name": "Swami Avdheshanand Giri",
+    "short_name": "Avdheshanand Giri",
+    "location": "Haridwar, Uttarakhand",
+    "state": "Uttarakhand",
+    "religion": "hindu",
+    "category": "katha",
+    "youtube_url": "https://www.youtube.com/@avdheshanandg/live",
+    "youtube_video_id": null,
+    "thumbnail_url": "https://pub-a3540a1b218c43298ca3a816c685b5e7.r2.dev/content/notifications/temple_live/static/avdheshanand_giri.jpg",
+    "schedule_type": "event_based",
+    "live_schedule": "Weekly pravachan & Gita discourse",
+    "schedule_start_hour": null,
+    "schedule_end_hour": null,
+    "seasonal_start_month": null,
+    "seasonal_end_month": null,
+    "timezone": "Asia/Kolkata",
+    "special_events": [],
+    "is_currently_live": false,
+    "last_verified_at": null,
+    "is_active": true,
+    "display_order": 32,
+    "description": null,
+    "created_at": "2026-04-16T06:31:10.861189+00:00",
+    "updated_at": "2026-04-17T10:00:33.297714+00:00",
+    "is_popular": false,
+    "temple_name_hi": null,
+    "location_hi": null,
+    "live_schedule_hi": null,
+    "timetable": null,
+    "timetable_hi": null,
+    "names_jsonb": {},
+    "locations_jsonb": {},
+    "schedules_jsonb": {},
+    "timetables_jsonb": {},
+    "language": "hi",
+    "youtube_channel_handle": "@avdheshanandg",
+    "last_detected_video_id": null,
+    "last_live_check_at": "2026-04-17T10:00:17.264+00:00",
+    "consecutive_fail_days": 0,
+    "last_fail_date": null,
+    "last_successful_check_at": "2026-04-17T10:00:17.264+00:00",
+    "total_view_count": 0,
+    "daily_view_count": 0,
+    "daily_view_date": "2026-04-17",
+    "live_viewer_count": null,
+    "yt_subscriber_count": 176000,
+    "yt_subscriber_count_updated_at": "2026-04-17T08:30:19.296+00:00",
+    "stream_languages": [
+      "hi",
+      "en"
+    ],
+    "offline_youtube_url": "https://www.youtube.com/watch?v=2RoAkLzfWdk"
+  },
+  {
+    "id": "b43362bc-3570-40b8-a9d6-716bc45c09ba",
+    "temple_name": "Sandipani TV — Pujya Rameshbhai Oza",
+    "short_name": "Sandipani TV",
+    "location": "Porbandar, Gujarat",
+    "state": "Gujarat",
+    "religion": "hindu",
+    "category": "katha",
+    "youtube_url": "https://www.youtube.com/@SandipaniTV/live",
+    "youtube_video_id": null,
+    "thumbnail_url": "https://pub-a3540a1b218c43298ca3a816c685b5e7.r2.dev/content/notifications/temple_live/static/sandipani_tv.jpg",
+    "schedule_type": "event_based",
+    "live_schedule": "Bhagvat Katha — periodic 7-day events",
+    "schedule_start_hour": null,
+    "schedule_end_hour": null,
+    "seasonal_start_month": null,
+    "seasonal_end_month": null,
+    "timezone": "Asia/Kolkata",
+    "special_events": [],
+    "is_currently_live": false,
+    "last_verified_at": null,
+    "is_active": true,
+    "display_order": 35,
+    "description": null,
+    "created_at": "2026-04-16T06:31:10.861189+00:00",
+    "updated_at": "2026-04-17T10:00:33.395145+00:00",
+    "is_popular": false,
+    "temple_name_hi": null,
+    "location_hi": null,
+    "live_schedule_hi": null,
+    "timetable": null,
+    "timetable_hi": null,
+    "names_jsonb": {},
+    "locations_jsonb": {},
+    "schedules_jsonb": {},
+    "timetables_jsonb": {},
+    "language": "gu",
+    "youtube_channel_handle": "@SandipaniTV",
+    "last_detected_video_id": null,
+    "last_live_check_at": "2026-04-17T10:00:17.033+00:00",
+    "consecutive_fail_days": 0,
+    "last_fail_date": null,
+    "last_successful_check_at": "2026-04-17T10:00:17.033+00:00",
+    "total_view_count": 0,
+    "daily_view_count": 0,
+    "daily_view_date": "2026-04-17",
+    "live_viewer_count": null,
+    "yt_subscriber_count": 149000,
+    "yt_subscriber_count_updated_at": "2026-04-17T08:30:19.593+00:00",
+    "stream_languages": [
+      "gu"
+    ],
+    "offline_youtube_url": "https://www.youtube.com/watch?v=zxOzZE2OsSo"
+  },
+  {
+    "id": "b6ba0200-5169-4c8d-80bb-0593cf477d7d",
+    "temple_name": "Sri Ramachandrapura Matha",
+    "short_name": "Ramachandrapura Matha",
+    "location": "Hosanagara, Karnataka",
+    "state": "Karnataka",
+    "religion": "hindu",
+    "category": "katha",
+    "youtube_url": "https://www.youtube.com/@ShankaraPeetha/live",
+    "youtube_video_id": null,
+    "thumbnail_url": "https://pub-a3540a1b218c43298ca3a816c685b5e7.r2.dev/content/notifications/temple_live/static/ramachandrapura_matha.jpg",
+    "schedule_type": "event_based",
+    "live_schedule": "Weekly Ramayana & Vedantic discourse",
+    "schedule_start_hour": null,
+    "schedule_end_hour": null,
+    "seasonal_start_month": null,
+    "seasonal_end_month": null,
+    "timezone": "Asia/Kolkata",
+    "special_events": [],
+    "is_currently_live": false,
+    "last_verified_at": null,
+    "is_active": true,
+    "display_order": 37,
+    "description": null,
+    "created_at": "2026-04-16T06:31:10.861189+00:00",
+    "updated_at": "2026-04-17T10:00:33.447401+00:00",
+    "is_popular": false,
+    "temple_name_hi": null,
+    "location_hi": null,
+    "live_schedule_hi": null,
+    "timetable": null,
+    "timetable_hi": null,
+    "names_jsonb": {},
+    "locations_jsonb": {},
+    "schedules_jsonb": {},
+    "timetables_jsonb": {},
+    "language": "kn",
+    "youtube_channel_handle": "@ShankaraPeetha",
+    "last_detected_video_id": null,
+    "last_live_check_at": "2026-04-17T10:00:18.274+00:00",
+    "consecutive_fail_days": 0,
+    "last_fail_date": null,
+    "last_successful_check_at": "2026-04-17T10:00:18.274+00:00",
+    "total_view_count": 0,
+    "daily_view_count": 0,
+    "daily_view_date": "2026-04-17",
+    "live_viewer_count": null,
+    "yt_subscriber_count": 58800,
+    "yt_subscriber_count_updated_at": "2026-04-17T08:30:21.639+00:00",
+    "stream_languages": [
+      "kn"
+    ],
+    "offline_youtube_url": "https://www.youtube.com/watch?v=X8IHRy1bw0s"
+  },
+  {
+    "id": "2d0f9205-2934-4f04-b3db-6692ce2d5460",
+    "temple_name": "Gondavalekar Maharaj Pravachan",
+    "short_name": "Gondavalekar Maharaj",
+    "location": "Gondavale, Maharashtra",
+    "state": "Maharashtra",
+    "religion": "hindu",
+    "category": "katha",
+    "youtube_url": "https://www.youtube.com/@gondavalekarmaharaj/live",
+    "youtube_video_id": null,
+    "thumbnail_url": "https://pub-a3540a1b218c43298ca3a816c685b5e7.r2.dev/content/notifications/temple_live/static/gondavalekar_maharaj.jpg",
+    "schedule_type": "daily",
+    "live_schedule": "Daily Brahmachaitanya pravachan",
+    "schedule_start_hour": 6,
+    "schedule_end_hour": 20,
+    "seasonal_start_month": null,
+    "seasonal_end_month": null,
+    "timezone": "Asia/Kolkata",
+    "special_events": [],
+    "is_currently_live": false,
+    "last_verified_at": null,
+    "is_active": true,
+    "display_order": 40,
+    "description": null,
+    "created_at": "2026-04-16T06:31:10.861189+00:00",
+    "updated_at": "2026-04-17T10:00:33.542712+00:00",
+    "is_popular": false,
+    "temple_name_hi": null,
+    "location_hi": null,
+    "live_schedule_hi": null,
+    "timetable": null,
+    "timetable_hi": null,
+    "names_jsonb": {},
+    "locations_jsonb": {},
+    "schedules_jsonb": {},
+    "timetables_jsonb": {},
+    "language": "mr",
+    "youtube_channel_handle": "@gondavalekarmaharaj",
+    "last_detected_video_id": null,
+    "last_live_check_at": "2026-04-17T10:00:19.139+00:00",
+    "consecutive_fail_days": 0,
+    "last_fail_date": null,
+    "last_successful_check_at": "2026-04-17T10:00:19.139+00:00",
+    "total_view_count": 0,
+    "daily_view_count": 0,
+    "daily_view_date": "2026-04-17",
+    "live_viewer_count": null,
+    "yt_subscriber_count": 43500,
+    "yt_subscriber_count_updated_at": "2026-04-17T08:30:21.599+00:00",
+    "stream_languages": [
+      "mr"
+    ],
+    "offline_youtube_url": "https://www.youtube.com/watch?v=seE1FZfjI74"
+  },
+  {
+    "id": "e4cdeec7-ea10-493e-9d37-e9e5ca760ecf",
+    "temple_name": "Ramakrishna Math & Mission, Belur Math",
+    "short_name": "Belur Math",
+    "location": "Howrah, West Bengal",
+    "state": "West Bengal",
+    "religion": "hindu",
+    "category": "katha",
+    "youtube_url": "https://www.youtube.com/@BelurMath/live",
+    "youtube_video_id": null,
+    "thumbnail_url": "https://pub-a3540a1b218c43298ca3a816c685b5e7.r2.dev/content/notifications/temple_live/static/belur_math.jpg",
+    "schedule_type": "event_based",
+    "live_schedule": "Weekly discourses + festival live streams",
+    "schedule_start_hour": null,
+    "schedule_end_hour": null,
+    "seasonal_start_month": null,
+    "seasonal_end_month": null,
+    "timezone": "Asia/Kolkata",
+    "special_events": [],
+    "is_currently_live": false,
+    "last_verified_at": null,
+    "is_active": true,
+    "display_order": 41,
+    "description": null,
+    "created_at": "2026-04-16T06:31:10.861189+00:00",
+    "updated_at": "2026-04-17T10:00:33.572107+00:00",
+    "is_popular": true,
+    "temple_name_hi": null,
+    "location_hi": null,
+    "live_schedule_hi": null,
+    "timetable": null,
+    "timetable_hi": null,
+    "names_jsonb": {},
+    "locations_jsonb": {},
+    "schedules_jsonb": {},
+    "timetables_jsonb": {},
+    "language": "bn",
+    "youtube_channel_handle": "@BelurMath",
+    "last_detected_video_id": null,
+    "last_live_check_at": "2026-04-17T10:00:17.283+00:00",
+    "consecutive_fail_days": 0,
+    "last_fail_date": null,
+    "last_successful_check_at": "2026-04-17T10:00:17.283+00:00",
+    "total_view_count": 0,
+    "daily_view_count": 0,
+    "daily_view_date": "2026-04-17",
+    "live_viewer_count": null,
+    "yt_subscriber_count": 24,
+    "yt_subscriber_count_updated_at": "2026-04-17T08:30:18.411+00:00",
+    "stream_languages": [
+      "bn"
+    ],
+    "offline_youtube_url": null
+  },
+  {
+    "id": "2a9b4922-1058-4a6f-94f4-1eaa3e98c50f",
+    "temple_name": "BAPS Satsang Gujarati",
+    "short_name": "BAPS Gujarati",
+    "location": "Ahmedabad, Gujarat",
+    "state": "Gujarat",
+    "religion": "hindu",
+    "category": "satsang",
+    "youtube_url": "https://www.youtube.com/@BAPSsatsang_GUJ/live",
+    "youtube_video_id": null,
+    "thumbnail_url": "https://pub-a3540a1b218c43298ca3a816c685b5e7.r2.dev/content/notifications/temple_live/static/baps_gujarati.jpg",
+    "schedule_type": "event_based",
+    "live_schedule": "Weekly Gujarati satsang",
+    "schedule_start_hour": null,
+    "schedule_end_hour": null,
+    "seasonal_start_month": null,
+    "seasonal_end_month": null,
+    "timezone": "Asia/Kolkata",
+    "special_events": [],
+    "is_currently_live": false,
+    "last_verified_at": null,
+    "is_active": true,
+    "display_order": 38,
+    "description": null,
+    "created_at": "2026-04-16T06:31:10.861189+00:00",
+    "updated_at": "2026-04-17T10:00:33.477509+00:00",
+    "is_popular": false,
+    "temple_name_hi": null,
+    "location_hi": null,
+    "live_schedule_hi": null,
+    "timetable": null,
+    "timetable_hi": null,
+    "names_jsonb": {},
+    "locations_jsonb": {},
+    "schedules_jsonb": {},
+    "timetables_jsonb": {},
+    "language": "gu",
+    "youtube_channel_handle": "@BAPSsatsang_GUJ",
+    "last_detected_video_id": null,
+    "last_live_check_at": "2026-04-17T10:00:19.196+00:00",
+    "consecutive_fail_days": 0,
+    "last_fail_date": null,
+    "last_successful_check_at": "2026-04-17T10:00:19.196+00:00",
+    "total_view_count": 0,
+    "daily_view_count": 0,
+    "daily_view_date": "2026-04-17",
+    "live_viewer_count": null,
+    "yt_subscriber_count": 47400,
+    "yt_subscriber_count_updated_at": "2026-04-17T08:30:21.642+00:00",
+    "stream_languages": [
+      "gu"
+    ],
+    "offline_youtube_url": "https://www.youtube.com/watch?v=AtTHT9NjOZQ"
+  },
+  {
+    "id": "3d14f45c-5684-4615-825d-410f335577e3",
+    "temple_name": "Sri Garikipati Narasimha Rao",
+    "short_name": "Garikipati",
+    "location": "Hyderabad, Telangana",
+    "state": "Telangana",
+    "religion": "hindu",
+    "category": "katha",
+    "youtube_url": "https://www.youtube.com/@Garikapati_Offl/live",
+    "youtube_video_id": null,
+    "thumbnail_url": "https://pub-a3540a1b218c43298ca3a816c685b5e7.r2.dev/content/notifications/temple_live/static/garikipati.jpg",
+    "schedule_type": "event_based",
+    "live_schedule": "Telugu pravachanam — 2-3 per week",
+    "schedule_start_hour": null,
+    "schedule_end_hour": null,
+    "seasonal_start_month": null,
+    "seasonal_end_month": null,
+    "timezone": "Asia/Kolkata",
+    "special_events": [],
+    "is_currently_live": false,
+    "last_verified_at": null,
+    "is_active": true,
+    "display_order": 44,
+    "description": null,
+    "created_at": "2026-04-16T06:31:10.861189+00:00",
+    "updated_at": "2026-04-17T10:00:33.657371+00:00",
+    "is_popular": true,
+    "temple_name_hi": null,
+    "location_hi": null,
+    "live_schedule_hi": null,
+    "timetable": null,
+    "timetable_hi": null,
+    "names_jsonb": {},
+    "locations_jsonb": {},
+    "schedules_jsonb": {},
+    "timetables_jsonb": {},
+    "language": "te",
+    "youtube_channel_handle": "@Garikapati_Offl",
+    "last_detected_video_id": null,
+    "last_live_check_at": "2026-04-17T10:00:21.942+00:00",
+    "consecutive_fail_days": 1,
+    "last_fail_date": "2026-04-17",
+    "last_successful_check_at": null,
+    "total_view_count": 0,
+    "daily_view_count": 0,
+    "daily_view_date": "2026-04-17",
+    "live_viewer_count": null,
+    "yt_subscriber_count": null,
+    "yt_subscriber_count_updated_at": null,
+    "stream_languages": [
+      "te"
+    ],
+    "offline_youtube_url": "https://www.youtube.com/watch?v=bVbXU7fq0ak"
+  },
+  {
+    "id": "57eeb505-6926-4f0f-88ff-6cbd376d983a",
+    "temple_name": "BAPS Swaminarayan Sanstha",
+    "short_name": "BAPS",
+    "location": "Ahmedabad, Gujarat",
+    "state": "Gujarat",
+    "religion": "hindu",
+    "category": "satsang",
+    "youtube_url": "https://www.youtube.com/@BAPS/live",
+    "youtube_video_id": null,
+    "thumbnail_url": "https://pub-a3540a1b218c43298ca3a816c685b5e7.r2.dev/content/notifications/temple_live/static/baps.jpg",
+    "schedule_type": "event_based",
+    "live_schedule": "Weekly satsang + festival live",
+    "schedule_start_hour": null,
+    "schedule_end_hour": null,
+    "seasonal_start_month": null,
+    "seasonal_end_month": null,
+    "timezone": "Asia/Kolkata",
+    "special_events": [],
+    "is_currently_live": false,
+    "last_verified_at": null,
+    "is_active": true,
+    "display_order": 24,
+    "description": null,
+    "created_at": "2026-04-16T06:31:10.861189+00:00",
+    "updated_at": "2026-04-17T10:00:33.059659+00:00",
+    "is_popular": false,
+    "temple_name_hi": null,
+    "location_hi": null,
+    "live_schedule_hi": null,
+    "timetable": null,
+    "timetable_hi": null,
+    "names_jsonb": {},
+    "locations_jsonb": {},
+    "schedules_jsonb": {},
+    "timetables_jsonb": {},
+    "language": "hi",
+    "youtube_channel_handle": "@BAPS",
+    "last_detected_video_id": null,
+    "last_live_check_at": "2026-04-17T10:00:18.979+00:00",
+    "consecutive_fail_days": 0,
+    "last_fail_date": null,
+    "last_successful_check_at": "2026-04-17T10:00:18.979+00:00",
+    "total_view_count": 0,
+    "daily_view_count": 0,
+    "daily_view_date": "2026-04-17",
+    "live_viewer_count": null,
+    "yt_subscriber_count": 609000,
+    "yt_subscriber_count_updated_at": "2026-04-17T08:30:21.449+00:00",
+    "stream_languages": [
+      "hi",
+      "en"
+    ],
+    "offline_youtube_url": "https://www.youtube.com/watch?v=yJAKY3JMdLY"
+  },
+  {
+    "id": "ff85f60b-ed9a-43ea-9ecc-77a55de048fc",
+    "temple_name": "Pujya Bhaishri Rameshbhai Oza",
+    "short_name": "Bhaishri Rameshbhai Oza",
+    "location": "Porbandar, Gujarat",
+    "state": "Gujarat",
+    "religion": "hindu",
+    "category": "satsang",
+    "youtube_url": "https://www.youtube.com/@PPBhaishri/live",
+    "youtube_video_id": null,
+    "thumbnail_url": "https://pub-a3540a1b218c43298ca3a816c685b5e7.r2.dev/content/notifications/temple_live/static/bhaishri_oza.jpg",
+    "schedule_type": "event_based",
+    "live_schedule": "Weekly spiritual guidance clips",
+    "schedule_start_hour": null,
+    "schedule_end_hour": null,
+    "seasonal_start_month": null,
+    "seasonal_end_month": null,
+    "timezone": "Asia/Kolkata",
+    "special_events": [],
+    "is_currently_live": false,
+    "last_verified_at": null,
+    "is_active": true,
+    "display_order": 30,
+    "description": null,
+    "created_at": "2026-04-16T06:31:10.861189+00:00",
+    "updated_at": "2026-04-17T10:00:33.234516+00:00",
+    "is_popular": true,
+    "temple_name_hi": null,
+    "location_hi": null,
+    "live_schedule_hi": null,
+    "timetable": null,
+    "timetable_hi": null,
+    "names_jsonb": {},
+    "locations_jsonb": {},
+    "schedules_jsonb": {},
+    "timetables_jsonb": {},
+    "language": "gu",
+    "youtube_channel_handle": "@PPBhaishri",
+    "last_detected_video_id": null,
+    "last_live_check_at": "2026-04-17T10:00:21.087+00:00",
+    "consecutive_fail_days": 0,
+    "last_fail_date": null,
+    "last_successful_check_at": "2026-04-17T10:00:21.087+00:00",
+    "total_view_count": 0,
+    "daily_view_count": 0,
+    "daily_view_date": "2026-04-17",
+    "live_viewer_count": null,
+    "yt_subscriber_count": 182000,
+    "yt_subscriber_count_updated_at": "2026-04-17T08:30:20.92+00:00",
+    "stream_languages": [
+      "gu"
+    ],
+    "offline_youtube_url": "https://www.youtube.com/watch?v=QvKF6jgWnic"
+  },
+  {
+    "id": "bafd74c5-13ca-4539-89dd-9da9442b6a61",
+    "temple_name": "Gurudev Sri Sri Ravi Shankar",
+    "short_name": "Sri Sri Ravi Shankar",
+    "location": "Bengaluru, Karnataka",
+    "state": "Karnataka",
+    "religion": "hindu",
+    "category": "satsang",
+    "youtube_url": "https://www.youtube.com/@gurudev/live",
+    "youtube_video_id": null,
+    "thumbnail_url": "https://pub-a3540a1b218c43298ca3a816c685b5e7.r2.dev/content/notifications/temple_live/static/sri_sri_ravi_shankar.jpg",
+    "schedule_type": "daily",
+    "live_schedule": "Near-daily Art of Living satsang",
+    "schedule_start_hour": 6,
+    "schedule_end_hour": 22,
+    "seasonal_start_month": null,
+    "seasonal_end_month": null,
+    "timezone": "Asia/Kolkata",
+    "special_events": [],
+    "is_currently_live": false,
+    "last_verified_at": null,
+    "is_active": true,
+    "display_order": 7,
+    "description": null,
+    "created_at": "2026-04-16T06:31:10.861189+00:00",
+    "updated_at": "2026-04-17T10:00:32.486139+00:00",
+    "is_popular": true,
+    "temple_name_hi": null,
+    "location_hi": null,
+    "live_schedule_hi": null,
+    "timetable": null,
+    "timetable_hi": null,
+    "names_jsonb": {},
+    "locations_jsonb": {},
+    "schedules_jsonb": {},
+    "timetables_jsonb": {},
+    "language": "hi",
+    "youtube_channel_handle": "@gurudev",
+    "last_detected_video_id": null,
+    "last_live_check_at": "2026-04-17T10:00:22.831+00:00",
+    "consecutive_fail_days": 0,
+    "last_fail_date": null,
+    "last_successful_check_at": "2026-04-17T10:00:22.831+00:00",
+    "total_view_count": 0,
+    "daily_view_count": 0,
+    "daily_view_date": "2026-04-17",
+    "live_viewer_count": null,
+    "yt_subscriber_count": 9570000,
+    "yt_subscriber_count_updated_at": "2026-04-17T08:30:23.434+00:00",
+    "stream_languages": [
+      "hi",
+      "en"
+    ],
+    "offline_youtube_url": "https://www.youtube.com/watch?v=Kdoq9di0iMI"
+  },
+  {
+    "id": "b2e668b8-5293-4d3f-aa34-d1b072013323",
+    "temple_name": "Acharya Prashant",
+    "short_name": "Acharya Prashant",
+    "location": "Rishikesh, Uttarakhand",
+    "state": "Uttarakhand",
+    "religion": "hindu",
+    "category": "satsang",
+    "youtube_url": "https://www.youtube.com/@AcharyaPrashant/live",
+    "youtube_video_id": null,
+    "thumbnail_url": "https://pub-a3540a1b218c43298ca3a816c685b5e7.r2.dev/content/notifications/temple_live/static/acharya_prashant.jpg",
+    "schedule_type": "daily",
+    "live_schedule": "Daily uploads — Vedanta & Gita discourse",
+    "schedule_start_hour": 6,
+    "schedule_end_hour": 22,
+    "seasonal_start_month": null,
+    "seasonal_end_month": null,
+    "timezone": "Asia/Kolkata",
+    "special_events": [],
+    "is_currently_live": false,
+    "last_verified_at": null,
+    "is_active": true,
+    "display_order": 10,
+    "description": null,
+    "created_at": "2026-04-16T06:31:10.861189+00:00",
+    "updated_at": "2026-04-17T10:00:32.611937+00:00",
+    "is_popular": true,
+    "temple_name_hi": null,
+    "location_hi": null,
+    "live_schedule_hi": null,
+    "timetable": null,
+    "timetable_hi": null,
+    "names_jsonb": {},
+    "locations_jsonb": {},
+    "schedules_jsonb": {},
+    "timetables_jsonb": {},
+    "language": "hi",
+    "youtube_channel_handle": "@AcharyaPrashant",
+    "last_detected_video_id": null,
+    "last_live_check_at": "2026-04-17T10:00:23.047+00:00",
+    "consecutive_fail_days": 0,
+    "last_fail_date": null,
+    "last_successful_check_at": "2026-04-17T10:00:23.047+00:00",
+    "total_view_count": 0,
+    "daily_view_count": 0,
+    "daily_view_date": "2026-04-17",
+    "live_viewer_count": null,
+    "yt_subscriber_count": 5680000,
+    "yt_subscriber_count_updated_at": "2026-04-17T08:30:23.336+00:00",
+    "stream_languages": [
+      "hi",
+      "en"
+    ],
+    "offline_youtube_url": "https://www.youtube.com/watch?v=lJ7kMC8dnqQ"
+  },
+  {
+    "id": "4c66571d-adf8-4a26-89ad-f0bae8b7f506",
+    "temple_name": "Aadhan Aanmeegam",
+    "short_name": "Aadhan Aanmeegam",
+    "location": "Chennai, Tamil Nadu",
+    "state": "Tamil Nadu",
+    "religion": "hindu",
+    "category": "satsang",
+    "youtube_url": "https://www.youtube.com/@AadhanAanmeegam/live",
+    "youtube_video_id": null,
+    "thumbnail_url": "https://pub-a3540a1b218c43298ca3a816c685b5e7.r2.dev/content/notifications/temple_live/static/aadhan_aanmeegam.jpg",
+    "schedule_type": "daily",
+    "live_schedule": "Daily Tamil spiritual content",
+    "schedule_start_hour": 6,
+    "schedule_end_hour": 22,
+    "seasonal_start_month": null,
+    "seasonal_end_month": null,
+    "timezone": "Asia/Kolkata",
+    "special_events": [],
+    "is_currently_live": false,
+    "last_verified_at": null,
+    "is_active": true,
+    "display_order": 19,
+    "description": null,
+    "created_at": "2026-04-16T06:31:10.861189+00:00",
+    "updated_at": "2026-04-17T10:00:32.901765+00:00",
+    "is_popular": true,
+    "temple_name_hi": null,
+    "location_hi": null,
+    "live_schedule_hi": null,
+    "timetable": null,
+    "timetable_hi": null,
+    "names_jsonb": {},
+    "locations_jsonb": {},
+    "schedules_jsonb": {},
+    "timetables_jsonb": {},
+    "language": "ta",
+    "youtube_channel_handle": "@AadhanAanmeegam",
+    "last_detected_video_id": null,
+    "last_live_check_at": "2026-04-17T10:00:23.948+00:00",
+    "consecutive_fail_days": 0,
+    "last_fail_date": null,
+    "last_successful_check_at": "2026-04-17T10:00:23.948+00:00",
+    "total_view_count": 0,
+    "daily_view_count": 0,
+    "daily_view_date": "2026-04-17",
+    "live_viewer_count": null,
+    "yt_subscriber_count": 1620000,
+    "yt_subscriber_count_updated_at": "2026-04-17T08:45:25.624+00:00",
+    "stream_languages": [
+      "ta"
+    ],
+    "offline_youtube_url": "https://www.youtube.com/watch?v=XeKNrYB6_L0"
+  },
+  {
+    "id": "1cec6edd-8d37-40ce-a658-004ca24b7706",
+    "temple_name": "Sadhguru — Isha Foundation",
+    "short_name": "Sadhguru",
+    "location": "Coimbatore, Tamil Nadu",
+    "state": "Tamil Nadu",
+    "religion": "hindu",
+    "category": "satsang",
+    "youtube_url": "https://www.youtube.com/@sadhguru/live",
+    "youtube_video_id": null,
+    "thumbnail_url": "https://pub-a3540a1b218c43298ca3a816c685b5e7.r2.dev/content/notifications/temple_live/static/sadhguru.jpg",
+    "schedule_type": "daily",
+    "live_schedule": "Daily Sadhguru Presence Time + events",
+    "schedule_start_hour": 6,
+    "schedule_end_hour": 22,
+    "seasonal_start_month": null,
+    "seasonal_end_month": null,
+    "timezone": "Asia/Kolkata",
+    "special_events": [],
+    "is_currently_live": false,
+    "last_verified_at": null,
+    "is_active": true,
+    "display_order": 4,
+    "description": null,
+    "created_at": "2026-04-16T06:31:10.861189+00:00",
+    "updated_at": "2026-04-17T10:00:32.402989+00:00",
+    "is_popular": true,
+    "temple_name_hi": null,
+    "location_hi": null,
+    "live_schedule_hi": null,
+    "timetable": null,
+    "timetable_hi": null,
+    "names_jsonb": {},
+    "locations_jsonb": {},
+    "schedules_jsonb": {},
+    "timetables_jsonb": {},
+    "language": "hi",
+    "youtube_channel_handle": "@sadhguru",
+    "last_detected_video_id": null,
+    "last_live_check_at": "2026-04-17T10:00:22.795+00:00",
+    "consecutive_fail_days": 0,
+    "last_fail_date": null,
+    "last_successful_check_at": "2026-04-17T10:00:22.795+00:00",
+    "total_view_count": 0,
+    "daily_view_count": 0,
+    "daily_view_date": "2026-04-17",
+    "live_viewer_count": null,
+    "yt_subscriber_count": 12700000,
+    "yt_subscriber_count_updated_at": "2026-04-17T08:30:23.419+00:00",
+    "stream_languages": [
+      "hi",
+      "en"
+    ],
+    "offline_youtube_url": "https://www.youtube.com/watch?v=p56ljbChjeg"
+  },
+  {
+    "id": "fcd8358a-1563-49ce-be38-8c74f2f3830f",
+    "temple_name": "Mahalaxmi Temple",
+    "short_name": "Kolhapur Mahalaxmi",
+    "location": "Kolhapur, Maharashtra",
+    "state": "Maharashtra",
+    "religion": "hindu",
+    "category": "shakti_peeth",
+    "youtube_url": "https://www.youtube.com/watch?v=58Mwrz_mV1U",
+    "youtube_video_id": null,
+    "thumbnail_url": "https://pub-a3540a1b218c43298ca3a816c685b5e7.r2.dev/content/notifications/temple_live/static/kolhapur_mahalaxmi.jpg",
+    "schedule_type": "daily",
+    "live_schedule": "5:00 AM - 10:00 PM",
+    "schedule_start_hour": 5,
+    "schedule_end_hour": 22,
+    "seasonal_start_month": null,
+    "seasonal_end_month": null,
+    "timezone": "Asia/Kolkata",
+    "special_events": null,
+    "is_currently_live": false,
+    "last_verified_at": null,
+    "is_active": true,
+    "display_order": 24,
+    "description": null,
+    "created_at": "2025-12-28T15:58:00.404738+00:00",
+    "updated_at": "2026-04-17T10:00:25.873669+00:00",
+    "is_popular": false,
+    "temple_name_hi": "महालक्ष्मी मंदिर",
+    "location_hi": "कोल्हापुर, महाराष्ट्र",
+    "live_schedule_hi": "सुबह 5:00 - रात 10:00",
+    "timetable": [
+      {
+        "name": "Kakad Aarti",
+        "time": "04:30 AM"
+      },
+      {
+        "name": "Morning Mahapuja",
+        "time": "08:30 AM"
+      },
+      {
+        "name": "Afternoon Mahapuja",
+        "time": "11:30 AM"
+      },
+      {
+        "name": "Dhup/Bhog Aarti",
+        "time": "07:30 PM"
+      },
+      {
+        "name": "Shej Aarti",
+        "time": "10:00 PM"
+      }
+    ],
+    "timetable_hi": [
+      {
+        "name": "काकड़ आरती",
+        "time": "04:30 AM"
+      },
+      {
+        "name": "प्रातः महापूजा",
+        "time": "08:30 AM"
+      },
+      {
+        "name": "मध्याह्न महापूजा",
+        "time": "11:30 AM"
+      },
+      {
+        "name": "धूप/भोग आरती",
+        "time": "07:30 PM"
+      },
+      {
+        "name": "शेज आरती",
+        "time": "10:00 PM"
+      }
+    ],
+    "names_jsonb": {
+      "bn": "মহালক্ষ্মী মন্দির",
+      "en": "Mahalaxmi Temple",
+      "gu": "મહાલક્ષ્મી મંદિર",
+      "hi": "महालक्ष्मी मंदिर",
+      "kn": "ಮಹಾಲಕ್ಷ್ಮಿ ದೇವಸ್ಥಾನ",
+      "ml": "മഹാലക്ഷ്മി ക്ഷേത്രം",
+      "mr": "महालक्ष्मी मंदिर",
+      "or": "ମହାଲକ୍ଷ୍ମୀ ମନ୍ଦିର",
+      "pa": "ਮਹਾਲਕਸ਼ਮੀ ਮੰਦਰ",
+      "ta": "மஹாலட்சுமி கோவில்",
+      "te": "మహాలక్ష్మి ఆలయం"
+    },
+    "locations_jsonb": {
+      "bn": "কোলহাপুর, মহারাষ্ট্র",
+      "en": "Kolhapur, Maharashtra",
+      "gu": "કોલ્હાપુર, મહારાષ્ટ્ર",
+      "hi": "कोल्हापुर, महाराष्ट्र",
+      "kn": "ಕೊಲ್ಹಾಪುರ, ಮಹಾರಾಷ್ಟ್ರ",
+      "ml": "കോലാപ്പൂർ, മഹാരാഷ്ട്ര",
+      "mr": "कोल्हापूर, महाराष्ट्र",
+      "or": "କୋହ୍ଲାପୁର, ମହାରାଷ୍ଟ୍ର",
+      "pa": "ਕੋਲਹਾਪੁਰ, ਮਹਾਰਾਸ਼ਟਰ",
+      "ta": "கோலாப்பூர், மகாராட்டிரம்",
+      "te": "కొల్హాపూర్, మహారాష్ట్ర"
+    },
+    "schedules_jsonb": {},
+    "timetables_jsonb": {
+      "bn": [
+        {
+          "name": "কাকড় আরতি",
+          "time": "04:30 AM"
+        },
+        {
+          "name": "শেজ আরতি",
+          "time": "10:00 PM"
+        }
+      ],
+      "en": [
+        {
+          "name": "Kakad Aarti",
+          "time": "04:30 AM"
+        },
+        {
+          "name": "Shej Aarti",
+          "time": "10:00 PM"
+        }
+      ],
+      "gu": [
+        {
+          "name": "કાકડ આરਤੀ",
+          "time": "04:30 AM"
+        },
+        {
+          "name": "શેਜ આરਤੀ",
+          "time": "10:00 PM"
+        }
+      ],
+      "hi": [
+        {
+          "name": "काकड़ आरती",
+          "time": "04:30 AM"
+        },
+        {
+          "name": "शेज आरती",
+          "time": "10:00 PM"
+        }
+      ],
+      "kn": [
+        {
+          "name": "ಕಾಕಡ್ ಆರತಿ",
+          "time": "04:30 AM"
+        },
+        {
+          "name": "ಶೇಜ್ ಆರತಿ",
+          "time": "10:00 PM"
+        }
+      ],
+      "ml": [
+        {
+          "name": "കാകഡ് ആരതി",
+          "time": "04:30 AM"
+        },
+        {
+          "name": "ഷേജ് ആരതി",
+          "time": "10:00 PM"
+        }
+      ],
+      "mr": [
+        {
+          "name": "काकड़ आरती",
+          "time": "04:30 AM"
+        },
+        {
+          "name": "शेज आरती",
+          "time": "10:00 PM"
+        }
+      ],
+      "or": [
+        {
+          "name": "କାକଡ ଆରତି",
+          "time": "04:30 AM"
+        },
+        {
+          "name": "ଶେଜ ଆରତି",
+          "time": "10:00 PM"
+        }
+      ],
+      "pa": [
+        {
+          "name": "ਕਾਕੜ ਆਰਤੀ",
+          "time": "04:30 AM"
+        },
+        {
+          "name": "ਸ਼ੇਜ ਆਰਤੀ",
+          "time": "10:00 PM"
+        }
+      ],
+      "ta": [
+        {
+          "name": "காகட் ஆரத்தி",
+          "time": "04:30 AM"
+        },
+        {
+          "name": "ஷேஜ் ஆரத்தி",
+          "time": "10:00 PM"
+        }
+      ],
+      "te": [
+        {
+          "name": "కాకడ్ హారਤੀ",
+          "time": "04:30 AM"
+        },
+        {
+          "name": "శేజ్ హారਤੀ",
+          "time": "10:00 PM"
+        }
+      ]
+    },
+    "language": "mr",
+    "youtube_channel_handle": "@mahalaxmitemple",
+    "last_detected_video_id": null,
+    "last_live_check_at": "2026-04-17T10:00:25.899+00:00",
+    "consecutive_fail_days": 0,
+    "last_fail_date": null,
+    "last_successful_check_at": "2026-04-17T10:00:25.899+00:00",
+    "total_view_count": 5,
+    "daily_view_count": 0,
+    "daily_view_date": "2026-04-17",
+    "live_viewer_count": null,
+    "yt_subscriber_count": 282,
+    "yt_subscriber_count_updated_at": "2026-04-17T06:30:27.348+00:00",
+    "stream_languages": [
+      "hi",
+      "en",
+      "mr"
+    ],
+    "offline_youtube_url": "https://www.youtube.com/watch?v=zKSv-SreZgg"
+  },
+  {
+    "id": "eb4613fa-a40a-4a06-8a5d-9c9d684acd07",
+    "temple_name": "ISKCON Vrindavan",
+    "short_name": "ISKCON Vrindavan",
+    "location": "Vrindavan, Uttar Pradesh",
+    "state": "Uttar Pradesh",
+    "religion": "hindu",
+    "category": "katha",
+    "youtube_url": "https://www.youtube.com/watch?v=0FOMNquGIYc",
+    "youtube_video_id": "0FOMNquGIYc",
+    "thumbnail_url": "https://pub-a3540a1b218c43298ca3a816c685b5e7.r2.dev/content/notifications/temple_live/iskcon_vrindavan_0FOMNquGIYc.jpg",
+    "schedule_type": "daily",
+    "live_schedule": "Daily morning Bhagavatam class",
+    "schedule_start_hour": 5,
+    "schedule_end_hour": 9,
+    "seasonal_start_month": null,
+    "seasonal_end_month": null,
+    "timezone": "Asia/Kolkata",
+    "special_events": [],
+    "is_currently_live": false,
+    "last_verified_at": "2026-04-16T13:51:39.084+00:00",
+    "is_active": true,
+    "display_order": 27,
+    "description": null,
+    "created_at": "2026-04-16T06:31:10.861189+00:00",
+    "updated_at": "2026-04-17T10:00:33.142628+00:00",
+    "is_popular": false,
+    "temple_name_hi": null,
+    "location_hi": null,
+    "live_schedule_hi": null,
+    "timetable": null,
+    "timetable_hi": null,
+    "names_jsonb": {},
+    "locations_jsonb": {},
+    "schedules_jsonb": {},
+    "timetables_jsonb": {},
+    "language": "hi",
+    "youtube_channel_handle": "@ISKCONVrndavan",
+    "last_detected_video_id": "0FOMNquGIYc",
+    "last_live_check_at": "2026-04-17T10:00:26.613+00:00",
+    "consecutive_fail_days": 0,
+    "last_fail_date": null,
+    "last_successful_check_at": "2026-04-17T10:00:26.613+00:00",
+    "total_view_count": 1,
+    "daily_view_count": 0,
+    "daily_view_date": "2026-04-17",
+    "live_viewer_count": null,
+    "yt_subscriber_count": 332000,
+    "yt_subscriber_count_updated_at": "2026-04-17T08:45:27.565+00:00",
+    "stream_languages": [
+      "hi",
+      "en"
+    ],
+    "offline_youtube_url": "https://www.youtube.com/watch?v=1avK6INwde8"
+  },
+  {
+    "id": "a3bf65dc-2c40-4991-b85b-e7cd9ab5cff7",
+    "temple_name": "Bhakthi TV",
+    "short_name": "Bhakthi TV",
+    "location": "Hyderabad, Telangana",
+    "state": "Telangana",
+    "religion": "hindu",
+    "category": "katha",
+    "youtube_url": "https://www.youtube.com/watch?v=UmBBSF0bkvE",
+    "youtube_video_id": "UmBBSF0bkvE",
+    "thumbnail_url": "https://pub-a3540a1b218c43298ca3a816c685b5e7.r2.dev/content/notifications/temple_live/bhakthi_tv_UmBBSF0bkvE.jpg",
+    "schedule_type": "24x7",
+    "live_schedule": "24x7 Telugu devotional channel",
+    "schedule_start_hour": 0,
+    "schedule_end_hour": 24,
+    "seasonal_start_month": null,
+    "seasonal_end_month": null,
+    "timezone": "Asia/Kolkata",
+    "special_events": [],
+    "is_currently_live": true,
+    "last_verified_at": "2026-04-17T08:00:28.044+00:00",
+    "is_active": true,
+    "display_order": 15,
+    "description": null,
+    "created_at": "2026-04-16T06:31:10.861189+00:00",
+    "updated_at": "2026-04-17T10:00:32.784257+00:00",
+    "is_popular": true,
+    "temple_name_hi": null,
+    "location_hi": null,
+    "live_schedule_hi": null,
+    "timetable": null,
+    "timetable_hi": null,
+    "names_jsonb": {},
+    "locations_jsonb": {},
+    "schedules_jsonb": {},
+    "timetables_jsonb": {},
+    "language": "te",
+    "youtube_channel_handle": "@bhakthitv",
+    "last_detected_video_id": "UmBBSF0bkvE",
+    "last_live_check_at": "2026-04-17T10:00:26.187+00:00",
+    "consecutive_fail_days": 0,
+    "last_fail_date": null,
+    "last_successful_check_at": "2026-04-17T10:00:26.187+00:00",
+    "total_view_count": 3,
+    "daily_view_count": 1,
+    "daily_view_date": "2026-04-17",
+    "live_viewer_count": 6,
+    "yt_subscriber_count": 3100000,
+    "yt_subscriber_count_updated_at": "2026-04-17T08:45:27.717+00:00",
+    "stream_languages": [
+      "te"
+    ],
+    "offline_youtube_url": "https://www.youtube.com/watch?v=UzYzp1m9eIY"
+  },
+  {
+    "id": "5f5579ee-0a85-4118-b590-3b978fd20bbb",
+    "temple_name": "Om Swami",
+    "short_name": "Om Swami",
+    "location": "Himachal Pradesh",
+    "state": "Himachal Pradesh",
+    "religion": "hindu",
+    "category": "satsang",
+    "youtube_url": "https://www.youtube.com/@omswamitv/live",
+    "youtube_video_id": null,
+    "thumbnail_url": "https://pub-a3540a1b218c43298ca3a816c685b5e7.r2.dev/content/notifications/temple_live/static/om_swami.jpg",
+    "schedule_type": "event_based",
+    "live_schedule": "Weekly meditation & mindfulness",
+    "schedule_start_hour": null,
+    "schedule_end_hour": null,
+    "seasonal_start_month": null,
+    "seasonal_end_month": null,
+    "timezone": "Asia/Kolkata",
+    "special_events": [],
+    "is_currently_live": false,
+    "last_verified_at": null,
+    "is_active": true,
+    "display_order": 26,
+    "description": null,
+    "created_at": "2026-04-16T06:31:10.861189+00:00",
+    "updated_at": "2026-04-17T10:00:33.116379+00:00",
+    "is_popular": false,
+    "temple_name_hi": null,
+    "location_hi": null,
+    "live_schedule_hi": null,
+    "timetable": null,
+    "timetable_hi": null,
+    "names_jsonb": {},
+    "locations_jsonb": {},
+    "schedules_jsonb": {},
+    "timetables_jsonb": {},
+    "language": "hi",
+    "youtube_channel_handle": "@omswamitv",
+    "last_detected_video_id": null,
+    "last_live_check_at": "2026-04-17T10:00:26.483+00:00",
+    "consecutive_fail_days": 0,
+    "last_fail_date": null,
+    "last_successful_check_at": "2026-04-17T10:00:26.483+00:00",
+    "total_view_count": 0,
+    "daily_view_count": 0,
+    "daily_view_date": "2026-04-17",
+    "live_viewer_count": null,
+    "yt_subscriber_count": 476000,
+    "yt_subscriber_count_updated_at": "2026-04-17T08:45:27.568+00:00",
+    "stream_languages": [
+      "hi",
+      "en"
+    ],
+    "offline_youtube_url": "https://www.youtube.com/watch?v=XsXk20roRSk"
+  },
+  {
+    "id": "5032ee9e-6642-4050-8d14-800a99a5eef5",
+    "temple_name": "Devkinandan Thakur Ji",
+    "short_name": "Devkinandan Ji",
+    "location": "India",
+    "state": "Uttar Pradesh",
+    "religion": "hindu",
+    "category": "katha",
+    "youtube_url": "https://www.youtube.com/watch?v=yrlzeUhka8w",
+    "youtube_video_id": "yrlzeUhka8w",
+    "thumbnail_url": "https://pub-a3540a1b218c43298ca3a816c685b5e7.r2.dev/content/notifications/temple_live/devkinandan_ji_yrlzeUhka8w.jpg",
+    "schedule_type": "event_based",
+    "live_schedule": "Live Katha & Pravachan",
+    "schedule_start_hour": null,
+    "schedule_end_hour": null,
+    "seasonal_start_month": null,
+    "seasonal_end_month": null,
+    "timezone": "Asia/Kolkata",
+    "special_events": [],
+    "is_currently_live": true,
+    "last_verified_at": "2026-04-17T08:45:28.164+00:00",
+    "is_active": true,
+    "display_order": 11,
+    "description": "Pujya Devkinandan Thakur Ji Maharaj - Bhagwat Katha",
+    "created_at": "2026-04-12T02:53:02.507642+00:00",
+    "updated_at": "2026-04-17T10:00:32.643559+00:00",
+    "is_popular": false,
+    "temple_name_hi": "देवकीनंदन ठाकुर जी",
+    "location_hi": "भारत",
+    "live_schedule_hi": "लाइव कथा और प्रवचन",
+    "timetable": null,
+    "timetable_hi": null,
+    "names_jsonb": {},
+    "locations_jsonb": {},
+    "schedules_jsonb": {},
+    "timetables_jsonb": {},
+    "language": "hi",
+    "youtube_channel_handle": "@DevkinandanThakurJiMaharaj",
+    "last_detected_video_id": "yrlzeUhka8w",
+    "last_live_check_at": "2026-04-17T10:00:25.543+00:00",
+    "consecutive_fail_days": 0,
+    "last_fail_date": null,
+    "last_successful_check_at": "2026-04-17T10:00:25.543+00:00",
+    "total_view_count": 9,
+    "daily_view_count": 0,
+    "daily_view_date": "2026-04-17",
+    "live_viewer_count": 685,
+    "yt_subscriber_count": 5640000,
+    "yt_subscriber_count_updated_at": "2026-04-17T06:30:27.18+00:00",
+    "stream_languages": [
+      "hi",
+      "en"
+    ],
+    "offline_youtube_url": "https://www.youtube.com/watch?v=cccnIf7j3lU"
+  },
+  {
+    "id": "344ffbe2-a1a8-48f7-a34b-b51e474dfab6",
+    "temple_name": "Sri Ramakrishna Math Chennai",
+    "short_name": "RK Math Chennai",
+    "location": "Mylapore, Chennai",
+    "state": "Tamil Nadu",
+    "religion": "hindu",
+    "category": "katha",
+    "youtube_url": "https://www.youtube.com/@chennaimath/live",
+    "youtube_video_id": null,
+    "thumbnail_url": "https://pub-a3540a1b218c43298ca3a816c685b5e7.r2.dev/content/notifications/temple_live/static/rk_math_chennai.jpg",
+    "schedule_type": "event_based",
+    "live_schedule": "Weekly Vedantic lectures in Tamil",
+    "schedule_start_hour": null,
+    "schedule_end_hour": null,
+    "seasonal_start_month": null,
+    "seasonal_end_month": null,
+    "timezone": "Asia/Kolkata",
+    "special_events": [],
+    "is_currently_live": false,
+    "last_verified_at": null,
+    "is_active": true,
+    "display_order": 33,
+    "description": null,
+    "created_at": "2026-04-16T06:31:10.861189+00:00",
+    "updated_at": "2026-04-17T10:00:33.335624+00:00",
+    "is_popular": false,
+    "temple_name_hi": null,
+    "location_hi": null,
+    "live_schedule_hi": null,
+    "timetable": null,
+    "timetable_hi": null,
+    "names_jsonb": {},
+    "locations_jsonb": {},
+    "schedules_jsonb": {},
+    "timetables_jsonb": {},
+    "language": "ta",
+    "youtube_channel_handle": "@chennaimath",
+    "last_detected_video_id": null,
+    "last_live_check_at": "2026-04-17T10:00:28.534+00:00",
+    "consecutive_fail_days": 0,
+    "last_fail_date": null,
+    "last_successful_check_at": "2026-04-17T10:00:28.534+00:00",
+    "total_view_count": 0,
+    "daily_view_count": 0,
+    "daily_view_date": "2026-04-17",
+    "live_viewer_count": null,
+    "yt_subscriber_count": 175000,
+    "yt_subscriber_count_updated_at": "2026-04-17T08:45:30.006+00:00",
+    "stream_languages": [
+      "ta"
+    ],
+    "offline_youtube_url": "https://www.youtube.com/watch?v=om7jnLxHum8"
+  },
+  {
+    "id": "6823eb0c-922c-4605-ba57-feef9647cdf3",
+    "temple_name": "Sanskar TV",
+    "short_name": "Sanskar TV",
+    "location": "Ahmedabad, Gujarat",
+    "state": "Gujarat",
+    "religion": "hindu",
+    "category": "katha",
+    "youtube_url": "https://www.youtube.com/watch?v=zKjYBK0WlPw",
+    "youtube_video_id": "zKjYBK0WlPw",
+    "thumbnail_url": "https://pub-a3540a1b218c43298ca3a816c685b5e7.r2.dev/content/notifications/temple_live/sanskar_tv_zKjYBK0WlPw.jpg",
+    "schedule_type": "daily",
+    "live_schedule": "Near-daily live katha broadcasts",
+    "schedule_start_hour": 6,
+    "schedule_end_hour": 22,
+    "seasonal_start_month": null,
+    "seasonal_end_month": null,
+    "timezone": "Asia/Kolkata",
+    "special_events": [],
+    "is_currently_live": true,
+    "last_verified_at": "2026-04-17T07:30:28.353+00:00",
+    "is_active": true,
+    "display_order": 5,
+    "description": null,
+    "created_at": "2026-04-16T06:31:10.861189+00:00",
+    "updated_at": "2026-04-17T10:00:32.432296+00:00",
+    "is_popular": true,
+    "temple_name_hi": null,
+    "location_hi": null,
+    "live_schedule_hi": null,
+    "timetable": null,
+    "timetable_hi": null,
+    "names_jsonb": {},
+    "locations_jsonb": {},
+    "schedules_jsonb": {},
+    "timetables_jsonb": {},
+    "language": "hi",
+    "youtube_channel_handle": "@SanskargroupInOfficial",
+    "last_detected_video_id": "zKjYBK0WlPw",
+    "last_live_check_at": "2026-04-17T10:00:28.297+00:00",
+    "consecutive_fail_days": 0,
+    "last_fail_date": null,
+    "last_successful_check_at": "2026-04-17T10:00:28.297+00:00",
+    "total_view_count": 5,
+    "daily_view_count": 0,
+    "daily_view_date": "2026-04-17",
+    "live_viewer_count": 1218,
+    "yt_subscriber_count": 11400000,
+    "yt_subscriber_count_updated_at": "2026-04-17T08:45:30.703+00:00",
+    "stream_languages": [
+      "hi",
+      "en"
+    ],
+    "offline_youtube_url": "https://www.youtube.com/watch?v=X65Uf0C3wXM"
+  },
+  {
+    "id": "7ad5012e-2ad1-45b0-b064-ee90d26b1ada",
+    "temple_name": "Pandit Pradeep Ji Mishra",
+    "short_name": "Pradeep Mishra",
+    "location": "Sehore, Madhya Pradesh",
+    "state": "Madhya Pradesh",
+    "religion": "hindu",
+    "category": "katha",
+    "youtube_url": "https://www.youtube.com/watch?v=F-ZovODgBXo",
+    "youtube_video_id": "F-ZovODgBXo",
+    "thumbnail_url": "https://pub-a3540a1b218c43298ca3a816c685b5e7.r2.dev/content/notifications/temple_live/pradeep_mishra_F-ZovODgBXo.jpg",
+    "schedule_type": "event_based",
+    "live_schedule": "Shiv Mahapuran Katha — 7-day cycles",
+    "schedule_start_hour": null,
+    "schedule_end_hour": null,
+    "seasonal_start_month": null,
+    "seasonal_end_month": null,
+    "timezone": "Asia/Kolkata",
+    "special_events": [],
+    "is_currently_live": true,
+    "last_verified_at": "2026-04-17T07:45:29.304+00:00",
+    "is_active": true,
+    "display_order": 8,
+    "description": null,
+    "created_at": "2026-04-16T06:31:10.861189+00:00",
+    "updated_at": "2026-04-17T10:00:32.536332+00:00",
+    "is_popular": true,
+    "temple_name_hi": null,
+    "location_hi": null,
+    "live_schedule_hi": null,
+    "timetable": null,
+    "timetable_hi": null,
+    "names_jsonb": {},
+    "locations_jsonb": {},
+    "schedules_jsonb": {},
+    "timetables_jsonb": {},
+    "language": "hi",
+    "youtube_channel_handle": "@panditpradeepmishraofficial",
+    "last_detected_video_id": "F-ZovODgBXo",
+    "last_live_check_at": "2026-04-17T10:00:28.724+00:00",
+    "consecutive_fail_days": 0,
+    "last_fail_date": null,
+    "last_successful_check_at": "2026-04-17T10:00:28.724+00:00",
+    "total_view_count": 0,
+    "daily_view_count": 0,
+    "daily_view_date": "2026-04-17",
+    "live_viewer_count": 113638,
+    "yt_subscriber_count": 8710000,
+    "yt_subscriber_count_updated_at": "2026-04-17T08:45:31.585+00:00",
+    "stream_languages": [
+      "hi",
+      "en"
+    ],
+    "offline_youtube_url": "https://www.youtube.com/watch?v=p5u0YIs35SM"
+  },
+  {
+    "id": "f1175d3f-5da4-4832-826d-aaf9748e615d",
+    "temple_name": "Jaya Kishori",
+    "short_name": "Jaya Kishori",
+    "location": "Kolkata, West Bengal",
+    "state": "West Bengal",
+    "religion": "hindu",
+    "category": "katha",
+    "youtube_url": "https://www.youtube.com/@Iamjayakishori/live",
+    "youtube_video_id": null,
+    "thumbnail_url": "https://pub-a3540a1b218c43298ca3a816c685b5e7.r2.dev/content/notifications/temple_live/static/jaya_kishori.jpg",
+    "schedule_type": "event_based",
+    "live_schedule": "Bhagwat Katha — weekly to biweekly",
+    "schedule_start_hour": null,
+    "schedule_end_hour": null,
+    "seasonal_start_month": null,
+    "seasonal_end_month": null,
+    "timezone": "Asia/Kolkata",
+    "special_events": [],
+    "is_currently_live": false,
+    "last_verified_at": null,
+    "is_active": true,
+    "display_order": 14,
+    "description": null,
+    "created_at": "2026-04-16T06:31:10.861189+00:00",
+    "updated_at": "2026-04-17T10:00:32.752016+00:00",
+    "is_popular": true,
+    "temple_name_hi": null,
+    "location_hi": null,
+    "live_schedule_hi": null,
+    "timetable": null,
+    "timetable_hi": null,
+    "names_jsonb": {},
+    "locations_jsonb": {},
+    "schedules_jsonb": {},
+    "timetables_jsonb": {},
+    "language": "hi",
+    "youtube_channel_handle": "@Iamjayakishori",
+    "last_detected_video_id": null,
+    "last_live_check_at": "2026-04-17T10:00:30.684+00:00",
+    "consecutive_fail_days": 0,
+    "last_fail_date": null,
+    "last_successful_check_at": "2026-04-17T10:00:30.684+00:00",
+    "total_view_count": 0,
+    "daily_view_count": 0,
+    "daily_view_date": "2026-04-17",
+    "live_viewer_count": null,
+    "yt_subscriber_count": 3820000,
+    "yt_subscriber_count_updated_at": "2026-04-17T08:45:30.728+00:00",
+    "stream_languages": [
+      "hi",
+      "en"
+    ],
+    "offline_youtube_url": "https://www.youtube.com/watch?v=yh5SRV9mSHg"
+  },
+  {
+    "id": "de43936d-fe47-4703-9b75-53382d57f2f4",
+    "temple_name": "Swami Mukundananda",
+    "short_name": "Swami Mukundananda",
+    "location": "Dallas, USA / India",
+    "state": null,
+    "religion": "hindu",
+    "category": "katha",
+    "youtube_url": "https://www.youtube.com/@swamimukundananda/live",
+    "youtube_video_id": null,
+    "thumbnail_url": "https://pub-a3540a1b218c43298ca3a816c685b5e7.r2.dev/content/notifications/temple_live/static/swami_mukundananda.jpg",
+    "schedule_type": "event_based",
+    "live_schedule": "Weekly Bhagavad Gita & Vedantic lectures",
+    "schedule_start_hour": null,
+    "schedule_end_hour": null,
+    "seasonal_start_month": null,
+    "seasonal_end_month": null,
+    "timezone": "Asia/Kolkata",
+    "special_events": [],
+    "is_currently_live": false,
+    "last_verified_at": null,
+    "is_active": true,
+    "display_order": 17,
+    "description": null,
+    "created_at": "2026-04-16T06:31:10.861189+00:00",
+    "updated_at": "2026-04-17T10:00:32.847248+00:00",
+    "is_popular": true,
+    "temple_name_hi": null,
+    "location_hi": null,
+    "live_schedule_hi": null,
+    "timetable": null,
+    "timetable_hi": null,
+    "names_jsonb": {},
+    "locations_jsonb": {},
+    "schedules_jsonb": {},
+    "timetables_jsonb": {},
+    "language": "hi",
+    "youtube_channel_handle": "@swamimukundananda",
+    "last_detected_video_id": null,
+    "last_live_check_at": "2026-04-17T10:00:28.43+00:00",
+    "consecutive_fail_days": 0,
+    "last_fail_date": null,
+    "last_successful_check_at": "2026-04-17T10:00:28.43+00:00",
+    "total_view_count": 0,
+    "daily_view_count": 0,
+    "daily_view_date": "2026-04-17",
+    "live_viewer_count": null,
+    "yt_subscriber_count": 2870000,
+    "yt_subscriber_count_updated_at": "2026-04-17T08:45:33.242+00:00",
+    "stream_languages": [
+      "hi",
+      "en"
+    ],
+    "offline_youtube_url": "https://www.youtube.com/watch?v=NT6oGDa1f7s"
+  },
+  {
+    "id": "47014257-67ac-41f3-8c28-6ee93743b488",
+    "temple_name": "Aniruddhacharya Ji",
+    "short_name": "Aniruddhacharya Ji",
+    "location": "India",
+    "state": "Madhya Pradesh",
+    "religion": "hindu",
+    "category": "katha",
+    "youtube_url": "https://www.youtube.com/watch?v=GchgrKcigsM",
+    "youtube_video_id": "GchgrKcigsM",
+    "thumbnail_url": "https://pub-a3540a1b218c43298ca3a816c685b5e7.r2.dev/content/notifications/temple_live/aniruddhacharya_ji_GchgrKcigsM.jpg",
+    "schedule_type": "event_based",
+    "live_schedule": "Live Katha & Pravachan",
+    "schedule_start_hour": null,
+    "schedule_end_hour": null,
+    "seasonal_start_month": null,
+    "seasonal_end_month": null,
+    "timezone": "Asia/Kolkata",
+    "special_events": [],
+    "is_currently_live": true,
+    "last_verified_at": "2026-04-17T09:15:25.624+00:00",
+    "is_active": true,
+    "display_order": 3,
+    "description": "Pujya Aniruddhacharya Ji Maharaj - Spiritual discourses",
+    "created_at": "2026-04-12T02:53:02.507642+00:00",
+    "updated_at": "2026-04-17T10:00:32.375665+00:00",
+    "is_popular": false,
+    "temple_name_hi": "अनिरुद्धाचार्य जी",
+    "location_hi": "भारत",
+    "live_schedule_hi": "लाइव कथा और प्रवचन",
+    "timetable": null,
+    "timetable_hi": null,
+    "names_jsonb": {},
+    "locations_jsonb": {},
+    "schedules_jsonb": {},
+    "timetables_jsonb": {},
+    "language": "hi",
+    "youtube_channel_handle": "@Aniruddhacharyaji",
+    "last_detected_video_id": "GchgrKcigsM",
+    "last_live_check_at": "2026-04-17T10:00:28.545+00:00",
+    "consecutive_fail_days": 0,
+    "last_fail_date": null,
+    "last_successful_check_at": "2026-04-17T10:00:28.545+00:00",
+    "total_view_count": 12,
+    "daily_view_count": 1,
+    "daily_view_date": "2026-04-17",
+    "live_viewer_count": 4229,
+    "yt_subscriber_count": 16400000,
+    "yt_subscriber_count_updated_at": "2026-04-17T06:30:34.233+00:00",
+    "stream_languages": [
+      "hi",
+      "en"
+    ],
+    "offline_youtube_url": "https://www.youtube.com/watch?v=ikVYG-xDC2o"
+  },
+  {
+    "id": "b1e415f3-3500-4db2-ae6a-53b3b67e69d9",
+    "temple_name": "Sri M — The Satsang Foundation",
+    "short_name": "Sri M",
+    "location": "Madanapalle, Andhra Pradesh",
+    "state": "Andhra Pradesh",
+    "religion": "hindu",
+    "category": "satsang",
+    "youtube_url": "https://www.youtube.com/@TheSatsangFoundation/live",
+    "youtube_video_id": null,
+    "thumbnail_url": "https://pub-a3540a1b218c43298ca3a816c685b5e7.r2.dev/content/notifications/temple_live/static/sri_m.jpg",
+    "schedule_type": "event_based",
+    "live_schedule": "Weekly Vedanta & meditation satsang",
+    "schedule_start_hour": null,
+    "schedule_end_hour": null,
+    "seasonal_start_month": null,
+    "seasonal_end_month": null,
+    "timezone": "Asia/Kolkata",
+    "special_events": [],
+    "is_currently_live": false,
+    "last_verified_at": null,
+    "is_active": true,
+    "display_order": 28,
+    "description": null,
+    "created_at": "2026-04-16T06:31:10.861189+00:00",
+    "updated_at": "2026-04-17T10:00:33.169829+00:00",
+    "is_popular": false,
+    "temple_name_hi": null,
+    "location_hi": null,
+    "live_schedule_hi": null,
+    "timetable": null,
+    "timetable_hi": null,
+    "names_jsonb": {},
+    "locations_jsonb": {},
+    "schedules_jsonb": {},
+    "timetables_jsonb": {},
+    "language": "hi",
+    "youtube_channel_handle": "@TheSatsangFoundation",
+    "last_detected_video_id": null,
+    "last_live_check_at": "2026-04-17T10:00:29.899+00:00",
+    "consecutive_fail_days": 0,
+    "last_fail_date": null,
+    "last_successful_check_at": "2026-04-17T10:00:29.899+00:00",
+    "total_view_count": 0,
+    "daily_view_count": 0,
+    "daily_view_date": "2026-04-17",
+    "live_viewer_count": null,
+    "yt_subscriber_count": 313000,
+    "yt_subscriber_count_updated_at": "2026-04-17T08:45:33.128+00:00",
+    "stream_languages": [
+      "hi",
+      "en"
+    ],
+    "offline_youtube_url": "https://www.youtube.com/watch?v=6ZRoiSBwITo"
+  },
+  {
+    "id": "ca39c5c5-6cf2-4ab9-9f36-63c41e199c7c",
+    "temple_name": "Mata Amritanandamayi Devi — Amma",
+    "short_name": "Amma",
+    "location": "Amritapuri, Kerala",
+    "state": "Kerala",
+    "religion": "hindu",
+    "category": "satsang",
+    "youtube_url": "https://www.youtube.com/watch?v=Et1VqHtMpKA",
+    "youtube_video_id": "Et1VqHtMpKA",
+    "thumbnail_url": "https://pub-a3540a1b218c43298ca3a816c685b5e7.r2.dev/content/notifications/temple_live/amma_Et1VqHtMpKA.jpg",
+    "schedule_type": "event_based",
+    "live_schedule": "Weekly satsang & bhajans",
+    "schedule_start_hour": null,
+    "schedule_end_hour": null,
+    "seasonal_start_month": null,
+    "seasonal_end_month": null,
+    "timezone": "Asia/Kolkata",
+    "special_events": [],
+    "is_currently_live": false,
+    "last_verified_at": "2026-04-16T09:49:02.716+00:00",
+    "is_active": true,
+    "display_order": 31,
+    "description": null,
+    "created_at": "2026-04-16T06:31:10.861189+00:00",
+    "updated_at": "2026-04-17T10:00:33.264958+00:00",
+    "is_popular": true,
+    "temple_name_hi": null,
+    "location_hi": null,
+    "live_schedule_hi": null,
+    "timetable": null,
+    "timetable_hi": null,
+    "names_jsonb": {},
+    "locations_jsonb": {},
+    "schedules_jsonb": {},
+    "timetables_jsonb": {},
+    "language": "ml",
+    "youtube_channel_handle": "@Amma",
+    "last_detected_video_id": "Et1VqHtMpKA",
+    "last_live_check_at": "2026-04-17T10:00:32.267+00:00",
+    "consecutive_fail_days": 0,
+    "last_fail_date": null,
+    "last_successful_check_at": "2026-04-17T10:00:32.267+00:00",
+    "total_view_count": 3,
+    "daily_view_count": 0,
+    "daily_view_date": "2026-04-17",
+    "live_viewer_count": null,
+    "yt_subscriber_count": 180000,
+    "yt_subscriber_count_updated_at": "2026-04-17T08:45:34.721+00:00",
+    "stream_languages": [
+      "ml"
+    ],
+    "offline_youtube_url": "https://www.youtube.com/watch?v=R2paZzzNRxM"
+  },
+  {
+    "id": "b69ad4ad-a2f4-403c-ba56-17cab13add8a",
+    "temple_name": "Shri Omkareshwar Jyotirlinga",
+    "short_name": "Omkareshwar",
+    "location": "Khandwa, Madhya Pradesh",
+    "state": "Madhya Pradesh",
+    "religion": "hindu",
+    "category": "jyotirlinga",
+    "youtube_url": "https://www.youtube.com/watch?v=HBJIb-Z8Q1M",
+    "youtube_video_id": "HBJIb-Z8Q1M",
+    "thumbnail_url": "https://pub-a3540a1b218c43298ca3a816c685b5e7.r2.dev/content/notifications/temple_live/omkareshwar_HBJIb-Z8Q1M.jpg",
+    "schedule_type": "daily",
+    "live_schedule": "5:00 AM - 10:00 PM",
+    "schedule_start_hour": 5,
+    "schedule_end_hour": 22,
+    "seasonal_start_month": null,
+    "seasonal_end_month": null,
+    "timezone": "Asia/Kolkata",
+    "special_events": [
+      {
+        "name": "Mangala Aarti",
+        "time": "04:30"
+      },
+      {
+        "name": "Madhyanha Bhog",
+        "time": "12:20"
+      },
+      {
+        "name": "Shayan Aarti",
+        "time": "20:30"
+      }
+    ],
+    "is_currently_live": true,
+    "last_verified_at": "2026-04-16T08:14:21.705+00:00",
+    "is_active": true,
+    "display_order": 6,
+    "description": null,
+    "created_at": "2026-03-27T17:21:03.957079+00:00",
+    "updated_at": "2026-04-17T10:00:31.175643+00:00",
+    "is_popular": false,
+    "temple_name_hi": null,
+    "location_hi": null,
+    "live_schedule_hi": null,
+    "timetable": null,
+    "timetable_hi": null,
+    "names_jsonb": {
+      "bn": "শ্রী ওমকারেশ্বর জ্যোতির্লিঙ্গ",
+      "en": "Shri Omkareshwar Jyotirlinga",
+      "gu": "શ્રી ઓમકારેશ્વર જ્યોતિર્લિંગ",
+      "hi": "श्री ओंकारेश्वर ज्योतिर्लिंग",
+      "kn": "ಶ್ರೀ ಓಂಕಾರೇಶ್ವರ ಜ್ಯೂತಿರ್ಲಿಂಗ",
+      "ml": "ശ്രീ ഓംകാരേശ്വര് ജ്യോതിർലിംഗം",
+      "mr": "श्री ओंकारेश्वर ज्योतिर्लिंग",
+      "or": "ଶ୍ରୀ ଓଁକାରେଶ୍ୱର ଜ୍ୟୋତିର୍ଲିଙ୍ଗ",
+      "pa": "ਸ੍ਰੀ ਓਮਕਾਰੇਸ਼ਵਰ ਜਯੋਤਿਰਲਿੰਗ",
+      "ta": "ஸ்ரீ ஓம்காரேஸ்வர் ஜோதிர்லிங்கம்",
+      "te": "శ్రీ ఓంకారేశ్వర జ్యోతిర్లింగం"
+    },
+    "locations_jsonb": {
+      "bn": "খন্ডওয়া, মধ্যপ্রদেশ",
+      "en": "Khandwa, Madhya Pradesh",
+      "gu": "ખંડવા, મધ્ય પ્રદેશ",
+      "hi": "खंडवा, मध्य प्रदेश",
+      "kn": "ಖಾಂಡ್ವಾ, ಮಧ್ಯ ಪ್ರದೇಶ",
+      "ml": "ഖണ്ട്‌വാ, മധ്യപ്രദേശ്",
+      "mr": "खंडवा, मध्य प्रदेश",
+      "or": "ଖଣ୍ଡୱା, ମଧ୍ୟପ୍ରଦେଶ",
+      "pa": "ਖੰਡਵਾ, ਮੱਧ ਪ੍ਰਦੇਸ਼",
+      "ta": "காண்ட்வா, மத்தியப் பிரதேசம்",
+      "te": "ఖండ్వా, మధ్యప్రదేశ్"
+    },
+    "schedules_jsonb": {},
+    "timetables_jsonb": {
+      "bn": [
+        {
+          "name": "মঙ্গলা আরতি",
+          "time": "04:30 AM"
+        },
+        {
+          "name": "মধ্যাহ্ন ভোগ",
+          "time": "12:20 PM"
+        },
+        {
+          "name": "শয়ন আরতি",
+          "time": "08:30 PM"
+        }
+      ],
+      "en": [
+        {
+          "name": "Mangala Aarti",
+          "time": "04:30 AM"
+        },
+        {
+          "name": "Madhyanha Bhog",
+          "time": "12:20 PM"
+        },
+        {
+          "name": "Shayan Aarti",
+          "time": "08:30 PM"
+        }
+      ],
+      "gu": [
+        {
+          "name": "મંગલા આરતી",
+          "time": "04:30 AM"
+        },
+        {
+          "name": "મધ્યાહન ભોગ",
+          "time": "12:20 PM"
+        },
+        {
+          "name": "શયન આરતી",
+          "time": "08:30 PM"
+        }
+      ],
+      "hi": [
+        {
+          "name": "मंगला आरती",
+          "time": "04:30 AM"
+        },
+        {
+          "name": "मध्याह्न भोग",
+          "time": "12:20 PM"
+        },
+        {
+          "name": "शयन आरती",
+          "time": "08:30 PM"
+        }
+      ],
+      "kn": [
+        {
+          "name": "ಮಂಗಳಾ ಆರತಿ",
+          "time": "04:30 AM"
+        },
+        {
+          "name": "ಮಧ್ಯಾಹ್ನ ಭೋಗ್",
+          "time": "12:20 PM"
+        },
+        {
+          "name": "ಶಯನ ಆರತಿ",
+          "time": "08:30 PM"
+        }
+      ],
+      "ml": [
+        {
+          "name": "മംഗള ആരതി",
+          "time": "04:30 AM"
+        },
+        {
+          "name": "മധ്യാഹ്ന ഭോഗ്",
+          "time": "12:20 PM"
+        },
+        {
+          "name": "ശയന ആരതി",
+          "time": "08:30 PM"
+        }
+      ],
+      "mr": [
+        {
+          "name": "मंगला आरती",
+          "time": "04:30 AM"
+        },
+        {
+          "name": "मध्याह्न भोग",
+          "time": "12:20 PM"
+        },
+        {
+          "name": "शयन आरती",
+          "time": "08:30 PM"
+        }
+      ],
+      "or": [
+        {
+          "name": "ମଙ୍ଗଳା ଆରତି",
+          "time": "04:30 AM"
+        },
+        {
+          "name": "ମଧ୍ୟାହ୍ନ ଭୋଗ",
+          "time": "12:20 PM"
+        },
+        {
+          "name": "ଶୟନ ଆରତି",
+          "time": "08:30 PM"
+        }
+      ],
+      "pa": [
+        {
+          "name": "ਮੰਗਲਾ ਆਰਤੀ",
+          "time": "04:30 AM"
+        },
+        {
+          "name": "ਮਧਿਆਨ ਭੋਗ",
+          "time": "12:20 PM"
+        },
+        {
+          "name": "ਸ਼ਯਨ ਆਰਤੀ",
+          "time": "08:30 PM"
+        }
+      ],
+      "ta": [
+        {
+          "name": "மங்கள ஆரத்தி",
+          "time": "04:30 AM"
+        },
+        {
+          "name": "மதிய போக்",
+          "time": "12:20 PM"
+        },
+        {
+          "name": "சயன ஆரத்தி",
+          "time": "08:30 PM"
+        }
+      ],
+      "te": [
+        {
+          "name": "మంగళ హారతి",
+          "time": "04:30 AM"
+        },
+        {
+          "name": "మధ్యాహ్న భోగ్",
+          "time": "12:20 PM"
+        },
+        {
+          "name": "శయన హారతి",
+          "time": "08:30 PM"
+        }
+      ]
+    },
+    "language": "hi",
+    "youtube_channel_handle": "@ShriOmkarOfficial",
+    "last_detected_video_id": "HBJIb-Z8Q1M",
+    "last_live_check_at": "2026-04-17T10:00:31.142+00:00",
+    "consecutive_fail_days": 0,
+    "last_fail_date": null,
+    "last_successful_check_at": "2026-04-17T10:00:31.142+00:00",
+    "total_view_count": 5,
+    "daily_view_count": 0,
+    "daily_view_date": "2026-04-17",
+    "live_viewer_count": 18,
+    "yt_subscriber_count": 6820,
+    "yt_subscriber_count_updated_at": "2026-04-17T06:30:34.59+00:00",
+    "stream_languages": [
+      "hi",
+      "en"
+    ],
+    "offline_youtube_url": "https://www.youtube.com/watch?v=H1ZZ-I4klkw"
+  },
+  {
+    "id": "93b38ef9-b868-453b-ae6b-3e7cbdea8883",
+    "temple_name": "Siddhivinayak Temple",
+    "short_name": "Siddhivinayak",
+    "location": "Mumbai, Maharashtra",
+    "state": "Maharashtra",
+    "religion": "hindu",
+    "category": "major_temple",
+    "youtube_url": "https://www.youtube.com/watch?v=uFSDCuCUyH8",
+    "youtube_video_id": null,
+    "thumbnail_url": "https://pub-a3540a1b218c43298ca3a816c685b5e7.r2.dev/content/notifications/temple_live/static/siddhivinayak.jpg",
+    "schedule_type": "daily",
+    "live_schedule": "5:30 AM - 10:00 PM",
+    "schedule_start_hour": 5,
+    "schedule_end_hour": 22,
+    "seasonal_start_month": null,
+    "seasonal_end_month": null,
+    "timezone": "Asia/Kolkata",
+    "special_events": [
+      {
+        "name": "Kakad Aarti",
+        "time": "05:30"
+      },
+      {
+        "name": "Shej Aarti",
+        "time": "22:00"
+      }
+    ],
+    "is_currently_live": false,
+    "last_verified_at": null,
+    "is_active": true,
+    "display_order": 22,
+    "description": null,
+    "created_at": "2025-12-28T15:58:00.404738+00:00",
+    "updated_at": "2026-04-17T10:00:30.310401+00:00",
+    "is_popular": false,
+    "temple_name_hi": "सिद्धिविनायक मंदिर",
+    "location_hi": "मुंबई, महाराष्ट्र",
+    "live_schedule_hi": "सुबह 5:30 - रात 10:00",
+    "timetable": [
+      {
+        "name": "Kakad Aarti",
+        "time": "05:30 AM"
+      },
+      {
+        "name": "Shree Darshan",
+        "time": "06:00 AM - 12:15 PM"
+      },
+      {
+        "name": "Naivedya",
+        "time": "12:15 PM"
+      },
+      {
+        "name": "Shej Aarti",
+        "time": "09:50 PM"
+      }
+    ],
+    "timetable_hi": [
+      {
+        "name": "काकड़ आरती",
+        "time": "05:30 AM"
+      },
+      {
+        "name": "श्री दर्शन",
+        "time": "06:00 AM - 12:15 PM"
+      },
+      {
+        "name": "नैवेद्य",
+        "time": "12:15 PM"
+      },
+      {
+        "name": "शेज आरती",
+        "time": "09:50 PM"
+      }
+    ],
+    "names_jsonb": {
+      "bn": "সিদ্ধিবিনায়ক মন্দির",
+      "en": "Siddhivinayak Temple",
+      "gu": "સિદ્ધિવિનાયક મંદિર",
+      "hi": "सिद्धिविनायक मंदिर",
+      "kn": "ಸಿದ್ಧಿ ವಿನಾಯಕ ದೇವಸ್ಥಾನ",
+      "ml": "സിദ്ധിവിനായകൻ ക്ഷേത്രം",
+      "mr": "सिद्धिविनायक मंदिर",
+      "or": "ସିଦ୍ଧିବିନାୟਕ ମନ୍ଦିର",
+      "pa": "ਸਿੱਧੀਵਿਨਾਇਕ ਮੰਦਰ",
+      "ta": "சித்திவிநாயகர் கோவில்",
+      "te": "సిద్ధివినాయక ఆలయం"
+    },
+    "locations_jsonb": {
+      "bn": "মুম্বই, মহারাষ্ট্র",
+      "en": "Mumbai, Maharashtra",
+      "gu": "મુંબઈ, મહારાષ્ટ્ર",
+      "hi": "मुंबई, महाराष्ट्र",
+      "kn": "ಮುಂಬೈ, ಮಹಾರಾಷ್ಟ್ರ",
+      "ml": "മുംബൈ, മഹാരാഷ്ട്ര",
+      "mr": "मुंबई, महाराष्ट्र",
+      "or": "ମୁମ୍ବାਈ, ମହାରାଷ୍ଟ୍ର",
+      "pa": "ਮੁੰਬਈ, ਮਹਾਰਾਸ਼ਟਰ",
+      "ta": "மும்பை, மகாராட்டிரம்",
+      "te": "ముంబై, మహారాష్ట్ర"
+    },
+    "schedules_jsonb": {},
+    "timetables_jsonb": {
+      "bn": [
+        {
+          "name": "কাকড় আরতি",
+          "time": "05:30 AM"
+        },
+        {
+          "name": "শেজ আরতি",
+          "time": "09:50 PM"
+        }
+      ],
+      "en": [
+        {
+          "name": "Kakad Aarti",
+          "time": "05:30 AM"
+        },
+        {
+          "name": "Shej Aarti",
+          "time": "09:50 PM"
+        }
+      ],
+      "gu": [
+        {
+          "name": "કાકડ આરਤੀ",
+          "time": "05:30 AM"
+        },
+        {
+          "name": "શેਜ આરਤੀ",
+          "time": "09:50 PM"
+        }
+      ],
+      "hi": [
+        {
+          "name": "काकड़ आरती",
+          "time": "05:30 AM"
+        },
+        {
+          "name": "शेज आरती",
+          "time": "09:50 PM"
+        }
+      ],
+      "kn": [
+        {
+          "name": "ಕಾಕಡ್ ಆರತಿ",
+          "time": "05:30 AM"
+        },
+        {
+          "name": "ಶೇಜ್ ಆರತಿ",
+          "time": "09:50 PM"
+        }
+      ],
+      "ml": [
+        {
+          "name": "കാകഡ് ആരതി",
+          "time": "05:30 AM"
+        },
+        {
+          "name": "ഷേജ് ആരതി",
+          "time": "09:50 PM"
+        }
+      ],
+      "mr": [
+        {
+          "name": "काकड़ आरती",
+          "time": "05:30 AM"
+        },
+        {
+          "name": "शेज आरती",
+          "time": "09:50 PM"
+        }
+      ],
+      "or": [
+        {
+          "name": "କାକଡ ଆରତି",
+          "time": "05:30 AM"
+        },
+        {
+          "name": "ଶେଜ ଆରତି",
+          "time": "09:50 PM"
+        }
+      ],
+      "pa": [
+        {
+          "name": "ਕਾਕੜ ਆਰਤੀ",
+          "time": "05:30 AM"
+        },
+        {
+          "name": "ਸ਼ੇਜ ਆਰਤੀ",
+          "time": "09:50 PM"
+        }
+      ],
+      "ta": [
+        {
+          "name": "காகட் ஆரத்தி",
+          "time": "05:30 AM"
+        },
+        {
+          "name": "ஷேஜ் ஆரத்தி",
+          "time": "09:50 PM"
+        }
+      ],
+      "te": [
+        {
+          "name": "కాకడ్ హారਤੀ",
+          "time": "05:30 AM"
+        },
+        {
+          "name": "శేజ్ హారਤੀ",
+          "time": "09:50 PM"
+        }
+      ]
+    },
+    "language": "mr",
+    "youtube_channel_handle": "@ShreeSiddhivinayak",
+    "last_detected_video_id": null,
+    "last_live_check_at": "2026-04-17T10:00:30.339+00:00",
+    "consecutive_fail_days": 0,
+    "last_fail_date": null,
+    "last_successful_check_at": "2026-04-17T10:00:30.339+00:00",
+    "total_view_count": 4,
+    "daily_view_count": 0,
+    "daily_view_date": "2026-04-17",
+    "live_viewer_count": null,
+    "yt_subscriber_count": null,
+    "yt_subscriber_count_updated_at": null,
+    "stream_languages": [
+      "hi",
+      "en",
+      "mr"
+    ],
+    "offline_youtube_url": "https://www.youtube.com/watch?v=wCwFpTZ3AAw"
+  }
+]
