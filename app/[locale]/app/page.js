@@ -1,11 +1,15 @@
 'use client';
 
 import { useEffect, useState } from 'react';
+import { sendGAEvent } from '@next/third-parties/google';
 
 export default function AppRedirectPage() {
   const [redirecting, setRedirecting] = useState(true);
 
   useEffect(() => {
+    // Track the QR code scan using Google Analytics
+    sendGAEvent({ event: 'app_qr_scan', value: 'redirect' });
+
     const ua = navigator.userAgent || navigator.vendor || window.opera;
     const iosUrl = "https://apps.apple.com/us/app/sanatan-sangam/id6760002994";
     const androidUrl = "https://play.google.com/store/apps/details?id=com.sanatansangam";

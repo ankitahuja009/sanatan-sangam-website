@@ -13,6 +13,7 @@ When users visit `https://sanatan-sangam.com/app` (e.g., from a QR code):
 - To avoid 404 errors and layout conflicts without modifying the global `middleware.js`, the redirect page is placed at `app/[locale]/app/page.js`.
 - The global layout (header, footer) is visually hidden on this route using scoped CSS so the page remains a full-screen, standalone experience.
 - The `og-image.jpg` was generated from the existing logo and is located in the `/public` directory.
+- **Analytics**: A Google Analytics event (`app_qr_scan`) is fired upon page load to track the total number of daily QR code scans.
 
 ## Updating Destination URLs
 If you ever need to change the App Store or Play Store URLs, edit `app/[locale]/app/page.js`:
