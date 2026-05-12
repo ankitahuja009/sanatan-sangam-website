@@ -110,7 +110,7 @@ export default async function RootLayout({ children, params }) {
         sameAs: [
           'https://www.instagram.com/sanatansangam.official',
           'https://www.facebook.com/people/Sanatan-Sangam/61586013304596/',
-          'https://www.youtube.com/@SanatanSangamMusic',
+          'https://www.youtube.com/@SanatanSangamLive',
         ],
         contactPoint: {
           '@type': 'ContactPoint',

@@ -78,7 +78,7 @@ export default function Footer() {
                             </svg>
                         </a>
                         <a
-                            href="https://www.youtube.com/@SanatanSangamMusic"
+                            href="https://www.youtube.com/@SanatanSangamLive?sub_confirmation=1"
                             target="_blank"
                             rel="noopener noreferrer"
                             className={styles.socialLink}

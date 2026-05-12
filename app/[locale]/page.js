@@ -345,7 +345,7 @@ export default function HomePage() {
               <span className={styles.socialFollow}>Follow →</span>
             </a>
             <a
-              href="https://www.youtube.com/@SanatanSangamMusic"
+              href="https://www.youtube.com/@SanatanSangamLive?sub_confirmation=1"
               target="_blank"
               rel="noopener noreferrer"
               className={styles.socialCard}
@@ -358,7 +358,7 @@ export default function HomePage() {
                 </svg>
               </span>
               <h4>YouTube</h4>
-              <p>@SanatanSangamMusic</p>
+              <p>@SanatanSangamLive</p>
               <span className={styles.socialFollow}>Subscribe →</span>
             </a>
           </div>

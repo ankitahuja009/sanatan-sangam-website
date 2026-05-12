@@ -160,9 +160,9 @@ export default function AboutPage() {
                             <span>📸</span>
                             <strong>@sanatansangam.official</strong>
                         </a>
-                        <a href="https://www.youtube.com/@SanatanSangamMusic" target="_blank" rel="noopener noreferrer" className={styles.contactCard}>
+                        <a href="https://www.youtube.com/@SanatanSangamLive?sub_confirmation=1" target="_blank" rel="noopener noreferrer" className={styles.contactCard}>
                             <span>▶️</span>
-                            <strong>@SanatanSangamMusic</strong>
+                            <strong>@SanatanSangamLive</strong>
                         </a>
                     </div>
                 </div>
